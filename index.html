@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>AI 新闻看板 · 模型更新与展示</title>
 <link rel="icon" href="./favicon.ico" />
+<meta name="board-build" content="history-view-v1-20261008" />
 <style>
   :root {
     --bg:#0b0f17; --panel:#121826; --panel2:#182033; --border:#243049;
@@ -68,13 +69,84 @@
   .foot{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:.75rem;align-items:center}
   .kept{color:#fbbf24}
   .empty{color:var(--muted);padding:24px;border:1px dashed var(--border);border-radius:12px;text-align:center}
+  [hidden]{display:none!important}
+  /* ---- 视图切换 ---- */
+  .views{display:flex;gap:8px;margin-top:14px}
+  .vtab{border:1px solid var(--border);background:var(--panel);color:var(--muted);border-radius:10px;
+    padding:7px 18px;font-size:.9rem;font-weight:600;cursor:pointer;font-family:inherit}
+  .vtab.active{color:var(--text);background:var(--panel2);outline:2px solid #4f7cff}
+  /* ---- 历史筛选面板 ---- */
+  .hpanel{margin-top:14px;background:#121826cc;border:1px solid var(--border);border-radius:14px;padding:12px 14px;display:grid;gap:12px}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .chip .n{color:var(--muted);margin-left:5px;font-size:.72rem}
+  .chip.active .n{color:#c7d2fe}
+  .hctl{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:10px;
+    padding:6px 10px;font-size:.82rem;font-family:inherit;color-scheme:dark;min-width:0}
+  .hctl:focus{outline:2px solid #4f7cff;outline-offset:0}
+  input.hq{flex:1 1 220px}
+  .hmeta{color:var(--muted);font-size:.8rem}
+  .tl{display:grid;gap:8px}
+  .tl-head{justify-content:space-between}
+  .tl-title{font-size:.85rem;font-weight:600}
+  .tl-lbl{color:#c7d2fe;font-size:.8rem}
+  .preset{border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:999px;
+    padding:4px 10px;font-size:.75rem;cursor:pointer;font-family:inherit}
+  .preset.active{outline:2px solid #4f7cff;background:var(--panel2)}
+  .histo{display:flex;align-items:flex-end;gap:2px;height:58px;padding:0 9px}
+  .histo .b{flex:1 1 0;min-width:2px;height:100%;display:flex;align-items:flex-end;cursor:pointer}
+  .histo .b i{display:block;width:100%;background:#2b3754;border-radius:3px 3px 0 0;min-height:2px}
+  .histo .b.in i{background:linear-gradient(180deg,#7c9bff,#4f7cff)}
+  .histo .b:hover i{background:#93c5fd}
+  .histo .b.zero i{opacity:.35}
+  .dual{position:relative;height:28px}
+  .dual .track,.dual .fill{position:absolute;top:12px;height:4px;border-radius:4px}
+  .dual .track{left:9px;right:9px;background:var(--border)}
+  .dual .fill{background:#4f7cff}
+  .dual input[type=range]{position:absolute;left:0;top:0;width:100%;height:28px;margin:0;padding:0;background:none;
+    pointer-events:none;-webkit-appearance:none;appearance:none}
+  .dual input[type=range]:focus{outline:none}
+  .dual input::-webkit-slider-runnable-track{background:none;height:28px}
+  .dual input::-moz-range-track{background:none}
+  .dual input::-webkit-slider-thumb{pointer-events:auto;-webkit-appearance:none;width:18px;height:18px;margin-top:5px;
+    border-radius:50%;background:#e8eefc;border:3px solid #4f7cff;cursor:grab}
+  .dual input::-moz-range-thumb{pointer-events:auto;box-sizing:border-box;width:18px;height:18px;border-radius:50%;background:#e8eefc;border:3px solid #4f7cff;cursor:grab}
+  .dual input:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 4px #4f7cff55}
+  .axis{display:flex;justify-content:space-between;color:var(--muted);font-size:.7rem;padding:0 4px}
+  .dates label{color:var(--muted);font-size:.78rem;display:flex;gap:6px;align-items:center}
+  /* ---- 历史结果 ---- */
+  #hist{gap:8px}
+  .day-h{position:sticky;top:0;z-index:3;display:flex;align-items:baseline;gap:10px;padding:10px 2px 8px;margin-top:6px;
+    background:linear-gradient(180deg,var(--bg) 70%,#0b0f1700)}
+  .day-h h2{margin:0;font-size:1rem}
+  .day-h .rel{color:#93c5fd;font-size:.78rem}
+  .badge.off{color:#94a3b8;border-color:#47556966;background:#1e293b66}
+  .cat{font-size:.7rem;padding:3px 8px;border-radius:8px;border:1px solid #4f7cff55;color:#c7d2fe;background:#4f7cff14}
+  .more-wrap{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 0 4px}
+  .more{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:999px;padding:8px 18px;
+    font-size:.85rem;cursor:pointer;font-family:inherit;margin-top:10px}
+  .more:hover{border-color:#4f7cff}
+  @media (max-width:640px){
+    header{padding:18px 14px 8px}
+    main{padding:8px 14px 32px}
+    h1{font-size:1.3rem}
+    .grid{grid-template-columns:1fr}
+    .hpanel{padding:10px}
+    .meta{margin-left:0;width:100%}
+    input.hq{flex-basis:100%}
+    select.hctl{flex:1 1 28%}
+    #hMeta{margin-left:0!important;width:100%}
+  }
 </style>
 </head>
 <body>
 <header>
   <h1>AI 新闻看板</h1>
   <p class="sub">闭源 + 开源模型更新 · 用户绝佳展示（图/视频）· 世界模型 / 机器人 / 3D / 角色动画</p>
-  <div class="toolbar">
+  <nav class="views" role="tablist" aria-label="视图">
+    <button class="vtab active" data-view="board" role="tab">看板</button>
+    <button class="vtab" data-view="history" role="tab">历史</button>
+  </nav>
+  <div class="toolbar" id="boardBar">
     <button class="tab active" data-period="all">全部</button>
     <button class="tab" data-period="daily">每日</button>
     <button class="tab" data-period="weekly">每周</button>
@@ -90,8 +162,38 @@
     <button class="chip" data-tag="角色动画">角色动画</button>
     <div class="meta" id="meta"></div>
   </div>
+  <div class="hpanel" id="histBar" hidden>
+    <div class="row" id="hCats"></div>
+    <div class="row">
+      <input class="hctl hq" id="hQ" type="search" placeholder="搜索标题 / 摘要 / 标签 / 模型" enterkeyhint="search" />
+      <select class="hctl" id="hSrc" aria-label="来源"><option value="">全部来源</option><option value="twitter">X</option><option value="news">新闻</option><option value="github">GitHub</option></select>
+      <select class="hctl" id="hType" aria-label="类型"><option value="">全部类型</option><option value="model_update">模型更新</option><option value="showcase">展示案例</option><option value="research">研究</option><option value="repo">仓库</option></select>
+      <select class="hctl" id="hLic" aria-label="授权"><option value="">全部授权</option><option value="closed">闭源</option><option value="open-weight">开源权重</option></select>
+    </div>
+    <div class="tl">
+      <div class="row tl-head">
+        <span><span class="tl-title">时间线</span> <span class="tl-lbl" id="hRangeLbl"></span></span>
+        <span class="row" id="hPresets">
+          <button class="preset" data-preset="7">近 7 天</button>
+          <button class="preset" data-preset="30">近 30 天</button>
+          <button class="preset" data-preset="month">本月</button>
+          <button class="preset" data-preset="all">全部</button>
+        </span>
+      </div>
+      <div class="histo" id="hHisto"></div>
+      <div class="dual"><div class="track"></div><div class="fill" id="hFill"></div>
+        <input type="range" id="hLo" aria-label="开始日期" /><input type="range" id="hHi" aria-label="结束日期" /></div>
+      <div class="axis"><span id="hMin"></span><span id="hUnit"></span><span id="hMax"></span></div>
+      <div class="row dates">
+        <label>从 <input class="hctl" type="date" id="hFrom" /></label>
+        <label>到 <input class="hctl" type="date" id="hTo" /></label>
+        <span class="hmeta" id="hMeta" style="margin-left:auto"></span>
+      </div>
+    </div>
+  </div>
 </header>
 <main id="app"></main>
+<main id="hist" hidden></main>
 <script>
 const PERIOD_LABEL={daily:'每日',weekly:'每周',monthly:'每月'};
 const SOURCE_LABEL={twitter:'X',news:'新闻',github:'GitHub'};
@@ -99,7 +201,9 @@ const TYPE_LABEL={model_update:'模型更新',showcase:'展示案例',research:'
 const LIC_LABEL={closed:'闭源','open-weight':'开源权重'};
 let state={period:'all',tag:null,ctype:null,lic:null,items:[],rules:{},updated_at:''};
 
+let boardLoaded=false;
 async function load(){
+  boardLoaded=true;
   const res=await fetch('./data.json?t='+Date.now());
   const data=await res.json();
   state.items=data.items||[];
@@ -125,37 +229,40 @@ function filtered(){
       return (b.importance+b.heat)-(a.importance+a.heat);
     });
 }
-function mediaHTML(item){
+function mediaHTML(item,lazyVideo){
   const m=item.media; if(!m||(!m.thumb_url&&!m.media_url)) return '';
   const href=escapeAttr(m.post_url||item.url||'#');
   const thumb=escapeAttr(m.thumb_url||m.media_url||'');
   if(m.type==='video'){
     const src=escapeAttr(m.media_url||m.thumb_url||'');
     return `<a class="media" href="${href}" target="_blank" rel="noopener">
-      <video muted playsinline preload="metadata" poster="${thumb}" src="${src}"></video>
+      <video muted playsinline preload="${lazyVideo?'none':'metadata'}" poster="${thumb}" src="${src}"></video>
       <span class="play">▶ 视频</span></a>`;
   }
   return `<a class="media" href="${href}" target="_blank" rel="noopener"><img src="${thumb}" alt="" loading="lazy" /></a>`;
 }
-function cardHTML(item){
+function cardHTML(item,opt){
+  const histMode=!!(opt&&opt.history===true);
   const tags=(item.tags||[]).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('');
   const kept=item.kept_reason?`<span class="kept">保留：${escapeHtml(item.kept_reason)}</span>`:`<span></span>`;
   const model=(item.model_vendor||item.model_name)
     ? `<div class="model">${escapeHtml([item.model_vendor,item.model_name].filter(Boolean).join(' · '))}</div>`:'';
   const lic=item.license_type?`<span class="lic ${item.license_type}">${LIC_LABEL[item.license_type]||item.license_type}</span>`:'';
   const ctype=item.card_type?`<span class="ctype ${item.card_type}">${TYPE_LABEL[item.card_type]||item.card_type}</span>`:'';
+  const periodBadge=histMode?boardBadge(item):`<span class="badge ${item.period}">${PERIOD_LABEL[item.period]}</span>`;
+  const cat=histMode&&item.category?`<span class="cat">${escapeHtml(item.category)}</span>`:'';
   return `<article class="card">
-    ${mediaHTML(item)}
+    ${mediaHTML(item,histMode)}
     <div class="body">
       <div class="card-top">
         <div style="display:flex;gap:6px;flex-wrap:wrap">
           <span class="source ${item.source}">${SOURCE_LABEL[item.source]||item.source}</span>
-          ${ctype}${lic}
+          ${cat}${ctype}${lic}
         </div>
         <div class="scores">
           <span>热度 ${item.heat}</span>
           <span>重要 ${item.importance}</span>
-          <span class="badge ${item.period}">${PERIOD_LABEL[item.period]}</span>
+          ${periodBadge}
         </div>
       </div>
       ${model}
@@ -201,29 +308,277 @@ function exclusiveChip(btn, key, value){
   if(!on){ /* already cleared above via re-scan */ }
   render();
 }
-document.querySelectorAll('.tab').forEach(btn=>{
+document.querySelectorAll('#boardBar .tab').forEach(btn=>{
   btn.addEventListener('click',()=>{
-    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('#boardBar .tab').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active'); state.period=btn.dataset.period; render();
   });
 });
-document.querySelectorAll('.chip').forEach(btn=>{
+document.querySelectorAll('#boardBar .chip').forEach(btn=>{
   btn.addEventListener('click',()=>{
     const on=btn.classList.toggle('active');
     if(btn.dataset.tag){
-      document.querySelectorAll('.chip[data-tag]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      document.querySelectorAll('#boardBar .chip[data-tag]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
       state.tag=on?btn.dataset.tag:null;
     } else if(btn.dataset.ctype){
-      document.querySelectorAll('.chip[data-ctype]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      document.querySelectorAll('#boardBar .chip[data-ctype]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
       state.ctype=on?btn.dataset.ctype:null;
     } else if(btn.dataset.lic){
-      document.querySelectorAll('.chip[data-lic]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      document.querySelectorAll('#boardBar .chip[data-lic]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
       state.lic=on?btn.dataset.lic:null;
     }
     render();
   });
 });
-load();
+/* ===================== 历史视图 ===================== */
+const DAY_MS=864e5, TZ_MS=8*3600e3, CHUNK=60, WD='日一二三四五六';
+const PERIOD_SHORT={daily:'日',weekly:'周',monthly:'月'};
+const H={loaded:false,loading:false,items:[],cats:[],updated_at:'',minDay:0,maxDay:0,lo:0,hi:0,
+  cat:null,q:'',src:'',ctype:'',lic:'',list:[],shown:0,lastKey:undefined,lastGrid:null,dayCounts:null,unit:'day'};
+const $=id=>document.getElementById(id);
+function toDay(ms){return Math.floor((ms+TZ_MS)/DAY_MS);}            // 上海时区日序号
+function dkey(d){return new Date(d*DAY_MS).toISOString().slice(0,10);} // YYYY-MM-DD（上海）
+function keyDay(k){const t=Date.parse(String(k||'')+'T00:00:00Z');return isNaN(t)?null:Math.round(t/DAY_MS);}
+function todayDay(){return toDay(Date.now());}
+function md(d){const t=new Date(d*DAY_MS);return `${t.getUTCMonth()+1}/${t.getUTCDate()}`;}
+function dayLabel(d){const t=new Date(d*DAY_MS);return `${t.getUTCFullYear()}年${t.getUTCMonth()+1}月${t.getUTCDate()}日 周${WD[t.getUTCDay()]}`;}
+function weekStart(d){return d-((new Date(d*DAY_MS).getUTCDay()+6)%7);}
+function boardBadge(item){
+  if(item.on_board){const p=item.last_period||item.period;
+    return `<span class="badge ${escapeAttr(p||'')}">在榜·${PERIOD_SHORT[p]||escapeHtml(p||'?')}</span>`;}
+  return `<span class="badge off">已下榜</span>`;
+}
+
+/* ---- 视图切换（#history 可分享） ---- */
+function currentView(){return location.hash.startsWith('#history')?'history':'board';}
+function applyView(){
+  const v=currentView(), hv=v==='history';
+  document.querySelectorAll('.vtab').forEach(b=>{const on=b.dataset.view===v;b.classList.toggle('active',on);b.setAttribute('aria-selected',on);});
+  $('boardBar').hidden=hv; $('app').hidden=hv; $('histBar').hidden=!hv; $('hist').hidden=!hv;
+  document.title=hv?'AI 新闻看板 · 历史':'AI 新闻看板 · 模型更新与展示';
+  if(hv){ if(H.loaded){readHash();syncControls();renderHist();} else ensureHistory(); }
+  else if(!boardLoaded){ load().catch(e=>{ $('app').innerHTML=`<div class="empty">看板数据加载失败：${escapeHtml(e.message||e)}</div>`; }); }
+}
+document.querySelectorAll('.vtab').forEach(b=>b.addEventListener('click',()=>{
+  if(b.dataset.view===currentView()) return;
+  if(b.dataset.view==='history') location.hash='#history';
+  else { history.pushState(null,'',location.pathname+location.search); applyView(); }
+  window.scrollTo(0,0);
+}));
+window.addEventListener('hashchange',applyView);
+window.addEventListener('popstate',applyView);
+
+/* ---- 懒加载 history.json ---- */
+async function ensureHistory(){
+  if(H.loaded||H.loading) return;
+  H.loading=true;
+  $('hist').innerHTML='<div class="empty">正在加载历史数据…</div>';
+  $('hMeta').textContent='';
+  try{
+    const res=await fetch('./history.json?t='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    initHistory(await res.json());
+  }catch(e){
+    H.loading=false;
+    $('hist').innerHTML=`<div class="empty">历史数据加载失败（${escapeHtml(e&&e.message||e)}）。<br><button class="more" id="hRetry">重试</button></div>`;
+    $('hRetry').onclick=ensureHistory;
+    return;
+  }
+  H.loading=false; H.loaded=true;
+  readHash(); syncControls(); renderHist();
+}
+function initHistory(data){
+  const raw=Array.isArray(data)?data:(data&&data.items)||[];
+  H.updated_at=(data&&data.updated_at)||'';
+  const items=[];
+  for(const it of raw){
+    if(!it||typeof it!=='object') continue;
+    let t=Date.parse(it.published_at); if(isNaN(t)) t=Date.parse(it.first_seen_at);
+    it._t=isNaN(t)?null:t; it._day=it._t==null?null:toDay(it._t);
+    it.category=it.category||'未分类';
+    it._s=[it.title,it.summary,(it.tags||[]).join(' '),it.model_vendor,it.model_name,it.category].filter(Boolean).join(' ').toLowerCase();
+    items.push(it);
+  }
+  items.sort((a,b)=>((b._t??-Infinity)-(a._t??-Infinity))||((b.importance+b.heat)-(a.importance+a.heat)));
+  H.items=items;
+  // 门类：先按文件 categories 顺序，再补上条目里出现但未列出的
+  const names=[]; const seen=new Set();
+  for(const c of (data&&data.categories)||[]){const n=typeof c==='string'?c:c&&c.name; if(n&&!seen.has(n)){seen.add(n);names.push(n);}}
+  const extra={}; for(const it of items) if(!seen.has(it.category)) extra[it.category]=(extra[it.category]||0)+1;
+  Object.keys(extra).sort((a,b)=>extra[b]-extra[a]).forEach(n=>{seen.add(n);names.push(n);});
+  H.cats=names;
+  const days=items.map(i=>i._day).filter(d=>d!=null);
+  const today=todayDay();
+  H.minDay=days.length?Math.min(...days):today;
+  H.maxDay=Math.max(days.length?Math.max(...days):today,today);
+  H.lo=H.minDay; H.hi=H.maxDay;
+  H.unit=(H.maxDay-H.minDay+1)<=62?'day':'week';
+  for(const id of ['hLo','hHi']){const el=$(id);el.min=H.minDay;el.max=H.maxDay;el.step=1;}
+  for(const id of ['hFrom','hTo']){const el=$(id);el.min=dkey(H.minDay);el.max=dkey(H.maxDay);}
+  $('hMin').textContent=dkey(H.minDay); $('hMax').textContent=dkey(H.maxDay);
+  $('hUnit').textContent=H.unit==='day'?'柱状：每日条数':'柱状：每周条数';
+}
+
+/* ---- URL hash 参数（#history?cat=..&from=..&to=..&q=..） ---- */
+function readHash(){
+  const p=new URLSearchParams((location.hash.split('?')[1])||'');
+  H.cat=p.get('cat')||null; H.q=p.get('q')||''; H.src=p.get('src')||''; H.ctype=p.get('type')||''; H.lic=p.get('lic')||'';
+  const f=keyDay(p.get('from')), t=keyDay(p.get('to'));
+  H.lo=f==null?H.minDay:Math.min(Math.max(f,H.minDay),H.maxDay);
+  H.hi=t==null?H.maxDay:Math.min(Math.max(t,H.minDay),H.maxDay);
+  if(H.lo>H.hi)[H.lo,H.hi]=[H.hi,H.lo];
+}
+function writeHash(){
+  if(currentView()!=='history') return;
+  const p=new URLSearchParams();
+  if(H.cat)p.set('cat',H.cat); if(H.q)p.set('q',H.q); if(H.src)p.set('src',H.src);
+  if(H.ctype)p.set('type',H.ctype); if(H.lic)p.set('lic',H.lic);
+  if(H.lo!==H.minDay)p.set('from',dkey(H.lo)); if(H.hi!==H.maxDay)p.set('to',dkey(H.hi));
+  const s=p.toString(), h='#history'+(s?'?'+s:'');
+  if(location.hash!==h) history.replaceState(null,'',h);
+}
+function syncControls(){
+  $('hQ').value=H.q; $('hSrc').value=H.src; $('hType').value=H.ctype; $('hLic').value=H.lic;
+  syncRange();
+}
+function syncRange(){
+  const lo=$('hLo'), hi=$('hHi');
+  lo.value=H.lo; hi.value=H.hi;
+  lo.style.zIndex=(H.lo>=H.maxDay-1)?3:1; hi.style.zIndex=2;
+  $('hFrom').value=dkey(H.lo); $('hTo').value=dkey(H.hi);
+  const span=Math.max(1,H.maxDay-H.minDay), pct=d=>(d-H.minDay)/span*100;
+  const fill=$('hFill');
+  fill.style.left=`calc(9px + (100% - 18px) * ${pct(H.lo)/100})`;
+  fill.style.width=`calc((100% - 18px) * ${(pct(H.hi)-pct(H.lo))/100})`;
+  const n=H.hi-H.lo+1;
+  $('hRangeLbl').textContent=`${dkey(H.lo)} → ${dkey(H.hi)} · ${n} 天`;
+  const pr=presetRanges();
+  document.querySelectorAll('#hPresets .preset').forEach(b=>{const r=pr[b.dataset.preset];b.classList.toggle('active',!!r&&r[0]===H.lo&&r[1]===H.hi);});
+}
+function presetRanges(){
+  const t=Math.min(todayDay(),H.maxDay), c=d=>Math.min(Math.max(d,H.minDay),H.maxDay);
+  return {'7':[c(t-6),t],'30':[c(t-29),t],'month':[c(keyDay(dkey(t).slice(0,8)+'01')),t],'all':[H.minDay,H.maxDay]};
+}
+
+/* ---- 过滤 ---- */
+function terms(){return H.q.toLowerCase().split(/\s+/).filter(Boolean);}
+function passNonDate(i,ts,skipCat){
+  if(!skipCat&&H.cat&&i.category!==H.cat) return false;
+  if(H.src&&i.source!==H.src) return false;
+  if(H.ctype&&i.card_type!==H.ctype) return false;
+  if(H.lic&&i.license_type!==H.lic) return false;
+  for(const t of ts) if(!i._s.includes(t)) return false;
+  return true;
+}
+function inRange(i){
+  if(i._day==null) return H.lo===H.minDay&&H.hi===H.maxDay; // 日期缺失的条目只在“全部”时间范围内显示
+  return i._day>=H.lo&&i._day<=H.hi;
+}
+
+/* ---- 渲染 ---- */
+function renderHist(){
+  if(!H.loaded) return;
+  const ts=terms();
+  const catCounts={}; let catAll=0; const strip=[]; const list=[];
+  for(const i of H.items){
+    if(!passNonDate(i,ts,true)) continue;
+    const ir=inRange(i);
+    if(ir){catCounts[i.category]=(catCounts[i.category]||0)+1;catAll++;}
+    if(H.cat&&i.category!==H.cat) continue;
+    strip.push(i); if(ir) list.push(i);
+  }
+  renderCats(catCounts,catAll);
+  renderHisto(strip);
+  syncRange();
+  H.list=list;
+  $('hMeta').textContent=`匹配 ${list.length} / ${H.items.length} 条 · 历史更新 ${fmtTime(H.updated_at)}`;
+  renderResults();
+  writeHash();
+}
+function renderCats(counts,all){
+  const chip=(name,label,n)=>`<button class="chip${(H.cat||'')===name?' active':''}" data-cat="${escapeAttr(name)}">${escapeHtml(label)}<span class="n">${n}</span></button>`;
+  $('hCats').innerHTML=chip('','全部',all)+H.cats.map(c=>chip(c,c,counts[c]||0)).join('');
+}
+function renderHisto(items){
+  const ws0=H.unit==='day'?H.minDay:weekStart(H.minDay), step=H.unit==='day'?1:7;
+  const nb=Math.floor((H.maxDay-ws0)/step)+1, counts=new Array(nb).fill(0);
+  for(const i of items){ if(i._day!=null){const k=Math.floor((i._day-ws0)/step); if(k>=0&&k<nb) counts[k]++;} }
+  const max=Math.max(1,...counts);
+  let html='';
+  for(let k=0;k<nb;k++){
+    const a=Math.max(ws0+k*step,H.minDay), b=Math.min(ws0+k*step+step-1,H.maxDay);
+    const inr=b>=H.lo&&a<=H.hi, n=counts[k];
+    const tip=(step===1?dkey(a):`${dkey(a)} – ${dkey(b)}`)+` · ${n} 条`;
+    html+=`<div class="b${inr?' in':''}${n?'':' zero'}" data-a="${a}" data-b="${b}" title="${tip}" role="button" aria-label="${tip}"><i style="height:${n?Math.max(6,n/max*100):3}%"></i></div>`;
+  }
+  $('hHisto').innerHTML=html;
+}
+let hObserver=null;
+function renderResults(){
+  const box=$('hist');
+  if(hObserver){hObserver.disconnect();hObserver=null;}
+  if(!H.list.length){
+    box.innerHTML=`<div class="empty">没有符合条件的条目。试试放宽时间范围、换个门类或清除搜索。<br><button class="more" id="hReset">清除全部筛选</button></div>`;
+    $('hReset').onclick=()=>{H.cat=null;H.q='';H.src='';H.ctype='';H.lic='';H.lo=H.minDay;H.hi=H.maxDay;syncControls();renderHist();};
+    return;
+  }
+  H.dayCounts={}; for(const i of H.list){const k=i._day==null?'x':i._day;H.dayCounts[k]=(H.dayCounts[k]||0)+1;}
+  H.shown=0; H.lastKey=undefined; H.lastGrid=null;
+  box.innerHTML='<div id="hList"></div><div class="more-wrap"><button class="more" id="hMore"></button><div id="hSentinel" style="height:1px;width:1px"></div></div>';
+  $('hMore').onclick=appendChunk;
+  appendChunk();
+  if('IntersectionObserver' in window){
+    hObserver=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)&&H.shown<H.list.length&&!$('hist').hidden) appendChunk(); },{rootMargin:'800px 0px'});
+    hObserver.observe($('hSentinel'));
+  }
+}
+function dayHeader(key){
+  if(key==='x') return `<h2>日期未知</h2>`;
+  const diff=todayDay()-key, rel=diff===0?'今天':diff===1?'昨天':diff>1&&diff<7?`${diff} 天前`:'';
+  return `<h2>${dayLabel(key)}</h2>${rel?`<span class="rel">${rel}</span>`:''}`;
+}
+function appendChunk(){
+  const listEl=$('hList'); if(!listEl) return;
+  const end=Math.min(H.shown+CHUNK,H.list.length), opt={history:true};
+  let cont='', secs=[], cur=null;
+  for(let k=H.shown;k<end;k++){
+    const it=H.list[k], key=it._day==null?'x':it._day;
+    if(!cur&&key===H.lastKey){cont+=cardHTML(it,opt);continue;}
+    if(!cur||cur.key!==key){cur={key,html:''};secs.push(cur);}
+    cur.html+=cardHTML(it,opt);
+  }
+  if(cont&&H.lastGrid) H.lastGrid.insertAdjacentHTML('beforeend',cont);
+  for(const s of secs){
+    listEl.insertAdjacentHTML('beforeend',`<section class="day"><div class="day-h">${dayHeader(s.key)}<span class="badge">${H.dayCounts[s.key]} 条</span></div><div class="grid">${s.html}</div></section>`);
+    H.lastGrid=listEl.lastElementChild.querySelector('.grid'); H.lastKey=s.key;
+  }
+  H.shown=end;
+  const more=$('hMore'), left=H.list.length-H.shown;
+  more.hidden=left<=0;
+  more.textContent=`加载更多（已显示 ${H.shown} / ${H.list.length}）`;
+}
+
+/* ---- 控件事件 ---- */
+let hTimer=0;
+function renderSoon(ms){clearTimeout(hTimer);hTimer=setTimeout(renderHist,ms);}
+function setRange(lo,hi){ if(lo>hi)[lo,hi]=[hi,lo]; H.lo=Math.max(H.minDay,lo); H.hi=Math.min(H.maxDay,hi); }
+$('hCats').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const c=b.dataset.cat||null;H.cat=(H.cat===c)?null:c;renderHist();});
+$('hQ').addEventListener('input',()=>{H.q=$('hQ').value.trim();renderSoon(180);});
+$('hSrc').addEventListener('change',e=>{H.src=e.target.value;renderHist();});
+$('hType').addEventListener('change',e=>{H.ctype=e.target.value;renderHist();});
+$('hLic').addEventListener('change',e=>{H.lic=e.target.value;renderHist();});
+$('hLo').addEventListener('input',e=>{const v=+e.target.value;H.lo=Math.min(v,H.hi);if(v>H.hi)e.target.value=H.hi;syncRange();renderSoon(120);});
+$('hHi').addEventListener('input',e=>{const v=+e.target.value;H.hi=Math.max(v,H.lo);if(v<H.lo)e.target.value=H.lo;syncRange();renderSoon(120);});
+$('hFrom').addEventListener('change',e=>{const d=keyDay(e.target.value);if(d!=null){setRange(d,H.hi);}renderHist();});
+$('hTo').addEventListener('change',e=>{const d=keyDay(e.target.value);if(d!=null){setRange(H.lo,d);}renderHist();});
+$('hPresets').addEventListener('click',e=>{const b=e.target.closest('.preset');if(!b||!H.loaded)return;const r=presetRanges()[b.dataset.preset];if(r){H.lo=r[0];H.hi=r[1];renderHist();}});
+$('hHisto').addEventListener('click',e=>{
+  const b=e.target.closest('.b'); if(!b) return;
+  const a=+b.dataset.a, z=+b.dataset.b;
+  if(H.lo===a&&H.hi===z){H.lo=H.minDay;H.hi=H.maxDay;} else {H.lo=a;H.hi=z;} // 再次点击同一柱 = 恢复全部
+  renderHist();
+});
+applyView();
 </script>
 </body>
 </html>

@@ -25,7 +25,8 @@
         "post_url": "https://x.com/claudeai/status/2107894039626277339"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-chatgpt-gpt-6-intelligent-ui",
@@ -51,7 +52,8 @@
         "post_url": "https://x.com/OpenAI/status/2107894997538525580"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-grok-bot-multi-model-routing",
@@ -77,7 +79,8 @@
         "post_url": "https://x.com/elonmusk/status/2107724314451878104"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-microsoft-rtx-spark-deepseek-v4-flash-local",
@@ -103,7 +106,8 @@
         "post_url": "https://x.com/rohanpaul_ai/status/2107976531918323717"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "research-anthropic-robots-job-exposure",
@@ -128,7 +132,8 @@
         "post_url": "https://www.anthropic.com/research/what-work-can-robots-do"
       },
       "kept_reason": "published_at 为今早 Polymarket 刷屏帖时间；原研究发布于 2026-09-30（anthropic.com），按今日再度走红收录",
-      "period": "daily"
+      "period": "daily",
+      "category": "行业动态"
     },
     {
       "id": "repo-strata-qwen38-flash-next",
@@ -154,7 +159,8 @@
         "post_url": "https://github.com/Niko1221/Strata"
       },
       "kept_reason": "published_at 为最新 release v0.1.40.3 发布时间（仓库创建于 2026-09-24）；星数取自 GitHub 搜索 API",
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-gemini-4-argon-vertex-pricing",
@@ -180,7 +186,8 @@
         "post_url": "https://x.com/pankajkumar_dev/status/2107774401273790759"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-nvidia-figure-1b-talks",
@@ -205,7 +212,8 @@
         "post_url": "https://cryptobriefing.com/nvidia-discusses-1-billion-figure-ai-investment/"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "行业动态"
     },
     {
       "id": "news-synthid-detector-global",
@@ -231,7 +239,8 @@
         "post_url": "https://x.com/GoogleDeepMind/status/2107834249680499136"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "行业动态"
     },
     {
       "id": "research-vals-mimo-v26-git-leak",
@@ -257,7 +266,8 @@
         "post_url": "https://x.com/ValsAI/status/2107967073729343806"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-kingkong-jumper-crab-robot",
@@ -283,7 +293,8 @@
         "post_url": "https://x.com/IntEngineering/status/2107909141180133440"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "机器人"
     },
     {
       "id": "news-nous-research-90m-hermes",
@@ -309,7 +320,8 @@
         "post_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "行业动态"
     },
     {
       "id": "news-liquid-open-d1",
@@ -335,7 +347,8 @@
         "post_url": "https://x.com/liquidai/status/2107878924831379676"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "research-scale-humanitys-sixth-sense",
@@ -360,7 +373,8 @@
         "post_url": "https://x.com/ScaleAILabs/status/2107920376756117903"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "repo-morluto-rea",
@@ -385,7 +399,8 @@
         "post_url": "https://github.com/morluto/rea"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "showcase-haiku55-vs-luna-zebra",
@@ -413,7 +428,8 @@
         "post_url": "https://x.com/AI_Screening/status/2107906044915749274"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "3D 生成"
     },
     {
       "id": "repo-universal-modder",
@@ -439,7 +455,8 @@
         "post_url": "https://github.com/rehan-remade/universal-modder"
       },
       "kept_reason": "published_at 为仓库最近一次推送时间（聚合时间，仓库创建于 2026-09-30）；星数取自 GitHub 搜索 API",
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-pplx-embed-v2-late",
@@ -465,7 +482,8 @@
         "post_url": "https://x.com/perplexity_ai/status/2107866029745746177"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "showcase-seedance25-beauty-beast",
@@ -492,7 +510,8 @@
         "post_url": "https://x.com/JuliaClarky/status/2107704854655213895"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "角色动画"
     },
     {
       "id": "showcase-haiku55-vs-luna-voxel-pagoda-cost",
@@ -519,7 +538,8 @@
         "post_url": "https://x.com/RoundtableSpace/status/2108003191400894913"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "大模型"
     },
     {
       "id": "news-rek-humanoid-weapon-fight",
@@ -544,7 +564,8 @@
         "post_url": "https://x.com/REK/status/2107916586527117467"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "行业动态"
     },
     {
       "id": "showcase-haiku55-blender-motorcycle",
@@ -572,7 +593,8 @@
         "post_url": "https://x.com/ziwenxu_/status/2107943956709339177"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "3D 生成"
     },
     {
       "id": "showcase-assetfurnace-local-rig-animate",
@@ -599,7 +621,8 @@
         "post_url": "https://x.com/Bingeljell/status/2107903516652245302"
       },
       "kept_reason": null,
-      "period": "daily"
+      "period": "daily",
+      "category": "3D 生成"
     },
     {
       "id": "news-mistral-large-4-le-chonk",
@@ -625,7 +648,8 @@
         "post_url": "https://x.com/MistralAI/status/2107457414387622310"
       },
       "kept_reason": "heat 88 / importance 90 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-reflection-beam-501b",
@@ -651,7 +675,8 @@
         "post_url": "https://x.com/openlabxorg/status/2107197907221070328"
       },
       "kept_reason": "heat 80 / importance 88 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "research-openai-math-results-github",
@@ -672,7 +697,8 @@
       "importance": 80,
       "media": null,
       "kept_reason": "heat 83 / importance 80 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-google-nano-banana-2-1",
@@ -698,7 +724,8 @@
         "post_url": "https://x.com/GeminiUpda0kkb/status/2107216532568756566"
       },
       "kept_reason": "heat 80 / importance 76 达到周榜阈值；10/08 午间补充官方模型卡与定价，published_at 保留最初被发现的时间",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-aleph-kolibri",
@@ -719,7 +746,8 @@
       "importance": 86,
       "period": "weekly",
       "kept_reason": "heat 68 / importance 86 达到周榜阈值",
-      "media": null
+      "media": null,
+      "category": "大模型"
     },
     {
       "id": "news-gemini-4-argon-arena",
@@ -745,7 +773,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HTkaWPLXUAAqlfs.jpg",
         "media_url": "https://pbs.twimg.com/media/HTkaWPLXUAAqlfs.jpg",
         "post_url": "https://x.com/i/status/2105747765787832815"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "news-reka-rho-1",
@@ -772,7 +801,8 @@
         "post_url": "https://x.com/robotsdigest/status/2107201139641049457"
       },
       "kept_reason": "heat 70 / importance 80 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "世界模型"
     },
     {
       "id": "news-embeddinggemma-2",
@@ -798,7 +828,8 @@
         "post_url": "https://x.com/sundarpichai/status/2107501975671890211"
       },
       "kept_reason": "heat 74 / importance 76 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "showcase-roboparty-rp1",
@@ -825,7 +856,8 @@
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2106778701601886208/img/3jkze05oGY33q5Kp.jpg",
         "media_url": "https://video.twimg.com/amplify_video/2106778701601886208/vid/avc1/720x1280/xEHl7GQwaS65T31_.mp4",
         "post_url": "https://x.com/i/status/2106778812755152948"
-      }
+      },
+      "category": "机器人"
     },
     {
       "id": "repo-hf-multi-harness-rl",
@@ -846,7 +878,8 @@
       "importance": 72,
       "media": null,
       "kept_reason": "heat 66 / importance 72 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-gemini-app-access-oct9",
@@ -872,7 +905,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HTyv9T0WIAAN5w5.jpg",
         "media_url": "https://pbs.twimg.com/media/HTyv9T0WIAAN5w5.jpg",
         "post_url": "https://x.com/i/status/2106752247665242227"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "showcase-opus55-running-cow",
@@ -900,7 +934,8 @@
         "post_url": "https://x.com/AIMind_Ai/status/2107435499686154557"
       },
       "kept_reason": "heat 78 / importance 55 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "角色动画"
     },
     {
       "id": "news-cohere-embed-5",
@@ -926,7 +961,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HTpl29tXEAAvMQZ.jpg",
         "media_url": "https://pbs.twimg.com/media/HTpl29tXEAAvMQZ.jpg",
         "post_url": "https://x.com/i/status/2106108159739998525"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "showcase-opus55-humanoid-animation-pipelines",
@@ -953,7 +989,8 @@
         "post_url": "https://x.com/nazimadakli/status/2107159129420964343"
       },
       "kept_reason": "heat 64 / importance 68 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "角色动画"
     },
     {
       "id": "showcase-opus55-motion-video",
@@ -980,7 +1017,8 @@
         "post_url": "https://x.com/HBCoop_/status/2107139305324122491"
       },
       "kept_reason": "heat 70 / importance 62 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-openai-api-tiers-decisions-api",
@@ -1006,7 +1044,8 @@
         "post_url": "https://x.com/OpenAIDevs/status/2107539647392096384"
       },
       "kept_reason": "heat 62 / importance 66 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "news-utokyo-living-skin-finger",
@@ -1032,7 +1071,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HTwhYjlXUAACJEN.jpg",
         "media_url": "https://pbs.twimg.com/media/HTwhYjlXUAACJEN.jpg",
         "post_url": "https://x.com/i/status/2106595435892666651"
-      }
+      },
+      "category": "机器人"
     },
     {
       "id": "news-openai-textgrain-watermark",
@@ -1053,7 +1093,8 @@
       "importance": 66,
       "media": null,
       "kept_reason": "heat 60 / importance 66 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "行业动态"
     },
     {
       "id": "news-gemini-4-argon-app-rollout",
@@ -1079,7 +1120,8 @@
         "post_url": "https://x.com/thtbee_/status/2107534989802004495"
       },
       "kept_reason": "heat 60 / importance 64 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "大模型"
     },
     {
       "id": "repo-text-to-cad",
@@ -1104,7 +1146,8 @@
         "post_url": "https://github.com/earthtojake/text-to-cad"
       },
       "kept_reason": "heat 62 / importance 60 达到周榜阈值",
-      "period": "weekly"
+      "period": "weekly",
+      "category": "3D 生成"
     },
     {
       "id": "news-gpt-6-1-sol",
@@ -1130,7 +1173,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HTZlRTpaYAAn098.jpg",
         "media_url": "https://pbs.twimg.com/media/HTZlRTpaYAAn098.jpg",
         "post_url": "https://x.com/pankajkumar_dev/status/2104982161627685211"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "news-claude-fable-mythos-5-1",
@@ -1151,7 +1195,8 @@
       "importance": 96,
       "period": "monthly",
       "kept_reason": "heat 88 / importance 96 达到月榜阈值",
-      "media": null
+      "media": null,
+      "category": "大模型"
     },
     {
       "id": "news-openai-sol-luna",
@@ -1177,7 +1222,8 @@
         "thumb_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102513162230644736/pu/img/jH-SxcztZVuWnlZ2.jpg",
         "media_url": "https://video.twimg.com/ext_tw_video/2102513162230644736/pu/vid/avc1/1280x720/ZRNOdC0z6g6NMmdz.mp4?tag=12",
         "post_url": "https://x.com/i/status/2102513175681733029"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "news-deepseek-v4-1-flash",
@@ -1198,7 +1244,8 @@
       "importance": 90,
       "period": "monthly",
       "kept_reason": "heat 80 / importance 90 达到月榜阈值",
-      "media": null
+      "media": null,
+      "category": "大模型"
     },
     {
       "id": "showcase-opus55-vision",
@@ -1225,7 +1272,8 @@
         "thumb_url": "https://pbs.twimg.com/media/HS_Kac6XcAEyUvf.jpg",
         "media_url": "https://pbs.twimg.com/media/HS_Kac6XcAEyUvf.jpg",
         "post_url": "https://x.com/skalskip92/status/2103124154765484505"
-      }
+      },
+      "category": "大模型"
     },
     {
       "id": "showcase-opus55-bonsai",
@@ -1253,7 +1301,8 @@
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2102629402320535552/img/8u1MkORmtyUe-GzG.jpg",
         "media_url": "https://video.twimg.com/amplify_video/2102629402320535552/vid/avc1/1280x720/osPVAsVPQyBUMvHk.mp4",
         "post_url": "https://x.com/tonbistudio/status/2102629959416295796"
-      }
+      },
+      "category": "3D 生成"
     },
     {
       "id": "news-holo4",
@@ -1275,7 +1324,8 @@
       "importance": 86,
       "period": "monthly",
       "kept_reason": "heat 70 / importance 86 达到月榜阈值",
-      "media": null
+      "media": null,
+      "category": "大模型"
     }
   ],
   "period_rules": {
