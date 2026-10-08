@@ -511,7 +511,7 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "角色动画"
+      "category": "大模型"
     },
     {
       "id": "showcase-haiku55-vs-luna-voxel-pagoda-cost",
@@ -622,7 +622,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "3D 生成"
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画"
     },
     {
       "id": "news-mistral-large-4-le-chonk",
@@ -935,7 +936,7 @@
       },
       "kept_reason": "heat 78 / importance 55 达到周榜阈值",
       "period": "weekly",
-      "category": "角色动画"
+      "category": "大模型"
     },
     {
       "id": "news-cohere-embed-5",
@@ -990,7 +991,8 @@
       },
       "kept_reason": "heat 64 / importance 68 达到周榜阈值",
       "period": "weekly",
-      "category": "角色动画"
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画"
     },
     {
       "id": "showcase-opus55-motion-video",

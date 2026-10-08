@@ -4,7 +4,7 @@
   "categories": [
     {
       "name": "大模型",
-      "count": 42
+      "count": 45
     },
     {
       "name": "世界模型",
@@ -16,11 +16,11 @@
     },
     {
       "name": "3D 生成",
-      "count": 5
+      "count": 4
     },
     {
       "name": "角色动画",
-      "count": 4
+      "count": 2
     },
     {
       "name": "行业动态",
@@ -385,10 +385,11 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "3D 生成",
+      "category": "角色动画",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "游戏引擎角色动画"
     },
     {
       "id": "news-microsoft-rtx-spark-deepseek-v4-flash-local",
@@ -715,7 +716,7 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "角色动画",
+      "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
       "on_board": true
@@ -1100,7 +1101,7 @@
       },
       "kept_reason": "heat 78 / importance 55 达到周榜阈值",
       "period": "weekly",
-      "category": "角色动画",
+      "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
       "on_board": true
@@ -1131,7 +1132,7 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "角色动画",
+      "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "daily",
       "on_board": false
@@ -1379,7 +1380,8 @@
       "category": "角色动画",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "游戏引擎角色动画"
     },
     {
       "id": "showcase-opus55-motion-video",
