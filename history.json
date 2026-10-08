@@ -38,7 +38,7 @@
       "tags": [
         "展示案例",
         "闭源模型",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic / OpenAI",
       "model_name": "Claude Haiku 5.5 / GPT-6 Luna",
@@ -65,7 +65,7 @@
       "summary": "morluto/rea（TypeScript）主打用 agent 做逆向工程，从应用行为一路分析到原生二进制。昨日 +2956 星后热度继续攀升：总星数约 1.5 万（14,978），今日新增 4655 星，仍是 GitHub 日榜第一。",
       "source": "github",
       "url": "https://github.com/morluto/rea",
-      "published_at": "2026-10-08T08:20:47+08:00",
+      "published_at": "2026-10-07T08:20:00+08:00",
       "tags": [
         "大模型"
       ],
@@ -126,7 +126,7 @@
       "published_at": "2026-10-08T07:03:29+08:00",
       "tags": [
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Code",
@@ -188,7 +188,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Haiku 5.5",
@@ -338,7 +338,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Haiku 5.5",
@@ -367,7 +367,7 @@
       "url": "https://x.com/Bingeljell/status/2107903516652245302",
       "published_at": "2026-10-08T02:38:55+08:00",
       "tags": [
-        "3D生成",
+        "3D 生成",
         "角色动画",
         "展示案例"
       ],
@@ -728,7 +728,7 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "published_at": "2026-10-07T08:20:00+08:00",
       "tags": [
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": null,
       "model_name": null,
@@ -1359,7 +1359,7 @@
       "published_at": "2026-10-06T01:21:00+08:00",
       "tags": [
         "角色动画",
-        "3D生成",
+        "3D 生成",
         "展示案例"
       ],
       "model_vendor": "Anthropic",
@@ -1759,7 +1759,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": true,
+      "published_precision": "date"
     },
     {
       "id": "news-holo4",
@@ -1785,7 +1786,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": true,
+      "published_precision": "date"
     },
     {
       "id": "showcase-opus55-vision",
@@ -1829,7 +1831,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Opus 5.5",
@@ -1903,7 +1905,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": true,
+      "published_precision": "date"
     }
   ]
 }

@@ -261,8 +261,9 @@ async function load(){
   document.getElementById('meta').textContent=`更新 ${fmtTime(state.updated_at)} · ${state.items.length} 条`;
   render();
 }
-function fmtTime(iso){
+function fmtTime(iso,precision){
   if(!iso) return '—';
+  if(precision==='date'){try{return new Date(iso).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai'});}catch{return String(iso).slice(0,10);}}
   try{return new Date(iso).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'});}
   catch{return iso;}
 }
@@ -318,7 +319,7 @@ function cardHTML(item,opt){
       <h3><a href="${escapeAttr(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
       <p class="summary">${escapeHtml(item.summary||'')}</p>
       <div class="tags">${tags}</div>
-      <div class="foot">${kept}<span>${fmtTime(item.published_at)}</span></div>
+      <div class="foot">${kept}<span>${fmtTime(item.published_at,item.published_precision)}</span></div>
     </div>
   </article>`;
 }
@@ -692,7 +693,7 @@ function storyNode(it){
       ${media}
       <div class="vtl-body">
         <div class="vtl-meta"><span class="source ${escapeAttr(it.source||'')}">${SOURCE_LABEL[it.source]||escapeHtml(it.source||'')}</span>
-          <span>${fmtTime(it.published_at)}</span>${it.backfilled===true?'<span class="bf-badge">回溯</span>':''}${boardBadge(it)}</div>
+          <span>${fmtTime(it.published_at,it.published_precision)}</span>${it.backfilled===true?'<span class="bf-badge">回溯</span>':''}${boardBadge(it)}</div>
         <h3><a href="${escapeAttr(it.url||'#')}" target="_blank" rel="noopener">${escapeHtml(it.title||'')}</a></h3>
         <p class="vtl-sum">${escapeHtml(it.summary||'')}</p>
         <div class="tags">${tags}<a class="vtl-link" href="${escapeAttr(it.url||'#')}" target="_blank" rel="noopener">原文 ↗</a></div>

@@ -382,7 +382,7 @@
       "summary": "morluto/rea（TypeScript）主打用 agent 做逆向工程，从应用行为一路分析到原生二进制。昨日 +2956 星后热度继续攀升：总星数约 1.5 万（14,978），今日新增 4655 星，仍是 GitHub 日榜第一。",
       "source": "github",
       "url": "https://github.com/morluto/rea",
-      "published_at": "2026-10-08T08:20:47+08:00",
+      "published_at": "2026-10-07T08:20:00+08:00",
       "tags": [
         "大模型"
       ],
@@ -413,7 +413,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Haiku 5.5",
@@ -440,7 +440,7 @@
       "published_at": "2026-10-08T07:03:29+08:00",
       "tags": [
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Code",
@@ -523,7 +523,7 @@
       "tags": [
         "展示案例",
         "闭源模型",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic / OpenAI",
       "model_name": "Claude Haiku 5.5 / GPT-6 Luna",
@@ -578,7 +578,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Haiku 5.5",
@@ -604,7 +604,7 @@
       "url": "https://x.com/Bingeljell/status/2107903516652245302",
       "published_at": "2026-10-08T02:38:55+08:00",
       "tags": [
-        "3D生成",
+        "3D 生成",
         "角色动画",
         "展示案例"
       ],
@@ -973,7 +973,7 @@
       "published_at": "2026-10-06T01:21:00+08:00",
       "tags": [
         "角色动画",
-        "3D生成",
+        "3D 生成",
         "展示案例"
       ],
       "model_vendor": "Anthropic",
@@ -1131,7 +1131,7 @@
       "url": "https://github.com/earthtojake/text-to-cad",
       "published_at": "2026-10-07T08:20:00+08:00",
       "tags": [
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": null,
       "model_name": null,
@@ -1174,7 +1174,8 @@
         "media_url": "https://pbs.twimg.com/media/HTZlRTpaYAAn098.jpg",
         "post_url": "https://x.com/pankajkumar_dev/status/2104982161627685211"
       },
-      "category": "大模型"
+      "category": "大模型",
+      "published_precision": "date"
     },
     {
       "id": "news-claude-fable-mythos-5-1",
@@ -1245,7 +1246,8 @@
       "period": "monthly",
       "kept_reason": "heat 80 / importance 90 达到月榜阈值",
       "media": null,
-      "category": "大模型"
+      "category": "大模型",
+      "published_precision": "date"
     },
     {
       "id": "showcase-opus55-vision",
@@ -1286,7 +1288,7 @@
         "大模型",
         "闭源模型",
         "展示案例",
-        "3D生成"
+        "3D 生成"
       ],
       "model_vendor": "Anthropic",
       "model_name": "Claude Opus 5.5",
@@ -1325,7 +1327,8 @@
       "period": "monthly",
       "kept_reason": "heat 70 / importance 86 达到月榜阈值",
       "media": null,
-      "category": "大模型"
+      "category": "大模型",
+      "published_precision": "date"
     }
   ],
   "period_rules": {
