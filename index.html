@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 新闻看板 · 模型更新与展示</title>
+<link rel="icon" href="./favicon.ico" />
+<style>
+  :root {
+    --bg:#0b0f17; --panel:#121826; --panel2:#182033; --border:#243049;
+    --text:#e8eefc; --muted:#93a0b8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;color:var(--text);
+    font-family:"SF Pro Text","PingFang SC","Noto Sans SC",system-ui,sans-serif;
+    background:radial-gradient(1200px 600px at 10% -10%,#1a2744 0%,transparent 60%),
+               radial-gradient(900px 500px at 90% 0%,#2a1840 0%,transparent 55%),var(--bg);
+    min-height:100vh;
+  }
+  header{padding:28px 28px 12px;max-width:1320px;margin:0 auto}
+  h1{margin:0 0 6px;font-size:1.55rem}
+  .sub{color:var(--muted);font-size:.92rem;line-height:1.5}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+  .chip,.tab{
+    border:1px solid var(--border);background:var(--panel);color:var(--text);
+    border-radius:999px;padding:6px 12px;font-size:.8rem;cursor:pointer;
+  }
+  .tab.active,.chip.active{outline:2px solid #4f7cff;background:var(--panel2)}
+  .meta{margin-left:auto;color:var(--muted);font-size:.8rem}
+  main{max-width:1320px;margin:0 auto;padding:8px 28px 40px;display:grid;gap:18px}
+  .section-title{display:flex;align-items:baseline;gap:10px;margin:8px 0 4px;flex-wrap:wrap}
+  .section-title h2{margin:0;font-size:1.05rem}
+  .badge{font-size:.72rem;padding:2px 8px;border-radius:999px;border:1px solid var(--border);color:var(--muted)}
+  .badge.daily{color:#93c5fd;border-color:#2563eb55;background:#1e3a8a33}
+  .badge.weekly{color:#d8b4fe;border-color:#7e22ce55;background:#581c8733}
+  .badge.monthly{color:#fcd34d;border-color:#b4530955;background:#78350f33}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+  .card{
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:1px solid var(--border);border-radius:16px;overflow:hidden;
+    display:flex;flex-direction:column;transition:transform .15s ease,border-color .15s ease;
+  }
+  .card:hover{transform:translateY(-2px);border-color:#3b4f78}
+  .media{position:relative;aspect-ratio:16/9;background:#0a0e16;border-bottom:1px solid var(--border)}
+  .media img,.media video{width:100%;height:100%;object-fit:cover;display:block}
+  .media .play{
+    position:absolute;inset:auto 12px 12px auto;background:#000a;color:#fff;
+    border:1px solid #ffffff33;border-radius:999px;padding:4px 10px;font-size:.72rem;
+  }
+  .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .card-top{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+  .source,.ctype,.lic{
+    font-size:.7rem;letter-spacing:.04em;padding:3px 8px;border-radius:8px;border:1px solid var(--border)
+  }
+  .source.twitter{color:#1d9bf0}.source.news{color:#22c55e}.source.github{color:#e2e8f0}
+  .ctype.model_update{color:#93c5fd}.ctype.showcase{color:#f9a8d4}.ctype.research{color:#86efac}.ctype.repo{color:#fdba74}
+  .lic.closed{color:#fca5a5}.lic.open-weight{color:#86efac}
+  .scores{display:flex;gap:6px;font-size:.72rem;color:var(--muted);flex-wrap:wrap}
+  .scores span{background:#0d1320;border:1px solid var(--border);border-radius:8px;padding:2px 7px}
+  .model{font-size:.78rem;color:#c7d2fe}
+  .card h3{margin:0;font-size:1rem;line-height:1.4}
+  .card h3 a{color:inherit;text-decoration:none}
+  .card h3 a:hover{color:#93c5fd}
+  .summary{margin:0;color:var(--muted);font-size:.88rem;line-height:1.55;flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-size:.72rem;color:#c7d2fe;background:#1e293b;border:1px solid #334155;border-radius:999px;padding:2px 8px}
+  .foot{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:.75rem;align-items:center}
+  .kept{color:#fbbf24}
+  .empty{color:var(--muted);padding:24px;border:1px dashed var(--border);border-radius:12px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>AI 新闻看板</h1>
+  <p class="sub">闭源 + 开源模型更新 · 用户绝佳展示（图/视频）· 世界模型 / 机器人 / 3D / 角色动画</p>
+  <div class="toolbar">
+    <button class="tab active" data-period="all">全部</button>
+    <button class="tab" data-period="daily">每日</button>
+    <button class="tab" data-period="weekly">每周</button>
+    <button class="tab" data-period="monthly">每月</button>
+    <button class="chip" data-ctype="model_update">模型更新</button>
+    <button class="chip" data-ctype="showcase">展示案例</button>
+    <button class="chip" data-lic="closed">闭源</button>
+    <button class="chip" data-lic="open-weight">开源权重</button>
+    <button class="chip" data-tag="大模型">大模型</button>
+    <button class="chip" data-tag="世界模型">世界模型</button>
+    <button class="chip" data-tag="机器人">机器人</button>
+    <button class="chip" data-tag="3D生成">3D生成</button>
+    <button class="chip" data-tag="角色动画">角色动画</button>
+    <div class="meta" id="meta"></div>
+  </div>
+</header>
+<main id="app"></main>
+<script>
+const PERIOD_LABEL={daily:'每日',weekly:'每周',monthly:'每月'};
+const SOURCE_LABEL={twitter:'X',news:'新闻',github:'GitHub'};
+const TYPE_LABEL={model_update:'模型更新',showcase:'展示案例',research:'研究',repo:'仓库'};
+const LIC_LABEL={closed:'闭源','open-weight':'开源权重'};
+let state={period:'all',tag:null,ctype:null,lic:null,items:[],rules:{},updated_at:''};
+
+async function load(){
+  const res=await fetch('./data.json?t='+Date.now());
+  const data=await res.json();
+  state.items=data.items||[];
+  state.rules=data.period_rules||{};
+  state.updated_at=data.updated_at||'';
+  document.getElementById('meta').textContent=`更新 ${fmtTime(state.updated_at)} · ${state.items.length} 条`;
+  render();
+}
+function fmtTime(iso){
+  if(!iso) return '—';
+  try{return new Date(iso).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'});}
+  catch{return iso;}
+}
+function filtered(){
+  return state.items
+    .filter(i=>state.period==='all'||i.period===state.period)
+    .filter(i=>!state.tag||(i.tags||[]).includes(state.tag))
+    .filter(i=>!state.ctype||i.card_type===state.ctype)
+    .filter(i=>!state.lic||i.license_type===state.lic)
+    .sort((a,b)=>{
+      const p={daily:0,weekly:1,monthly:2};
+      if(p[a.period]!==p[b.period]) return p[a.period]-p[b.period];
+      return (b.importance+b.heat)-(a.importance+a.heat);
+    });
+}
+function mediaHTML(item){
+  const m=item.media; if(!m||(!m.thumb_url&&!m.media_url)) return '';
+  const href=escapeAttr(m.post_url||item.url||'#');
+  const thumb=escapeAttr(m.thumb_url||m.media_url||'');
+  if(m.type==='video'){
+    const src=escapeAttr(m.media_url||m.thumb_url||'');
+    return `<a class="media" href="${href}" target="_blank" rel="noopener">
+      <video muted playsinline preload="metadata" poster="${thumb}" src="${src}"></video>
+      <span class="play">▶ 视频</span></a>`;
+  }
+  return `<a class="media" href="${href}" target="_blank" rel="noopener"><img src="${thumb}" alt="" loading="lazy" /></a>`;
+}
+function cardHTML(item){
+  const tags=(item.tags||[]).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join('');
+  const kept=item.kept_reason?`<span class="kept">保留：${escapeHtml(item.kept_reason)}</span>`:`<span></span>`;
+  const model=(item.model_vendor||item.model_name)
+    ? `<div class="model">${escapeHtml([item.model_vendor,item.model_name].filter(Boolean).join(' · '))}</div>`:'';
+  const lic=item.license_type?`<span class="lic ${item.license_type}">${LIC_LABEL[item.license_type]||item.license_type}</span>`:'';
+  const ctype=item.card_type?`<span class="ctype ${item.card_type}">${TYPE_LABEL[item.card_type]||item.card_type}</span>`:'';
+  return `<article class="card">
+    ${mediaHTML(item)}
+    <div class="body">
+      <div class="card-top">
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <span class="source ${item.source}">${SOURCE_LABEL[item.source]||item.source}</span>
+          ${ctype}${lic}
+        </div>
+        <div class="scores">
+          <span>热度 ${item.heat}</span>
+          <span>重要 ${item.importance}</span>
+          <span class="badge ${item.period}">${PERIOD_LABEL[item.period]}</span>
+        </div>
+      </div>
+      ${model}
+      <h3><a href="${escapeAttr(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+      <p class="summary">${escapeHtml(item.summary||'')}</p>
+      <div class="tags">${tags}</div>
+      <div class="foot">${kept}<span>${fmtTime(item.published_at)}</span></div>
+    </div>
+  </article>`;
+}
+function render(){
+  const items=filtered();
+  const app=document.getElementById('app');
+  if(state.period!=='all'){
+    const rule=state.rules[state.period]||'';
+    app.innerHTML=`<div class="section-title"><h2>${PERIOD_LABEL[state.period]}</h2>
+      <span class="badge ${state.period}">${items.length} 条</span>
+      <span class="badge">${escapeHtml(rule)}</span></div>
+      <div class="grid">${items.map(cardHTML).join('')||'<div class="empty">暂无条目</div>'}</div>`;
+    return;
+  }
+  app.innerHTML=['daily','weekly','monthly'].map(p=>{
+    const list=items.filter(i=>i.period===p);
+    const rule=state.rules[p]||'';
+    return `<section><div class="section-title"><h2>${PERIOD_LABEL[p]}</h2>
+      <span class="badge ${p}">${list.length} 条</span>
+      <span class="badge">${escapeHtml(rule)}</span></div>
+      <div class="grid">${list.map(cardHTML).join('')||'<div class="empty">暂无条目</div>'}</div></section>`;
+  }).join('');
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function escapeAttr(s){return escapeHtml(s).replace(/`/g,'');}
+function exclusiveChip(btn, key, value){
+  const on=btn.classList.toggle('active');
+  document.querySelectorAll('.chip').forEach(b=>{ if(b!==btn && b.dataset[key]!==undefined) b.classList.remove('active'); });
+  // clear sibling filter keys that conflict visually - only clear same attribute chips
+  state.tag=null; state.ctype=null; state.lic=null;
+  document.querySelectorAll('.chip.active').forEach(b=>{
+    if(b.dataset.tag) state.tag=b.dataset.tag;
+    if(b.dataset.ctype) state.ctype=b.dataset.ctype;
+    if(b.dataset.lic) state.lic=b.dataset.lic;
+  });
+  if(!on){ /* already cleared above via re-scan */ }
+  render();
+}
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active'); state.period=btn.dataset.period; render();
+  });
+});
+document.querySelectorAll('.chip').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const on=btn.classList.toggle('active');
+    if(btn.dataset.tag){
+      document.querySelectorAll('.chip[data-tag]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      state.tag=on?btn.dataset.tag:null;
+    } else if(btn.dataset.ctype){
+      document.querySelectorAll('.chip[data-ctype]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      state.ctype=on?btn.dataset.ctype:null;
+    } else if(btn.dataset.lic){
+      document.querySelectorAll('.chip[data-lic]').forEach(b=>{if(b!==btn)b.classList.remove('active')});
+      state.lic=on?btn.dataset.lic:null;
+    }
+    render();
+  });
+});
+load();
+</script>
+</body>
+</html>
