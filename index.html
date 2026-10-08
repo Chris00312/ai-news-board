@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>AI 新闻看板 · 模型更新与展示</title>
 <link rel="icon" href="./favicon.ico" />
-<meta name="board-build" content="history-storyline-v2-20261008" />
+<meta name="board-build" content="history-merged-v3-20261008" />
 <style>
   :root {
     --bg:#0b0f17; --panel:#121826; --panel2:#182033; --border:#243049;
@@ -125,20 +125,27 @@
   .more{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:999px;padding:8px 18px;
     font-size:.85rem;cursor:pointer;font-family:inherit;margin-top:10px}
   .more:hover{border-color:#4f7cff}
-  /* ---- 主线 ---- */
+  /* ---- 主线（历史页内「只看主线」模式） ---- */
+  .cats-row{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+  .line-tg{flex:none;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);background:var(--panel);color:var(--text);
+    border-radius:999px;padding:5px 12px 5px 6px;font-size:.8rem;cursor:pointer;font-family:inherit;white-space:nowrap}
+  .line-tg .sw{position:relative;width:30px;height:18px;border-radius:999px;background:#2b3754;transition:background .15s}
+  .line-tg .sw:after{content:"";position:absolute;left:2px;top:2px;width:14px;height:14px;border-radius:50%;background:#cbd5e1;transition:transform .15s}
+  .line-tg.on{border-color:#a78bfa;background:#1b1530;color:#ede9fe}
+  .line-tg.on .sw{background:#7c3aed}
+  .line-tg.on .sw:after{transform:translateX(12px);background:#fff}
+  .sub-row{padding:8px 10px;border-radius:12px;background:#7c3aed12;border:1px dashed #7c3aed55}
+  .tl-group{display:grid;gap:4px;margin-bottom:10px}
+  .tl-sub{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 2px}
+  button.sl-badge{cursor:pointer;font-family:inherit;font-size:.8rem;padding:4px 10px}
+  .tl-cats{font-size:.74rem}
+  .line-empty b{color:var(--text);font-size:.95rem}
   .row-lbl{color:var(--muted);font-size:.78rem;margin-right:2px}
   .chip.sl.active{outline-color:#a78bfa}
   a.chip{text-decoration:none;display:inline-block}
   .sl-badge{font-size:.7rem;padding:3px 8px;border-radius:8px;border:1px solid #a78bfa66;color:#ddd6fe;background:#7c3aed22;text-decoration:none}
   .sl-badge:hover{border-color:#c4b5fd;color:#fff}
   .bf-badge{font-size:.68rem;padding:2px 7px;border-radius:8px;border:1px dashed #64748b;color:#94a3b8}
-  .sl-open{color:#c4b5fd;font-size:.8rem;text-decoration:none;margin-left:auto}
-  .sl-index{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-  .sl-card{display:grid;gap:6px;padding:14px 16px;border:1px solid var(--border);border-radius:14px;color:var(--text);text-decoration:none;
-    background:linear-gradient(180deg,var(--panel2),var(--panel))}
-  .sl-card:hover{border-color:#a78bfa}
-  .sl-card-h{display:flex;justify-content:space-between;gap:8px;align-items:center}
-  .sl-latest{color:var(--muted);font-size:.82rem;line-height:1.5}
   .tl-hdr{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin:4px 0 6px}
   .tl-hdr h2{margin:0;font-size:1.1rem}
   .vtl{list-style:none;margin:0;padding:0 0 0 0;position:relative;max-width:920px}
@@ -171,6 +178,11 @@
     input.hq{flex-basis:100%}
     select.hctl{flex:1 1 28%}
     #hMeta{margin-left:0!important;width:100%}
+    .cats-row{flex-direction:column;gap:8px}
+    .sub-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:6px 8px}
+    .sub-row::-webkit-scrollbar{display:none}
+    .sub-row .chip{flex:none;white-space:nowrap}
+    .row-lbl{flex:none}
     .vtl:before{left:7px}
     .vtl-month{padding-left:26px}
     .vtl-item{grid-template-columns:1fr;padding-left:26px;row-gap:4px}
@@ -188,7 +200,6 @@
   <nav class="views" role="tablist" aria-label="视图">
     <button class="vtab active" data-view="board" role="tab">看板</button>
     <button class="vtab" data-view="history" role="tab">历史</button>
-    <button class="vtab" data-view="storyline" role="tab">主线</button>
   </nav>
   <div class="toolbar" id="boardBar">
     <button class="tab active" data-period="all">全部</button>
@@ -207,8 +218,11 @@
     <div class="meta" id="meta"></div>
   </div>
   <div class="hpanel" id="histBar" hidden>
-    <div class="row" id="hCats"></div>
-    <div class="row" id="hStories" hidden></div>
+    <div class="cats-row">
+      <div class="row" id="hCats"></div>
+      <button class="line-tg" id="hLine" type="button" aria-pressed="false" title="只看带主线的条目，按时间线展示"><span class="sw"></span>只看主线</button>
+    </div>
+    <div class="row sub-row" id="hLines" hidden></div>
     <div class="row">
       <input class="hctl hq" id="hQ" type="search" placeholder="搜索标题 / 摘要 / 标签 / 模型" enterkeyhint="search" />
       <select class="hctl" id="hSrc" aria-label="来源"><option value="">全部来源</option><option value="twitter">X</option><option value="news">新闻</option><option value="github">GitHub</option></select>
@@ -236,13 +250,9 @@
       </div>
     </div>
   </div>
-  <div class="hpanel" id="storyBar" hidden>
-    <div class="row" id="storyChips"></div>
-  </div>
 </header>
 <main id="app"></main>
 <main id="hist" hidden></main>
-<main id="story" hidden></main>
 <script>
 const PERIOD_LABEL={daily:'每日',weekly:'每周',monthly:'每月'};
 const SOURCE_LABEL={twitter:'X',news:'新闻',github:'GitHub'};
@@ -384,7 +394,7 @@ document.querySelectorAll('#boardBar .chip').forEach(btn=>{
 const DAY_MS=864e5, TZ_MS=8*3600e3, CHUNK=60, WD='日一二三四五六';
 const PERIOD_SHORT={daily:'日',weekly:'周',monthly:'月'};
 const H={loaded:false,loading:false,items:[],cats:[],updated_at:'',minDay:0,maxDay:0,lo:0,hi:0,
-  cat:null,story:null,q:'',src:'',ctype:'',lic:'',stories:[],storySel:null,list:[],shown:0,lastKey:undefined,lastGrid:null,dayCounts:null,unit:'day'};
+  cat:null,line:false,story:null,q:'',src:'',ctype:'',lic:'',stories:[],storyMap:{},list:[],shown:0,lastKey:undefined,lastGrid:null,dayCounts:null,unit:'day'};
 const $=id=>document.getElementById(id);
 function toDay(ms){return Math.floor((ms+TZ_MS)/DAY_MS);}            // 上海时区日序号
 function dkey(d){return new Date(d*DAY_MS).toISOString().slice(0,10);} // YYYY-MM-DD（上海）
@@ -399,33 +409,36 @@ function boardBadge(item){
   return `<span class="badge off">已下榜</span>`;
 }
 
-function storyHref(n){return '#storyline='+encodeURIComponent(n);}
+function storyHref(n){return '#history?line=1&story='+encodeURIComponent(n);}
 function storyBadges(item){
-  let s=(item._stories||[]).map(n=>`<a class="sl-badge" href="${escapeAttr(storyHref(n))}" title="查看主线：${escapeAttr(n)}">主线·${escapeHtml(n)}</a>`).join('');
+  let s=(item._stories||[]).map(n=>`<a class="sl-badge" href="${escapeAttr(storyHref(n))}" data-story="${escapeAttr(n)}" title="只看主线：${escapeAttr(n)}">主线·${escapeHtml(n)}</a>`).join('');
   if(item.backfilled===true) s+=`<span class="bf-badge" title="回溯补录的历史条目">回溯</span>`;
   return s;
 }
 
-/* ---- 视图切换（#history / #storyline=名称 可分享） ---- */
-function currentView(){const h=location.hash;return h.startsWith('#history')?'history':h.startsWith('#storyline')?'storyline':'board';}
-function storyFromHash(){const m=location.hash.match(/^#storyline=([^&?]*)/);if(!m)return null;try{return decodeURIComponent(m[1])||null;}catch{return m[1]||null;}}
+/* ---- 视图切换（#history 可分享；旧的 #storyline / #storyline=名称 链接重定向到 历史·只看主线） ---- */
+function redirectLegacy(){
+  const m=location.hash.match(/^#storyline(?:=([^&?]*))?/);
+  if(!m) return;
+  let name=''; try{name=decodeURIComponent(m[1]||'');}catch{name=m[1]||'';}
+  history.replaceState(null,'','#history?line=1'+(name?'&story='+encodeURIComponent(name):''));
+}
+function currentView(){return location.hash.startsWith('#history')?'history':'board';}
 let lastView=null;
 function applyView(){
-  const v=currentView(), hv=v==='history', sv=v==='storyline';
+  redirectLegacy();
+  const v=currentView(), hv=v==='history';
   if(lastView&&lastView!==v) window.scrollTo(0,0);
-  if(sv&&lastView==='storyline') window.scrollTo(0,0);
   lastView=v;
   document.querySelectorAll('.vtab').forEach(b=>{const on=b.dataset.view===v;b.classList.toggle('active',on);b.setAttribute('aria-selected',on);});
-  $('boardBar').hidden=hv||sv; $('app').hidden=hv||sv; $('histBar').hidden=!hv; $('hist').hidden=!hv; $('storyBar').hidden=!sv; $('story').hidden=!sv;
-  document.title=hv?'AI 新闻看板 · 历史':sv?'AI 新闻看板 · 主线':'AI 新闻看板 · 模型更新与展示';
+  $('boardBar').hidden=hv; $('app').hidden=hv; $('histBar').hidden=!hv; $('hist').hidden=!hv;
+  document.title=hv?'AI 新闻看板 · 历史':'AI 新闻看板 · 模型更新与展示';
   if(hv){ if(H.loaded){readHash();syncControls();renderHist();} else ensureHistory(); }
-  else if(sv){ if(H.loaded){H.storySel=storyFromHash();renderStory();} else ensureHistory(); }
   else if(!boardLoaded){ load().catch(e=>{ $('app').innerHTML=`<div class="empty">看板数据加载失败：${escapeHtml(e.message||e)}</div>`; }); }
 }
 document.querySelectorAll('.vtab').forEach(b=>b.addEventListener('click',()=>{
   if(b.dataset.view===currentView()) return;
   if(b.dataset.view==='history') location.hash='#history';
-  else if(b.dataset.view==='storyline') location.hash='#storyline';
   else { history.pushState(null,'',location.pathname+location.search); applyView(); }
   window.scrollTo(0,0);
 }));
@@ -436,7 +449,7 @@ window.addEventListener('popstate',applyView);
 async function ensureHistory(){
   if(H.loaded||H.loading) return;
   H.loading=true;
-  $('hist').innerHTML=$('story').innerHTML='<div class="empty">正在加载历史数据…</div>';
+  $('hist').innerHTML='<div class="empty">正在加载历史数据…</div>';
   $('hMeta').textContent='';
   try{
     const res=await fetch('./history.json?t='+Date.now());
@@ -445,13 +458,12 @@ async function ensureHistory(){
   }catch(e){
     H.loading=false;
     const msg=`<div class="empty">历史数据加载失败（${escapeHtml(e&&e.message||e)}）。<br><button class="more hRetry">重试</button></div>`;
-    $('hist').innerHTML=$('story').innerHTML=msg;
+    $('hist').innerHTML=msg;
     document.querySelectorAll('.hRetry').forEach(b=>b.onclick=ensureHistory);
     return;
   }
   H.loading=false; H.loaded=true;
-  if(currentView()==='storyline'){H.storySel=storyFromHash();renderStory();}
-  else {readHash(); syncControls(); renderHist();}
+  readHash(); syncControls(); renderHist();
 }
 function initHistory(data){
   const raw=Array.isArray(data)?data:(data&&data.items)||[];
@@ -478,10 +490,13 @@ function initHistory(data){
   // 主线：动态汇总（条数、时间跨度、最新时间）
   const st={};
   for(const it of items) for(const n of it._stories){
-    const o=st[n]||(st[n]={name:n,count:0,first:null,last:null});
-    o.count++; if(it._t!=null){ if(o.first==null||it._t<o.first)o.first=it._t; if(o.last==null||it._t>o.last)o.last=it._t; }
+    const o=st[n]||(st[n]={name:n,count:0,first:null,last:null,cats:{}});
+    o.count++; o.cats[it.category]=(o.cats[it.category]||0)+1; if(it._t!=null){ if(o.first==null||it._t<o.first)o.first=it._t; if(o.last==null||it._t>o.last)o.last=it._t; }
   }
-  H.stories=Object.values(st).sort((a,b)=>((b.last??0)-(a.last??0))||(b.count-a.count));
+  // 主线归属门类 = 该主线中条数最多的门类（多数/相对多数）
+  for(const o of Object.values(st)) o.cat=Object.keys(o.cats).sort((a,b)=>o.cats[b]-o.cats[a])[0];
+  H.stories=Object.values(st).sort((a,b)=>(b.count-a.count)||((b.last??0)-(a.last??0)));
+  H.storyMap=st;
   const days=items.map(i=>i._day).filter(d=>d!=null);
   const today=todayDay();
   H.minDay=days.length?Math.min(...days):today;
@@ -497,7 +512,7 @@ function initHistory(data){
 /* ---- URL hash 参数（#history?cat=..&from=..&to=..&q=..） ---- */
 function readHash(){
   const p=new URLSearchParams((location.hash.split('?')[1])||'');
-  H.cat=p.get('cat')||null; H.story=p.get('story')||null; H.q=p.get('q')||''; H.src=p.get('src')||''; H.ctype=p.get('type')||''; H.lic=p.get('lic')||'';
+  H.cat=p.get('cat')||null; H.story=p.get('story')||null; H.line=p.get('line')==='1'||!!H.story; H.q=p.get('q')||''; H.src=p.get('src')||''; H.ctype=p.get('type')||''; H.lic=p.get('lic')||'';
   const f=keyDay(p.get('from')), t=keyDay(p.get('to'));
   H.lo=f==null?H.minDay:Math.min(Math.max(f,H.minDay),H.maxDay);
   H.hi=t==null?H.maxDay:Math.min(Math.max(t,H.minDay),H.maxDay);
@@ -506,7 +521,7 @@ function readHash(){
 function writeHash(){
   if(currentView()!=='history') return;
   const p=new URLSearchParams();
-  if(H.cat)p.set('cat',H.cat); if(H.story)p.set('story',H.story); if(H.q)p.set('q',H.q); if(H.src)p.set('src',H.src);
+  if(H.cat)p.set('cat',H.cat); if(H.line){p.set('line','1'); if(H.story)p.set('story',H.story);} if(H.q)p.set('q',H.q); if(H.src)p.set('src',H.src);
   if(H.ctype)p.set('type',H.ctype); if(H.lic)p.set('lic',H.lic);
   if(H.lo!==H.minDay)p.set('from',dkey(H.lo)); if(H.hi!==H.maxDay)p.set('to',dkey(H.hi));
   const s=p.toString(), h='#history'+(s?'?'+s:'');
@@ -539,7 +554,6 @@ function presetRanges(){
 function terms(){return H.q.toLowerCase().split(/\s+/).filter(Boolean);}
 function passNonDate(i,ts,skipCat){
   if(!skipCat&&H.cat&&i.category!==H.cat) return false;
-  if(skipCat!=='story'&&H.story&&!i._stories.includes(H.story)) return false;
   if(H.src&&i.source!==H.src) return false;
   if(H.ctype&&i.card_type!==H.ctype) return false;
   if(H.lic&&i.license_type!==H.lic) return false;
@@ -552,15 +566,19 @@ function inRange(i){
 }
 
 /* ---- 渲染 ---- */
+function linesForCat(cat){return H.stories.filter(s=>!cat||s.cat===cat);} // 已按条数降序
+function lineSel(S){ // 当前选中的主线：'*' = 全部主线
+  if(H.story==='*'&&S.length>1) return '*';
+  if(H.story&&S.some(s=>s.name===H.story)) return H.story;
+  return S.length?S[0].name:null;
+}
 function renderHist(){
   if(!H.loaded) return;
   const ts=terms();
-  const storyCounts={}; let storyAll=0;
-  if(H.stories.length) for(const i of H.items){
-    if(!inRange(i)||!passNonDate(i,ts,'story')||(H.cat&&i.category!==H.cat)) continue;
-    if(i._stories.length){storyAll++; for(const n of i._stories) storyCounts[n]=(storyCounts[n]||0)+1;}
-  }
-  renderStoryChips(storyCounts,storyAll);
+  $('hLine').setAttribute('aria-pressed',H.line); $('hLine').classList.toggle('on',H.line);
+  $('hLine').hidden=!H.stories.length&&!H.line;
+  if(H.line) return renderLineMode(ts);
+  $('hLines').hidden=true;
   const catCounts={}; let catAll=0; const strip=[]; const list=[];
   for(const i of H.items){
     if(!passNonDate(i,ts,true)) continue;
@@ -572,8 +590,39 @@ function renderHist(){
   renderCats(catCounts,catAll);
   renderHisto(strip);
   syncRange();
-  H.list=list;
+  H.list=list; H.mode='grid';
   $('hMeta').textContent=`匹配 ${list.length} / ${H.items.length} 条 · 历史更新 ${fmtTime(H.updated_at)}`;
+  renderResults();
+  writeHash();
+}
+/* 只看主线：门类 → 归属该门类的主线；时间范围 / 搜索 / 来源等筛选照常生效 */
+function renderLineMode(ts){
+  const S=linesForCat(H.cat), sel=lineSel(S);
+  const want=sel==='*'?new Set(S.map(s=>s.name)):new Set(sel?[sel]:[]);
+  // 门类计数 = 归属该门类的主线条目数（主线条目本身可能来自其它门类）
+  const catCounts={}; let catAll=0, lineAll=0; const per={}; const strip=[]; const inr=[];
+  const inS=new Set(S.map(s=>s.name));
+  for(const i of H.items){
+    if(!i._stories.length||!passNonDate(i,ts,true)) continue;
+    const ir=inRange(i);
+    if(ir){
+      catAll++; const seenCat=new Set();
+      for(const n of i._stories){const s=H.storyMap[n]; if(s&&!seenCat.has(s.cat)){seenCat.add(s.cat);catCounts[s.cat]=(catCounts[s.cat]||0)+1;}
+        if(inS.has(n)) per[n]=(per[n]||0)+1;}
+      if(i._stories.some(n=>inS.has(n))) lineAll++;
+    }
+    if(i._stories.some(n=>want.has(n))){strip.push(i); if(ir) inr.push(i);}
+  }
+  renderCats(catCounts,catAll);
+  renderLineChips(S,sel,per,lineAll);
+  renderHisto(strip);
+  syncRange();
+  // 组装时间线：单条主线 = 由远及近；全部主线 = 按主线分组，组内由远及近
+  const asc=(a,b)=>(a._t??Infinity)-(b._t??Infinity);
+  const groups=(sel==='*'?S.map(s=>s.name):(sel?[sel]:[])).map(n=>({name:n,items:inr.filter(i=>i._stories.includes(n)).sort(asc)})).filter(g=>g.items.length);
+  H.list=[]; for(const g of groups) for(const it of g.items) H.list.push({g:g.name,it});
+  H.groups=Object.fromEntries(groups.map(g=>[g.name,g.items])); H.lineSel=sel; H.lineS=S; H.mode='line';
+  $('hMeta').textContent=`主线条目 ${inr.length} 条 · 历史更新 ${fmtTime(H.updated_at)}`;
   renderResults();
   writeHash();
 }
@@ -581,12 +630,13 @@ function renderCats(counts,all){
   const chip=(name,label,n)=>`<button class="chip${(H.cat||'')===name?' active':''}" data-cat="${escapeAttr(name)}">${escapeHtml(label)}<span class="n">${n}</span></button>`;
   $('hCats').innerHTML=chip('','全部',all)+H.cats.map(c=>chip(c,c,counts[c]||0)).join('');
 }
-function renderStoryChips(counts,all){
-  const row=$('hStories');
-  row.hidden=!H.stories.length; if(!H.stories.length){row.innerHTML='';return;}
-  const chip=(name,label,n)=>`<button class="chip sl${(H.story||'')===name?' active':''}" data-story="${escapeAttr(name)}">${escapeHtml(label)}<span class="n">${n}</span></button>`;
-  row.innerHTML=`<span class="row-lbl">主线</span>`+chip('','全部',all)+H.stories.map(s=>chip(s.name,s.name,counts[s.name]||0)).join('')
-    +(H.story?` <a class="sl-open" href="${escapeAttr(storyHref(H.story))}">看时间线 →</a>`:'');
+function renderLineChips(S,sel,per,total){
+  const row=$('hLines');
+  // 只有一条主线时无需子选择；全部门类下始终给出主线列表
+  const show=S.length>1||(!H.cat&&S.length>0);
+  row.hidden=!show; if(!show){row.innerHTML='';return;}
+  const chip=(name,label,n)=>`<button class="chip sl${sel===name?' active':''}" data-story="${escapeAttr(name)}">${escapeHtml(label)}<span class="n">${n}</span></button>`;
+  row.innerHTML=`<span class="row-lbl">主线</span>`+(S.length>1?chip('*','全部主线',total):'')+S.map(s=>chip(s.name,s.name,per[s.name]||0)).join('');
 }
 function renderHisto(items){
   const ws0=H.unit==='day'?H.minDay:weekStart(H.minDay), step=H.unit==='day'?1:7;
@@ -603,17 +653,35 @@ function renderHisto(items){
   $('hHisto').innerHTML=html;
 }
 let hObserver=null;
+function resetSoftFilters(){H.q='';H.src='';H.ctype='';H.lic='';H.lo=H.minDay;H.hi=H.maxDay;syncControls();renderHist();}
 function renderResults(){
   const box=$('hist');
   if(hObserver){hObserver.disconnect();hObserver=null;}
-  if(!H.list.length){
-    box.innerHTML=`<div class="empty">没有符合条件的条目。试试放宽时间范围、换个门类或清除搜索。<br><button class="more" id="hReset">清除全部筛选</button></div>`;
-    $('hReset').onclick=()=>{H.cat=null;H.story=null;H.q='';H.src='';H.ctype='';H.lic='';H.lo=H.minDay;H.hi=H.maxDay;syncControls();renderHist();};
+  if(H.mode==='line'&&!H.lineS.length){
+    const c=H.cat?`「${escapeHtml(H.cat)}」暂时还没有主线`:'还没有任何主线';
+    box.innerHTML=`<div class="empty line-empty"><b>${c}</b><br>主线会把同一话题的进展按时间串起来，整理好后会自动出现在这里。<br>
+      ${H.cat&&H.stories.length?'<button class="more" id="hAllLines">看全部主线</button> ':''}<button class="more" id="hLineOff">返回全部卡片</button></div>`;
+    if($('hAllLines')) $('hAllLines').onclick=()=>{H.cat=null;H.story=null;renderHist();};
+    $('hLineOff').onclick=()=>{H.line=false;H.story=null;renderHist();};
     return;
   }
+  if(H.mode==='line'&&!H.list.length){
+    box.innerHTML=`<div class="empty">这条主线在当前时间范围 / 筛选下没有条目。<br><button class="more" id="hReset">清除时间与搜索筛选</button></div>`;
+    $('hReset').onclick=resetSoftFilters;
+    return;
+  }
+  if(!H.list.length){
+    box.innerHTML=`<div class="empty">没有符合条件的条目。试试放宽时间范围、换个门类或清除搜索。<br><button class="more" id="hReset">清除全部筛选</button></div>`;
+    $('hReset').onclick=()=>{H.cat=null;H.story=null;H.line=false;H.q='';H.src='';H.ctype='';H.lic='';H.lo=H.minDay;H.hi=H.maxDay;syncControls();renderHist();};
+    return;
+  }
+  H.shown=0; H.lastKey=undefined; H.lastGrid=null; H.lastMonth=null;
+  if(H.mode==='line'){
+    box.innerHTML=lineHeader()+'<div id="hList"></div><div class="more-wrap"><button class="more" id="hMore"></button><div id="hSentinel" style="height:1px;width:1px"></div></div>';
+  } else {
   H.dayCounts={}; for(const i of H.list){const k=i._day==null?'x':i._day;H.dayCounts[k]=(H.dayCounts[k]||0)+1;}
-  H.shown=0; H.lastKey=undefined; H.lastGrid=null;
   box.innerHTML='<div id="hList"></div><div class="more-wrap"><button class="more" id="hMore"></button><div id="hSentinel" style="height:1px;width:1px"></div></div>';
+  }
   $('hMore').onclick=appendChunk;
   appendChunk();
   if('IntersectionObserver' in window){
@@ -628,6 +696,7 @@ function dayHeader(key){
 }
 function appendChunk(){
   const listEl=$('hList'); if(!listEl) return;
+  if(H.mode==='line') return appendLineChunk(listEl);
   const end=Math.min(H.shown+CHUNK,H.list.length), opt={history:true};
   let cont='', secs=[], cur=null;
   for(let k=H.shown;k<end;k++){
@@ -647,40 +716,46 @@ function appendChunk(){
   more.textContent=`加载更多（已显示 ${H.shown} / ${H.list.length}）`;
 }
 
-/* ---- 主线视图 ---- */
+/* ---- 只看主线：竖向时间线（由远及近、按月分隔） ---- */
 const MONTH_FMT=t=>{const d=new Date(t+TZ_MS);return `${d.getUTCFullYear()}年${d.getUTCMonth()+1}月`;};
-function renderStory(){
-  const bar=$('storyChips'), box=$('story');
-  if(!H.stories.length){
-    bar.innerHTML='<span class="hmeta">暂无主线</span>';
-    box.innerHTML='<div class="empty">还没有带「主线」的条目。<br>当历史条目标注了 storyline（例如“游戏引擎角色动画”），这里会按时间串成一条时间线。</div>';
-    return;
+function spanTxt(items){
+  const ds=items.map(i=>i._day).filter(d=>d!=null); if(!ds.length) return '';
+  return `${dkey(Math.min(...ds))} → ${dkey(Math.max(...ds))}`;
+}
+function lineHeader(){
+  if(H.lineSel==='*'){
+    const n=Object.keys(H.groups).length;
+    return `<div class="tl-hdr"><h2>全部主线</h2><span class="badge">${n} 条主线 · ${new Set(H.list.map(x=>x.it)).size} 条</span>
+      <span class="hmeta">每条主线内由远及近</span></div>`;
   }
-  const sel=H.storySel&&H.stories.find(s=>s.name===H.storySel)?H.storySel:null;
-  bar.innerHTML=`<a class="chip${sel?'':' active'}" href="#storyline">全部主线<span class="n">${H.stories.length}</span></a>`+
-    H.stories.map(s=>`<a class="chip sl${s.name===sel?' active':''}" href="${escapeAttr(storyHref(s.name))}">${escapeHtml(s.name)}<span class="n">${s.count}</span></a>`).join('');
-  if(!sel){
-    const miss=H.storySel?`<div class="empty" style="margin-bottom:12px">找不到主线「${escapeHtml(H.storySel)}」，下面是全部主线。</div>`:'';
-    box.innerHTML=miss+`<div class="sl-index">`+H.stories.map(s=>{
-      const latest=H.items.find(i=>i._stories.includes(s.name));
-      return `<a class="sl-card" href="${escapeAttr(storyHref(s.name))}">
-        <div class="sl-card-h"><b>${escapeHtml(s.name)}</b><span class="badge">${s.count} 条</span></div>
-        <div class="hmeta">${s.first!=null?dkey(toDay(s.first)):'?'} → ${s.last!=null?dkey(toDay(s.last)):'?'}</div>
-        ${latest?`<div class="sl-latest">最新：${escapeHtml(latest.title)}</div>`:''}</a>`;}).join('')+`</div>`;
-    return;
-  }
-  const s=H.stories.find(x=>x.name===sel);
-  const list=H.items.filter(i=>i._stories.includes(sel)).slice().sort((a,b)=>(a._t??Infinity)-(b._t??Infinity)); // 旧 → 新
-  let html=`<div class="tl-hdr"><h2>主线 · ${escapeHtml(sel)}</h2><span class="badge">${s.count} 条</span>
-    <span class="hmeta">${s.first!=null?dkey(toDay(s.first)):'?'} → ${s.last!=null?dkey(toDay(s.last)):'?'} · 由远及近</span>
-    <a class="sl-open" href="#history?story=${encodeURIComponent(sel)}">在历史中查看 →</a></div><ol class="vtl">`;
-  let month='';
-  for(const it of list){
+  const s=H.storyMap[H.lineSel], items=H.groups[H.lineSel]||[];
+  const cats=Object.keys(s.cats).sort((a,b)=>s.cats[b]-s.cats[a]).map(c=>`${escapeHtml(c)} ${s.cats[c]}`).join(' · ');
+  return `<div class="tl-hdr"><h2>主线 · ${escapeHtml(s.name)}</h2><span class="badge">${items.length}${items.length!==s.count?' / '+s.count:''} 条</span>
+    <span class="hmeta">${spanTxt(items)} · 由远及近</span><span class="hmeta tl-cats">${cats}</span></div>`;
+}
+function appendLineChunk(listEl){
+  const end=Math.min(H.shown+CHUNK,H.list.length);
+  let html='', grp=H.lastKey, month=H.lastMonth, open=!!H.lastGrid;
+  const flush=()=>{ if(!html) return; if(open&&H.lastGrid&&H.lastGrid.dataset.g===grp) H.lastGrid.insertAdjacentHTML('beforeend',html); html=''; };
+  for(let k=H.shown;k<end;k++){
+    const {g,it}=H.list[k];
+    if(g!==grp){
+      flush();
+      grp=g; month=null;
+      const items=H.groups[g];
+      const head=H.lineSel==='*'?`<div class="tl-sub"><button class="sl-badge sl-pick" data-story="${escapeAttr(g)}">主线·${escapeHtml(g)}</button><span class="badge">${items.length} 条</span><span class="hmeta">${spanTxt(items)}</span></div>`:'';
+      listEl.insertAdjacentHTML('beforeend',`<section class="tl-group">${head}<ol class="vtl" data-g="${escapeAttr(g)}"></ol></section>`);
+      H.lastGrid=listEl.lastElementChild.querySelector('.vtl'); open=true;
+    }
     const m=it._t==null?'日期未知':MONTH_FMT(it._t);
     if(m!==month){month=m;html+=`<li class="vtl-month"><span>${m}</span></li>`;}
     html+=storyNode(it);
   }
-  box.innerHTML=html+'</ol>';
+  flush();
+  H.lastKey=grp; H.lastMonth=month; H.shown=end;
+  const more=$('hMore'), left=H.list.length-H.shown;
+  more.hidden=left<=0;
+  more.textContent=`加载更多（已显示 ${H.shown} / ${H.list.length}）`;
 }
 function storyNode(it){
   const m=it.media, thumb=m&&(m.thumb_url||(m.type!=='video'&&m.media_url));
@@ -705,8 +780,23 @@ function storyNode(it){
 let hTimer=0;
 function renderSoon(ms){clearTimeout(hTimer);hTimer=setTimeout(renderHist,ms);}
 function setRange(lo,hi){ if(lo>hi)[lo,hi]=[hi,lo]; H.lo=Math.max(H.minDay,lo); H.hi=Math.min(H.maxDay,hi); }
-$('hCats').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const c=b.dataset.cat||null;H.cat=(H.cat===c)?null:c;renderHist();});
-$('hStories').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const s=b.dataset.story||null;H.story=(H.story===s)?null:s;renderHist();});
+$('hCats').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const c=b.dataset.cat||null;H.cat=(H.cat===c)?null:c;
+  if(H.line&&H.story&&H.story!=='*'&&!linesForCat(H.cat).some(s=>s.name===H.story)) H.story=null; renderHist();});
+$('hLines').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;H.story=b.dataset.story||null;renderHist();});
+$('hLine').addEventListener('click',()=>{H.line=!H.line; if(!H.line) H.story=null; renderHist();});
+// 卡片上的「主线·名称」徽标 → 切到只看主线并选中该主线（保留时间范围 / 搜索等筛选）
+function openLine(name){
+  H.line=true; H.story=name;
+  const s=H.storyMap[name];
+  if(H.cat&&s&&s.cat!==H.cat) H.cat=s.cat;
+  renderHist();
+  $('histBar').scrollIntoView({block:'start'});
+}
+$('hist').addEventListener('click',e=>{
+  const a=e.target.closest('.sl-badge'); if(!a||!a.dataset.story) return;
+  if(e.metaKey||e.ctrlKey||e.shiftKey) return; // 新标签页打开时走链接
+  e.preventDefault(); openLine(a.dataset.story);
+});
 $('hQ').addEventListener('input',()=>{H.q=$('hQ').value.trim();renderSoon(180);});
 $('hSrc').addEventListener('change',e=>{H.src=e.target.value;renderHist();});
 $('hType').addEventListener('change',e=>{H.ctype=e.target.value;renderHist();});

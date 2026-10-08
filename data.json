@@ -26,7 +26,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-chatgpt-gpt-6-intelligent-ui",
@@ -53,7 +54,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-grok-bot-multi-model-routing",
@@ -213,7 +215,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "行业动态"
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "news-synthid-detector-global",
@@ -321,7 +324,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "行业动态"
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "news-liquid-open-d1",
@@ -594,7 +598,8 @@
       },
       "kept_reason": null,
       "period": "daily",
-      "category": "3D 生成"
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "showcase-assetfurnace-local-rig-animate",
@@ -650,7 +655,8 @@
       },
       "kept_reason": "heat 88 / importance 90 达到周榜阈值",
       "period": "weekly",
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-reflection-beam-501b",
@@ -677,7 +683,8 @@
       },
       "kept_reason": "heat 80 / importance 88 达到周榜阈值",
       "period": "weekly",
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "research-openai-math-results-github",
@@ -748,7 +755,8 @@
       "period": "weekly",
       "kept_reason": "heat 68 / importance 86 达到周榜阈值",
       "media": null,
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-gemini-4-argon-arena",
@@ -775,7 +783,8 @@
         "media_url": "https://pbs.twimg.com/media/HTkaWPLXUAAqlfs.jpg",
         "post_url": "https://x.com/i/status/2105747765787832815"
       },
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-reka-rho-1",
@@ -858,7 +867,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2106778701601886208/vid/avc1/720x1280/xEHl7GQwaS65T31_.mp4",
         "post_url": "https://x.com/i/status/2106778812755152948"
       },
-      "category": "机器人"
+      "category": "机器人",
+      "storyline": "人形机器人落地"
     },
     {
       "id": "repo-hf-multi-harness-rl",
@@ -1096,7 +1106,8 @@
       "media": null,
       "kept_reason": "heat 60 / importance 66 达到周榜阈值",
       "period": "weekly",
-      "category": "行业动态"
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "news-gemini-4-argon-app-rollout",
@@ -1149,7 +1160,8 @@
       },
       "kept_reason": "heat 62 / importance 60 达到周榜阈值",
       "period": "weekly",
-      "category": "3D 生成"
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "news-gpt-6-1-sol",
@@ -1177,7 +1189,8 @@
         "post_url": "https://x.com/pankajkumar_dev/status/2104982161627685211"
       },
       "category": "大模型",
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-claude-fable-mythos-5-1",
@@ -1199,7 +1212,8 @@
       "period": "monthly",
       "kept_reason": "heat 88 / importance 96 达到月榜阈值",
       "media": null,
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-openai-sol-luna",
@@ -1226,7 +1240,8 @@
         "media_url": "https://video.twimg.com/ext_tw_video/2102513162230644736/pu/vid/avc1/1280x720/ZRNOdC0z6g6NMmdz.mp4?tag=12",
         "post_url": "https://x.com/i/status/2102513175681733029"
       },
-      "category": "大模型"
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-deepseek-v4-1-flash",
@@ -1249,7 +1264,8 @@
       "kept_reason": "heat 80 / importance 90 达到月榜阈值",
       "media": null,
       "category": "大模型",
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "showcase-opus55-vision",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T11:32:00+08:00",
+  "updated_at": "2026-10-08T14:12:42+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
@@ -178,7 +178,8 @@
       "category": "3D 生成",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "news-nous-research-90m-hermes",
@@ -208,7 +209,8 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "research-scale-humanitys-sixth-sense",
@@ -420,7 +422,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "repo-strata-qwen38-flash-next",
@@ -480,7 +483,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-liquid-open-d1",
@@ -599,7 +603,8 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": true,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "news-gemini-4-argon-vertex-pricing",
@@ -748,7 +753,8 @@
       "category": "3D 生成",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "research-openai-math-results-github",
@@ -1043,7 +1049,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-minerva-roger-humanoid",
@@ -1072,7 +1079,8 @@
       "category": "机器人",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "daily",
-      "on_board": false
+      "on_board": false,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "showcase-opus55-running-cow",
@@ -1215,7 +1223,8 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "repo-openhuman-agent",
@@ -1349,7 +1358,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "showcase-opus55-humanoid-animation-pipelines",
@@ -1530,7 +1540,8 @@
       "category": "机器人",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "news-gemini-app-access-oct9",
@@ -1645,7 +1656,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
@@ -1708,7 +1720,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "showcase-gpt61-cost",
@@ -1796,7 +1809,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-worldlabs-amd",
@@ -1829,7 +1843,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2609-sonnet55",
@@ -1861,7 +1876,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-gpt-6-1-sol",
@@ -1892,7 +1908,8 @@
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
       "on_board": true,
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "news-holo4",
@@ -2109,7 +2126,8 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": true,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-opus55",
@@ -2141,7 +2159,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-mimo-v26",
@@ -2174,7 +2193,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-grok47",
@@ -2205,7 +2225,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-hyper3d-agentic",
@@ -2238,7 +2259,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2609-unitree-dex5s",
@@ -2328,7 +2350,8 @@
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
       "on_board": true,
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-laya",
@@ -2393,7 +2416,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2609-jev-ultrafast",
@@ -2489,7 +2513,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "category": "角色动画",
@@ -2619,7 +2644,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2609-muse-app",
@@ -2781,7 +2807,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2609-unitree-x2",
@@ -2813,7 +2840,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2609-astra-bmx",
@@ -2943,7 +2971,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
@@ -3042,7 +3071,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2609-worldlabs-atlas",
@@ -3074,7 +3104,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "category": "角色动画",
@@ -3137,7 +3168,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-claude-scientists",
@@ -3233,7 +3265,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-qwen38-flash",
@@ -3265,7 +3298,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-jalapeno-results",
@@ -3297,7 +3331,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2608-xpeng-robotics-900m",
@@ -3324,7 +3359,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:59+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "category": "角色动画",
@@ -3511,7 +3547,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2608-glm53",
@@ -3543,7 +3580,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-gemini37-flash",
@@ -3574,7 +3612,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-gpt56-ultrafast",
@@ -3670,7 +3709,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-grok46",
@@ -3702,7 +3742,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-gpt56-cyber",
@@ -3766,7 +3807,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2608-muse-glimmer",
@@ -3798,7 +3840,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-muse-code",
@@ -3927,7 +3970,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-gpt56-price-cut",
@@ -3991,7 +4035,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2607-codex-security-cli",
@@ -4055,7 +4100,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2607-opus5",
@@ -4087,7 +4133,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-jensen-open-models",
@@ -4215,7 +4262,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-qwen38-max-preview",
@@ -4247,7 +4295,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-kimi-k3",
@@ -4279,7 +4328,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-grok-build-oss",
@@ -4371,7 +4421,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2607-nvidia-ardy",
@@ -4533,7 +4584,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-1x-neo-hands",
@@ -4565,7 +4617,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2607-muse-spark-11",
@@ -4597,7 +4650,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
@@ -4661,7 +4715,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-gpt-live",
@@ -4821,7 +4876,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-colibri",
@@ -4880,7 +4936,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2607-sonnet5",
@@ -4912,7 +4969,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2607-claude-science",
@@ -4976,7 +5034,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2606-gpt56-preview",
@@ -5003,7 +5062,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2606-openai-jalapeno",
@@ -5035,7 +5095,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2606-hiw500",
@@ -5067,7 +5128,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2606-unitree-r1",
@@ -5099,7 +5161,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2606-qwen-agentworld",
@@ -5131,7 +5194,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2606-claude-tag",
@@ -5323,7 +5387,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2606-unlimited-ocr",
@@ -5484,7 +5549,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2606-spacex-cursor-acq",
@@ -5511,7 +5577,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2606-qwen-robot",
@@ -5570,7 +5637,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2606-fable-showcase",
@@ -5629,7 +5697,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2606-ponytail",
@@ -5688,7 +5757,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2606-mimo-code",
@@ -5752,7 +5822,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2606-wwdc-siri",
@@ -5816,7 +5887,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2606-qwen37-plus",
@@ -5849,7 +5921,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2606-minimax-m3",
@@ -5882,7 +5955,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2605-odysseus",
@@ -5977,7 +6051,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2605-figure-catalyst",
@@ -6009,7 +6084,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "category": "角色动画",
@@ -6105,7 +6181,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2605-openai-erdos",
@@ -6201,7 +6278,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2605-gemini-omni",
@@ -6265,7 +6343,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2605-odyssey-agora1",
@@ -6297,7 +6376,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2605-composer25",
@@ -6416,7 +6496,8 @@
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
       "last_period": null,
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2605-gpt-realtime-2",
@@ -6512,7 +6593,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2605-ds4",
@@ -6572,7 +6654,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "category": "角色动画",
@@ -6637,7 +6720,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
@@ -6701,7 +6785,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2604-figure-botq",
@@ -6733,7 +6818,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "category": "角色动画",
@@ -6799,7 +6885,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2604-open-design",
@@ -6863,7 +6950,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
@@ -6962,7 +7050,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-gpt55",
@@ -6994,7 +7083,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-hy3",
@@ -7026,7 +7116,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-spacex-cursor",
@@ -7054,7 +7145,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2604-images2",
@@ -7117,7 +7209,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2604-amazon-5gw",
@@ -7145,7 +7238,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2604-kimi-k26",
@@ -7177,7 +7271,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-unitree-marathon",
@@ -7209,7 +7304,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2604-claude-design",
@@ -7305,7 +7401,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-qwen36-35b",
@@ -7369,7 +7466,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2604-lyra2",
@@ -7402,7 +7500,8 @@
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
       "last_period": null,
-      "published_precision": "date"
+      "published_precision": "date",
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2604-gemini-er16",
@@ -7466,7 +7565,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "3D 生成",
@@ -7563,7 +7663,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-glasswing-mythos",
@@ -7590,7 +7691,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-marble11",
@@ -7622,7 +7724,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2604-glm51",
@@ -7654,7 +7757,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-anthropic-tpu",
@@ -7681,7 +7785,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "算力、资本与政策格局"
     },
     {
       "id": "bf-2604-mempalace",
@@ -7842,7 +7947,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2604-qwen36-plus",
@@ -7874,7 +7980,8 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": null,
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "category": "角色动画",
