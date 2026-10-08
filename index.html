@@ -619,7 +619,7 @@ function renderLineMode(ts){
   renderHisto(strip);
   syncRange();
   // 组装时间线：单条主线 = 由远及近；全部主线 = 按主线分组，组内由远及近
-  const asc=(a,b)=>(a._t??Infinity)-(b._t??Infinity);
+  const asc=(a,b)=>(b._t??-Infinity)-(a._t??-Infinity);
   const groups=(sel==='*'?S.map(s=>s.name):(sel?[sel]:[])).map(n=>({name:n,items:inr.filter(i=>i._stories.includes(n)).sort(asc)})).filter(g=>g.items.length);
   H.list=[]; for(const g of groups) for(const it of g.items) H.list.push({g:g.name,it});
   H.groups=Object.fromEntries(groups.map(g=>[g.name,g.items])); H.lineSel=sel; H.lineS=S; H.mode='line';
@@ -727,12 +727,12 @@ function lineHeader(){
   if(H.lineSel==='*'){
     const n=Object.keys(H.groups).length;
     return `<div class="tl-hdr"><h2>全部主线</h2><span class="badge">${n} 条主线 · ${new Set(H.list.map(x=>x.it)).size} 条</span>
-      <span class="hmeta">每条主线内由远及近</span></div>`;
+      <span class="hmeta">每条主线内新的在上</span></div>`;
   }
   const s=H.storyMap[H.lineSel], items=H.groups[H.lineSel]||[];
   const cats=Object.keys(s.cats).sort((a,b)=>s.cats[b]-s.cats[a]).map(c=>`${escapeHtml(c)} ${s.cats[c]}`).join(' · ');
   return `<div class="tl-hdr"><h2>主线 · ${escapeHtml(s.name)}</h2><span class="badge">${items.length}${items.length!==s.count?' / '+s.count:''} 条</span>
-    <span class="hmeta">${spanTxt(items)} · 由远及近</span><span class="hmeta tl-cats">${cats}</span></div>`;
+    <span class="hmeta">${spanTxt(items)} · 新的在上</span><span class="hmeta tl-cats">${cats}</span></div>`;
 }
 function appendLineChunk(listEl){
   const end=Math.min(H.shown+CHUNK,H.list.length);
