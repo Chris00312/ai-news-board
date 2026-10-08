@@ -196,7 +196,7 @@
 <body>
 <header>
   <h1>AI 新闻看板</h1>
-  <p class="sub">闭源 + 开源模型更新 · 用户绝佳展示（图/视频）· 世界模型 / 机器人 / 3D / 角色动画</p>
+  <p class="sub">闭源 + 开源模型更新 · 用户绝佳展示（图/视频）· 世界模型 / 机器人 / 2D 游戏美术 / 3D / 角色动画</p>
   <nav class="views" role="tablist" aria-label="视图">
     <button class="vtab active" data-view="board" role="tab">看板</button>
     <button class="vtab" data-view="history" role="tab">历史</button>
@@ -213,8 +213,10 @@
     <button class="chip" data-tag="大模型">大模型</button>
     <button class="chip" data-tag="世界模型">世界模型</button>
     <button class="chip" data-tag="机器人">机器人</button>
-    <button class="chip" data-tag="3D生成">3D生成</button>
+    <button class="chip" data-tag="AI 2D 游戏美术">AI 2D 游戏美术</button>
+    <button class="chip" data-tag="3D 生成">3D 生成</button>
     <button class="chip" data-tag="角色动画">角色动画</button>
+    <button class="chip" data-tag="行业动态">行业动态</button>
     <div class="meta" id="meta"></div>
   </div>
   <div class="hpanel" id="histBar" hidden>
@@ -280,7 +282,7 @@ function fmtTime(iso,precision){
 function filtered(){
   return state.items
     .filter(i=>state.period==='all'||i.period===state.period)
-    .filter(i=>!state.tag||(i.tags||[]).includes(state.tag))
+    .filter(i=>!state.tag||i.category===state.tag||(i.tags||[]).some(t=>t.replace(/\s+/g,'')===state.tag.replace(/\s+/g,'')))
     .filter(i=>!state.ctype||i.card_type===state.ctype)
     .filter(i=>!state.lic||i.license_type===state.lic)
     .sort((a,b)=>{
