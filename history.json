@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T14:49:42+08:00",
+  "updated_at": "2026-10-08T15:08:09+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "name": "AI 2D 游戏美术",
-      "count": 20
+      "count": 46
     },
     {
       "name": "3D 生成",
@@ -1793,6 +1793,39 @@
       "on_board": false
     },
     {
+      "id": "bf-2d-scenario-iso-8dir",
+      "title": "Scenario 演示等距行走、攻击循环，并公开 8 方向等距行走精灵表配方",
+      "summary": "Scenario 官方 9 月 30 日展示用 Scenario 生成的等距视角行走和攻击循环；10 月 2 日称「终于搞定完整 8 方向等距行走精灵表」，并公开全部配方，包括提示词和技能。两帖约 6,800 / 1,900 浏览；效果为官方展示。",
+      "source": "twitter",
+      "url": "https://x.com/Scenario_gg/status/2105242869841957175",
+      "published_at": "2026-09-30T18:26:28+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "精灵图",
+        "等距视角"
+      ],
+      "model_vendor": "Scenario",
+      "model_name": null,
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 34,
+      "importance": 52,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2105237416508317696/img/O-aXE-Zs58NvrWQO.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2105237416508317696/vid/avc1/1080x1440/1utO2XIhQqEWvos_.mp4",
+        "post_url": "https://x.com/Scenario_gg/status/2105242869841957175"
+      },
+      "kept_reason": "等距 8 方向行走一直是 AI 精灵图难点，厂商公开配方",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2609-dots",
       "title": "OpenAI 推出 dots：由 GPT-6 Astra 驱动的常驻智能体",
       "summary": "OpenAI 发布 dots，一款由 GPT-6 Astra 驱动、能力很强的常驻（always-on）智能体产品，定位为处理各类事务。帖子约 1450 万浏览。",
@@ -1974,6 +2007,34 @@
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
       "on_board": true,
+      "published_precision": "date"
+    },
+    {
+      "id": "bf-2d-gamefoundry-sprite-studio",
+      "title": "GameFoundry 上线 Sprite Studio 测试版：点选卡片做像素角色，底层是 Retro Diffusion 模型",
+      "summary": "GameFoundry 更新日志称 Sprite Studio 公开测试，免费档也能用：描述角色后，用可视化卡片选尺寸、视角、外观和调色板，再生成 4 方向动画精灵表并导出。按积分计费，快速草稿每个选项 20 积分、高质量 60 积分、动画精灵表 150 积分。像素画由 GameFoundry 托管运行的 Retro Diffusion 模型生成。",
+      "source": "news",
+      "url": "https://www.gamefoundry.net/updates/sprite-studio-beta",
+      "published_at": "2026-09-28T00:00:00+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "精灵图"
+      ],
+      "model_vendor": "GameFoundry / Retro Diffusion",
+      "model_name": "Sprite Studio（Retro Diffusion 模型）",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 22,
+      "importance": 44,
+      "media": null,
+      "kept_reason": "像素专用模型开始以底层供应商身份进入第三方游戏开发平台；来源为厂商更新页，热度低",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
       "published_precision": "date"
     },
     {
@@ -2978,6 +3039,39 @@
       "last_period": null
     },
     {
+      "id": "bf-2d-aseprite-ai-artist",
+      "title": "Aseprite AI Artist 开源：让编程智能体在打开的 Aseprite 里逐像素作画",
+      "summary": "Pebbly 开源 MCP 服务和配套技能（MIT），支持 Claude Code、Codex CLI、Gemini CLI、Cursor 等。智能体直接在你已经打开的 Aseprite 文档里建调色板、画轮廓、上阴影、分图层，做带标签的循环动画并导出；每一步都可 Ctrl+Z，每步之后会看图自检。另有画廊和基准站 pixeli.pebbly.space。GitHub 约 174 星。",
+      "source": "github",
+      "url": "https://github.com/with-pebbly/aseprite-ai-artist",
+      "published_at": "2026-09-08T17:41:33+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "像素美术",
+        "Agent 技能"
+      ],
+      "model_vendor": "Pebbly",
+      "model_name": "Aseprite AI Artist",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 34,
+      "importance": 52,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/with-pebbly/aseprite-ai-artist",
+        "media_url": "https://opengraph.githubassets.com/1/with-pebbly/aseprite-ai-artist",
+        "post_url": "https://github.com/with-pebbly/aseprite-ai-artist"
+      },
+      "kept_reason": "不同于「生成图片再修」，让智能体在专业像素软件里真实绘制、可逐步撤销；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2609-mistral-series-d",
       "title": "Mistral 完成 30 亿欧元 D 轮，欧洲科技公司史上最大股权融资",
       "summary": "Mistral AI 宣布完成 30 亿欧元 D 轮融资，称这是欧洲科技公司有史以来规模最大的股权融资，距公司成立仅三年。帖子约 185 万浏览。",
@@ -3656,6 +3750,38 @@
       }
     },
     {
+      "id": "bf-2d-rd-chat-tool",
+      "title": "Retro Diffusion 上线对话式创作工具，还能一次生成同主题道具表并自动切图",
+      "summary": "Astropulse 宣布 RD 推出自己的对话式创作工具（附演示视频）。8 月 27 日他又展示：一次生成同一主题的精灵表，自动切成带标签的单个素材，用于游戏背包；8 月 26 日的帖子称 RD 内置风格已超过 70 种。三条帖子分别约 7,600、3,500、9,500 浏览；功能描述均为作者自述。",
+      "source": "twitter",
+      "url": "https://x.com/RealAstropulse/status/2091209875116159259",
+      "published_at": "2026-08-23T01:04:21+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "像素美术"
+      ],
+      "model_vendor": "Retro Diffusion",
+      "model_name": "Retro Diffusion Chat",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 42,
+      "importance": 52,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2091209705251024896/img/UH8bZXlrLg0XwheX.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2091209705251024896/vid/avc1/1920x1080/uGiF0NxnheTmZ_vn.mp4",
+        "post_url": "https://x.com/RealAstropulse/status/2091209875116159259"
+      },
+      "kept_reason": "像素专用厂商的产品形态从单次生成走向对话式和批量道具表",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2608-mythos5-security",
       "title": "Claude Mythos 5 进入企业安全扫描：Claude Security 公测",
       "summary": "Anthropic 宣布 Claude Security 扫描改由其最强安全模型 Claude Mythos 5 驱动，面向所有 Claude Enterprise 客户公测，无需单独申请模型访问权限。",
@@ -3720,6 +3846,38 @@
       "last_period": null
     },
     {
+      "id": "bf-2d-openai-transparent-bg",
+      "title": "GPT-Image-2 API 开放透明背景预览：免抠图直出可复用素材",
+      "summary": "OpenAI Developers 宣布 API 中的 GPT-Image-2 以预览形式支持透明背景，官方举的用途是产品图、平面设计、网站样机和营销物料。中文圈转帖（如 MaxForAI，约 2.2 万浏览）把它解读为游戏精灵和 UI 素材可以省掉抠图这一步。官方帖约 147 万浏览、1,778 收藏。这是通用能力更新，并非专为游戏。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAIDevs/status/2090536933571330440",
+      "published_at": "2026-08-21T04:30:19+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "透明背景"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-Image-2",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 88,
+      "importance": 66,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HQMVJ0_WgAAoq7L.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2090536890466525184/vid/avc1/1280x720/yVo8c6WU4aChP9fG.mp4?tag=14",
+        "post_url": "https://x.com/OpenAIDevs/status/2090536933571330440"
+      },
+      "kept_reason": "透明背景是 AI 2D 游戏素材最常见的后处理环节，主流模型原生支持后影响整条管线；归入本门类属边界判断",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2608-generalist-gen15",
       "title": "Generalist GEN-1.5：首个可“单次物理示范”学会新灵巧任务的机器人模型",
       "summary": "Generalist AI 发布 GEN-1.5 及“物理提示”（physical prompting）：在 10 个不同任务上，仅凭一次示范、直接来自预训练即可达到 59% 平均成功率；少样本学习下（每任务 5 分钟数据、10 步梯度）提升到 83%。团队称这是已知首个能从一两次示范学会多种闭环灵巧任务的模型。8 月 25 日 TechCrunch 援引知情人士称，Generalist 在 6 月 4 亿美元 B 轮基础上追加近 2 亿美元（8VC 领投），估值达 30 亿美元。",
@@ -3750,6 +3908,39 @@
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
       "last_period": null
+    },
+    {
+      "id": "bf-2d-pixellab-map-editor",
+      "title": "PixelLab Map Editor：等距、俯视、横版、六边形、斜视瓦片集直接拼地图",
+      "summary": "PixelLab 官方展示 Map Editor：支持等距、俯视、横版、六边形和斜视五种瓦片集，可在编辑器里直接搭建完整场景、试不同布局（官方说法）。约 3,900 浏览、34 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/PixelLabAI/status/2090131304125808703",
+      "published_at": "2026-08-20T01:38:30+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "瓦片集",
+        "像素美术"
+      ],
+      "model_vendor": "PixelLab",
+      "model_name": "PixelLab Map Editor",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 30,
+      "importance": 50,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2090128384206467072/img/exO48DAlsk5KYkzk.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2090128384206467072/vid/avc1/3458x2160/vSWPnGUBQiTLOh2G.mp4",
+        "post_url": "https://x.com/PixelLabAI/status/2090131304125808703"
+      },
+      "kept_reason": "像素厂商把生成延伸到瓦片集和整张地图；官方帖热度偏低",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "id": "bf-2d-victor-h3-sprites",
@@ -4107,6 +4298,73 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "id": "bf-2d-sprite-maker-studio",
+      "title": "Sprite Studio（sprite-maker）开源：本地优先的 AI 2D 游戏美术工作台，带 Rust 骨骼绑定",
+      "summary": "JohnKinyanjui 开源桌面应用（MIT，Tauri + Svelte + Rust + SQLite），调用本机安装的 Codex、Cursor 或 Antigravity CLI。在对话里生成资产，先定角色母版，再参照身份和相邻已通过的帧逐帧生成 24–48 帧动画。Rig 编辑器可放关节点和胶囊骨骼，由原生 Rust 引擎确定性渲染，双骨 IK 防止走路滑步；最后按锚点规范对齐、测试循环，导出 PNG 精灵表和元数据。GitHub 约 425 星。",
+      "source": "github",
+      "url": "https://github.com/JohnKinyanjui/sprite-maker",
+      "published_at": "2026-08-10T04:25:50+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "精灵图",
+        "2D 骨骼动画"
+      ],
+      "model_vendor": "JohnKinyanjui（社区开源）",
+      "model_name": "Sprite Studio",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 62,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/JohnKinyanjui/sprite-maker",
+        "media_url": "https://opengraph.githubassets.com/1/JohnKinyanjui/sprite-maker",
+        "post_url": "https://github.com/JohnKinyanjui/sprite-maker"
+      },
+      "kept_reason": "把 AI 逐帧生成和确定性 2D 骨骼绑定放进同一工作台；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
+      "id": "bf-2d-midori-grok-imagine-pixel",
+      "title": "实测 Grok Imagine Image 2.0 能出「完美像素」：画上网格、指定色号、支持透明",
+      "summary": "日本 AI 创作者 Midori Tatsuta 实测：给点阵图画上网格后，Grok Imagine Image 2.0 生成的是真正对齐的像素画，指定颜色代码也能准确还原，还能输出透明背景。她称这是 ChatGPT 和 Nano Banana 都做不到的，像素素材制作可能要变天。约 8.7 万浏览、524 收藏；为个人实测，未见官方说明。",
+      "source": "twitter",
+      "url": "https://x.com/midori_tatsuta/status/2086363364939489356",
+      "published_at": "2026-08-09T16:06:03+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "像素美术",
+        "用户案例"
+      ],
+      "model_vendor": "xAI",
+      "model_name": "Grok Imagine Image 2.0",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 74,
+      "importance": 64,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HPQ_qaobcAAI-8x.png",
+        "media_url": "https://pbs.twimg.com/media/HPQ_qaobcAAI-8x.png",
+        "post_url": "https://x.com/midori_tatsuta/status/2086363364939489356"
+      },
+      "kept_reason": "通用生图模型在像素对齐、色号还原、透明背景上的高热实测",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2608-muse-code",
       "title": "Meta 推出终端编程智能体 Muse Code，搭载新模型 Muse Spark 1.2",
       "summary": "Muse Code（beta）面向长程软件工程，可在大型代码库中规划、实现并验证复杂的多文件改动，借助持久化子智能体更快更准地解决难题；底层为新模型 Muse Spark 1.2。",
@@ -4172,6 +4430,39 @@
       "published_precision": "date"
     },
     {
+      "id": "bf-2d-framebaker",
+      "title": "FrameBaker 开源：带 rembg 抠图和洋葱皮编辑的像素帧动画工作室",
+      "summary": "taotao7 开源像素帧动画编辑器（MIT，Bun + Elysia + React）：可从 GIF / MP4 抽帧，导入 PNG 或外部 CLI 生成的素材，内置 rembg 抠图，用 PixiJS 洋葱皮逐帧编辑并导出精灵表；还能生成并抠出参考锁定的角色部件表，再做骨骼绑定，直接在角色上编辑动作。GitHub 约 175 星。",
+      "source": "github",
+      "url": "https://github.com/taotao7/FrameBaker",
+      "published_at": "2026-08-05T18:12:55+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "像素美术",
+        "精灵图"
+      ],
+      "model_vendor": "taotao7（社区开源）",
+      "model_name": "FrameBaker",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 30,
+      "importance": 45,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/taotao7/FrameBaker",
+        "media_url": "https://opengraph.githubassets.com/1/taotao7/FrameBaker",
+        "post_url": "https://github.com/taotao7/FrameBaker"
+      },
+      "kept_reason": "AI 素材进来之后的抠图、修帧、导出编辑器；星数不高；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2608-minimax-h3",
       "title": "MiniMax 开源视频模型 H3 登顶 Video Arena 开源第一",
       "summary": "MiniMax 7 月底发布的开放权重音视频生成模型 H3（33B，统一文本、图像、视频与音频）在 Arena 视频榜文生视频与图生视频两项均列开源第一，比第二名开源模型 hunyuan-video-1.5 高约 280 分；图生视频得分 1476，仅比 Dreamina Seedance 2.0（1478）低 2 分，并列总榜第一。随后社区快速移植到 Mac、ComfyUI，antirez 还为其写了 Metal 推理实现。",
@@ -4235,6 +4526,38 @@
       "on_board": false,
       "last_period": null,
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "id": "bf-2d-question-false-seethrough-live2d",
+      "title": "AI 生成 2D 立绘 + See-through 拆层，直接做成 YMM4 可动立绘",
+      "summary": "做游戏开发、OSS 的 VTuber ぷらむらいす演示：用 AI 直接文生图（不是图生图）得到 2D 角色，再用 See-through 拆层，做成 YMM4（ゆっくりMovieMaker4）用的可动立绘，演示视频也交给 AI 完成。作者预测半年内用 AI 生图套 Live2D / VRM 的人会暴增，Live2D 自动绑骨和 3D 贴图自动生成技术出现后，对画师的依赖会减少。约 3.4 万浏览、320 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/question_false/status/2083019989167358452",
+      "published_at": "2026-07-31T10:40:40+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "Live2D",
+        "立绘"
+      ],
+      "model_vendor": "社区开发者",
+      "model_name": "See-through",
+      "license_type": null,
+      "card_type": "showcase",
+      "heat": 58,
+      "importance": 56,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2083018392622317569/img/u_ciFCrH0YBRM1Ly.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2083018392622317569/vid/avc1/1920x1080/Few6f2hJw-1yhTZV.mp4",
+        "post_url": "https://x.com/question_false/status/2083019989167358452"
+      },
+      "kept_reason": "AI 立绘到可动 2D 角色的日文社区实践，补充 4 月 Stretchy Studio 一线",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "id": "bf-2607-gpt56-price-cut",
@@ -4365,6 +4688,39 @@
       "on_board": false,
       "last_period": null,
       "storyline": "可交互世界模型"
+    },
+    {
+      "id": "bf-2d-rd-neural-pixel-fixer",
+      "title": "Retro Diffusion 完整版神经像素修复模型上线：对齐网格之外，还修轮廓、细节和配色",
+      "summary": "Astropulse 宣布 RD 完整版神经网络像素修复器上线，仍可免费使用。按作者说法，它不只把 AI「像素风」图转成对齐网格的真像素画，还会修复轮廓退化、补细节、改善配色。7 月 15 日他先公开了含 43 种失真类型的基准仓库，7 月 18 日上线「基本完成」的 AI 降采样模型；这一版与 7 月中旬开源的非模型修复工具是两回事。约 2.3 万浏览、312 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/RealAstropulse/status/2081791863833457059",
+      "published_at": "2026-07-28T01:20:32+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "像素美术"
+      ],
+      "model_vendor": "Retro Diffusion",
+      "model_name": "RD Neural Pixel Art Fixer",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 64,
+      "importance": 70,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2081791581732900864/img/-XeXO8yjAvxiKLia.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2081791581732900864/vid/avc1/1920x1080/-76FBI-bUKNzKe27.mp4",
+        "post_url": "https://x.com/RealAstropulse/status/2081791863833457059"
+      },
+      "kept_reason": "像素修复从规则工具升级到神经网络模型，是 AI 像素图进生产前的关键一步",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
     },
     {
       "id": "bf-2607-opus5",
@@ -4527,6 +4883,39 @@
       "on_board": false,
       "last_period": null,
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "id": "bf-2d-enya-autosprite-famicom",
+      "title": "实测 AutoSprite 做 FC 风像素角色：「每个动作都像换了个人」",
+      "summary": "独立游戏开发者えにゃ应网友要求，用 AutoSprite 测试红白机风格的强像素角色，结论是「相当难」，不同动作之间角色会走样。她认为 AI 总会「好心」补上平滑渐变和多余细节，在有限色数和分辨率下保持像素级的复古感，以现在的规格还很难做到。约 1.5 万浏览、67 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/enya_orc/status/2079091158358294992",
+      "published_at": "2026-07-20T14:28:54+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "精灵图",
+        "用户案例"
+      ],
+      "model_vendor": "AutoSprite",
+      "model_name": "AutoSprite",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 46,
+      "importance": 50,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2079091082269458432/img/4S8ESxuQ1eiM8OD2.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2079091082269458432/vid/avc1/1080x2400/6aH99rFgtw6L6Qcw.mp4",
+        "post_url": "https://x.com/enya_orc/status/2079091158358294992"
+      },
+      "kept_reason": "开发者一手实测给出的反面证据，可对照 5 月 AutoSprite 走红帖",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "id": "bf-2607-qwen38-max-preview",
@@ -5080,6 +5469,39 @@
       }
     },
     {
+      "id": "bf-2d-wombat2d",
+      "title": "日本田村技术研究所上线 wombat2D：专修 AI 生成像素画的点阵编辑器",
+      "summary": "据 gamebiz 报道，田村技術研究所 7 月 8 日推出网页版点阵制作辅助工具 wombat2D。核心功能 Pixel Refine 把 AI 生成的像素风图片修成规整像素画，处理分辨率不符、轮廓紊乱、抗锯齿发虚、多余颜色和点不齐；另有精灵表整理导出、合色和减色。基础免费，专业版每月 1 美元；后续计划加入更强的像素和色彩修正、动画制作，以及瓦片集无缝化支持。gamebiz 推文约 4.5 万浏览、331 收藏。",
+      "source": "news",
+      "url": "https://gamebiz.jp/news/429116",
+      "published_at": "2026-07-08T14:03:00+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "产品"
+      ],
+      "model_vendor": "田村技術研究所",
+      "model_name": "wombat2D",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 64,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HMrxGFJakAAVSys.jpg",
+        "media_url": "https://pbs.twimg.com/media/HMrxGFJakAAVSys.jpg",
+        "post_url": "https://x.com/gamebiznews/status/2074735985091350828"
+      },
+      "kept_reason": "日本公司专门为「AI 像素图转可用素材」做的商用工具，日本游戏媒体报道",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
       "id": "bf-2607-muse-image-video",
       "title": "Meta 超级智能实验室发布 Muse Image，预览 Muse Video",
       "summary": "Meta Superintelligence Labs 首批媒体生成模型：Muse Image 以智能体方式生成图像（调用工具、自我修正、可扩展测试时计算），支持多参考图合成与精准编辑，已上线 Meta AI、Instagram Stories 与 WhatsApp（部分国家）；同时预览原生带音频的 Muse Video。",
@@ -5175,6 +5597,38 @@
       "on_board": false,
       "last_period": null,
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "id": "bf-2d-sorceress-tileset-tool",
+      "title": "独立开发者在 Sorceress 套件加入 AI 瓦片集工具：自动切片、直接进游戏",
+      "summary": "DevDude（@oldgamesnob）在自己的 Sorceress 游戏开发套件里加入 AI 瓦片集工具，可把（大多数）AI 生成的瓦片集自动切片并整理成游戏可用素材；6 月 12 日他已先展示过瓦片集生成功能。约 5,600 浏览、67 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/oldgamesnob/status/2073817811466826057",
+      "published_at": "2026-07-06T01:14:30+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "瓦片集",
+        "产品"
+      ],
+      "model_vendor": "Sorceress（独立开发者）",
+      "model_name": "Sorceress Tileset Tool",
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 32,
+      "importance": 45,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2073815023055728640/img/_QVLzNM_tjQ1D-Fq.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2073815023055728640/vid/avc1/1920x1080/Rwc-DVW0i2WJbfi2.mp4",
+        "post_url": "https://x.com/oldgamesnob/status/2073817811466826057"
+      },
+      "kept_reason": "针对「AI 瓦片集无法直接用」这一痛点的切片工具；热度偏低",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "id": "bf-2607-colibri",
@@ -5559,6 +6013,73 @@
       "last_period": null
     },
     {
+      "id": "bf-2d-2dimg2motion",
+      "title": "2dimg2motion 开源：给智能体用的 2D 游戏动画技能，静态图转透明序列帧",
+      "summary": "WU-HAOTIAN34 开源 Codex / Claude Code 技能（MIT，中英文档）：输入一张角色、怪物、武器、载具或道具图，先锁定身份，再让模型重绘整套关键姿势和中间帧，随后抠背景、统一画布和脚底基线、打包并校验，输出能进 Godot / Unity / Cocos 的透明动作序列和精灵表。作者强调它不是让图片局部变形的「动起来」滤镜，而是整角色关键帧重绘。GitHub 约 220 星。",
+      "source": "github",
+      "url": "https://github.com/WU-HAOTIAN34/2dimg2motion",
+      "published_at": "2026-06-23T18:09:38+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "精灵图",
+        "Agent 技能"
+      ],
+      "model_vendor": "WU-HAOTIAN34（社区开源）",
+      "model_name": "2dimg2motion.skill",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 40,
+      "importance": 60,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/WU-HAOTIAN34/2dimg2motion",
+        "media_url": "https://opengraph.githubassets.com/1/WU-HAOTIAN34/2dimg2motion",
+        "post_url": "https://github.com/WU-HAOTIAN34/2dimg2motion"
+      },
+      "kept_reason": "中文作者的智能体动画技能，把身份锁定、肢体拓扑约束和精灵表交付写成可执行流程；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
+      "id": "bf-2d-image-cockpit",
+      "title": "Image Cockpit 开源：在研 Steam 像素游戏开发者的 Codex 生图工作台",
+      "summary": "dreiachse-cyber 开源本地工作台（MIT，TypeScript / React / Vite），用来生成像素画，再把选中的素材做成动画帧和精灵表。它本身不调用 OpenAI API，而是写入本地任务，交给本机安装的 Codex（imagegen）执行后取回结果。维护者同时在开发 Steam 像素游戏《DemonBlade Pixel: Hyakki Senkou》。GitHub 约 289 星。",
+      "source": "github",
+      "url": "https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows",
+      "published_at": "2026-06-23T09:23:39+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "像素美术",
+        "工作流"
+      ],
+      "model_vendor": "dreiachse-cyber（社区开源）",
+      "model_name": "Image Cockpit",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 34,
+      "importance": 44,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/dreiachse-cyber/image-cockpit-for-codex-workflows",
+        "media_url": "https://opengraph.githubassets.com/1/dreiachse-cyber/image-cockpit-for-codex-workflows",
+        "post_url": "https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows"
+      },
+      "kept_reason": "来自实际在研游戏的生产工具；热度一般；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -5752,6 +6273,38 @@
       "last_period": null
     },
     {
+      "id": "bf-2d-google-infinite-scaler",
+      "title": "Google 公开 I/O 小游戏《Infinite Scaler》做法：Nano Banana 把玩家提示词变成精灵表",
+      "summary": "Google 官方帖和博客介绍 I/O 预热环节的玩家共创游戏 Infinite Scaler。玩家输入提示词和参考图，经 Gemini API 润色后交给 Nano Banana，生成统一模板、绿幕背景的精灵表，方便抠图。前景元素再送回 Nano Banana 生成法线、粗糙度和自发光贴图，推断深度后贴到 WebGL 里的「纸箱」几何体上，叠成一座无限高塔。原型用 AI Studio，开发用 Antigravity，配乐用 Lyria 3。官方帖约 11.3 万浏览、314 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/Google/status/2067255276307132905",
+      "published_at": "2026-06-17T22:37:20+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "精灵图"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Nano Banana",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 72,
+      "importance": 64,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2067255225715404800/img/uT0YlyHEnbaJhy3p.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2067255225715404800/vid/avc1/1920x1080/DyTRQp6Chmcbzcnc.mp4",
+        "post_url": "https://x.com/Google/status/2067255276307132905"
+      },
+      "kept_reason": "大厂公开把生图模型实时生成精灵表接进可玩游戏的完整做法（细节见 blog.google 的 I/O 2026 幕后文章）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -5908,6 +6461,40 @@
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
       "last_period": null
+    },
+    {
+      "id": "bf-2d-perfectpixel-studio",
+      "title": "PerfectPixel 开源：一句话出角色，再自动生成 100+ 动作、8 方向精灵表",
+      "summary": "gykim80 开源桌面应用 PerfectPixel（Wails + Go + React，MIT）：文字描述生成基础角色并自动抠背景，内置 100+ 动作预设。8 个方向里 5 个由 AI 生成、3 个水平镜像得到，README 称生成成本因此降低 37.5%。流程是「生成 → 抠图 → 抽帧 → 检查 → 纠正重生成」，最多循环 3 轮，并用共享调色板量化和像素网格对齐做像素化。一次导出精灵表、manifest.json、Aseprite 兼容 JSON、GIF/APNG 和单帧 PNG，后端可选 Gemini、OpenRouter、fal.ai、BytePlus。GitHub 约 583 星、94 fork。",
+      "source": "github",
+      "url": "https://github.com/gykim80/perfectpixel-studio",
+      "published_at": "2026-06-14T12:23:45+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "精灵图",
+        "像素美术"
+      ],
+      "model_vendor": "gykim80（社区开源）",
+      "model_name": "PerfectPixel",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 60,
+      "importance": 68,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/gykim80/perfectpixel-studio",
+        "media_url": "https://opengraph.githubassets.com/1/gykim80/perfectpixel-studio",
+        "post_url": "https://github.com/gykim80/perfectpixel-studio"
+      },
+      "kept_reason": "把「AI 负责画、确定性后处理保证帧数、一致性和透明」做成完整工具；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
     },
     {
       "id": "bf-2606-fable-export-ban",
@@ -6153,6 +6740,38 @@
       "on_board": false,
       "last_period": null,
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "id": "bf-2d-heroza-codex-2d-agent",
+      "title": "30 分钟搭出无界面 2D 动画智能体：不用视频模型，Codex 直出精灵表",
+      "summary": "Heroza Zhang 演示：在 Codex 里上传一张图并发提示，调用自建智能体生成可直接进引擎的 2D 精灵表，并直接用精灵表实时预览动画；全程不用视频生成模型。作者称这也许能让他完全跳过手工 Spine 流程。约 1.0 万浏览、206 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/HerozaZhan73432/status/2064115665116774696",
+      "published_at": "2026-06-09T06:41:38+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "精灵图",
+        "Agent 技能"
+      ],
+      "model_vendor": "社区开发者",
+      "model_name": "Codex + 自建智能体",
+      "license_type": null,
+      "card_type": "showcase",
+      "heat": 44,
+      "importance": 50,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2064113586189078528/img/stTuDac2RyEoShQQ.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2064113586189078528/vid/avc1/1600x1080/fpCQiZWntIcflihH.mp4",
+        "post_url": "https://x.com/HerozaZhan73432/status/2064115665116774696"
+      },
+      "kept_reason": "代表「编程智能体直接产出精灵表、替代 Spine 手工流程」的实践方向，收藏率高",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "id": "bf-2606-wwdc-siri",
@@ -6481,6 +7100,39 @@
       "last_period": null
     },
     {
+      "id": "bf-2d-chongdashu-steampunk",
+      "title": "蒸汽朋克平台跳跃游戏全流程：Grok Imagine 出精灵表，Images 2.0 出 UI",
+      "summary": "Chong-U（@chongdashu）发布 vibe coding 蒸汽朋克平台跳跃游戏的完整演示：精灵、动画、玩法、UI、音效和音乐都用 AI 制作；重点讲自建的游戏开发小工具、用 Grok Imagine 生成精灵表、用 Images 2.0 生成游戏 UI，链接和提示词放在回复里。约 9,100 浏览、115 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/chongdashu/status/2057811104298917922",
+      "published_at": "2026-05-22T21:09:34+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "精灵图",
+        "游戏 UI",
+        "工作流"
+      ],
+      "model_vendor": "xAI / OpenAI",
+      "model_name": "Grok Imagine + GPT Image 2",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 42,
+      "importance": 50,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2057805827218571264/img/109AZwBdrS4SAZFB.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2057805827218571264/vid/avc1/1920x1080/mF7a5rGxSftOj3QF.mp4",
+        "post_url": "https://x.com/chongdashu/status/2057811104298917922"
+      },
+      "kept_reason": "同一作者 4 月的 GPT Images 2.0 精灵图方法之后，把视频模型做精灵表、UI 生成串进完整小游戏",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2605-qwen37-max",
       "title": "阿里发布旗舰 Qwen3.7-Max：为智能体时代打造",
       "summary": "通义千问推出最新旗舰 Qwen3.7-Max，定位“智能体时代”的通用底座，强调端到端编程智能体（前端原型、多文件重构、真实调试）和办公生产力助手能力。此前 Qwen3.7-Max-Preview 在 Arena 文本榜列总榜第 13。",
@@ -6676,6 +7328,38 @@
       "storyline": "AI 3D 资产生成"
     },
     {
+      "id": "bf-2d-autosprite-jp",
+      "title": "AutoSprite 在日本独立开发圈走红：一张角色图生成行走、攻击动画",
+      "summary": "生成 AI 博主ハカセ アイ介绍 AutoSprite：上传一张角色图，自动生成行走、攻击等动画，可导出精灵表或图集直接进 Unity / Godot，不需要绑骨知识；帖子称 30 秒出动画。约 1.35 万浏览、208 收藏。7 月有独立开发者实测它做 FC 风像素角色，结论是各动作间角色走样（见另卡）。",
+      "source": "twitter",
+      "url": "https://x.com/ai_hakase_/status/2056556951329227088",
+      "published_at": "2026-05-19T10:06:00+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "精灵图",
+        "闭源模型"
+      ],
+      "model_vendor": "AutoSprite",
+      "model_name": "AutoSprite",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 48,
+      "importance": 50,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/ext_tw_video_thumb/2055874275534639105/pu/img/Zf6h5goKn8ugtQoC.jpg",
+        "media_url": "https://video.twimg.com/ext_tw_video/2055874275534639105/pu/vid/avc1/1280x720/4OO-5Vu-xKh_Nt8R.mp4",
+        "post_url": "https://x.com/ai_hakase_/status/2056556951329227088"
+      },
+      "kept_reason": "日文社区对一图转精灵动画工具的典型传播帖；AutoSprite 官方帖互动低，故用社区帖",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
       "id": "bf-2605-odyssey-agora1",
       "title": "Odyssey 发布多智能体世界模型 Agora-1：多人实时进入同一模拟世界",
       "summary": "Odyssey 推出 Agora-1，多个参与者（人类或 AI）可实时在同一个世界模拟中互动，可玩研究预览模拟了一场多人《黄金眼》死亡竞赛；同日还发布首个实时多模态（画面+声音）世界模型 Starchild-1。",
@@ -6771,6 +7455,40 @@
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
       "last_period": null
+    },
+    {
+      "id": "bf-2d-givros-cozy-farm-tilesets",
+      "title": "一张参考图拆出 3 张技术瓦片集：GPT Image 2.0 搭起像素农场 RPG 原型",
+      "summary": "Givros 发起「每日挑战 #3」：用 GPT Image 2.0 生成 Cozy Island Farm 概念图，再拆成 3 张可复用的技术瓦片集，含地形、桥、房屋、作物、道具和动物。同日他发帖称瓦片集是多数 AI 游戏流程崩掉的地方；5 月 16 日发出完整指南：GPT-5.5 写视觉方向提示词，GPT Image 2.0 出参考图和瓦片集，Codex 重建资产并做成可玩原型。主帖约 7.1 万浏览、542 收藏；指南约 2.3 万浏览、438 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/givros/status/2054866607873135007",
+      "published_at": "2026-05-14T18:09:11+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "闭源模型",
+        "瓦片集",
+        "工作流"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT Image 2.0",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 74,
+      "importance": 70,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HIRaAFwWgAAd5jl.jpg",
+        "media_url": "https://pbs.twimg.com/media/HIRaAFwWgAAd5jl.jpg",
+        "post_url": "https://x.com/givros/status/2054866607873135007"
+      },
+      "kept_reason": "少有的把 AI 生图落到瓦片集这一环、并公开完整流程的高热帖",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "storyline": "AI 游戏 2D 资产管线"
     },
     {
       "id": "bf-2d-sprite-gen",
@@ -7052,6 +7770,72 @@
       "on_board": false,
       "last_period": null,
       "storyline": "算力、资本与政策格局"
+    },
+    {
+      "id": "bf-2d-character-animation-skill",
+      "title": "Character Animation Creator 技能：Codex 一次出 64×64 八方向像素角色精灵表",
+      "summary": "tachikomared 开源的 Codex / GPT Web Agent 技能：先锁定角色身份（种族、职业、轮廓、配色、武器、服装），生成 64×64 基准精灵，再出 8 方向 idle / walk / attack 动画条（24 行 × 6 列）；之后做调色板量化、边缘对齐、alpha 处理和图集校验，输出精灵表、联系表和 QA 报告。GitHub 约 340 星，仓库未声明许可证。",
+      "source": "github",
+      "url": "https://github.com/tachikomared/character-animation-creator-skill",
+      "published_at": "2026-05-04T06:52:19+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "像素美术",
+        "精灵图"
+      ],
+      "model_vendor": "tachikomared（社区开源）",
+      "model_name": "Character Animation Creator Skill",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 45,
+      "importance": 52,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/tachikomared/character-animation-creator-skill",
+        "media_url": "https://opengraph.githubassets.com/1/tachikomared/character-animation-creator-skill",
+        "post_url": "https://github.com/tachikomared/character-animation-creator-skill"
+      },
+      "kept_reason": "智能体技能形态的八方向像素角色产线；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
+      "id": "bf-2d-layrkits-sprite-pipeline",
+      "title": "Sprite-Pipeline：把 AI 生成的角色动作视频整理成可审阅的精灵条",
+      "summary": "LayrKits 开源 Game-Art Sprite Sheet Kit：输入 AI 生成的动作片段（README 举例 Kling）或其他动画视频，用 FFmpeg 抽帧，去掉浅色或纯色背景，按原视频画布打包进透明 256×256 格子，让各段动画的角色比例保持一致；输出横向精灵条、单帧、预览图和 JSON 校验报告，带浏览器查看器和给 AI 助手用的引导技能。GitHub 约 594 星，仓库未声明许可证。",
+      "source": "github",
+      "url": "https://github.com/LayrKits/Sprite-Pipeline",
+      "published_at": "2026-05-04T02:19:20+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "GitHub",
+        "精灵图",
+        "工作流"
+      ],
+      "model_vendor": "LayrKits（社区开源）",
+      "model_name": "Sprite-Pipeline",
+      "license_type": null,
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 55,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/LayrKits/Sprite-Pipeline",
+        "media_url": "https://opengraph.githubassets.com/1/LayrKits/Sprite-Pipeline",
+        "post_url": "https://github.com/LayrKits/Sprite-Pipeline"
+      },
+      "kept_reason": "把「视频模型出动作 → 精灵条」的后处理做成可复用工具包；published_at 为仓库创建时间，星数取自 GitHub 搜索 API（2026-10-08）",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "category": "角色动画",
@@ -7447,6 +8231,38 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
+    },
+    {
+      "id": "bf-2d-startracker-game-ui",
+      "title": "画图草稿 + GPT Image 2 + Cursor：从布局到代码实现游戏 UI",
+      "summary": "Startracker 发帖演示游戏 UI 全流程：先在 Windows 画图里粗画布局，用 GPT Image 2 生成 UI 设计稿，再交给 Cursor（Opus / Composer）切图并写成可用界面；提示词放在评论区。约 7,800 浏览、116 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/startracker/status/2048469779426791479",
+      "published_at": "2026-04-27T02:30:28+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "游戏 UI",
+        "工作流"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT Image 2",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 40,
+      "importance": 48,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2048466879883436032/img/UTGDgsDAINIlTzIb.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2048466879883436032/vid/avc1/1920x1580/2N2tPefcPOZKcHEE.mp4",
+        "post_url": "https://x.com/startracker/status/2048469779426791479"
+      },
+      "kept_reason": "把生图模型用在游戏 UI 设计到实现这一段，收藏率高",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
       "last_period": null,
       "on_board": false,
       "backfilled": true
@@ -8640,6 +9456,33 @@
       "on_board": false,
       "last_period": null,
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "id": "bf-2d-rd-pixel-art-essay",
+      "title": "Retro Diffusion 作者长文：什么才算像素画，多数 AI 工具为什么画不好",
+      "summary": "Astropulse（自述做过 7 年职业像素画师）发 X 长文，把 AI 像素画的通病归为半透明、发光、模糊、噪点和网格错位；降采样、减色（他开源的 Pixel Detector、Palettize）或 Hugo Duprez 的 Pixel Snapper 只能缓解。他认为 Nano Banana 已经很接近，但对齐和可控性不够，也做不了动画；视频模型天生追求平滑运动，改做像素动画更难。RD 的做法是自训模型加专用处理管线（作者自述）。约 6.0 万浏览、252 收藏。",
+      "source": "twitter",
+      "url": "https://x.com/RealAstropulse/status/2039341997639565586",
+      "published_at": "2026-04-01T21:59:56+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "研究"
+      ],
+      "model_vendor": "Retro Diffusion",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "heat": 68,
+      "importance": 62,
+      "media": null,
+      "kept_reason": "像素画厂商作者系统讲清「看起来像像素」和「能当游戏素材」的差距，后续多条修复工具都在回应这些问题；X 长文无可用媒体",
+      "period": "archive",
+      "category": "AI 2D 游戏美术",
+      "first_seen_at": "2026-10-08T15:08:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true
     },
     {
       "category": "角色动画",
