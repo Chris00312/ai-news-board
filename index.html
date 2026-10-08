@@ -406,6 +406,7 @@ function weekStart(d){return d-((new Date(d*DAY_MS).getUTCDay()+6)%7);}
 function boardBadge(item){
   if(item.on_board){const p=item.last_period||item.period;
     return `<span class="badge ${escapeAttr(p||'')}">在榜·${PERIOD_SHORT[p]||escapeHtml(p||'?')}</span>`;}
+  if((item.last_period||item.period)==='archive') return '';
   return `<span class="badge off">已下榜</span>`;
 }
 
