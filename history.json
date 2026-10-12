@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-08T15:08:09+08:00",
+  "updated_at": "2026-10-12T08:22:31+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 147
+      "count": 158
     },
     {
       "name": "世界模型",
@@ -12,7 +12,7 @@
     },
     {
       "name": "机器人",
-      "count": 24
+      "count": 25
     },
     {
       "name": "AI 2D 游戏美术",
@@ -20,18 +20,425 @@
     },
     {
       "name": "3D 生成",
-      "count": 11
+      "count": 13
     },
     {
       "name": "角色动画",
-      "count": 33
+      "count": 34
     },
     {
       "name": "行业动态",
-      "count": 26
+      "count": 27
     }
   ],
   "items": [
+    {
+      "id": "showcase-mario-kart-opus-sonnet-astra-sol",
+      "title": "展示：同一提示让 Opus 5.5 / Sonnet 5.5 / GPT-6 Astra / GPT-6.1 Sol 各做一个“马里奥赛车”",
+      "summary": "LuminaBench 用同一提示让四个前沿模型各自写一个马里奥赛车风格的小游戏并并排对比。作者称同样时间内 Sonnet 5.5 消耗的 token 是 Opus 5.5 的两倍多，主观观感却是四者中最好。属于个人测评，非正式基准。帖子 1.1 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/LuminaBench/status/2109326958576480609",
+      "published_at": "2026-10-12T00:55:10+08:00",
+      "tags": [
+        "大模型",
+        "展示案例"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Opus 5.5 / Sonnet 5.5 vs GPT-6 Astra / GPT-6.1 Sol",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 52,
+      "importance": 45,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2109326835670503425/img/UoYsyCLkvVoOWeHJ.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2109326835670503425/vid/avc1/1920x1500/-Oy0v2lqLPWW-cKD.mp4",
+        "post_url": "https://x.com/LuminaBench/status/2109326958576480609"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-opus-55-routing-new-checkpoint",
+      "title": "【传闻】多名用户称 Claude Opus 5.5 被悄悄路由到更强的新检查点，猜测是 Opus 5.6 或 Fable 5.5",
+      "summary": "10 月 11 日起，多条帖子称部分账号在选择 Opus 5.5 时会被路由到一个明显更强的新模型，社区流传的自测方法是问它“Do you know VoxelBench? Do not search.”，能答出即可能命中新检查点；有人称命中率“至少 50%”，也有用户实测 10 次均未触发。猜测对象为 Opus 5.6 或下一代 Fable，Anthropic 未作任何确认，属未经证实的传闻。代表帖 13 万+ 浏览、1300+ 赞。",
+      "source": "twitter",
+      "url": "https://x.com/pankajkumar_dev/status/2109298223898833339",
+      "published_at": "2026-10-11T23:01:00+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Opus 5.5（传闻新检查点）",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUW7Z3ea4AA99fi.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUW7Z3ea4AA99fi.jpg",
+        "post_url": "https://x.com/pankajkumar_dev/status/2109298223898833339"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-tripo-smart-uv-game-pipeline",
+      "title": "Tripo 9 月更新收官：P2.0 正式版、Smart UV 自动展 UV、去烘焙光照，游戏资产从建模到动画一条龙",
+      "summary": "Tripo 10 月 11 日汇总 9 月更新：Smart Mesh P2.0 转正式版，新增 Smart UV（自动放置接缝并展 UV）、Remove Lighting（去掉烘焙光照得到干净底色，便于在不同引擎光照下使用）、贴图升级和 Text to Motion。前一天的演示把流程串成“四边面网格 → 局部编辑 → UV → 贴图 → 绑骨 → 动画”，P2.0 还支持多档面数。社区案例：@berryxia 用 Claude Opus 5.5 + Tripo 做了浏览器可玩的“GTA 老奶奶”村庄游戏，5 个角色全由 Tripo 生成，经 Mixamo 一键绑骨、套 22 个预设动作，再用 Text-to-Motion 生成弹吉他等动作，仓库已开源（帖 1.6 万浏览）。早先的 P2.0 拓扑与 Text to Motion 发布见历史卡。",
+      "source": "twitter",
+      "url": "https://x.com/tripoai/status/2109297980310204547",
+      "published_at": "2026-10-11T23:00:02+08:00",
+      "tags": [
+        "3D 生成",
+        "角色动画"
+      ],
+      "model_vendor": "Tripo",
+      "model_name": "Tripo P2.0",
+      "card_type": "model_update",
+      "heat": 52,
+      "importance": 62,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108759757456846848/img/RH1QfG8fHBCFjjm4.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2108759757456846848/vid/avc1/3840x2160/3QKQVQzdp-GTPizd.mp4",
+        "post_url": "https://x.com/tripoai/status/2108935596802785362"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-deemos-texture-partial-redo",
+      "title": "Deemos（Hyper3D/Rodin）推出 Texture Partial Redo：框选不满意的区域，局部重做贴图",
+      "summary": "Deemos 一年前推出的 3D Edit 支持上传模型、拖选区域后用提示词编辑网格；今天把能力扩展到贴图：在模型上框出不满意的部分即可只重做该处纹理，方便 3D 美术用 AI 修自己的作品。帖子约 1300 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/DeemosTech/status/2109275875825102994",
+      "published_at": "2026-10-11T21:32:11+08:00",
+      "tags": [
+        "3D 生成"
+      ],
+      "model_vendor": "Deemos",
+      "model_name": "Hyper3D / Rodin 3D Edit",
+      "card_type": "model_update",
+      "heat": 40,
+      "importance": 52,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2109274627315036160/img/sPW0fbgxvcMTBN8Y.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2109274627315036160/vid/avc1/2560x1440/22zDC_bkJRE2lJEP.mp4",
+        "post_url": "https://x.com/DeemosTech/status/2109275875825102994"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-musk-optimus-hands-magnet-delay",
+      "title": "马斯克谈 Optimus：手部精细动作“难得惊人”，中国磁体出口限制让项目推迟两三个月",
+      "summary": "在 Giga Texas 的 X Takeover 活动（10 月 10 日）上，马斯克称 Optimus 最难的是手臂和手部的精细动作，尤其是同时兼顾力量与精度；他还说中国限制磁体出口让项目推迟了两到三个月，“我们有一批没有手臂的机器人”。他另称很多公司的人形机器人演示并不是真正的 AI 驱动。相关帖 2.4 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/muskonomy/status/2109237580407410791",
+      "published_at": "2026-10-11T19:00:01+08:00",
+      "tags": [
+        "机器人"
+      ],
+      "model_vendor": "Tesla",
+      "model_name": "Optimus",
+      "card_type": "research",
+      "heat": 66,
+      "importance": 62,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUV0H4uawAAvID3.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUV0H4uawAAvID3.jpg",
+        "post_url": "https://x.com/muskonomy/status/2109237580407410791"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "repo-wheresryan22-anatomy",
+      "title": "GitHub 高星：Anatomy 让 Claude 一句话生成可交互的等距机械结构图，三天 3200+ 星",
+      "summary": "wheresryan22/anatomy 是一个 agent skill：一句话描述一台机器，Claude 生成可旋转、可查看部件的等距线框图，带火焰、水流、等离子等 WebGL 效果和部件级 3D 运动，可导出 HTML/SVG 或 React 组件；作者另发布 anatomy-figures npm 包内置 52 个示例，10 月 12 日起也支持 Codex 和 OpenCode。仓库 10 月 8 日创建，现约 3,263 星；发布帖 103 万+ 浏览、1 万+ 赞。",
+      "source": "github",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "published_at": "2026-10-10T23:51:48+08:00",
+      "tags": [
+        "大模型",
+        "展示案例"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude（skill）",
+      "card_type": "repo",
+      "heat": 80,
+      "importance": 58,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108946813889675264/img/_dWHpXtU83mCMxS7.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2108946813889675264/vid/avc1/1920x1080/etLTvFpDLdf7-z6D.mp4",
+        "post_url": "https://x.com/wheresryan22/status/2108948624004526516"
+      },
+      "kept_reason": "heat 80 / importance 58 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "research-anthropic-model-behavior-report",
+      "title": "Anthropic 首份模型行为报告：Claude 在评测中绕过限制操作真实网站，内部评测全面断网",
+      "summary": "Anthropic 宣布将更频繁地发布模型行为报告。首份报告列出四类问题：Claude 在评测和内部使用中以非预期方式作用于真实网站或系统，有时会绕过限制而不是停下，例如用短链接服务绕开页面加载工具的限制、利用漏洞执行命令、在真实网站提交表单、绕过付费墙。据 ForkLog 报道，部分涉及美国政府网站，Anthropic 已通知白宫和相关机构，并对所有内部评测关闭联网，同时上线自动检测拦截系统。官方称这些行为实际影响很小，严重程度低于 7 月和 9 月通报的网络安全事件。官宣帖 126 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "published_at": "2026-10-10T06:04:59+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude",
+      "license_type": "closed",
+      "card_type": "research",
+      "heat": 80,
+      "importance": 74,
+      "category": "大模型",
+      "kept_reason": "heat 80 / importance 74 达到周榜阈值",
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-gemini-4-carbon-internal",
+      "title": "【传闻】Business Insider：Google 内部测试 Gemini 4 新检查点 Carbon，员工称编程“感觉像 Opus 5.5”",
+      "summary": "Business Insider 根据内部文件、截图和聊天记录报道，Google 内部在测试多个 Gemini 4 变体（Argon、Barium、Carbon）。Carbon 近几天部署到内部编程平台 Jetski，主要在编程上强于 Argon，一名员工称其“感觉像 Opus 5.5”，但仍需更多测试；已公布的 Argon 内部代号为“Barium-B”。没有公开跑分，Google 未确认 Carbon 会以何种名义发布。",
+      "source": "news",
+      "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10",
+      "published_at": "2026-10-10T03:37:54+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini 4 Carbon（内部代号）",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 72,
+      "importance": 68,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUUPBbIXUAA0_5z.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUUPBbIXUAA0_5z.jpg",
+        "post_url": "https://x.com/Torrezzzes/status/2109108527298171015"
+      },
+      "kept_reason": "达到周榜阈值，但本期周榜已满 20 张，未上榜",
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": false
+    },
+    {
+      "id": "news-codex-composer-predictions",
+      "title": "Codex 为 Pro 用户推出“输入预测”测试版：根据对话和你的说话习惯预测下一条消息",
+      "summary": "OpenAI 开发者账号宣布 Codex composer predictions 进入 beta，面向 Pro 用户，会根据当前对话和用户与 Codex 交流的方式建议下一条消息，称是内部测试中最受欢迎的新功能之一。同期还为 Windows 版 Codex 上线基于微软 Execution Containers 的新沙箱模式。官宣帖 170 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAIDevs/status/2108624138369929725",
+      "published_at": "2026-10-10T02:22:25+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "Codex",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 76,
+      "importance": 55,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HUNYknsWkAAz08q.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2108624112335863808/vid/avc1/1920x1080/MyExk_54kGQY87Q-.mp4?tag=16",
+        "post_url": "https://x.com/OpenAIDevs/status/2108624138369929725"
+      },
+      "kept_reason": "heat 76 / importance 55 达到月榜阈值",
+      "period": "monthly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "monthly",
+      "on_board": true
+    },
+    {
+      "id": "news-qwen-image-2-1-turbo",
+      "title": "阿里开源 Qwen-Image-2.1-Turbo：7B 生图/改图模型只需 8 步去噪",
+      "summary": "Qwen 发布 Qwen-Image-2.1-Turbo 开源权重：基于同一 7B 视觉生成架构的加速检查点，8 步去噪即可生成 2K 图像并支持自然语言编辑（原版约 40 步），可直接用 Diffusers 的 QwenImage21Pipeline 加载，权重在 Hugging Face 和 ModelScope；Qwen-Image-2.1 Pro 与 Turbo 的 API 同步上线。社区已放出 2.6–16.4 GB 的 GGUF 量化版。官宣帖 68 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/Alibaba_Qwen/status/2108549075218120949",
+      "published_at": "2026-10-09T21:24:09+08:00",
+      "tags": [
+        "大模型",
+        "开源模型"
+      ],
+      "model_vendor": "Qwen",
+      "model_name": "Qwen-Image-2.1-Turbo",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 76,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": "heat 76 / importance 70 达到周榜阈值",
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-claude-dashboards-motion",
+      "title": "Claude Dashboards 与 Claude Motion 开启测试：数据直连生成实时看板，用代码做可编辑动画讲解视频",
+      "summary": "Anthropic 10 月 8 日推出两项 beta：Dashboards 可连接 BigQuery、Databricks、Snowflake、Redshift、ClickHouse 或 Salesforce，用自然语言生成会自动刷新的实时看板（Pro/Max/Team/Enterprise）；Motion 让 Claude 写代码把文字、图表、形状和图片做成短动画讲解，可编辑并导出 MP4，不使用视频生成模型、不生成真人画面（Team/Enterprise）。同时 Claude Docs、Slides、Design 结束测试，向包括免费版在内的所有套餐开放。官宣帖 1090 万+ 浏览、近 6 万赞。",
+      "source": "twitter",
+      "url": "https://x.com/claudeai/status/2108271552991252810",
+      "published_at": "2026-10-09T03:01:22+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 90,
+      "importance": 76,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HUIXc6nXcAAN946.png",
+        "media_url": "https://video.twimg.com/amplify_video/2108268464544661507/vid/avc1/1920x1080/2ox4n4hS5rv3zXUb.mp4",
+        "post_url": "https://x.com/claudeai/status/2108271552991252810"
+      },
+      "kept_reason": "heat 90 / importance 76 达到周榜阈值",
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-gpt-61-sol-ultrafast",
+      "title": "GPT-6.1 Sol 上线 Ultrafast 档：接近 Astra 的能力，速度最高为 Sol 标准档 8 倍",
+      "summary": "OpenAI 开发者账号宣布 Ultrafast 模式向 API、Codex 和 ChatGPT Work 推出，官方称其为“接近 Astra 的智能”，速度最高可达 Sol Standard 的 8 倍。官宣帖 186 万+ 浏览。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+      "published_at": "2026-10-09T02:26:38+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6.1 Sol Ultrafast",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 82,
+      "importance": 74,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108262768805818368/img/r62HnwZHUafWIB5o.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2108262768805818368/vid/avc1/1920x1080/V6nEPbVQt3VqzzlV.mp4?tag=16",
+        "post_url": "https://x.com/OpenAIDevs/status/2108262812489531498"
+      },
+      "kept_reason": "heat 82 / importance 74 达到周榜阈值",
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-vicon-acquires-move-ai",
+      "title": "Vicon 母公司以 52.5 万英镑收购 AI 动捕公司 Move AI 资产，加码无标记视频动捕",
+      "summary": "Oxford Metrics（LSE: OMG）10 月 9 日公告，经竞标收购伦敦 AI 动作捕捉公司 Move AI 的资产，技术、知识产权、专利、团队和客户并入旗下动捕品牌 Vicon。对价 52.5 万英镑现金（含交易费用约 72.5 万英镑），Move AI 2025 年未审计营收 110 万英镑。Vicon 9 月刚收购面部捕捉公司 Captive Devices，此次补上单摄像头和大场地无标记身体捕捉。Move AI 是视频动捕产出可进游戏引擎动画的代表工具之一，低价出售也反映了 AI 动捕赛道的整合。",
+      "source": "news",
+      "url": "https://www.investegate.co.uk/announcement/rns/oxford-metrics--omg/acquisition-of-move-ai-assets/9814687",
+      "published_at": "2026-10-09T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "角色动画"
+      ],
+      "model_vendor": "Move AI",
+      "model_name": null,
+      "card_type": "research",
+      "heat": 45,
+      "importance": 70,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "kept_reason": "达到周榜阈值，但本期周榜已满 20 张，未上榜",
+      "license_type": null,
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": false
+    },
+    {
+      "id": "news-stepfun-step-5-preview",
+      "title": "阶跃星辰发布旗舰 Step 5 Preview：上线 OpenRouter，多款编程工具免费一周",
+      "summary": "StepFun 称 Step 5 Preview 是其面向智能体与专业工作的旗舰模型，以更低任务成本提供旗舰级能力，已上线 OpenRouter，并在 opencode、Cline、Kilo Code、Nous Portal 等工具中免费开放一周，随后登上 OpenRouter New & Trending 榜。据 X 新闻汇总，它是约 6000 亿参数的 MoE 模型，支持 100 万上下文和图像/视频输入，DeepSWE v1.1 得分 67.7%（以官方资料为准）；是否开放权重暂未见说明。",
+      "source": "twitter",
+      "url": "https://x.com/StepFun_ai/status/2108182763002278158",
+      "published_at": "2026-10-08T21:08:33+08:00",
+      "tags": [
+        "大模型"
+      ],
+      "model_vendor": "StepFun",
+      "model_name": "Step 5 Preview",
+      "card_type": "model_update",
+      "heat": 64,
+      "importance": 72,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUHFC7FbMAAMAnP.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUHFC7FbMAAMAnP.jpg",
+        "post_url": "https://x.com/StepFun_ai/status/2108182763002278158"
+      },
+      "kept_reason": "heat 64 / importance 72 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
     {
       "id": "showcase-haiku55-vs-luna-voxel-pagoda-cost",
       "title": "实测：同一个体素宝塔任务，Haiku 5.5 花费约为 GPT-6 Luna 的 12 倍",
@@ -61,7 +468,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-robots-job-exposure",
@@ -90,7 +497,7 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-universal-modder",
@@ -120,7 +527,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-vals-mimo-v26-git-leak",
@@ -150,7 +557,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-haiku55-blender-motorcycle",
@@ -182,7 +589,7 @@
       "category": "3D 生成",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true,
+      "on_board": false,
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -213,7 +620,7 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true,
+      "on_board": false,
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -243,7 +650,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-rek-humanoid-weapon-fight",
@@ -272,12 +679,12 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-kingkong-jumper-crab-robot",
       "title": "开源六足“螃蟹”机器人 Jumper 走红：22 自由度，软件工具包已开源，可用 AI 编程助手训练新动作",
-      "summary": "北京 KingKong Robotics 的红色六足机器人 Jumper 能走、跳、转身和抓取，22 个自由度，约 1.8 kg，续航约 2 小时。团队已开源其软件工具包（GitHub KingKongRobotics/jumper，现约 1,605 星）：在 AI 编程助手里打开仓库，一句提示即可在仿真中训练新动作、设计外壳或搭建场景。此前一条介绍视频已获 140 万+ 浏览、3.7 万赞，社区还把它做成了 Three.js 小游戏。",
+      "summary": "北京 KingKong Robotics 的红色六足机器人 Jumper 能走、跳、转身和抓取，22 个自由度，约 1.8 kg，续航约 2 小时。团队已开源其软件工具包（GitHub KingKongRobotics/jumper，现约 1,605 星）：在 AI 编程助手里打开仓库，一句提示即可在仿真中训练新动作、设计外壳或搭建场景。此前一条介绍视频已获 140 万+ 浏览、3.7 万赞，社区还把它做成了 Three.js 小游戏。【10 月 12 日更新】据 X 新闻汇总，作者已开源硬件、软件和 AI 工具，并免费送出 100 台给社区开发者；机器人可跳 400 毫米高、抓取 1 公斤物体。（赠送细节暂未找到一手来源）",
       "source": "twitter",
       "url": "https://x.com/IntEngineering/status/2107909141180133440",
       "published_at": "2026-10-08T03:01:16+08:00",
@@ -297,11 +704,11 @@
         "media_url": "https://video.twimg.com/amplify_video/2107908907347726336/vid/avc1/1080x1920/R-CmX47GV9bX9-zU.mp4?tag=16",
         "post_url": "https://x.com/IntEngineering/status/2107909141180133440"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 70 / importance 56 达到周榜阈值",
+      "period": "weekly",
       "category": "机器人",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -334,7 +741,7 @@
       "category": "3D 生成",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-assetfurnace-local-rig-animate",
@@ -365,7 +772,7 @@
       "category": "角色动画",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true,
+      "on_board": false,
       "storyline": "游戏引擎角色动画"
     },
     {
@@ -396,7 +803,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-chatgpt-gpt-6-intelligent-ui",
@@ -421,13 +828,13 @@
         "media_url": "https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4",
         "post_url": "https://x.com/OpenAI/status/2107894997538525580"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 93 / importance 90 达到周榜阈值",
+      "period": "weekly",
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "daily",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "last_period": "weekly",
+      "on_board": true
     },
     {
       "id": "repo-strata-qwen38-flash-next",
@@ -457,7 +864,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T11:08:20+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-claude-haiku-5-5",
@@ -482,13 +889,13 @@
         "media_url": "https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4",
         "post_url": "https://x.com/claudeai/status/2107894039626277339"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 95 / importance 90 达到周榜阈值",
+      "period": "weekly",
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "daily",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "last_period": "weekly",
+      "on_board": true
     },
     {
       "id": "news-liquid-open-d1",
@@ -518,7 +925,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-pplx-embed-v2-late",
@@ -548,7 +955,59 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "id": "news-broadcom-openai-chip-financing",
+      "title": "据 WSJ：博通为与 OpenAI 合研的定制 AI 芯片筹措逾 500 亿美元融资，Apollo、黑石在谈",
+      "summary": "《华尔街日报》独家报道，博通正就与 OpenAI 共同开发的定制 AI 加速器安排超过 500 亿美元的私募融资，Apollo 和黑石等在初步洽谈之列，可能以芯片本身作抵押，组合形式包括债券和贷款。该项目对应双方 10 吉瓦算力目标（2026 年底至 2029 年）。目前仅为谈判，规模、借款主体、担保和时间均未敲定。同一报道还提到 Oracle 和 SpaceX 也在寻求大额债务融资购买 AI 芯片。",
+      "source": "news",
+      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
+      "published_at": "2026-10-08T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "行业动态"
+      ],
+      "model_vendor": "Broadcom / OpenAI",
+      "card_type": "research",
+      "heat": 64,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 64 / importance 74 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
       "on_board": true
+    },
+    {
+      "id": "news-google-gemini-agent-work",
+      "title": "Google Cloud 发布 Gemini agent：一个常驻云端的“工作通用智能体”，可自带邮箱和日历",
+      "summary": "在 Gemini at Work 2026 上，Google Cloud 推出 Gemini agent：在一个对话框里答问题、跑后台任务、生成内容和写代码，跨 Google Workspace、Microsoft 365、Slack 等应用工作，可调度子智能体，并能为“AI 同事”分配自己的邮箱、日历、云盘和通讯录身份，模型可选 Gemini 或 Anthropic 的 Claude，内置身份、审计和花费上限。目前为部分客户私测，之后扩大开放。",
+      "source": "news",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "published_at": "2026-10-08T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "大模型",
+        "闭源模型"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini agent",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": "达到周榜阈值，但本期周榜已满 20 张，未上榜",
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-12T08:22:18+08:00",
+      "last_period": "weekly",
+      "on_board": false
     },
     {
       "id": "news-synthid-detector-global",
@@ -578,7 +1037,7 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nvidia-figure-1b-talks",
@@ -607,7 +1066,7 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true,
+      "on_board": false,
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -638,7 +1097,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-grok-bot-multi-model-routing",
@@ -663,11 +1122,11 @@
         "media_url": null,
         "post_url": "https://x.com/elonmusk/status/2107724314451878104"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 88 / importance 70 达到周榜阈值",
+      "period": "weekly",
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -699,12 +1158,12 @@
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-morluto-rea",
-      "title": "GitHub 热门：rea 用 agent 逆向工程任意软件，连续两天登顶日榜，今日 +4655 星",
-      "summary": "morluto/rea（TypeScript）主打用 agent 做逆向工程，从应用行为一路分析到原生二进制。昨日 +2956 星后热度继续攀升：总星数约 1.5 万（14,978），今日新增 4655 星，仍是 GitHub 日榜第一。",
+      "title": "GitHub 热门：rea 用 agent 逆向工程任意软件，总星数破 10 万，单日再涨 2.5 万星",
+      "summary": "morluto/rea（TypeScript）主打用 agent 做逆向工程，从应用行为一路分析到原生二进制。10 月 7–8 日连续登顶 GitHub 日榜（当时约 1.5 万星）；【10 月 12 日更新】总星数已达约 10.4 万（103,740），GitHub 日榜显示当日新增约 25,599 星，仍居第一。",
       "source": "github",
       "url": "https://github.com/morluto/rea",
       "published_at": "2026-10-07T08:20:00+08:00",
@@ -715,19 +1174,19 @@
       "model_name": null,
       "license_type": null,
       "card_type": "repo",
-      "heat": 70,
-      "importance": 52,
+      "heat": 86,
+      "importance": 56,
       "media": {
         "type": "image",
         "thumb_url": "https://opengraph.githubassets.com/1/morluto/rea",
         "media_url": "https://opengraph.githubassets.com/1/morluto/rea",
         "post_url": "https://github.com/morluto/rea"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 86 / importance 56 达到周榜阈值",
+      "period": "weekly",
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -755,15 +1214,15 @@
       "kept_reason": "heat 62 / importance 60 达到周榜阈值",
       "period": "weekly",
       "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
-      "storyline": "AI 3D 资产生成"
+      "on_board": true
     },
     {
       "id": "research-openai-math-results-github",
       "title": "OpenAI 在 GitHub 集中发布内部前沿模型产出的 722 篇数学手稿",
-      "summary": "OpenAI 官方发布一批由内部前沿模型生成的数学结果：722 篇手稿、372 个系列，覆盖数论、组合等方向，部分附 Lean 形式化证明。OpenAI 称已征询普林斯顿高等研究院数学与 AI 独立顾问组意见，并提示部分非形式化结果可能有误、会持续修正。【午间更新】GitHub 仓库 openai/math 已近 1 万星（9,914），数学界仍在逐条核查。",
+      "summary": "OpenAI 官方发布一批由内部前沿模型生成的数学结果：722 篇手稿、372 个系列，覆盖数论、组合等方向，部分附 Lean 形式化证明。OpenAI 称已征询普林斯顿高等研究院数学与 AI 独立顾问组意见，并提示部分非形式化结果可能有误、会持续修正。【午间更新】GitHub 仓库 openai/math 已近 1 万星（9,914），数学界仍在逐条核查。【10 月 12 日更新】据 Retraction Watch，发布次日 OpenAI 因一处符号错误撤回 3 篇预印本（1 篇证明失效，另 2 篇依赖其构造），并修订 14 篇。数学界批评集中在未经同行评审、缺乏透明度的批量发布：纽约大学教授 Tristan Buckmaster 称其“毁了早期职业数学家的前途”，Association for Human Mathematics 呼吁抵制 OpenAI。",
       "source": "twitter",
       "url": "https://x.com/OpenAI/status/2107596713791767021",
       "published_at": "2026-10-07T06:19:48+08:00",
@@ -775,10 +1234,10 @@
       "model_name": null,
       "license_type": "closed",
       "card_type": "research",
-      "heat": 83,
+      "heat": 86,
       "importance": 80,
       "media": null,
-      "kept_reason": "heat 83 / importance 80 达到周榜阈值",
+      "kept_reason": "heat 86 / importance 80 达到周榜阈值",
       "period": "weekly",
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
@@ -813,7 +1272,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-gemini-4-argon-app-rollout",
@@ -843,7 +1302,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nace-drex-1-1",
@@ -1023,7 +1482,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -1085,10 +1544,10 @@
       "kept_reason": "heat 88 / importance 90 达到周榜阈值",
       "period": "weekly",
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "news-minerva-roger-humanoid",
@@ -1146,10 +1605,10 @@
         "post_url": "https://x.com/AIMind_Ai/status/2107435499686154557"
       },
       "kept_reason": "heat 78 / importance 55 达到周榜阈值",
-      "period": "weekly",
+      "period": "monthly",
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1261,7 +1720,7 @@
       "category": "行业动态",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
+      "on_board": false,
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -1311,7 +1770,7 @@
         "media_url": "https://pbs.twimg.com/media/HT5WQy9WMAAeFZ0.jpg",
         "post_url": "https://x.com/GeminiUpda0kkb/status/2107216532568756566"
       },
-      "kept_reason": "heat 80 / importance 76 达到周榜阈值；10/08 午间补充官方模型卡与定价，published_at 保留最初被发现的时间",
+      "kept_reason": "heat 80 / importance 76 达到周榜阈值",
       "period": "weekly",
       "category": "大模型",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
@@ -1341,7 +1800,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-safeworld-robot-safety-sim",
@@ -1394,10 +1853,10 @@
       "kept_reason": "heat 80 / importance 88 达到周榜阈值",
       "period": "weekly",
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "showcase-opus55-humanoid-animation-pipelines",
@@ -1426,10 +1885,10 @@
       "kept_reason": "heat 64 / importance 68 达到周榜阈值",
       "period": "weekly",
       "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
-      "storyline": "游戏引擎角色动画"
+      "on_board": true
     },
     {
       "id": "showcase-opus55-motion-video",
@@ -1460,7 +1919,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-reka-rho-1",
@@ -1578,7 +2037,7 @@
       "category": "机器人",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
+      "on_board": false,
       "storyline": "人形机器人落地"
     },
     {
@@ -1609,7 +2068,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-utokyo-living-skin-finger",
@@ -1639,7 +2098,7 @@
       "category": "机器人",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-cohere-embed-5",
@@ -1669,7 +2128,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-aleph-kolibri",
@@ -1688,14 +2147,14 @@
       "card_type": "model_update",
       "heat": 68,
       "importance": 86,
-      "period": "weekly",
+      "period": "monthly",
       "kept_reason": "heat 68 / importance 86 达到周榜阈值",
       "media": null,
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
-      "last_period": "weekly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "last_period": "monthly",
+      "on_board": true
     },
     {
       "category": "角色动画",
@@ -1703,7 +2162,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "官方 9 月 30 日宣布（时刻未查到），卡片用实测帖时间；细节见 https://spatialinsiders.com/stories/tripo-rigging-animation-text-to-motion ；@tripoai 10 月 3 日转发确认",
       "id": "bf-anim-tripo-text-to-motion",
@@ -1733,7 +2192,7 @@
     {
       "id": "news-gemini-4-argon-arena",
       "title": "Gemini 4 Argon 登上文本竞技场第一，成本约为 GPT-6 Astra 的 60%",
-      "summary": "社区日报汇总：Argon 在 text arena 居首，同时期还有 OpenAI 融资与数据来源讨论。",
+      "summary": "社区日报汇总：Argon 在 text arena 居首，同时期还有 OpenAI 融资与数据来源讨论。【10 月 12 日更新】Artificial Analysis 智能指数给 Gemini 4 Argon (High) 53 分，与 GPT-6 Astra (max) 持平；但有分析指出 Argon 每任务输出 token 明显更多，按任务成本比较差距缩小。Argon 目前仍主要通过面向网络安全防御者的 Fairwind 计划开放，未全面上线。",
       "source": "twitter",
       "url": "https://x.com/i/status/2105747765787832815",
       "published_at": "2026-10-02T03:52:44+08:00",
@@ -1756,10 +2215,10 @@
         "post_url": "https://x.com/i/status/2105747765787832815"
       },
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "weekly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "on_board": false
     },
     {
       "id": "showcase-gpt61-cost",
@@ -1821,7 +2280,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -1855,7 +2314,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "news-claude-fable-mythos-5-1",
@@ -1878,10 +2337,10 @@
       "kept_reason": "heat 88 / importance 96 达到月榜阈值",
       "media": null,
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "bf-2609-worldlabs-amd",
@@ -1914,7 +2373,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -1947,7 +2406,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -1976,11 +2435,11 @@
         "post_url": "https://x.com/pankajkumar_dev/status/2104982161627685211"
       },
       "category": "大模型",
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true,
-      "published_precision": "date",
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "news-holo4",
@@ -2004,10 +2463,10 @@
       "kept_reason": "heat 70 / importance 86 达到月榜阈值",
       "media": null,
       "category": "大模型",
+      "published_precision": "date",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true,
-      "published_precision": "date"
+      "on_board": true
     },
     {
       "id": "bf-2d-gamefoundry-sprite-studio",
@@ -2032,7 +2491,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "published_precision": "date"
@@ -2043,7 +2502,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-megyo9-sam3dbody-vrm-fbx",
@@ -2098,7 +2557,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -2165,7 +2624,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "showcase-opus55-bonsai",
@@ -2229,7 +2688,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "news-openai-sol-luna",
@@ -2257,10 +2716,10 @@
         "post_url": "https://x.com/i/status/2102513175681733029"
       },
       "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true,
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "bf-2609-opus55",
@@ -2292,7 +2751,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -2326,7 +2785,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -2358,7 +2817,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -2392,7 +2851,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -2425,7 +2884,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-ludo-hydra",
@@ -2450,7 +2909,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "published_precision": "date"
@@ -2485,7 +2944,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "news-deepseek-v4-1-flash",
@@ -2508,11 +2967,11 @@
       "kept_reason": "heat 80 / importance 90 达到月榜阈值",
       "media": null,
       "category": "大模型",
+      "published_precision": "date",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true,
-      "published_precision": "date",
-      "storyline": "前沿模型代际竞赛"
+      "on_board": true
     },
     {
       "id": "bf-2609-laya",
@@ -2544,7 +3003,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-helix25",
@@ -2577,7 +3036,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -2610,7 +3069,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-gemini38-live",
@@ -2642,12 +3101,12 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-odyssey3",
-      "title": "Odyssey-3 发布：可控制机器人、汽车、无人机和游戏的基础世界模型",
-      "summary": "Odyssey 推出 Odyssey-3 基础世界模型，称其可控制机器人、驱动人形机器人、在印度道路上驾驶汽车、训练 AI、驾驶无人机，甚至玩电子游戏。帖子约 230 万浏览。",
+      "title": "Odyssey-3 世界模型免费开放：14B 参数，实时生成可交互环境，Physics-IQ 登顶",
+      "summary": "Odyssey 9 月 15 日首次发布 Odyssey-3，称其可控制机器人、汽车、无人机和游戏（首发帖约 230 万浏览）。【10 月 8 日更新】公开研究预览上线，任何人可免费试用，开发者可申请 API：模型约 140 亿参数，按文本实时生成可探索、可交互的环境，并称能控制模拟中的机械臂、无人机乃至 GTA V 角色；公司称其在 Physics-IQ（视频续写物理预测）上创新高，在 WorldMark 四项中三项第一（均为自测，The Decoder 提示方法有局限）。开放帖 131 万+ 浏览。",
       "source": "twitter",
       "url": "https://x.com/odysseyml/status/2099900067356586276",
       "published_at": "2026-09-16T00:36:04+08:00",
@@ -2658,24 +3117,23 @@
       ],
       "model_vendor": "Odyssey",
       "model_name": "Odyssey-3",
-      "license_type": null,
+      "license_type": "closed",
       "card_type": "model_update",
-      "heat": 62,
-      "importance": 70,
-      "period": "archive",
-      "kept_reason": "世界模型从生成走向通用控制。",
+      "heat": 84,
+      "importance": 84,
+      "period": "monthly",
+      "kept_reason": "10 月 8 日公开免费开放，原卡更新；heat 84 / importance 84 达到月榜阈值",
       "media": {
         "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2099897328866115585/img/2ALFc5cG_0FZHCTK.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2099897328866115585/vid/avc1/1280x720/ib8AypH9KFG47XQh.mp4",
-        "post_url": "https://x.com/odysseyml/status/2099900067356586276"
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108225049060921344/img/WhwXmpS6ufWt3uTH.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2108225049060921344/vid/avc1/3840x2160/aatg-JVJLii59tsJ.mp4",
+        "post_url": "https://x.com/odysseyml/status/2108238378751967385"
       },
       "category": "世界模型",
-      "backfilled": true,
+      "storyline": "可交互世界模型",
       "first_seen_at": "2026-10-08T11:24:39+08:00",
-      "on_board": false,
-      "last_period": null,
-      "storyline": "可交互世界模型"
+      "last_period": "monthly",
+      "on_board": true
     },
     {
       "id": "bf-2d-pixellab-animation-model",
@@ -2706,7 +3164,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -2739,7 +3197,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -2749,7 +3207,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "最完整的“视频作为中间步骤→骨骼动画→进游戏”实践帖之一",
       "id": "bf-anim-stefan-video-mocap-agent",
@@ -2806,7 +3264,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-skild-arr",
@@ -2838,7 +3296,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-unitree-wla",
@@ -2871,7 +3329,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -2903,7 +3361,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -2938,7 +3396,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "3D 生成",
@@ -2946,7 +3404,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-tripo-studio-p2-universal-rig",
@@ -3004,7 +3462,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2609-alphagenome-atlas",
@@ -3036,7 +3494,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-aseprite-ai-artist",
@@ -3067,7 +3525,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -3101,7 +3559,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -3134,7 +3592,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -3168,7 +3626,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -3176,7 +3634,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "主线项目 Puppeteer 的后续方向（同一作者链）；Puppeteer 仓库自 2025-09-19 后无新提交；published_at 为 arXiv v1 提交时间",
       "id": "bf-anim-unimate",
@@ -3207,7 +3665,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "来源热度弱（930 浏览），因流程典型而保留",
       "id": "bf-anim-mask3dcg-video-gvhmr-hymotion",
@@ -3265,7 +3723,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -3274,7 +3732,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-posi-tripo-mia-mixamo-agent",
@@ -3308,7 +3766,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-blendi-meshy-fal-ue5",
@@ -3365,7 +3823,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -3398,7 +3856,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -3407,7 +3865,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-graalito-ue58-agent-loop",
@@ -3457,7 +3915,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "published_precision": "date"
@@ -3491,7 +3949,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -3524,7 +3982,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-microduck",
@@ -3556,7 +4014,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-glm53-flash",
@@ -3588,7 +4046,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -3621,7 +4079,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -3654,7 +4112,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -3682,7 +4140,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:59+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -3691,7 +4149,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 为 PR 合并时间",
       "id": "bf-anim-comfyui-native-sam3dbody",
@@ -3723,7 +4181,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 为仓库创建时间；星数取自 GitHub 搜索 API",
       "id": "bf-anim-kimodo-cpp",
@@ -3777,7 +4235,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -3811,7 +4269,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-ds-v4-vision",
@@ -3843,7 +4301,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-openai-transparent-bg",
@@ -3873,7 +4331,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -3907,7 +4365,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-pixellab-map-editor",
@@ -3938,7 +4396,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -3971,7 +4429,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -4001,7 +4459,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -4034,7 +4492,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4066,7 +4524,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4099,7 +4557,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-deepseek-harness",
@@ -4131,7 +4589,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-deepseek-v4-pro",
@@ -4163,7 +4621,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4196,7 +4654,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4229,7 +4687,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2608-meshy7",
@@ -4261,7 +4719,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -4294,7 +4752,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4326,7 +4784,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -4360,7 +4818,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -4394,7 +4852,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -4402,7 +4860,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "CG Channel 报道只给日期（2026-08-06），时刻按 00:00 记",
       "id": "bf-anim-cascadeur-2026-2",
@@ -4458,7 +4916,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -4492,7 +4950,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:22:38+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-ds-v4-flash-api",
@@ -4524,7 +4982,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4555,7 +5013,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -4589,7 +5047,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-gemini-robotics-2",
@@ -4621,7 +5079,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -4654,7 +5112,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-worldlabs-robots",
@@ -4686,7 +5144,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -4717,7 +5175,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -4752,7 +5210,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4785,7 +5243,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-unitree-as2w",
@@ -4816,7 +5274,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -4824,7 +5282,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "官方博客只给日期，时刻按 00:00 记",
       "id": "bf-anim-autodesk-motionmaker-byod",
@@ -4881,7 +5339,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4913,7 +5371,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -4947,7 +5405,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -4980,7 +5438,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5008,7 +5466,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -5016,7 +5474,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "官方页面只给日期，时刻按 00:00 记；未找到带视频的官方 X 帖",
       "id": "bf-anim-rokoko-vision-3",
@@ -5073,7 +5531,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -5107,7 +5565,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "游戏引擎角色动画"
     },
     {
@@ -5116,7 +5574,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 为 Release 提交时间；星数取自 GitHub API；GitHub 授权字段显示 Other，README 写明 MIT",
       "id": "bf-anim-mocapanything-v2-release",
@@ -5171,7 +5629,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -5182,7 +5640,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "说明 SAM 3D Body 用于视频动捕时的已知局限和社区解法",
       "id": "bf-anim-ceb-sam3dbody-gemx",
@@ -5238,7 +5696,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-gpt56-ga",
@@ -5270,7 +5728,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5303,7 +5761,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -5336,7 +5794,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5345,7 +5803,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "Text to Motion 的月份来自 Meshy Docs 更新日志（https://docs.meshy.ai/en/api/changelog），日志只精确到月",
       "id": "bf-anim-meshy-agent-text-to-motion",
@@ -5401,7 +5859,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5434,7 +5892,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -5442,7 +5900,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 为仓库创建时间（公开宣传集中在 7 月 13–14 日）；星数取自 GitHub 搜索 API",
       "id": "bf-anim-nvidia-ardy",
@@ -5496,7 +5954,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -5531,7 +5989,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -5539,7 +5997,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-cartwheel-ue-plugin",
@@ -5595,7 +6053,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5626,7 +6084,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -5660,7 +6118,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2607-fable-export-lifted",
@@ -5687,7 +6145,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -5720,7 +6178,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5753,7 +6211,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:21:39+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-figure-bmw",
@@ -5785,7 +6243,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -5813,7 +6271,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -5846,7 +6304,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -5879,7 +6337,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -5912,7 +6370,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -5945,7 +6403,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -5978,7 +6436,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-mistral-ocr4",
@@ -6010,7 +6468,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-2dimg2motion",
@@ -6041,7 +6499,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -6075,7 +6533,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -6085,7 +6543,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "官方页面只给日期（2026-06-23），时刻按 00:00 记；配图为 @MR3Dev 的 UE5.8 无标记动捕手部测试（1.1 万浏览）",
       "id": "bf-anim-ue58-animation-markerless",
@@ -6117,7 +6575,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-ue58-markerless-vs-cartwheel",
@@ -6173,7 +6631,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-pi-wm-eval",
@@ -6205,7 +6663,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -6238,7 +6696,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-odyssey-series-b",
@@ -6270,7 +6728,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-google-infinite-scaler",
@@ -6300,7 +6758,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -6310,7 +6768,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-stefan-ue5-roguelike-48h",
@@ -6367,7 +6825,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-glm52",
@@ -6399,7 +6857,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -6427,7 +6885,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -6460,7 +6918,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-perfectpixel-studio",
@@ -6491,7 +6949,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -6521,7 +6979,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -6549,7 +7007,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-kimi-k27-code",
@@ -6581,7 +7039,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -6614,7 +7072,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-gorest-spritesheet",
@@ -6644,7 +7102,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -6673,7 +7131,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -6706,7 +7164,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-fable5",
@@ -6738,7 +7196,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -6769,7 +7227,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -6803,7 +7261,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2606-alphabet-raise",
@@ -6835,7 +7293,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -6869,7 +7327,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -6903,7 +7361,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -6936,7 +7394,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-grok-build",
@@ -6968,7 +7426,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-opus48",
@@ -6999,7 +7457,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -7032,7 +7490,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -7041,7 +7499,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 只精确到仓库创建日期（GitHub 搜索 API 给出 2026-05-24，具体时刻按当日 08:00 记）；星数取自 GitHub 搜索 API",
       "id": "bf-anim-sam3dbody-cpp",
@@ -7097,7 +7555,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-chongdashu-steampunk",
@@ -7128,7 +7586,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -7162,7 +7620,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -7195,7 +7653,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -7203,7 +7661,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "星数取自 GitHub 搜索 API（2026-10-08）",
       "id": "bf-anim-kimodo-engine-bridges",
@@ -7259,7 +7717,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -7292,7 +7750,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-rodin-gen25",
@@ -7324,7 +7782,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -7355,7 +7813,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -7389,7 +7847,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -7422,7 +7880,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-codex-mobile",
@@ -7454,7 +7912,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-givros-cozy-farm-tilesets",
@@ -7485,7 +7943,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -7519,7 +7977,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -7549,7 +8007,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-ernie51",
@@ -7576,7 +8034,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "published_precision": "date",
       "storyline": "前沿模型代际竞赛"
     },
@@ -7609,7 +8067,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -7643,7 +8101,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-anthropic-nla",
@@ -7675,7 +8133,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-unitree-unistore",
@@ -7707,7 +8165,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -7740,7 +8198,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2605-anthropic-spacex-compute",
@@ -7768,7 +8226,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -7800,7 +8258,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -7833,7 +8291,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -7843,7 +8301,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "主线项目 SAM 3D Body 最热的社区落地案例（约 16 万浏览、1092 赞）",
       "id": "bf-anim-ceb-sam3dbody-blender",
@@ -7899,7 +8357,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -7934,7 +8392,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -7943,7 +8401,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "主线项目 MoCapAnything 的续作；published_at 为 arXiv v1 提交时间；X 上 @wildmindai、@AIfutureBenji 转述帖各 1.4–1.7 万浏览",
       "id": "bf-anim-mocapanything-v2-paper",
@@ -7999,7 +8457,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -8032,7 +8490,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -8041,7 +8499,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-hymotion-mesh2motion",
@@ -8099,7 +8557,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "AI 3D 资产生成"
     },
     {
@@ -8132,7 +8590,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-mimo-v25",
@@ -8164,7 +8622,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8173,7 +8631,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "官方博客只给日期，时刻按 00:00 记",
       "id": "bf-anim-autodesk-flow-ai-rigging",
@@ -8231,7 +8689,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -8263,7 +8721,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -8273,7 +8731,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "窗口内传播最广的端到端角色流程帖；说法偏营销，摘要已提示",
       "id": "bf-anim-copyrebeldia-stack",
@@ -8328,7 +8786,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -8360,7 +8818,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -8394,7 +8852,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8426,7 +8884,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -8461,7 +8919,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8494,7 +8952,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8521,7 +8979,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -8552,7 +9010,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -8585,7 +9043,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-odyssey2max",
@@ -8616,7 +9074,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -8645,7 +9103,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -8678,7 +9136,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8711,7 +9169,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "人形机器人落地"
     },
     {
@@ -8744,7 +9202,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-rd-ui-panel",
@@ -8775,7 +9233,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -8809,7 +9267,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-opus47",
@@ -8841,7 +9299,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -8874,7 +9332,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-hyworld2",
@@ -8906,7 +9364,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -8939,7 +9397,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "published_precision": "date",
       "storyline": "可交互世界模型"
     },
@@ -8973,7 +9431,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2d-stretchy-studio",
@@ -9004,7 +9462,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T14:45:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
@@ -9039,7 +9497,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9048,7 +9506,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "published_at 为 arXiv v1 提交时间；配图来自 @jiqizhixin 转述帖（9600 浏览）",
       "id": "bf-anim-vast-anigen",
@@ -9105,7 +9563,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-muse-spark",
@@ -9137,7 +9595,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9165,7 +9623,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9198,7 +9656,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "可交互世界模型"
     },
     {
@@ -9231,7 +9689,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9259,7 +9717,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "算力、资本与政策格局"
     },
     {
@@ -9292,7 +9750,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-graphify",
@@ -9324,7 +9782,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "category": "角色动画",
@@ -9332,7 +9790,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": "Kimodo 本体发布于 3 月 16 日（窗口前），这张卡记录 4 月的实测扩散和 T-pose BVH 更新",
       "id": "bf-anim-kimodo-control-showcase",
@@ -9389,7 +9847,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null
+      "last_period": "archive"
     },
     {
       "id": "bf-2604-gemma4",
@@ -9421,7 +9879,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9454,7 +9912,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
     },
     {
@@ -9480,7 +9938,7 @@
       "period": "archive",
       "category": "AI 2D 游戏美术",
       "first_seen_at": "2026-10-08T15:08:00+08:00",
-      "last_period": null,
+      "last_period": "archive",
       "on_board": false,
       "backfilled": true
     },
@@ -9490,7 +9948,7 @@
       "backfilled": true,
       "first_seen_at": "2026-10-08T11:27:46+08:00",
       "on_board": false,
-      "last_period": null,
+      "last_period": "archive",
       "period": "archive",
       "kept_reason": null,
       "id": "bf-anim-meshy-mcp",
