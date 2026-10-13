@@ -487,6 +487,7 @@ function initHistory(data){
   H.items=items;
   // 门类：先按文件 categories 顺序，再补上条目里出现但未列出的
   const names=[]; const seen=new Set();
+  for(const n of ['大模型','世界模型','机器人','AI 2D 游戏美术','3D 生成','角色动画','行业动态','小众开发热帖']){seen.add(n);names.push(n);}
   for(const c of (data&&data.categories)||[]){const n=typeof c==='string'?c:c&&c.name; if(n&&!seen.has(n)){seen.add(n);names.push(n);}}
   const extra={}; for(const it of items) if(!seen.has(it.category)) extra[it.category]=(extra[it.category]||0)+1;
   Object.keys(extra).sort((a,b)=>extra[b]-extra[a]).forEach(n=>{seen.add(n);names.push(n);});
