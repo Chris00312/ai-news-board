@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-13T08:27:47+08:00",
+  "updated_at": "2026-10-13T16:50:00+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 166
+      "count": 170
     },
     {
       "name": "世界模型",
-      "count": 13
+      "count": 22
     },
     {
       "name": "机器人",
-      "count": 26
+      "count": 37
     },
     {
       "name": "AI 2D 游戏美术",
@@ -20,7 +20,7 @@
     },
     {
       "name": "3D 生成",
-      "count": 16
+      "count": 20
     },
     {
       "name": "角色动画",
@@ -29,6 +29,10 @@
     {
       "name": "行业动态",
       "count": 33
+    },
+    {
+      "name": "小众开发热帖",
+      "count": 45
     }
   ],
   "items": [
@@ -2590,6 +2594,74 @@
       "on_board": false
     },
     {
+      "model_vendor": "alchaincyf（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/alchaincyf/huashu-art-motion",
+        "media_url": "https://opengraph.githubassets.com/1/alchaincyf/huashu-art-motion",
+        "post_url": "https://github.com/alchaincyf/huashu-art-motion"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-huashu-art-motion",
+      "title": "花叔 art-motion skill：35 种艺术风格，用代码让画动起来",
+      "summary": "花叔（alchaincyf）开源艺术动画 skill，提供 35 种艺术风格和 9 种解说语法，用代码让画面动起来。 仓库 2026-10-06 创建，截至 10 月 13 日 GitHub 显示约 3,718 星、412 fork。",
+      "source": "github",
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "published_at": "2026-10-06T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "动画",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 42,
+      "importance": 42,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "zhongerxin（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/zhongerxin/iPhone-use",
+        "media_url": "https://opengraph.githubassets.com/1/zhongerxin/iPhone-use",
+        "post_url": "https://github.com/zhongerxin/iPhone-use"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-iphone-use",
+      "title": "iPhone-use：让 Codex 通过 USB 操作真实 iPhone",
+      "summary": "开发者 zhongerxin 开源 iPhone-use，让 Codex 经 USB 操作真机 iPhone：引导安装、App 自动化、实时屏幕和截图回退。 仓库 2026-10-06 创建，截至 10 月 13 日 GitHub 显示约 3,457 星、347 fork。",
+      "source": "github",
+      "url": "https://github.com/zhongerxin/iPhone-use",
+      "published_at": "2026-10-06T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "手机自动化",
+        "Codex"
+      ],
+      "card_type": "repo",
+      "heat": 42,
+      "importance": 44,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "news-reka-rho-1",
       "title": "Reka AI 发布 Rho-1 研究预览：单个 19B 模型同时处理文本、图像、视频与机器人动作",
       "summary": "Rho-1 在一个网络内读写文本、图像、视频并输出机器人动作，不调工具、不接第二个模型，以共享 KV cache 作为统一世界状态。320 张 H100 训练约三个月；目前仅研究预览，未开放公众使用。",
@@ -2889,6 +2961,63 @@
       "on_board": false
     },
     {
+      "model_vendor": "Boston Dynamics",
+      "model_name": "Atlas",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-atlas-new-hands",
+      "title": "波士顿动力为 Atlas 发布新灵巧手：13 自由度直驱，为仿真到现实强化学习设计",
+      "summary": "波士顿动力公布 Atlas 新手：13 个自由度、直接驱动，按高保真仿真设计以支持 sim-to-real 强化学习，面向灵巧的体力作业。 原帖（@BostonDynamics）约 2,062 赞、357 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/BostonDynamics/status/2105659276425298012",
+      "published_at": "2026-10-01T22:01:07+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力",
+        "灵巧手"
+      ],
+      "card_type": "model_update",
+      "heat": 59,
+      "importance": 72,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "Runway",
+      "model_name": "Praxis-1",
+      "license_type": "open-weights",
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-runway-praxis-1",
+      "title": "Runway 发布开放权重世界动作模型 Praxis-1：用视频预训练驱动真实机器人",
+      "summary": "Runway 推出 Praxis-1，一个开放权重的 World Action Model，把视频预训练能力迁移到真实机器人控制，押注策略模型应从海量视频中学习。 原帖（@runwayml）约 493 赞、55 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/runwayml/status/2105358708599619790",
+      "published_at": "2026-10-01T02:06:46+08:00",
+      "tags": [
+        "世界模型",
+        "Runway",
+        "机器人",
+        "开放权重"
+      ],
+      "card_type": "research",
+      "heat": 52,
+      "importance": 66,
+      "category": "世界模型"
+    },
+    {
       "id": "showcase-gpt61-cost",
       "title": "展示：GPT-6.1 Sol 同分水准下成本对比图",
       "summary": "Artificial Analysis 任务成本图：medium 档约 $0.21 打到原 Sol max 同分，性价比卡片。",
@@ -3165,6 +3294,40 @@
       "published_precision": "date"
     },
     {
+      "model_vendor": "KKKKhazix（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/KKKKhazix/AIHOT",
+        "media_url": "https://opengraph.githubassets.com/1/KKKKhazix/AIHOT",
+        "post_url": "https://github.com/KKKKhazix/AIHOT"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-aihot",
+      "title": "卡兹克开源 AIHOT：自己找热点、自己写日报的行业热点站框架",
+      "summary": "“数字生命卡兹克”开源 AIHOT，一个能自动找热点、自动写日报的网站框架，换上自己的信源和精选标准即可变成自己的行业热点站。 仓库 2026-09-28 创建，截至 10 月 13 日 GitHub 显示约 7,455 星、1,799 fork。",
+      "source": "github",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "published_at": "2026-09-28T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "资讯聚合",
+        "日报"
+      ],
+      "card_type": "repo",
+      "heat": 46,
+      "importance": 46,
+      "category": "小众开发热帖"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -3195,6 +3358,40 @@
         "media_url": "https://video.twimg.com/amplify_video/2104202697780191232/vid/avc1/1012x674/wOWFsRL9x9UZfXjN.mp4",
         "post_url": "https://x.com/megyo9/status/2104209378702451174"
       }
+    },
+    {
+      "model_vendor": "Louis-CFM（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/Louis-CFM/coucou",
+        "media_url": "https://opengraph.githubassets.com/1/Louis-CFM/coucou",
+        "post_url": "https://github.com/Louis-CFM/coucou"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-coucou",
+      "title": "coucou：住在 Mac 刘海和 iPhone 锁屏上、盯着你编程智能体的小伙伴",
+      "summary": "开发者 Louis-CFM 用 Swift 开源 coucou，在 Mac 刘海和 iPhone 上监控 Claude Code、Codex、Cursor、Gemini CLI 等编程智能体，可直接在刘海或锁屏上批准操作。 仓库 2026-09-27 创建，截至 10 月 13 日 GitHub 显示约 5,010 星、840 fork。",
+      "source": "github",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "published_at": "2026-09-27T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "编程智能体",
+        "macOS"
+      ],
+      "card_type": "repo",
+      "heat": 44,
+      "importance": 44,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2d-scenario-gamedev-os",
@@ -3260,6 +3457,34 @@
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
       "on_board": true
+    },
+    {
+      "model_vendor": "宇树科技",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-unitree-worldskills",
+      "title": "世界技能大赛上海开幕式：19 台宇树人形机器人与 120 名舞者同台直播表演",
+      "summary": "宇树科技称，9 月 22 日 2026 世界技能大赛（上海）开幕式上，19 台宇树人形机器人与 120 名舞者同台，是全尺寸人形机器人规模最大的实时直播表演。 原帖（@UnitreeRobotics）约 4,567 赞、696 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/UnitreeRobotics/status/2103025066212819390",
+      "published_at": "2026-09-24T15:33:42+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树",
+        "表演"
+      ],
+      "card_type": "showcase",
+      "heat": 63,
+      "importance": 58,
+      "category": "机器人"
     },
     {
       "id": "bf-2609-opus55-threejs-game",
@@ -3421,6 +3646,40 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "yetone（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/yetone/magpie",
+        "media_url": "https://opengraph.githubassets.com/1/yetone/magpie",
+        "post_url": "https://github.com/yetone/magpie"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-magpie",
+      "title": "yetone 开源 magpie：菜单栏一键给各家编程智能体换模型",
+      "summary": "开发者 yetone 开源 magpie：在菜单栏统一管理各智能体使用的模型，比如让 Codex 跑 DeepSeek、Claude Code 跑 Kimi。 仓库 2026-09-23 创建，截至 10 月 13 日 GitHub 显示约 10,942 星、722 fork。",
+      "source": "github",
+      "url": "https://github.com/yetone/magpie",
+      "published_at": "2026-09-23T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "编程智能体",
+        "模型路由"
+      ],
+      "card_type": "repo",
+      "heat": 48,
+      "importance": 48,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2609-mimo-v26",
@@ -3740,6 +3999,74 @@
       "last_period": "archive"
     },
     {
+      "model_vendor": "jaredpalmer（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/jaredpalmer/kev",
+        "media_url": "https://opengraph.githubassets.com/1/jaredpalmer/kev",
+        "post_url": "https://github.com/jaredpalmer/kev"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-kev",
+      "title": "Jared Palmer 开源 kev：基于 Qwen 的类 Jev 决策模型，可自己训练和运行",
+      "summary": "Jared Palmer 开源 kev，一组基于 Qwen3.5/3.8、类似 Jev 的决策模型，可在自己的环境训练和运行。 仓库 2026-09-17 创建，截至 10 月 13 日 GitHub 显示约 9,027 星、603 fork。",
+      "source": "github",
+      "url": "https://github.com/jaredpalmer/kev",
+      "published_at": "2026-09-17T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "决策模型",
+        "Qwen"
+      ],
+      "card_type": "repo",
+      "heat": 47,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "tamaratran（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/tamaratran/fast-jev-compaction",
+        "media_url": "https://opengraph.githubassets.com/1/tamaratran/fast-jev-compaction",
+        "post_url": "https://github.com/tamaratran/fast-jev-compaction"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-fast-jev-compaction",
+      "title": "fast-jev-compaction：用 Jev 决策替代 Claude Code 的上下文压缩摘要",
+      "summary": "开发者 tamaratran 开源 Claude Code 插件，用一次快速 Jev 请求给每次工具调用和结果打分，丢弃或截断过时内容，保留的部分原样不动，以替代默认压缩摘要。 仓库 2026-09-17 创建，截至 10 月 13 日 GitHub 显示约 7,613 星、538 fork。",
+      "source": "github",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "published_at": "2026-09-17T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Claude Code",
+        "上下文"
+      ],
+      "card_type": "repo",
+      "heat": 46,
+      "importance": 44,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2609-gemini38-live",
       "title": "Google 发布 Gemini 3.8 Live 与 Live Extended Thinking 实时对话模型",
       "summary": "Google DeepMind 推出 Gemini 3.8 Live 及 3.8 Live Extended Thinking，称其为目前最好的对话式 AI：可以边聊边思考，并在后台处理任务而不打断对话。",
@@ -3802,6 +4129,63 @@
       "first_seen_at": "2026-10-08T11:24:39+08:00",
       "last_period": "monthly",
       "on_board": true
+    },
+    {
+      "model_vendor": "优必选",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-ubtech-10k-factory",
+      "title": "优必选人形机器人智能工厂投产：每 10 分钟下线一台，不到 9 个月从千台到万台",
+      "summary": "优必选宣布其标杆人形机器人智能工厂上线，每 10 分钟下线一台人形机器人，并称不到 9 个月实现从 1000 台到 10000 台的跨越。 原帖（@UBTECHRobotics）约 152 赞、45 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/UBTECHRobotics/status/2099830594817646663",
+      "published_at": "2026-09-15T20:00:01+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "优必选",
+        "量产"
+      ],
+      "card_type": "model_update",
+      "heat": 46,
+      "importance": 72,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "Agility Robotics",
+      "model_name": "Digit 5",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-agility-digit-5",
+      "title": "Agility 发布下一代人形机器人 Digit 5：可在无安全围栏情况下与人近距离协作",
+      "summary": "Agility Robotics 推出 Digit 5，主打“协作安全”，可在没有传统自动化所需物理隔离的情况下与人近距离规模化作业。 原帖（@agilityrobotics）约 681 赞、112 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/agilityrobotics/status/2099817779637706755",
+      "published_at": "2026-09-15T19:09:06+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Agility"
+      ],
+      "card_type": "model_update",
+      "heat": 54,
+      "importance": 76,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2d-pixellab-animation-model",
@@ -4395,6 +4779,33 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "model_vendor": "Runway",
+      "model_name": "GWM Worlds 2",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-runway-gwm-worlds-2",
+      "title": "Runway 发布 GWM Worlds 2 研究：720p/24fps 实时交互模拟，带 48kHz 音频",
+      "summary": "Runway 公布通用世界模型新研究 GWM Worlds 2：在其音视频生成基础模型之上，生成连续 720p、24fps、带 48000Hz 音频的实时交互模拟。 原帖（@runwayml）约 828 赞、112 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/runwayml/status/2095540014645920040",
+      "published_at": "2026-09-03T23:50:47+08:00",
+      "tags": [
+        "世界模型",
+        "Runway"
+      ],
+      "card_type": "research",
+      "heat": 55,
+      "importance": 74,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -4528,6 +4939,40 @@
       "storyline": "可交互世界模型"
     },
     {
+      "model_vendor": "lnkiai（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/lnkiai/m3e-canvas",
+        "media_url": "https://opengraph.githubassets.com/1/lnkiai/m3e-canvas",
+        "post_url": "https://github.com/lnkiai/m3e-canvas"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-m3e-canvas",
+      "title": "m3e-canvas：浏览器里画 Material 3 Expressive 界面，转成 vibe coding 提示词",
+      "summary": "开发者 lnkiai 开源 m3e-canvas，在浏览器中草绘 Material 3 Expressive 风格界面，再转成 vibe coding 用的提示词。 仓库 2026-09-02 创建，截至 10 月 13 日 GitHub 显示约 9,282 星、995 fork。",
+      "source": "github",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "published_at": "2026-09-02T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "UI",
+        "vibe coding"
+      ],
+      "card_type": "repo",
+      "heat": 47,
+      "importance": 46,
+      "category": "小众开发热帖"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -4587,6 +5032,33 @@
       "on_board": false,
       "backfilled": true,
       "published_precision": "date"
+    },
+    {
+      "model_vendor": "Google DeepMind",
+      "model_name": "Gemini Omni 1.1 Flash",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-llm-gemini-omni-1-1-flash",
+      "title": "Google DeepMind 推出 Gemini Omni 1.1 Flash：视频生成更可控、迭代更快",
+      "summary": "Google DeepMind 上线 Gemini Omni 1.1 Flash，主打生成视频更可控、迭代更快、更适合生产级使用，可在 Flow 等产品中使用。 原帖（@GoogleDeepMind）约 485 赞、46 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/GoogleDeepMind/status/2093338200580256172",
+      "published_at": "2026-08-28T22:01:34+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "Google"
+      ],
+      "card_type": "model_update",
+      "heat": 52,
+      "importance": 66,
+      "category": "大模型"
     },
     {
       "id": "bf-2608-hy4-preview",
@@ -5004,6 +5476,32 @@
       "backfilled": true
     },
     {
+      "model_vendor": null,
+      "model_name": "Evoke",
+      "license_type": null,
+      "media": null,
+      "kept_reason": "来源偏弱：来自第三方资讯号转述，未找到官方发布帖；用于补 8 月世界模型空缺",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-evoke-open-source",
+      "title": "开源世界模型 Evoke：记住世界状态、响应镜头控制，可连续生成数小时",
+      "summary": "AI 资讯号 @aisearchio 介绍开源世界模型 Evoke：可记住世界状态、响应镜头控制和新提示词，3 个时间步即可持续生成数小时。 原帖（@aisearchio）约 114 赞、7 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/aisearchio/status/2090241185906638877",
+      "published_at": "2026-08-20T08:55:08+08:00",
+      "tags": [
+        "世界模型",
+        "开源"
+      ],
+      "card_type": "research",
+      "heat": 44,
+      "importance": 55,
+      "category": "世界模型"
+    },
+    {
       "id": "bf-2608-generalist-gen15",
       "title": "Generalist GEN-1.5：首个可“单次物理示范”学会新灵巧任务的机器人模型",
       "summary": "Generalist AI 发布 GEN-1.5 及“物理提示”（physical prompting）：在 10 个不同任务上，仅凭一次示范、直接来自预训练即可达到 59% 平均成功率；少样本学习下（每任务 5 分钟数据、10 步梯度）提升到 83%。团队称这是已知首个能从一两次示范学会多种闭环灵巧任务的模型。8 月 25 日 TechCrunch 援引知情人士称，Generalist 在 6 月 4 亿美元 B 轮基础上追加近 2 亿美元（8VC 领投），估值达 30 亿美元。",
@@ -5101,6 +5599,40 @@
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
+      "model_vendor": "yetone（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/yetone/cumora",
+        "media_url": "https://opengraph.githubassets.com/1/yetone/cumora",
+        "post_url": "https://github.com/yetone/cumora"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-cumora",
+      "title": "yetone 开源 cumora：AI 智能体当一等队友的跨平台团队聊天",
+      "summary": "开发者 yetone 开源 cumora，一个跨平台团队聊天应用，把 AI 智能体作为一等成员，可用云端或自带的 Claude Code / Codex 作为“大脑”。 仓库 2026-08-17 创建，截至 10 月 13 日 GitHub 显示约 3,974 星、519 fork。",
+      "source": "github",
+      "url": "https://github.com/yetone/cumora",
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "智能体",
+        "协作"
+      ],
+      "card_type": "repo",
+      "heat": 43,
+      "importance": 44,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2608-cursor-closed",
@@ -5293,6 +5825,33 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "model_vendor": null,
+      "model_name": "alakazam studio",
+      "license_type": "open-source",
+      "media": null,
+      "kept_reason": "作者粉丝不到 2000，帖子热度中等，作为世界模型方向的独立开发代表补录",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-alakazam-studio",
+      "title": "独立开发者 @hugothomel 开源 alakazam studio：世界模型版的 ComfyUI",
+      "summary": "开发者 @hugothomel发布 alakazam studio，自称首个本地、开源的世界模型 UI：一句话输入后可编辑状态图再“开玩”，模型在浏览器本地运行，Apache-2.0 开源。 原帖（@hugothomel）约 244 赞、30 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/hugothomel/status/2087586373960405499",
+      "published_at": "2026-08-13T01:05:51+08:00",
+      "tags": [
+        "小众开发热帖",
+        "世界模型",
+        "开源"
+      ],
+      "card_type": "showcase",
+      "heat": 48,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2608-grok46",
       "title": "xAI 发布 Grok 4.6：同价显著超越 Grok 4.5",
       "summary": "SpaceXAI 推出 Grok 4.6，称具备前沿智能，较 Grok 4.5 有显著提升且价格不变；据第三方平台信息，定价为每百万 token 输入 2 美元、输出 6 美元，面向长时运行的智能体任务，月内上架 Google Vertex AI。发布帖约 2690 万浏览。",
@@ -5324,6 +5883,64 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "宇树科技",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-unitree-18000-units",
+      "title": "宇树：双足人形机器人累计产量约 1.8 万台",
+      "summary": "宇树科技公布人形机器人累计生产下线约 18,000 台，并注明只统计仿生双足人形，不含其他人形形态和轮式人形平台。 原帖（@UnitreeRobotics）约 1,066 赞、82 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/UnitreeRobotics/status/2087475885658210719",
+      "published_at": "2026-08-12T17:46:49+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树",
+        "量产"
+      ],
+      "card_type": "model_update",
+      "heat": 56,
+      "importance": 74,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "腾讯混元",
+      "model_name": "Hy3D WorldClaw",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-3d-hunyuan-worldclaw",
+      "title": "腾讯混元发布 Hy3D WorldClaw：文本生成大规模 3D 开放世界，全部由可编辑游戏级资产搭成",
+      "summary": "腾讯混元推出 Hy3D WorldClaw，一个从文本提示生成大规模 3D 开放世界的智能体工作流；官方强调不是视频、也不是高斯泼溅，每个场景都可自由探索，并完全由可编辑、可直接进游戏的 3D 资产组成。 原帖（@TencentHunyuan）约 2,487 赞、261 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/TencentHunyuan/status/2087068591296536755",
+      "published_at": "2026-08-11T14:48:22+08:00",
+      "tags": [
+        "3D 生成",
+        "腾讯混元",
+        "开放世界",
+        "智能体"
+      ],
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 78,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成"
     },
     {
       "id": "bf-2608-gpt56-cyber",
@@ -5489,6 +6106,64 @@
       "last_period": "archive",
       "on_board": false,
       "backfilled": true
+    },
+    {
+      "model_vendor": "字节跳动",
+      "model_name": "Seedance 2.5",
+      "license_type": null,
+      "media": null,
+      "kept_reason": "来源偏弱：未检索到字节官方发布帖，日期和参数来自推广帖（Runway 官方 8 月 7 日帖亦提及 Seedance 2.5）",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-llm-seedance-2-5",
+      "title": "字节 Seedance 2.5 全球上线：即梦 Dreamina 首发，含美国",
+      "summary": "多位创作者帖子称字节跳动视频模型 Seedance 2.5 已在即梦 Dreamina 全球上线（含美国），随后 Runway、Wizstar 等平台陆续接入；宣传点包括 30 秒 4K 生成和最多 50 个参考输入。 原帖（@FellMentKE）约 270 赞、99 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/FellMentKE/status/2085760082269425855",
+      "published_at": "2026-08-08T00:08:49+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "字节跳动",
+        "Seedance"
+      ],
+      "card_type": "model_update",
+      "heat": 49,
+      "importance": 72,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "阿里巴巴",
+      "model_name": "Wan3.0",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-llm-wan-3-0",
+      "title": "阿里发布 Wan3.0 公测：原生 30 秒视频、全能参考可读文档表格",
+      "summary": "阿里通义万相推出 Wan3.0 公测：原生 30 秒视频生成、“现实级”渲染，Omni-Reference 除文本、图像、音频、视频外还可参考文档、表格、幻灯片和网页等；8 月 23 日起正式商用。 原帖（@Alibaba_Wan）约 2,743 赞、313 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/Alibaba_Wan/status/2085339761284104529",
+      "published_at": "2026-08-06T20:18:37+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "阿里",
+        "万相"
+      ],
+      "card_type": "model_update",
+      "heat": 61,
+      "importance": 76,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛"
     },
     {
       "id": "bf-2608-muse-code",
@@ -5816,6 +6491,40 @@
       "storyline": "可交互世界模型"
     },
     {
+      "model_vendor": "hypit-ai（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/hypit-ai/hypit",
+        "media_url": "https://opengraph.githubassets.com/1/hypit-ai/hypit",
+        "post_url": "https://github.com/hypit-ai/hypit"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数；所有者为 GitHub 组织账号，团队规模未核实；涉及换脸，存在滥用风险",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-hypit",
+      "title": "hypit：用 AI 智能体“克隆”爆款视频，一条命令出 100 个变体",
+      "summary": "hypit-ai 开源 hypit，用 AI 智能体复刻爆款视频的完整流程：换脸、换台词、换 B-roll，一条命令批量产出 100 个变体。 仓库 2026-07-29 创建，截至 10 月 13 日 GitHub 显示约 21,757 星、2,395 fork。",
+      "source": "github",
+      "url": "https://github.com/hypit-ai/hypit",
+      "published_at": "2026-07-29T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "视频",
+        "智能体"
+      ],
+      "card_type": "repo",
+      "heat": 52,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2d-rd-neural-pixel-fixer",
       "title": "Retro Diffusion 完整版神经像素修复模型上线：对齐网格之外，还修轮廓、细节和配色",
       "summary": "Astropulse 宣布 RD 完整版神经网络像素修复器上线，仍可免费使用。按作者说法，它不只把 AI「像素风」图转成对齐网格的真像素画，还会修复轮廓退化、补细节、改善配色。7 月 15 日他先公开了含 43 种失真类型的基准仓库，7 月 18 日上线「基本完成」的 AI 降采样模型；这一版与 7 月中旬开源的非模型修复工具是两回事。约 2.3 万浏览、312 收藏。",
@@ -5945,6 +6654,35 @@
       "last_period": "archive"
     },
     {
+      "model_vendor": "Figure",
+      "model_name": "F.03",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-figure-1000th-f03",
+      "title": "Figure BotQ 工厂下线第 1000 台 F.03 人形机器人",
+      "summary": "Figure CEO Brett Adcock 宣布，BotQ 工厂已生产第 1000 台 F.03 人形机器人。 原帖（@adcock_brett）约 1,487 赞、87 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/adcock_brett/status/2080319785402052619",
+      "published_at": "2026-07-23T23:51:01+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure",
+        "量产"
+      ],
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 72,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -6044,6 +6782,39 @@
       "backfilled": true
     },
     {
+      "model_vendor": "FlashML-org（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/FlashML-org/FreeToken",
+        "media_url": "https://opengraph.githubassets.com/1/FlashML-org/FreeToken",
+        "post_url": "https://github.com/FlashML-org/FreeToken"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-freetoken",
+      "title": "FreeToken：在个人电脑上做“数据中心级”大模型推理",
+      "summary": "FlashML-org 开源 FreeToken，宣称把数据中心规模的模型服务搬到桌面，本地高效运行超大模型。 仓库 2026-07-20 创建，截至 10 月 13 日 GitHub 显示约 14,454 星、1,446 fork。",
+      "source": "github",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "published_at": "2026-07-20T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "本地推理"
+      ],
+      "card_type": "repo",
+      "heat": 49,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2607-qwen38-max-preview",
       "title": "阿里预告 Qwen3.8：2.4 万亿参数，即将开放权重，Max-Preview 先行上线",
       "summary": "通义千问宣布 Qwen3.8 即将发布并开放权重，参数规模 2.4T，官方称其是当前最强模型之一、仅次于 Fable 5（官方自述）。Qwen3.8-Max-Preview 先在阿里 Token Plan、Qoder 与 QoderWork 上线，之后每日迭代。帖子约 840 万浏览。",
@@ -6075,6 +6846,40 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "Vincentwei1021（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/Vincentwei1021/video-shotcraft",
+        "media_url": "https://opengraph.githubassets.com/1/Vincentwei1021/video-shotcraft",
+        "post_url": "https://github.com/Vincentwei1021/video-shotcraft"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-video-shotcraft",
+      "title": "video-shotcraft：Claude Code / Codex 用 Remotion 做电影感产品视频",
+      "summary": "开发者 Vincentwei1021 开源 video-shotcraft，基于 Remotion 让 Claude Code 和 Codex 制作电影感产品视频，内含 152 张镜头配方卡、209 个运动预览和可直接投产的模板。 仓库 2026-07-19 创建，截至 10 月 13 日 GitHub 显示约 11,608 星、1,036 fork。",
+      "source": "github",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "published_at": "2026-07-19T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "视频",
+        "Remotion"
+      ],
+      "card_type": "repo",
+      "heat": 48,
+      "importance": 46,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2607-kimi-k3",
@@ -6335,6 +7140,63 @@
       }
     },
     {
+      "model_vendor": "Highlanders",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": "来源偏弱：第三方博主转述，未核到三菱或 Highlanders 官方公告原文",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-mitsubishi-highlanders",
+      "title": "三菱汽车联手日本机器人公司 Highlanders，计划 2027 年前部署人形机器人工人",
+      "summary": "X 财经博主 @aleabitoreddit 转述：三菱汽车与日本机器人公司 Highlanders 合作，计划 2027 年前部署人形机器人工人，并梳理了 Agility×丰田、Apptronik×奔驰、Figure×宝马等车企合作格局。 原帖（@aleabitoreddit）约 772 赞、54 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/aleabitoreddit/status/2075557588159058076",
+      "published_at": "2026-07-10T20:27:45+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "三菱",
+        "车企"
+      ],
+      "card_type": "model_update",
+      "heat": 54,
+      "importance": 55,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "Meshy",
+      "model_name": "Smart Topology",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-3d-meshy-smart-topology",
+      "title": "Meshy 图生 3D 上线 Smart Topology：原生部件分割、可控面数，约 10 秒出模",
+      "summary": "Meshy 在图生 3D 中上线 Smart Topology：生成带原生部件分割的干净模型，约 10 秒完成，面数可控，面向游戏开发、实时和网页 3D。 原帖（@MeshyAI）约 208 赞、19 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/MeshyAI/status/2075541369607901670",
+      "published_at": "2026-07-10T19:23:18+08:00",
+      "tags": [
+        "3D 生成",
+        "Meshy",
+        "拓扑"
+      ],
+      "card_type": "model_update",
+      "heat": 47,
+      "importance": 64,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成"
+    },
+    {
       "id": "bf-2607-chatgpt-work",
       "title": "OpenAI 推出 ChatGPT Work：由 Codex 与 GPT-5.6 驱动的工作智能体",
       "summary": "ChatGPT Work 可跨应用和文件执行操作，能持续数小时跟进一个项目，把目标变成交付成果。发布帖约 1610 万浏览。",
@@ -6496,6 +7358,62 @@
         "media_url": "https://video.twimg.com/amplify_video/2075175366109597696/vid/avc1/1280x720/o6d3TKj2Gy8lryLS.mp4",
         "post_url": "https://x.com/MeshyAI/status/2075175610809516413"
       }
+    },
+    {
+      "model_vendor": "宇树科技",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-cmg-combat-2026",
+      "title": "宇树预告 CMG 2026 人形机器人格斗大赛",
+      "summary": "宇树科技发布邀请，宣传“CMG 2026 人形机器人格斗大赛”，以格斗对抗检验人形机器人技术。 原帖（@UnitreeRobotics）约 1,967 赞、246 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/UnitreeRobotics/status/2075157558889984076",
+      "published_at": "2026-07-09T17:58:11+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树",
+        "赛事"
+      ],
+      "card_type": "showcase",
+      "heat": 59,
+      "importance": 55,
+      "category": "机器人"
+    },
+    {
+      "model_vendor": "Robbyant（蚂蚁）",
+      "model_name": "LingBot-World 2.0",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-lingbot-world-2",
+      "title": "蚂蚁灵波开源 LingBot-World 2.0（Infinity）：可长时间运行的交互式世界模型",
+      "summary": "Robbyant（蚂蚁灵波）开源 LingBot-World 2.0（Infinity），主打可持续响应用户操作、生成新事件且长时间不丢失一致性的交互式世界模型；AK 转发称其支持小时级生成、攻击/施法/召唤风暴等丰富动作。 原帖（@robbyant_brain）约 804 赞、205 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/robbyant_brain/status/2074934394717151241",
+      "published_at": "2026-07-09T03:11:24+08:00",
+      "tags": [
+        "世界模型",
+        "开源",
+        "蚂蚁"
+      ],
+      "card_type": "research",
+      "heat": 54,
+      "importance": 74,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2607-grok45",
@@ -6692,6 +7610,40 @@
       }
     },
     {
+      "model_vendor": "petergyang（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/petergyang/no-ai-slop",
+        "media_url": "https://opengraph.githubassets.com/1/petergyang/no-ai-slop",
+        "post_url": "https://github.com/petergyang/no-ai-slop"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-no-ai-slop",
+      "title": "no-ai-slop：去掉文章里 20 多种“AI 味”写法",
+      "summary": "Peter Yang 开源 no-ai-slop，自动清除文本中 20 多种典型 AI 套话模式。 仓库 2026-07-07 创建，截至 10 月 13 日 GitHub 显示约 12,263 星、848 fork。",
+      "source": "github",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "published_at": "2026-07-07T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "写作",
+        "去 AI 味"
+      ],
+      "card_type": "repo",
+      "heat": 49,
+      "importance": 46,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2607-hy3",
       "title": "腾讯混元 Hy3 正式版发布：295B MoE，Apache 2.0 开源",
       "summary": "继 4 月预览版后，腾讯正式发布 Hy3：295B 参数 MoE，称同尺寸最强、可比肩万亿级旗舰，面向智能体场景，Apache 2.0 协议可商用，API 免费两周。",
@@ -6723,6 +7675,35 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "Kyutai",
+      "model_name": "MIRA",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-kyutai-mira",
+      "title": "Kyutai 联合 Epic Games 发布多人世界模型 MIRA，附技术报告、数据集和在线 demo",
+      "summary": "Kyutai 与 gen_intuition 合作、Epic Games 参与，发布多人世界模型 MIRA，同时公开详细技术报告、数据集和可直接试玩的在线 demo。 原帖（@kyutai_labs）约 419 赞、67 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/kyutai_labs/status/2074104480178503943",
+      "published_at": "2026-07-06T20:13:37+08:00",
+      "tags": [
+        "世界模型",
+        "Kyutai",
+        "Epic Games",
+        "多人"
+      ],
+      "card_type": "research",
+      "heat": 51,
+      "importance": 74,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2d-sorceress-tileset-tool",
@@ -7238,6 +8219,41 @@
       "published_precision": "date"
     },
     {
+      "model_vendor": "bilawalsidhu（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/bilawalsidhu/gods-eye-view",
+        "media_url": "https://opengraph.githubassets.com/1/bilawalsidhu/gods-eye-view",
+        "post_url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-gods-eye-view",
+      "title": "God's Eye View：浏览器里的“间谍卫星模拟器”，数据却是真实的",
+      "summary": "Bilawal Sidhu 开源 gods-eye-view，在浏览器的写实 3D 地球上做实时开源空间情报，形容为“数据是真的的间谍卫星模拟器”。 仓库 2026-06-22 创建，截至 10 月 13 日 GitHub 显示约 54,301 星、10,688 fork。",
+      "source": "github",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "published_at": "2026-06-22T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "空间智能",
+        "3D 地球"
+      ],
+      "card_type": "repo",
+      "heat": 56,
+      "importance": 56,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -7397,6 +8413,40 @@
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "lidge-jun（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/lidge-jun/opencodex",
+        "media_url": "https://opengraph.githubassets.com/1/lidge-jun/opencodex",
+        "post_url": "https://github.com/lidge-jun/opencodex"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-opencodex",
+      "title": "opencodex：让 Codex 和 Claude Code 接任意大模型的通用代理",
+      "summary": "开发者 lidge-jun 开源 opencodex，一个通用模型代理，让 OpenAI Codex（CLI/App/SDK）和 Claude Code 可接入 Claude、Gemini、Grok、DeepSeek、Ollama 等任意模型。 仓库 2026-06-18 创建，截至 10 月 13 日 GitHub 显示约 17,343 星、1,316 fork。",
+      "source": "github",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "published_at": "2026-06-18T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "编程智能体",
+        "代理"
+      ],
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 48,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2d-google-infinite-scaler",
@@ -7587,6 +8637,40 @@
       "first_seen_at": "2026-10-08T11:20:24+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "latent-spaces（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/latent-spaces/brag",
+        "media_url": "https://opengraph.githubassets.com/1/latent-spaces/brag",
+        "post_url": "https://github.com/latent-spaces/brag"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数；所有者为 GitHub 组织账号，团队规模未核实",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-brag",
+      "title": "brag：一条命令把刚做完的项目变成可分享的发布视频",
+      "summary": "latent-spaces 开源 brag，一条命令把你刚做出的项目生成简短、可分享的发布视频。 仓库 2026-06-16 创建，截至 10 月 13 日 GitHub 显示约 15,571 星、1,140 fork。",
+      "source": "github",
+      "url": "https://github.com/latent-spaces/brag",
+      "published_at": "2026-06-16T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "视频",
+        "开发者工具"
+      ],
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 46,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2d-perfectpixel-studio",
@@ -7932,6 +9016,40 @@
       "last_period": "archive"
     },
     {
+      "model_vendor": "cobusgreyling（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/cobusgreyling/loop-engineering",
+        "media_url": "https://opengraph.githubassets.com/1/cobusgreyling/loop-engineering",
+        "post_url": "https://github.com/cobusgreyling/loop-engineering"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-loop-engineering",
+      "title": "loop-engineering：AI 编程智能体“循环工程”的模式、模板与 CLI",
+      "summary": "Cobus Greyling 开源 loop-engineering，整理用 AI 编程智能体做循环工程的实践模式、起步模板和 CLI 工具（loop-audit、loop-init、loop-cost）。 仓库 2026-06-09 创建，截至 10 月 13 日 GitHub 显示约 11,517 星、1,552 fork。",
+      "source": "github",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "published_at": "2026-06-09T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "编程智能体",
+        "工作流"
+      ],
+      "card_type": "repo",
+      "heat": 48,
+      "importance": 44,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2606-alphabet-raise",
       "title": "Alphabet 为 AI 投入股权融资约 850 亿美元，伯克希尔认购 100 亿",
       "summary": "Sundar Pichai 宣布 Alphabet 股权发行大幅超额认购：首轮募得约 450 亿美元，另有 400 亿美元将在三季度通过“按市价发行”计划募集，合计约 850 亿美元，用于满足 AI 算力与需求扩张；伯克希尔·哈撒韦投资 100 亿美元。",
@@ -7997,6 +9115,62 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "NVIDIA / Runway",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-cosmos-coalition",
+      "title": "英伟达牵头成立 Cosmos Coalition，Runway 等加入共建开源物理 AI 世界模型",
+      "summary": "Runway 宣布作为创始成员加入英伟达发起的 Cosmos Coalition，与多家 AI 实验室共同构建并开源面向物理 AI 的前沿世界模型。 原帖（@runwayml）约 402 赞、41 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/runwayml/status/2061315089869721682",
+      "published_at": "2026-06-01T13:13:09+08:00",
+      "tags": [
+        "世界模型",
+        "NVIDIA",
+        "Runway",
+        "开源"
+      ],
+      "card_type": "research",
+      "heat": 51,
+      "importance": 68,
+      "category": "世界模型"
+    },
+    {
+      "model_vendor": "VAST",
+      "model_name": "Project Eden",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-vast-project-eden",
+      "title": "VAST 发布 Project Eden 研究预览：世界状态与画面渲染解耦的持久多人世界模型",
+      "summary": "Tripo 官方账号发布 VAST 研究团队的 Project Eden 研究预览：一个持久、多人在线的世界模型，核心思路是把底层世界状态和视觉渲染解耦。 原帖（@tripoai）约 830 赞、139 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/tripoai/status/2061307584817385960",
+      "published_at": "2026-06-01T12:43:20+08:00",
+      "tags": [
+        "世界模型",
+        "VAST",
+        "多人"
+      ],
+      "card_type": "research",
+      "heat": 55,
+      "importance": 72,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
     },
     {
       "id": "bf-2606-minimax-m3",
@@ -8097,6 +9271,34 @@
       "last_period": "archive"
     },
     {
+      "model_vendor": "Meshy",
+      "model_name": "Meshy 3D Agent",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-3d-meshy-3d-agent",
+      "title": "Meshy 3D Agent 公测：聊天式完成构思、批量出图、转 3D",
+      "summary": "Meshy 推出 3D Agent（Beta），自称首个 3D 创作智能体：先和用户讨论方向，再批量生成视觉稿并通过对话细化，最后把选中的方案转成 3D，可下载或打印。 原帖（@MeshyAI）约 154 赞、22 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/MeshyAI/status/2060311322123014560",
+      "published_at": "2026-05-29T18:44:32+08:00",
+      "tags": [
+        "3D 生成",
+        "Meshy",
+        "智能体"
+      ],
+      "card_type": "model_update",
+      "heat": 46,
+      "importance": 64,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成"
+    },
+    {
       "id": "bf-2605-opus48",
       "title": "Anthropic 发布 Claude Opus 4.8：判断更准、更诚实、可独立工作更久",
       "summary": "Claude Opus 4.8 在 Opus 4.7 基础上提升判断力，对自身进展更诚实（不确定时会标注），可比前代更长时间独立工作，价格不变。帖子获约 1550 万浏览、6.6 万赞。",
@@ -8162,6 +9364,40 @@
       "storyline": "人形机器人落地"
     },
     {
+      "model_vendor": "helloianneo（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/helloianneo/ian-xiaohei-illustrations",
+        "media_url": "https://opengraph.githubassets.com/1/helloianneo/ian-xiaohei-illustrations",
+        "post_url": "https://github.com/helloianneo/ian-xiaohei-illustrations"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-xiaohei-illustrations",
+      "title": "“小黑”怪诞配图 Skill：16:9 白底手绘风，给中文正文自动配插画",
+      "summary": "开发者 helloianneo 开源 Codex skill，为中文正文生成“小黑”怪诞风插图：16:9 白底手绘，少量红橙蓝批注。 仓库 2026-05-27 创建，截至 10 月 13 日 GitHub 显示约 12,545 星、1,441 fork。",
+      "source": "github",
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "published_at": "2026-05-27T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "插画",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 49,
+      "importance": 46,
+      "category": "小众开发热帖"
+    },
+    {
       "category": "角色动画",
       "storyline": "游戏引擎角色动画",
       "backfilled": true,
@@ -8224,6 +9460,61 @@
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "Google DeepMind",
+      "model_name": "Project Genie",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-genie-street-view",
+      "title": "Project Genie 接入谷歌街景：把美国真实地点变成可交互世界",
+      "summary": "Google DeepMind 宣布 Project Genie 与 Google Maps 街景打通，用户可以把美国真实地点转成新的可交互世界。 原帖（@GoogleDeepMind）约 1,661 赞、209 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/GoogleDeepMind/status/2057842131142590512",
+      "published_at": "2026-05-22T23:12:51+08:00",
+      "tags": [
+        "世界模型",
+        "Genie",
+        "Google DeepMind"
+      ],
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 78,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
+    },
+    {
+      "model_vendor": "Runway",
+      "model_name": "Aleph 2.0",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-llm-runway-aleph-2",
+      "title": "Runway 发布视频编辑模型 Aleph 2.0：多镜头序列、最长 30 秒 1080p",
+      "summary": "Runway 发布升级版视频编辑模型 Aleph 2.0，可只改想改的部分、保持其余不变，在新的 Edit Studio 中支持最长 30 秒、1080p 的多镜头序列。 原帖（@runwayml）约 239 赞、39 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/runwayml/status/2057826728769134599",
+      "published_at": "2026-05-22T22:11:39+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "Runway"
+      ],
+      "card_type": "model_update",
+      "heat": 48,
+      "importance": 62,
+      "category": "大模型"
     },
     {
       "id": "bf-2d-chongdashu-steampunk",
@@ -8519,6 +9810,34 @@
       "storyline": "可交互世界模型"
     },
     {
+      "model_vendor": "Odyssey",
+      "model_name": "Starchild-1",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-wm-odyssey-starchild-1",
+      "title": "Odyssey 发布 Starchild-1：首个实时多模态世界模型，画面和声音一起生成",
+      "summary": "Odyssey 推出 Starchild-1，称其为首个实时多模态世界模型：不仅生成世界的画面，也同步生成声音。 原帖（@odysseyml）约 762 赞、70 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/odysseyml/status/2056416808580816957",
+      "published_at": "2026-05-19T00:49:08+08:00",
+      "tags": [
+        "世界模型",
+        "Odyssey",
+        "实时生成"
+      ],
+      "card_type": "research",
+      "heat": 54,
+      "importance": 72,
+      "category": "世界模型",
+      "storyline": "可交互世界模型"
+    },
+    {
       "id": "bf-2605-composer25",
       "title": "Cursor 发布自研编程模型 Composer 2.5",
       "summary": "Cursor 推出迄今最强的自研模型 Composer 2.5，更聪明、更擅长长时间持续工作、复杂指令遵循更可靠；据第三方汇总，其 SWE-Bench Multilingual 达 79.8%，与 Opus 4.7、GPT-5.5 相当。随后 Composer 2.5 开放给 Cursor SDK。帖子获约 2030 万浏览。",
@@ -8549,6 +9868,64 @@
       "first_seen_at": "2026-10-08T11:18:20+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "Boston Dynamics",
+      "model_name": "Atlas",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-atlas-fridge",
+      "title": "波士顿动力 Atlas 整台搬运冰箱：AI 驱动全身协调处理重物",
+      "summary": "波士顿动力发布 Atlas 演示：机器人用 AI 驱动的全身行为搬运整台冰箱，在多接触点之间保持平衡并精确协调全身。 原帖（@BostonDynamics）约 6,942 赞、1,100 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/BostonDynamics/status/2056344756926460103",
+      "published_at": "2026-05-18T20:02:49+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力",
+        "Atlas"
+      ],
+      "card_type": "showcase",
+      "heat": 66,
+      "importance": 72,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "Figure",
+      "model_name": "F.03",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-figure-247-livestream",
+      "title": "Figure 直播 F.03 人形机器人 24/7 全自主连续作业“直到故障”，进入第 4 天",
+      "summary": "Figure 公开直播 F.03 人形机器人全天候全自主作业，宣称不间断运行直至出现故障，5 月 17 日（北京时间）已进入第 4 天。 原帖（@Figure_robot）约 4,188 赞、685 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/Figure_robot/status/2055695818984976697",
+      "published_at": "2026-05-17T01:04:10+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure",
+        "可靠性"
+      ],
+      "card_type": "showcase",
+      "heat": 63,
+      "importance": 70,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
     },
     {
       "id": "bf-2605-codex-mobile",
@@ -8615,6 +9992,41 @@
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
+      "model_vendor": "ayghri（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/ayghri/i-have-adhd",
+        "media_url": "https://opengraph.githubassets.com/1/ayghri/i-have-adhd",
+        "post_url": "https://github.com/ayghri/i-have-adhd"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-i-have-adhd",
+      "title": "i-have-adhd：让编程智能体别把答案埋在长篇大论里",
+      "summary": "开发者 ayghri 开源一个 skill，让编程智能体输出“ADHD 友好”的格式，不再把答案埋在长文里。 仓库 2026-05-13 创建，截至 10 月 13 日 GitHub 显示约 56,785 星、3,256 fork。",
+      "source": "github",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "published_at": "2026-05-13T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skill",
+        "编程智能体"
+      ],
+      "card_type": "repo",
+      "heat": 57,
+      "importance": 52,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
     },
     {
       "id": "bf-2d-sprite-gen",
@@ -8898,6 +10310,40 @@
       "storyline": "算力、资本与政策格局"
     },
     {
+      "model_vendor": "BigPizzaV3（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/BigPizzaV3/CodexPlusPlus",
+        "media_url": "https://opengraph.githubassets.com/1/BigPizzaV3/CodexPlusPlus",
+        "post_url": "https://github.com/BigPizzaV3/CodexPlusPlus"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-codexplusplus",
+      "title": "CodexPlusPlus：社区做的 Codex 桌面应用增强工具",
+      "summary": "开发者 BigPizzaV3 用 Rust 开源 CodexPlusPlus，为 OpenAI Codex 应用提供增强功能，让 Codex 更好用。 仓库 2026-05-06 创建，截至 10 月 13 日 GitHub 显示约 32,089 星、2,055 fork。",
+      "source": "github",
+      "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
+      "published_at": "2026-05-06T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Codex",
+        "工具"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2d-character-animation-skill",
       "title": "Character Animation Creator 技能：Codex 一次出 64×64 八方向像素角色精灵表",
       "summary": "tachikomared 开源的 Codex / GPT Web Agent 技能：先锁定角色身份（种族、职业、轮廓、配色、武器、服装），生成 64×64 基准精灵，再出 8 方向 idle / walk / attack 动画条（24 行 × 6 列）；之后做调色板量化、边缘对齐、alpha 处理和图集校验，输出精灵表、联系表和 QA 报告。GitHub 约 340 星，仓库未声明许可证。",
@@ -9094,6 +10540,40 @@
         "media_url": "https://video.twimg.com/amplify_video/2050256640939790337/vid/avc1/1280x720/nFt0jRwIExtcAEnD.mp4?tag=14",
         "post_url": "https://x.com/AIfutureBenji/status/2050256705842495783"
       }
+    },
+    {
+      "model_vendor": "virgiliojr94（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/virgiliojr94/book-to-skill",
+        "media_url": "https://opengraph.githubassets.com/1/virgiliojr94/book-to-skill",
+        "post_url": "https://github.com/virgiliojr94/book-to-skill"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-book-to-skill",
+      "title": "book-to-skill：把任意技术书 PDF 变成 Claude Code skill",
+      "summary": "开发者 virgiliojr94 开源 book-to-skill，把技术书 PDF 转成 Claude Code 可调用的 skill，边写代码边查阅学习。 仓库 2026-05-01 创建，截至 10 月 13 日 GitHub 显示约 34,702 星、3,642 fork。",
+      "source": "github",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "published_at": "2026-05-01T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skill",
+        "学习"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 50,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2604-unitree-4290",
@@ -9427,6 +10907,40 @@
       }
     },
     {
+      "model_vendor": "Nutlope（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/Nutlope/hallmark",
+        "media_url": "https://opengraph.githubassets.com/1/Nutlope/hallmark",
+        "post_url": "https://github.com/Nutlope/hallmark"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-hallmark",
+      "title": "hallmark：给 Claude Code、Cursor、Codex 的“反 AI 糊图”设计 skill",
+      "summary": "开发者 Nutlope开源 hallmark，一个反 AI slop 的设计 skill，供 Claude Code、Cursor 和 Codex 使用。 仓库 2026-04-27 创建，截至 10 月 13 日 GitHub 显示约 29,979 星、1,534 fork。",
+      "source": "github",
+      "url": "https://github.com/Nutlope/hallmark",
+      "published_at": "2026-04-27T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "设计",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 53,
+      "importance": 52,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2d-givros-images2-game",
       "title": "GPT Image 2.0 出素材、Codex 拼成可玩网页游戏：全流程演示近百万浏览",
       "summary": "@givros 演示用 GPT Image 2.0 生成角色、场景等游戏素材，再交给 Codex + GPT-5.5 组装成可在浏览器里玩的游戏。约 94.3 万浏览、1,466 收藏；属个人演示，可玩性与素材后处理细节以视频为准。",
@@ -9489,6 +11003,40 @@
       "last_period": "archive",
       "on_board": false,
       "backfilled": true
+    },
+    {
+      "model_vendor": "freestylefly（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/freestylefly/awesome-gpt-image-2",
+        "media_url": "https://opengraph.githubassets.com/1/freestylefly/awesome-gpt-image-2",
+        "post_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-awesome-gpt-image-2",
+      "title": "awesome-gpt-image-2：530+ 案例的 GPT Image 2 / 2.5 提示词库",
+      "summary": "开发者 freestylefly 维护 GPT Image 2 / 2.5 提示词与案例库，530 多个案例、20 多套模板和可复用 skill，并新增 2.5 同提示词对比专区。 仓库 2026-04-25 创建，截至 10 月 13 日 GitHub 显示约 34,401 星、3,277 fork。",
+      "source": "github",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "published_at": "2026-04-25T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "提示词",
+        "图像生成"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 48,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2604-deepseek-v4",
@@ -9624,6 +11172,74 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "model_vendor": "Yuan1z0825（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/Yuan1z0825/nature-skills",
+        "media_url": "https://opengraph.githubassets.com/1/Yuan1z0825/nature-skills",
+        "post_url": "https://github.com/Yuan1z0825/nature-skills"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-nature-skills",
+      "title": "nature-skills：按 Nature 论文规范写作和画科研图的 AI skill",
+      "summary": "开发者 Yuan1z0825 开源 nature-skills，让 AI 智能体按 Nature 论文的学术表达和科研绘图规范输出。 仓库 2026-04-24 创建，截至 10 月 13 日 GitHub 显示约 47,875 星、2,492 fork。",
+      "source": "github",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "published_at": "2026-04-24T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "科研",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 56,
+      "importance": 52,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "bradautomates（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/bradautomates/claude-video",
+        "media_url": "https://opengraph.githubassets.com/1/bradautomates/claude-video",
+        "post_url": "https://github.com/bradautomates/claude-video"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-claude-video",
+      "title": "claude-video：让 Claude “看”任意视频，/watch 一条命令抽帧加转写",
+      "summary": "开发者 bradautomates 开源 claude-video：/watch 命令下载视频、抽帧、转写，再整体交给 Claude 理解。 仓库 2026-04-24 创建，截至 10 月 13 日 GitHub 显示约 18,448 星、1,914 fork。",
+      "source": "github",
+      "url": "https://github.com/bradautomates/claude-video",
+      "published_at": "2026-04-24T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "视频理解",
+        "Claude"
+      ],
+      "card_type": "repo",
+      "heat": 51,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2d-chongdashu-images2-sprites",
       "title": "GPT Images 2.0 做游戏精灵图的完整流程长文：网格参考 + 逐帧归一化",
       "summary": "Chong-U（@chongdashu）发 X 长文《GPT Images 2.0 For Game Sprites? Here's how》：先给模型一张网格参考图（技巧归功 @asynkimo），在 512×1280 画布上生成 2×5 精灵表，再逐格裁切、逐帧抠背景、按固定锚点归一化，最后手工挑选帧序。约 22.7 万浏览、2,358 收藏。",
@@ -9651,6 +11267,40 @@
       "on_board": false,
       "backfilled": true,
       "storyline": "AI 游戏 2D 资产管线"
+    },
+    {
+      "model_vendor": "op7418（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/op7418/guizang-ppt-skill",
+        "media_url": "https://opengraph.githubassets.com/1/op7418/guizang-ppt-skill",
+        "post_url": "https://github.com/op7418/guizang-ppt-skill"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-guizang-ppt-skill",
+      "title": "歸藏的 PPT skill：让 AI 智能体做杂志风、瑞士风 HTML 幻灯片",
+      "summary": "歸藏（op7418）开源 guizang-ppt-skill，让 AI 智能体生成杂志编辑风、瑞士风排版的 HTML 幻灯片，附配图提示词、社媒封面和 WebGL/低功耗演示运行时。 仓库 2026-04-23 创建，截至 10 月 13 日 GitHub 显示约 27,819 星、1,921 fork。",
+      "source": "github",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "published_at": "2026-04-23T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "PPT",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 53,
+      "importance": 52,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2604-spacex-cursor",
@@ -9775,6 +11425,107 @@
       "storyline": "算力、资本与政策格局"
     },
     {
+      "model_vendor": "esengine（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/esengine/DeepSeek-Reasonix",
+        "media_url": "https://opengraph.githubassets.com/1/esengine/DeepSeek-Reasonix",
+        "post_url": "https://github.com/esengine/DeepSeek-Reasonix"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-deepseek-reasonix",
+      "title": "DeepSeek-Reasonix：面向复杂软件工程任务的开源编程智能体",
+      "summary": "开发者 esengine 用 Go 开源编程智能体 DeepSeek-Reasonix，定位处理复杂软件工程任务。 仓库 2026-04-21 创建，截至 10 月 13 日 GitHub 显示约 35,776 星、2,449 fork。",
+      "source": "github",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "published_at": "2026-04-21T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "编程智能体",
+        "DeepSeek"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "tashfeenahmed（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/tashfeenahmed/freellmapi",
+        "media_url": "https://opengraph.githubassets.com/1/tashfeenahmed/freellmapi",
+        "post_url": "https://github.com/tashfeenahmed/freellmapi"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-freellmapi",
+      "title": "freellmapi：把 34 家免费大模型服务聚合到一个 /v1 接口",
+      "summary": "开发者 Tashfeen Ahmed 开源 freellmapi，把 34 家免费 LLM 提供商的 635 个免费模型端点聚合到一个 OpenAI 兼容的 /v1 接口，宣称每月 74 亿 token，带智能路由和自动故障切换，注明仅限个人实验。 仓库 2026-04-21 创建，截至 10 月 13 日 GitHub 显示约 34,307 星、4,689 fork。",
+      "source": "github",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "published_at": "2026-04-21T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "API 网关",
+        "免费额度"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "ConardLi（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/ConardLi/garden-skills",
+        "media_url": "https://opengraph.githubassets.com/1/ConardLi/garden-skills",
+        "post_url": "https://github.com/ConardLi/garden-skills"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-garden-skills",
+      "title": "ConardLi 开源 Skills 合集：网页设计、知识检索、图像生成等",
+      "summary": "开发者 ConardLi 开源 garden-skills，收录网页设计、知识检索、图像生成等多个智能体 skill。 仓库 2026-04-21 创建，截至 10 月 13 日 GitHub 显示约 12,855 星、1,543 fork。",
+      "source": "github",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "published_at": "2026-04-21T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 49,
+      "importance": 44,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2604-kimi-k26",
       "title": "月之暗面发布 Kimi K2.6：开源编程 SOTA，AA 指数开源第一",
       "summary": "Kimi K2.6 开源，官方给出 HLE（带工具）54.0、SWE-Bench Pro 58.6、BrowseComp 83.2 等开源最佳成绩，主打 4000+ 步长程编程；Artificial Analysis 随后将其列为最强开源权重模型（智能指数 54，仅次于 Anthropic、Google、OpenAI）。之后推出 300 个并行子智能体的 Agent Swarm，并登上 OpenRouter 周榜第一。",
@@ -9839,6 +11590,74 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "人形机器人落地"
+    },
+    {
+      "model_vendor": "alchaincyf（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/alchaincyf/huashu-design",
+        "media_url": "https://opengraph.githubassets.com/1/alchaincyf/huashu-design",
+        "post_url": "https://github.com/alchaincyf/huashu-design"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-huashu-design",
+      "title": "花叔 Design：Claude Code 里的 HTML 原生设计 skill，可导出 MP4",
+      "summary": "花叔（alchaincyf）开源 huashu-design，HTML 原生的设计 skill，可做高保真原型、幻灯片和动画，内置 20 种设计哲学和 5 维评审，支持导出 MP4，不绑定特定智能体。 仓库 2026-04-19 创建，截至 10 月 13 日 GitHub 显示约 24,891 星、2,811 fork。",
+      "source": "github",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "published_at": "2026-04-19T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "设计",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 52,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "kyegomez（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/kyegomez/OpenMythos",
+        "media_url": "https://opengraph.githubassets.com/1/kyegomez/OpenMythos",
+        "post_url": "https://github.com/kyegomez/OpenMythos"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数；为推测性重建，并非 Anthropic 官方架构",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-openmythos",
+      "title": "OpenMythos：按公开文献从零“理论重建” Claude Mythos 架构",
+      "summary": "开发者 Kye Gomez 开源 OpenMythos，基于公开研究文献从第一性原理出发，对 Claude Mythos 架构做理论重建。 仓库 2026-04-18 创建，截至 10 月 13 日 GitHub 显示约 14,908 星、3,278 fork。",
+      "source": "github",
+      "url": "https://github.com/kyegomez/OpenMythos",
+      "published_at": "2026-04-18T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "模型复现",
+        "Mythos"
+      ],
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 46,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2604-claude-design",
@@ -10003,6 +11822,35 @@
       "last_period": "archive"
     },
     {
+      "model_vendor": "优必选",
+      "model_name": "Walker S2",
+      "license_type": null,
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-robot-ubtech-walker-s2-rossmann",
+      "title": "优必选工业人形机器人 Walker S2 进入欧洲零售商 ROSSMANN 物流中心",
+      "summary": "优必选宣布，其工业人形机器人 Walker S2 经合作伙伴 Terra Robotics 进入欧洲连锁零售商 ROSSMANN 的物流中心，称这是人形机器人在欧洲的重要一步。 原帖（@UBTECHRobotics）约 237 赞、47 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/UBTECHRobotics/status/2044709720603418988",
+      "published_at": "2026-04-16T17:29:20+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "优必选",
+        "物流"
+      ],
+      "card_type": "model_update",
+      "heat": 48,
+      "importance": 66,
+      "category": "机器人",
+      "storyline": "人形机器人落地"
+    },
+    {
       "id": "bf-2604-hyworld2",
       "title": "腾讯开源 HY-World 2.0：从文本、图片、视频生成可交互 3D 世界",
       "summary": "腾讯混元开源多模态世界模型 HY-World 2.0，可从文本、图像、视频生成、重建并模拟可交互的 3D 世界，产出可接入游戏引擎与具身仿真管线；统一了 3D 世界生成与重建，含 HY-Pano 2.0 全景生成等模块。",
@@ -10070,6 +11918,76 @@
       "storyline": "可交互世界模型"
     },
     {
+      "model_vendor": "cathrynlavery（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/cathrynlavery/diagram-design",
+        "media_url": "https://opengraph.githubassets.com/1/cathrynlavery/diagram-design",
+        "post_url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-diagram-design",
+      "title": "diagram-design：给 AI 编程助手的编辑级图表设计 skill，44 种图型",
+      "summary": "开发者 Cathryn Lavery 开源 diagram-design，供 Claude Code、Codex、Copilot、Cursor 等使用，支持 44 种图表类型，产出自包含的 HTML+SVG，主打“没有阴影、没有 Mermaid 糊图”。 仓库 2026-04-16 创建，截至 10 月 13 日 GitHub 显示约 53,162 星、3,362 fork。",
+      "source": "github",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "published_at": "2026-04-16T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "可视化",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 56,
+      "importance": 54,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
+    },
+    {
+      "model_vendor": "tt-a1i（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/tt-a1i/archify",
+        "media_url": "https://opengraph.githubassets.com/1/tt-a1i/archify",
+        "post_url": "https://github.com/tt-a1i/archify"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-archify",
+      "title": "archify：把任意想法、计划或代码库变成好看的交互式图表",
+      "summary": "开发者 tt-a1i 开源 archify，一个可用于 Claude Code、Codex 等的智能体 skill，把想法、计划或代码库转成精美的交互式图表。 仓库 2026-04-15 创建，截至 10 月 13 日 GitHub 显示约 82,756 星、5,580 fork。",
+      "source": "github",
+      "url": "https://github.com/tt-a1i/archify",
+      "published_at": "2026-04-15T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "可视化",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 59,
+      "importance": 58,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
+    },
+    {
       "id": "bf-2604-gemini-er16",
       "title": "Google DeepMind 发布 Gemini Robotics-ER 1.6，强化机器人空间推理",
       "summary": "Gemini Robotics-ER 1.6 显著提升视觉与空间理解，帮助机器人规划并完成更有用的任务；两天后 DeepMind 宣布与波士顿动力合作，用 Gemini Robotics 具身推理模型驱动 Spot 机器狗理解环境、识别物体并执行“收拾房间”等简单指令。",
@@ -10100,6 +12018,40 @@
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "h4ckf0r0day（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/h4ckf0r0day/obscura",
+        "media_url": "https://opengraph.githubassets.com/1/h4ckf0r0day/obscura",
+        "post_url": "https://github.com/h4ckf0r0day/obscura"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-obscura",
+      "title": "obscura：给 AI 智能体和爬虫用的 Rust 无头浏览器",
+      "summary": "开发者 h4ckf0r0day 用 Rust 开源 obscura，一款面向 AI 智能体和网页抓取的无头浏览器。 仓库 2026-04-13 创建，截至 10 月 13 日 GitHub 显示约 28,838 星、2,140 fork。",
+      "source": "github",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "published_at": "2026-04-13T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "浏览器",
+        "智能体"
+      ],
+      "card_type": "repo",
+      "heat": 53,
+      "importance": 50,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2d-stretchy-studio",
@@ -10167,6 +12119,34 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "NVIDIA",
+      "model_name": "VoMP",
+      "license_type": "open-source",
+      "media": null,
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-3d-nvidia-vomp",
+      "title": "英伟达开源 VoMP：前馈预测任意 3D 表示的体积材质属性，免手工设物理参数",
+      "summary": "NVIDIA AI Developer 发布 VoMP，号称首个能为任意 3D 表示前馈预测体积力学材质属性的模型，用于物理仿真，代码和模型已开源。 原帖（@NVIDIAAIDev）约 159 赞、19 转发（10 月 13 日抓取）。",
+      "source": "twitter",
+      "url": "https://x.com/NVIDIAAIDev/status/2042741887111459135",
+      "published_at": "2026-04-11T07:09:52+08:00",
+      "tags": [
+        "3D 生成",
+        "NVIDIA",
+        "开源",
+        "物理仿真"
+      ],
+      "card_type": "research",
+      "heat": 46,
+      "importance": 58,
+      "category": "3D 生成"
     },
     {
       "category": "3D 生成",
@@ -10267,6 +12247,41 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "model_vendor": "debpalash（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio",
+        "media_url": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio",
+        "post_url": "https://github.com/debpalash/VoiceStudio"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-voicestudio",
+      "title": "VoiceStudio：完全本地的开源 ElevenLabs 替代品，声音克隆、配音、有声书一站式",
+      "summary": "开发者 debpalash 开源 VoiceStudio，定位完全本地运行的 ElevenLabs 替代：声音克隆、声音设计、视频配音、听写、转写和有声书制作，宣称支持 646 种语言。 仓库 2026-04-09 创建，截至 10 月 13 日 GitHub 显示约 61,040 星、6,850 fork。",
+      "source": "github",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "published_at": "2026-04-09T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "语音",
+        "本地"
+      ],
+      "card_type": "repo",
+      "heat": 57,
+      "importance": 58,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
+    },
+    {
       "id": "bf-2604-glasswing-mythos",
       "title": "Anthropic 发布 Claude Mythos Preview 与 Project Glasswing，不对公众开放",
       "summary": "Anthropic 推出 Project Glasswing 网络安全计划，由其最新前沿模型 Claude Mythos Preview 驱动，称其发现软件漏洞的能力超过除顶尖专家外的所有人类。该模型未公开发布，仅向少量合作机构开放用于防御性安全工作。帖子获约 3200 万浏览。",
@@ -10361,6 +12376,40 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
+      "model_vendor": "nashsu（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/nashsu/llm_wiki",
+        "media_url": "https://opengraph.githubassets.com/1/nashsu/llm_wiki",
+        "post_url": "https://github.com/nashsu/llm_wiki"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-llm-wiki",
+      "title": "LLM Wiki：让大模型把你的文档自动整理成互相链接的知识库",
+      "summary": "开发者 nashsu 开源跨平台桌面应用 LLM Wiki：不走传统 RAG 每次从头检索，而是让 LLM 从资料中持续构建和维护一个持久的互链 wiki。 仓库 2026-04-08 创建，截至 10 月 13 日 GitHub 显示约 20,595 星、2,322 fork。",
+      "source": "github",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "published_at": "2026-04-08T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "知识库",
+        "桌面应用"
+      ],
+      "card_type": "repo",
+      "heat": 51,
+      "importance": 50,
+      "category": "小众开发热帖"
+    },
+    {
       "id": "bf-2604-anthropic-tpu",
       "title": "Anthropic 与 Google、博通签约多吉瓦级下一代 TPU 算力",
       "summary": "Anthropic 宣布与 Google 和博通达成协议，获得多个吉瓦的下一代 TPU 算力，2027 年起陆续上线，用于训练和服务前沿 Claude 模型。帖子获约 300 万浏览。",
@@ -10387,6 +12436,107 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "算力、资本与政策格局"
+    },
+    {
+      "model_vendor": "xbtlin（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/xbtlin/ai-berkshire",
+        "media_url": "https://opengraph.githubassets.com/1/xbtlin/ai-berkshire",
+        "post_url": "https://github.com/xbtlin/ai-berkshire"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-ai-berkshire",
+      "title": "AI 伯克希尔：基于 Claude Code / Codex 的价值投资研究框架",
+      "summary": "开发者 xbtlin 开源 ai-berkshire，把巴菲特、芒格、段永平、李录四人的方法论做成 Claude Code / Codex 上的价值投资研究框架，多智能体并行对抗分析。 仓库 2026-04-07 创建，截至 10 月 13 日 GitHub 显示约 16,728 星、2,488 fork。",
+      "source": "github",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published_at": "2026-04-07T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "投资研究",
+        "多智能体"
+      ],
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "AgriciDaniel（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-obsidian",
+        "media_url": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-obsidian",
+        "post_url": "https://github.com/AgriciDaniel/claude-obsidian"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-claude-obsidian",
+      "title": "claude-obsidian：Obsidian + Claude Code 的自组织“第二大脑”",
+      "summary": "开发者 AgriciDaniel 开源 claude-obsidian，基于 Karpathy 提出的 LLM Wiki 模式：丢进任何资料，Claude 自动阅读、建立链接并归档为纯 Markdown 知识图谱。 仓库 2026-04-07 创建，截至 10 月 13 日 GitHub 显示约 15,491 星、1,542 fork。",
+      "source": "github",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "published_at": "2026-04-07T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "知识管理",
+        "Obsidian"
+      ],
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 48,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "KKKKhazix（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/KKKKhazix/khazix-skills",
+        "media_url": "https://opengraph.githubassets.com/1/KKKKhazix/khazix-skills",
+        "post_url": "https://github.com/KKKKhazix/khazix-skills"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-khazix-skills",
+      "title": "数字生命卡兹克开源 AI Skills 合集：leader、洁癖、写作等",
+      "summary": "博主“数字生命卡兹克”开源 khazix-skills，包含 leader（帮你定义目标）、neat-freak（洁癖）、hv-analysis、khazix-writer 等，适配 Claude Code、Codex 和 40 多种智能体。 仓库 2026-04-06 创建，截至 10 月 13 日 GitHub 显示约 21,352 星、2,256 fork。",
+      "source": "github",
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "published_at": "2026-04-06T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skill"
+      ],
+      "card_type": "repo",
+      "heat": 51,
+      "importance": 50,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2604-mempalace",
@@ -10419,6 +12569,144 @@
       "first_seen_at": "2026-10-08T11:16:52+08:00",
       "on_board": false,
       "last_period": "archive"
+    },
+    {
+      "model_vendor": "alchaincyf（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/alchaincyf/nuwa-skill",
+        "media_url": "https://opengraph.githubassets.com/1/alchaincyf/nuwa-skill",
+        "post_url": "https://github.com/alchaincyf/nuwa-skill"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-nuwa-skill",
+      "title": "女娲 skill：“蒸馏”任何人的思维方式——心智模型、决策启发式、表达 DNA",
+      "summary": "花叔（alchaincyf）开源 nuwa-skill，宣称可蒸馏任何人的思维方式，包括心智模型、决策启发式和表达风格。 仓库 2026-04-05 创建，截至 10 月 13 日 GitHub 显示约 34,220 星、4,540 fork。",
+      "source": "github",
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "published_at": "2026-04-05T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skill",
+        "人格蒸馏"
+      ],
+      "card_type": "repo",
+      "heat": 54,
+      "importance": 52,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "garrytan（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/garrytan/gbrain",
+        "media_url": "https://opengraph.githubassets.com/1/garrytan/gbrain",
+        "post_url": "https://github.com/garrytan/gbrain"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数；作者为知名投资人，但属个人项目，非公司官方发布",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-gbrain",
+      "title": "YC 掌门 Garry Tan 开源个人项目 gbrain：他的“有主见”的 OpenClaw/Hermes 智能体大脑",
+      "summary": "Y Combinator CEO Garry Tan 以个人账号开源 gbrain，是他为 OpenClaw/Hermes 智能体配置的“有主见”的大脑。 仓库 2026-04-05 创建，截至 10 月 13 日 GitHub 显示约 30,830 星、4,625 fork。",
+      "source": "github",
+      "url": "https://github.com/garrytan/gbrain",
+      "published_at": "2026-04-05T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "智能体",
+        "个人项目"
+      ],
+      "card_type": "repo",
+      "heat": 53,
+      "importance": 52,
+      "category": "小众开发热帖"
+    },
+    {
+      "model_vendor": "JuliusBrussee（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/JuliusBrussee/caveman",
+        "media_url": "https://opengraph.githubassets.com/1/JuliusBrussee/caveman",
+        "post_url": "https://github.com/JuliusBrussee/caveman"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-caveman",
+      "title": "“原始人说话”省 token：caveman 让编程智能体少说废话，号称省 65% token",
+      "summary": "开发者 Julius Brussee 开源 caveman，一个给编程智能体用的 skill + 代理，让模型像原始人一样用极简句子说话，宣称能省下约 65% 的 token。 仓库 2026-04-04 创建，截至 10 月 13 日 GitHub 显示约 111,312 星、6,453 fork。",
+      "source": "github",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "published_at": "2026-04-04T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "token 优化",
+        "编程智能体"
+      ],
+      "card_type": "repo",
+      "heat": 60,
+      "importance": 62,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
+    },
+    {
+      "model_vendor": "career-ops-hq（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/career-ops-hq/career-ops",
+        "media_url": "https://opengraph.githubassets.com/1/career-ops-hq/career-ops",
+        "post_url": "https://github.com/career-ops-hq/career-ops"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数；所有者为 GitHub 组织账号，团队规模未核实",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-career-ops",
+      "title": "career-ops：在编程 CLI 里跑的开源求职智能体，按简历给职位打分、定制简历",
+      "summary": "career-ops-hq 开源本地求职智能体：扫描招聘网站、按简历给每个职位 1–5 分、定制 ATS 友好的简历和求职信，提供面试准备和投递追踪，最后由用户自己点提交；运行在 Claude Code、Codex 等 CLI 中。 仓库 2026-04-04 创建，截至 10 月 13 日 GitHub 显示约 74,223 星、13,918 fork。",
+      "source": "github",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "published_at": "2026-04-04T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "求职",
+        "智能体"
+      ],
+      "card_type": "repo",
+      "heat": 58,
+      "importance": 56,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款"
     },
     {
       "id": "bf-2604-graphify",
@@ -10582,6 +12870,40 @@
       "on_board": false,
       "last_period": "archive",
       "storyline": "前沿模型代际竞赛"
+    },
+    {
+      "model_vendor": "fathah（个人/小团队开源）",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://opengraph.githubassets.com/1/fathah/hermes-desktop",
+        "media_url": "https://opengraph.githubassets.com/1/fathah/hermes-desktop",
+        "post_url": "https://github.com/fathah/hermes-desktop"
+      },
+      "kept_reason": "回溯补录；published_at 为仓库创建日期而非走红当天，热度为 10 月 13 日 GitHub API 实时星数",
+      "period": "archive",
+      "first_seen_at": "2026-10-13T16:50:00+08:00",
+      "last_period": null,
+      "on_board": false,
+      "backfilled": true,
+      "id": "bf-indie-hermes-desktop",
+      "title": "hermes-desktop：Hermes Agent 的桌面伴侣应用",
+      "summary": "开发者 fathah 开源 hermes-desktop，为 Hermes Agent 提供桌面端伴侣应用。 仓库 2026-04-02 创建，截至 10 月 13 日 GitHub 显示约 14,401 星、1,632 fork。",
+      "source": "github",
+      "url": "https://github.com/fathah/hermes-desktop",
+      "published_at": "2026-04-02T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "智能体",
+        "桌面应用"
+      ],
+      "card_type": "repo",
+      "heat": 49,
+      "importance": 44,
+      "category": "小众开发热帖"
     },
     {
       "id": "bf-2d-rd-pixel-art-essay",
