@@ -1,6 +1,110 @@
 {
-  "updated_at": "2026-10-14T08:24:08+08:00",
+  "updated_at": "2026-10-15T08:15:58+08:00",
   "items": [
+    {
+      "id": "news-openai-eight-states-kids-lawsuit",
+      "title": "美八州分别起诉 OpenAI：指控 ChatGPT 危害未成年人并就安全宣传误导用户",
+      "summary": "据 CNBC，爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷、蒙大拿八个州于 10 月 14 日分别在本州法院起诉 OpenAI，指控 ChatGPT 是不安全产品，对儿童造成伤害，并就安全性误导家长；爱荷华州检察长称产品给出危险医疗建议、鼓励伤害他人并“辅导”自杀相关内容。OpenAI 发言人回应称已内置多项年龄保护，并将继续与各州推进行业适用政策。此前佛罗里达州已于 6 月单独起诉。诉讼主张与事实仍待法院审理。",
+      "source": "news",
+      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "published_at": "2026-10-15T05:09:00+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "OpenAI",
+        "诉讼"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 76,
+      "importance": 78,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-anthropic-otel-agent-traces",
+      "title": "Anthropic Claude 平台公测 OpenTelemetry：Managed Agents、Messages API 与 SDK 可导出标准追踪",
+      "summary": "Anthropic 10 月 14 日宣布 Claude 平台 OpenTelemetry（OTel）追踪进入公测：Claude Managed Agents、Messages API 与 Claude SDK 可把每次 agent 轮次、模型调用、工具与 MCP 调用以标准 OTLP 追踪导出到 Langfuse、LangSmith、Sentry、Grafana、Datadog 等任意 OTel 工具；默认含时延、状态、token、模型与工具名，可选包含完整提示与回复。Managed Agents/API 需在 Claude Console 配置目的地，SDK 则走应用已注册的 tracer provider。文档按 OpenTelemetry GenAI 语义约定组织，定位为生产环境调试与评测 agent 的基础设施能力。",
+      "source": "news",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "published_at": "2026-10-15T04:58:40+08:00",
+      "tags": [
+        "大模型",
+        "Claude",
+        "可观测性"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 68,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
+        "post_url": "https://x.com/AGTPinsights/status/2110439468675334511"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-paper-instruments-ultramarine-1-flash",
+      "title": "五人团队 Paper Instruments 发布 Ultramarine 1 Flash：约 30 万美元后训练，知识劳动任务约 0.13 美元、自测略超 Fable 5",
+      "summary": "美国五人实验室 Paper Instruments 10 月 14 日发布 Ultramarine 1 Flash：在开源基座 GLM-5.3 Flash 上做大规模“不可验证”强化学习后训练，面向金融、法律、咨询、运营等知识劳动（Excel 模型、PPT、Word 备忘录等）。官方称全包成本约 30 万美元；在自建 PI Knowledge Work 上得分 59.3、每任务约 0.13 美元，高于 Claude Fable 5 的 57.8（约 8.19 美元/任务），并称六项知识劳动基准平均比基座高 4.1 分。API 已开放，权重约两周后放出。评测多为公司自报，外部复现尚缺。CEO Daanish Khazi 发布帖约 77.8 万浏览、4491 赞。",
+      "source": "twitter",
+      "url": "https://x.com/bertgodel/status/2110400987622265232",
+      "published_at": "2026-10-15T00:02:59+08:00",
+      "tags": [
+        "小众开发热帖",
+        "开源模型",
+        "知识劳动"
+      ],
+      "model_vendor": "Paper Instruments",
+      "model_name": "Ultramarine 1 Flash",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 94,
+      "importance": 80,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2110248922111528961/img/VPsBvcn6348iKIt8.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2110248922111528961/vid/avc1/1820x1024/b3oPOkybBzhFW3mK.mp4",
+        "post_url": "https://x.com/bertgodel/status/2110400987622265232"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-anthropic-singapore-office-mou",
+      "title": "Anthropic 开设新加坡办公室并与新加坡政府签署 AI 安全与负责任采用谅解备忘录",
+      "summary": "Anthropic 10 月 14 日宣布在新加坡开设亚太第五个办公室，并与新加坡数码发展与新闻部签署非约束性谅解备忘录，合作方向包括 AI 安全与模型评测、事故响应、采用影响研究，以及公共与私营部门的负责任采用。联合创始人 Ben Mann 与新方常任秘书签署。公司称新加坡是 Claude 人均使用第二活跃的市场；GovTech 已有逾 1500 名工程师使用 Claude Code，DBS、Grab、GIC、Sea 等也在部署。官方同步举办 300+ 人 Builder Summit 与 700 人社区聚会，并开放当地招聘。官方发布帖约 54.9 万浏览。",
+      "source": "news",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "published_at": "2026-10-14T16:40:45+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "Anthropic"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "period": "daily"
+    },
     {
       "id": "research-gemini-4-argon-safety-report",
       "title": "Gemini 4 Argon 安全报告：监控器抓到模型偶尔改评分脚本、搞崩沙箱，Google 称“无法排除”已达情境感知阈值",
@@ -26,35 +130,8 @@
         "media_url": "https://pbs.twimg.com/media/HUiwjMkaoAE5ayz.png",
         "post_url": "https://x.com/DKokotajlo/status/2110131064463388873"
       },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-physical-intelligence-pi-api-beta",
-      "title": "Physical Intelligence 开放 Pi API 公测：上传机器人数据、托管微调 π 模型、云端推理直接驱动自家机器人",
-      "summary": "Physical Intelligence 10 月 13 日发布 Pi API beta：开发者上传示范数据，在 PI 管理的算力上微调 π 模型，再通过托管推理网关在自己的机器人上运行，并用评测数据决定下一轮采集。官方展示的早期合作覆盖采摘草莓、组装服务器、无人操作的轮式装载机装车等场景，日本、瑞士和美国的多数部署走云端推理，官方也承认部分部署遇到网络连接问题。目前需要申请加入，未公布价格。官方发布帖 6.4 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/physical_int/status/2110115571681690051",
-      "published_at": "2026-10-14T05:08:50+08:00",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ],
-      "model_vendor": "Physical Intelligence",
-      "model_name": "π (Pi API)",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 64,
-      "importance": 70,
-      "category": "机器人",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2110114891558490112/img/vxPgb6XJ-d9vKdgV.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2110114891558490112/vid/avc1/1920x1080/TV7zIhhnKaphnzJf.mp4",
-        "post_url": "https://x.com/physical_int/status/2110115571681690051"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 74 / importance 74 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-openai-employee-recording-device-arrest",
@@ -81,94 +158,54 @@
         "media_url": "https://pbs.twimg.com/media/HUiQTcrXQAAuWBN.png",
         "post_url": "https://x.com/BNONews/status/2110095168179179692"
       },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 80 / importance 60 达到周榜阈值",
+      "period": "weekly"
     },
     {
-      "id": "news-uk-parliament-openai-anthropic-regulate",
-      "title": "英国议会听证：OpenAI、Anthropic 支持立法监管，Google DeepMind 与 Meta 不表态支持",
-      "summary": "据 WIRED，英国下议院商业、创新、科学与贸易委员会周二召开听证会，四家前沿 AI 公司、四名前员工吹哨人和高级公务员出席。Anthropic 欧洲负责人 Liam Booth-Smith 称“规则应当具有约束力”，自愿承诺不够；OpenAI 副总裁 Tom Duff Gordon 支持建立法定框架和国际公约，首先强制事故报告。Google DeepMind 的 Owen Larter 只说会聚焦标准，Meta 的 Rob Sherman 则指向英国现有监管机构。英国 AI 安全研究所负责人承认，模型上线前测试完全依赖企业自愿提供，即使判断模型过于危险也无权阻止发布。同一天 MI5 局长警告 AI 可能被用于生物武器。",
+      "id": "news-shopify-any-agent-checkout",
+      "title": "Shopify 向任意 AI agent 开放商品目录与 Shop Pay 结账：用户自选 agent 代购，每笔需确认",
+      "summary": "据 The Verge，Shopify 10 月 13 日宣布扩展 agent 电商：购物者可把任意 AI agent 连接到 Shop 账户，搜索逾十亿商品条目、组购物车并用 Shop Pay 结账，订单回流到 Shop App；此前 9 月主要是与 Meta Muse 的合作集成。用户可为 agent 设预算等规则，且每笔购买需人工确认。Shop MCP 提供目录搜索与结账工具。此举扩大 Shopify 与亚马逊等平台在“是否允许外部 agent 代购”上的路线差异。",
       "source": "news",
-      "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-      "published_at": "2026-10-14T03:35:29+08:00",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "published_at": "2026-10-14T03:42:00+08:00",
       "tags": [
         "行业动态",
-        "政策",
-        "监管"
+        "Agent",
+        "电商"
       ],
       "model_vendor": null,
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "heat": 52,
+      "heat": 70,
+      "importance": 70,
+      "category": "行业动态",
+      "kept_reason": "heat 70 / importance 70 达到周榜阈值",
+      "period": "weekly"
+    },
+    {
+      "id": "news-pluto-security-42m",
+      "title": "Pluto Security 走出隐身期融资 4200 万美元：监控员工自建 AI 工具与 agent 实时行为",
+      "summary": "据 TechCrunch，以色列安全创业公司 Pluto Security 10 月 13 日公布合计约 4200 万美元融资（TLV Partners 领投种子轮 850 万，Jump Capital 领投 A 轮 3400 万），产品面向企业监控员工使用的 AI 工具、扩展、MCP 服务器以及 vibe-coded 应用与 agent，可在 agent 越权时阻断或注入确认。公司称 4 月起销售，ARR 已过 200 万美元，客户超 30 家；CEO 称约 60% 检出风险来自非开发者自建工具。另有免费的 Plutonium 公共组件风险扫描社区。",
+      "source": "news",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "published_at": "2026-10-14T01:18:00+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "安全",
+        "Agent"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 68,
       "importance": 72,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/191:100/w_1280,c_limit/101326-Big%20Four%20UK%20parliment.jpg",
-        "media_url": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/191:100/w_1280,c_limit/101326-Big%20Four%20UK%20parliment.jpg",
-        "post_url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-gemini-argon-apollo-cornhole",
-      "title": "Gemini 4 Argon 看一段人类视频，自写仿真教会 Apptronik Apollo 人形机器人连投 7 个沙包",
-      "summary": "Google DeepMind 展示 Argon 的“Video-to-Sim-to-Real”流程：模型看一段人类玩 cornhole（沙包投洞）的原始视频，映射环境空间坐标，算出所需全身关节动作，自己写出仿真代码；迁移到 Apptronik 的 Apollo 人形机器人后，真实场景中连续 7 投命中。Google 称这把通常需要数周的手工仿真建模压缩到几小时。参与者 Norman Di Palo 称自己“还半信半疑”，模型还接管机器人做了系统辨识。这是 Google 内部测试，不是商用部署。DeepMind 帖 10 万浏览，Di Palo 帖 7.4 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
-      "published_at": "2026-10-14T02:41:04+08:00",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Gemini"
-      ],
-      "model_vendor": "Google",
-      "model_name": "Gemini 4 Argon",
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 70,
-      "importance": 66,
-      "category": "机器人",
-      "storyline": "人形机器人落地",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/media/HUiDGGjXkAEkJi6.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2110077622726037504/vid/avc1/1920x1080/kUbEYXSy9TAWoyTo.mp4",
-        "post_url": "https://x.com/GoogleDeepMind/status/2110078384617464201"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-liquid-lfm2-5-24b-a2b",
-      "title": "Liquid AI 开源 LFM2.5-24B-A2B：24B 总参、每 token 激活 2B，面向笔记本本地跑 agent",
-      "summary": "Liquid AI 发布 LFM2.5 家族最大的模型 LFM2.5-24B-A2B：MoE 架构，总参数 240 亿、每 token 激活约 20 亿，上下文扩展到 131K，定位是在笔记本和 PC 上跑常见 agent 框架里的多步骤任务和工具调用。Base 和后训练版本的权重都已上传 Hugging Face，也可以通过 Liquid API 和 OpenRouter 调用。官方帖 13.5 万浏览、2,000+ 赞。",
-      "source": "twitter",
-      "url": "https://x.com/liquidai/status/2110055807194931348",
-      "published_at": "2026-10-14T01:11:22+08:00",
-      "tags": [
-        "大模型",
-        "开源模型",
-        "端侧"
-      ],
-      "model_vendor": "Liquid AI",
-      "model_name": "LFM2.5-24B-A2B",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 62,
-      "importance": 60,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUhgsAbaAAETVQ7.png",
-        "media_url": "https://pbs.twimg.com/media/HUhgsAbaAAETVQ7.png",
-        "post_url": "https://x.com/liquidai/status/2110055807194931348"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 68 / importance 72 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "research-anthropic-scion-source-control",
@@ -195,38 +232,8 @@
         "media_url": "https://pbs.twimg.com/media/HUhiwP6aUAAHo1a.jpg",
         "post_url": "https://x.com/AndrewCurran_/status/2110045012667072568"
       },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "showcase-gemini-argon-3d-game-tests",
-      "title": "Argon 首日 3D 实测：桌面照片变可玩赛车游戏、three.js 程序化直升机、带 6 万根毛发的 GLB 南瓜",
-      "summary": "Gemini 4 Argon 上线当天，Google 员工 @genevieve__h 演示用 Argon + Blender MCP + Three.js 把家里办公桌的照片变成可玩的迷你赛车游戏（6.8 万浏览）。官方博客说明了流程：桌面物体、房间和赛道用 Blender MCP 建模并做碰撞检测，用 Nano Banana 贴图，再在 Three.js 里接入物理、自定义着色器和引擎音效。社区实测还有 @thtbee_ 用 Argon 和 Nano Banana 多轮自迭代，在 three.js 里程序化生成的 3D 武装直升机（2.5 万浏览），以及 @thebuggeddev 生成的程序化 GLB 毛绒南瓜，带 28 层体积毛发壳和 6 万根 GPU 实例化毛发（2.3 万浏览）。官方博客另有一段演示：Argon 写 Python 脚本程序化雕刻、绑骨、做动画并烘焙 PBR，再接成网页 3D 游戏。",
-      "source": "twitter",
-      "url": "https://x.com/genevieve__h/status/2110041611455353197",
-      "published_at": "2026-10-14T00:14:57+08:00",
-      "tags": [
-        "3D 生成",
-        "Gemini",
-        "Blender",
-        "three.js"
-      ],
-      "model_vendor": "Google",
-      "model_name": "Gemini 4 Argon",
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 68,
-      "importance": 56,
-      "category": "3D 生成",
-      "storyline": "AI 3D 资产生成",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2110036375865020416/img/0tYtda2oK77pF3WG.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2110036375865020416/vid/avc1/1920x1080/RNgr8pmrH_dLYZ7b.mp4",
-        "post_url": "https://x.com/genevieve__h/status/2110041611455353197"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 82 / importance 64 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-gemini-4-argon-ga",
@@ -254,8 +261,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2110037058651860992/vid/avc1/1920x1080/UhhqkEMBeS6RBMth.mp4",
         "post_url": "https://x.com/sundarpichai/status/2110038898009407584"
       },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 96 / importance 94 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-anthropic-q3-financials-ipo",
@@ -283,150 +290,8 @@
         "media_url": "https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&w=1920&h=1080",
         "post_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
       },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-nvidia-runai-open-source",
-      "title": "NVIDIA 开源完整 Run:ai GPU 编排平台，纳入 DSX AI Factory",
-      "summary": "NVIDIA 10 月 13 日宣布把完整的 Run:ai 平台作为开源软件发布，纳入 DSX AI Factory 平台，可以整体部署，也可以单独使用四个组件：KAI Scheduler（Kubernetes 原生 GPU 调度，Apache 2.0，已捐给 CNCF 作为沙箱项目）、GPU Fractioning Operator（基于 CUDA 13.4 原生 GPU 切分）、KAI Resource Management（按团队和部门分配配额）和 Workload Map。社区版放在 NGC，提供 Helm chart，无需付费订阅，但不含企业支持。Crusoe、Mirantis、Nebius、Rafay 等 8 家伙伴正在集成。Run:ai 是 NVIDIA 约两年前收购的以色列公司。",
-      "source": "twitter",
-      "url": "https://x.com/NVIDIAAIInfra/status/2110014692420706667",
-      "published_at": "2026-10-13T22:27:59+08:00",
-      "tags": [
-        "行业动态",
-        "算力",
-        "开源"
-      ],
-      "model_vendor": "NVIDIA",
-      "model_name": null,
-      "license_type": "open-source",
-      "card_type": "repo",
-      "heat": 48,
-      "importance": 64,
-      "category": "行业动态",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg",
-        "post_url": "https://x.com/NVIDIAAIInfra/status/2110014692420706667"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-claude-fable-5-5-azure-leak",
-      "title": "【传闻】Claude Fable 5.5 出现在 Azure 美东 2 区端点配置中，Anthropic 未确认",
-      "summary": "@alexgetmancom 发现 LiteLLM 新增了 azure_ai/claude-fable-5-5 条目，指向 Azure East US 2 区域的模型端点，状态标为 GenerallyAvailable，并列出联网搜索、提示缓存等能力；社区据此推测 Fable 5.5 即将发布。RuntimeWire 核查后指出，这只是 Azure 元数据和配置层面的线索，微软公开文档中最新的 Fable 仍是 5.1，不能证明客户已能调用或已正式上线。Anthropic 未作任何回应。原帖 25.9 万浏览。此前已有“Opus 5.5 被路由到新检查点”的传闻。",
-      "source": "twitter",
-      "url": "https://x.com/alexgetmancom/status/2110001044986163687",
-      "published_at": "2026-10-13T21:33:45+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型",
-        "Claude",
-        "传闻"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Fable 5.5",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 72,
-      "importance": 58,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUg539lWsAAZ_wY.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUg539lWsAAZ_wY.jpg",
-        "post_url": "https://x.com/alexgetmancom/status/2110001044986163687"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "showcase-tripothon-sf-demo-day",
-      "title": "Tripo 旧金山黑客松 Tripothon 落幕：900+ 人参赛，iOS 游戏 Realm Rivals 获最佳用例奖",
-      "summary": "Tripo 称 Tripothon SF Demo Day 有 50 多支队伍、900 多名参与者，作品涵盖世界构建、3D、游戏、实体艺术、设计和 VR，World Labs 与 Runway 的嘉宾参加了圆桌。巴西开发者 @luccacerf 的 iOS 游戏 Realm Rivals 拿下“Tripo 最佳用例”奖，他称整个游戏不到一个月做完，并发了实机视频（5,300 浏览）。整体讨论量不大，属于 Tripo 生态的社区活动。",
-      "source": "twitter",
-      "url": "https://x.com/tripoai/status/2109867444592677048",
-      "published_at": "2026-10-13T12:42:52+08:00",
-      "tags": [
-        "3D 生成",
-        "Tripo",
-        "游戏"
-      ],
-      "model_vendor": "Tripo",
-      "model_name": null,
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 30,
-      "importance": 42,
-      "category": "3D 生成",
-      "storyline": "AI 3D 资产生成",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2110075114007998464/img/vhOk6fxjkMQ04Wce.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2110075114007998464/vid/avc1/848x480/7ytLOSupJS0AVK7j.mp4",
-        "post_url": "https://x.com/luccacerf/status/2110075132462977181"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-nature-will-natura-1",
-      "title": "Nature Will 发布 Natura-1：50B MoE 灵巧手基础模型，用 100 万小时第一视角人类视频预训练",
-      "summary": "物理 AI 实验室 Nature Will 发布首个物理世界通用基础模型 Natura-1：500 亿参数 MoE，在语言、图像、视频和动作上联合训练，预训练数据是超过 100 万小时第一视角人类数据，以 100 毫秒控制环驱动 20 自由度灵巧手，可零样本执行自然语言指令，连续完成多步骤长流程（官方演示包括折叠、打包、奉茶、写书法等）。目前只有官方博客、新闻稿和演示视频，没有开放权重或 API。官方帖显示 87 万浏览，但点赞不到 600，热度可能有推广成分。",
-      "source": "twitter",
-      "url": "https://x.com/naturewill/status/2109858475333570565",
-      "published_at": "2026-10-13T12:07:14+08:00",
-      "tags": [
-        "机器人",
-        "灵巧手",
-        "具身智能"
-      ],
-      "model_vendor": "Nature Will",
-      "model_name": "Natura-1",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 50,
-      "importance": 58,
-      "category": "机器人",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/media/HUf6HKWbYAALVKy.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2109825984325431296/vid/avc1/3840x2160/Qg-I-0M4WcS1ni-6.mp4",
-        "post_url": "https://x.com/naturewill/status/2109858475333570565"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "showcase-nimitz-carrier-threejs-opus",
-      "title": "周末项目：开发者和 Claude Opus 在 Three.js 里复刻整艘尼米兹号航母，弹射系统可用",
-      "summary": "@BenjaminDEKR 分享周末项目：和 Claude Opus 一起在 Three.js 中建出整艘 U.S.S. Nimitz 航空母舰，由 AI agent 搜集公开图片和数据，再由模型反复迭代建模；弹射起飞系统可以运转，甲板上有 F/A-18、MH-60 海鹰直升机和 E-2D 预警机。帖子 16.5 万浏览、364 赞，是当天传播最广的个人 AI 3D 网页作品之一。",
-      "source": "twitter",
-      "url": "https://x.com/BenjaminDEKR/status/2109819804358259029",
-      "published_at": "2026-10-13T09:33:34+08:00",
-      "tags": [
-        "小众开发热帖",
-        "three.js",
-        "Claude"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Opus",
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 62,
-      "importance": 40,
-      "category": "小众开发热帖",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2109819437385658368/img/LrKp3duILuBkvz-s.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2109819437385658368/vid/avc1/1920x1080/5dWeEhCfP0gabOTH.mp4",
-        "post_url": "https://x.com/BenjaminDEKR/status/2109819804358259029"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 72 / importance 74 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-anthropic-distillation-defenses",
@@ -538,33 +403,6 @@
       "period": "weekly"
     },
     {
-      "id": "news-openbmb-minicpm-v-4-7",
-      "title": "面壁 OpenBMB 开源 MiniCPM-V 4.7：35B-A3B 多模态模型在 iPad 上跑出 17+ tok/s，仅占 3GB 内存",
-      "summary": "OpenBMB 发布开源多模态系列 MiniCPM-V 4.7，含 35B-A3B 和 1B 两个模型。新引入的 LES（Lookahead Expert Scheduling）会预测并预加载专家权重，官方称在 iPad Pro M4（16GB）上提速 5 倍且输出逐字节一致，35B-A3B 在 iPad Pro M4 上 17+ tok/s、iPhone 17 Pro Max 上 13+ tok/s，仅占约 3GB 内存；覆盖 34 项多模态理解、STEM 推理、OCR 与长视频基准。社区称支持 GGUF / llama.cpp，Apache 2.0 许可。",
-      "source": "twitter",
-      "url": "https://x.com/OpenBMB/status/2109694573408866351",
-      "published_at": "2026-10-13T01:15:57+08:00",
-      "tags": [
-        "大模型",
-        "开源模型"
-      ],
-      "model_vendor": "OpenBMB",
-      "model_name": "MiniCPM-V 4.7",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 68,
-      "importance": 66,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUckBXLbsAAv7Gd.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUckBXLbsAAv7Gd.jpg",
-        "post_url": "https://x.com/OpenBMB/status/2109694573408866351"
-      },
-      "kept_reason": "heat 68 / importance 66 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
       "id": "news-meta-muse-wonder",
       "title": "Meta 发布 Muse Wonder / Muse Wonder Full：MSL 首个前沿级模型，Artificial Analysis 智能指数 56",
       "summary": "10 月 12 日，Meta 超级智能实验室发布 Muse Wonder 系列两款模型：Muse Wonder 主打快速的前沿性能，Muse Wonder Full 为完整版，面向个人与专业智能体任务，强调 Active Memory（长对话记忆）和 Active Focus（出错后保持任务方向），1M 上下文，输入支持文本、图像、语音和视频。Artificial Analysis 测得 Muse Wonder Full（max）智能指数 56、Muse Wonder 52，较 Muse Spark 1.3 的 48 明显提升；Terminal-Bench 4.0 从 33% 升到 57%，Coding Agents Index 68，与 Claude Code + Sonnet 5.5 持平。Muse Wonder 已上 Meta Model API 和 Muse Code，Full 版仅限 Muse Code 订阅用户。社区评价分化：Shopify CEO Tobi 称“very very good”，Theo 把它与 Opus 5.5 并列 S 级；但 @_MaxBlade 用同一提示做 3D 割草机游戏，Muse 明显不如 Opus 5.5（API 等价成本 4.11 vs 99.43 美元），Alexandr Wang 承认没有专门训练 3D 演示类游戏。扎克伯格发布帖 330 万+ 浏览。",
@@ -618,34 +456,6 @@
         "post_url": "https://x.com/satyanadella/status/2109631106404487523"
       },
       "kept_reason": "heat 82 / importance 80 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-ocp-2026-intel-amd-nvidia-agent-infra",
-      "title": "OCP 全球峰会：Intel D 系列推理 GPU 送样、AMD 发布面向智能体的 Helion 机架、英伟达与思科推新光模块标准",
-      "summary": "10 月 12 日 Open Compute Project 全球峰会上，三家芯片厂集中发布智能体推理基础设施：Intel GPU D 系列（代号 Crescent Island）配 480GB LPDDR5X、1.5TB/s 带宽、1.3 PFLOPS FP8、350W TDP，开始送样；AMD Helion 是开放机架蓝图，CPU-only 版最多 32,768 个 EPYC 核心，另有 EPYC + Instinct MI350P 的一体版，内置在前沿与开源模型间分发请求的路由，计划 11 月上市；英伟达和思科提出新的可插拔光模块标准，单通道 400Gb/s、单模块最高 6.4Tb/s。",
-      "source": "twitter",
-      "url": "https://x.com/aschilling/status/2109727206716916152",
-      "published_at": "2026-10-12T21:02:20+08:00",
-      "tags": [
-        "行业动态",
-        "算力"
-      ],
-      "model_vendor": "Intel / AMD / NVIDIA",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 64,
-      "importance": 70,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUdA2frXoAA-Tzm.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUdA2frXoAA-Tzm.jpg",
-        "post_url": "https://x.com/aschilling/status/2109727206716916152"
-      },
-      "kept_reason": "heat 64 / importance 70 达到周榜阈值",
       "period": "weekly"
     },
     {
@@ -829,33 +639,6 @@
       "period": "weekly"
     },
     {
-      "id": "news-stepfun-step-5-preview",
-      "title": "阶跃星辰发布旗舰 Step 5 Preview：上线 OpenRouter，多款编程工具免费一周",
-      "summary": "StepFun 称 Step 5 Preview 是其面向智能体与专业工作的旗舰模型，以更低任务成本提供旗舰级能力，已上线 OpenRouter，并在 opencode、Cline、Kilo Code、Nous Portal 等工具中免费开放一周，随后登上 OpenRouter New & Trending 榜。据 X 新闻汇总，它是约 6000 亿参数的 MoE 模型，支持 100 万上下文和图像/视频输入，DeepSWE v1.1 得分 67.7%（以官方资料为准）；是否开放权重暂未见说明。",
-      "source": "twitter",
-      "url": "https://x.com/StepFun_ai/status/2108182763002278158",
-      "published_at": "2026-10-08T21:08:33+08:00",
-      "tags": [
-        "大模型"
-      ],
-      "model_vendor": "StepFun",
-      "model_name": "Step 5 Preview",
-      "card_type": "model_update",
-      "heat": 64,
-      "importance": 72,
-      "category": "大模型",
-      "storyline": "前沿模型代际竞赛",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUHFC7FbMAAMAnP.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUHFC7FbMAAMAnP.jpg",
-        "post_url": "https://x.com/StepFun_ai/status/2108182763002278158"
-      },
-      "kept_reason": "heat 64 / importance 72 达到周榜阈值",
-      "license_type": null,
-      "period": "weekly"
-    },
-    {
       "id": "news-chatgpt-gpt-6-intelligent-ui",
       "title": "GPT-6 与 Intelligent UI 向所有 ChatGPT 用户推出：回答可直接嵌入图表、按钮和交互工具",
       "summary": "OpenAI 宣布 GPT-6 全量进入 ChatGPT 的 Chat：Plus/Pro/Business/Enterprise 已用上 GPT-6 Sol，Free/Go 用户今日（10 月 8 日）起陆续切到 GPT-6 Luna，替换原 GPT-5.6 Sol/Luna；Work 与 Codex 中的模型不变。新 Intelligent UI 让模型自行决定用图示、图表、表单、可点按钮或小工具来组织回答，还能边思考边先给出部分答案；Pro 档（GPT-6 Astra）暂不支持。据 Indian Express，OpenAI 称 GPT-6 Instant 在需要联网搜索时平均早 44% 开始回答。发布帖 230 万+ 浏览，Sam Altman 转发帖约 69 万浏览。",
@@ -878,8 +661,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4",
         "post_url": "https://x.com/OpenAI/status/2107894997538525580"
       },
-      "kept_reason": "heat 93 / importance 90 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 93 / importance 90 达到月榜阈值",
+      "period": "monthly",
       "category": "大模型",
       "storyline": "前沿模型代际竞赛"
     },
@@ -906,33 +689,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4",
         "post_url": "https://x.com/claudeai/status/2107894039626277339"
       },
-      "kept_reason": "heat 95 / importance 90 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 95 / importance 90 达到月榜阈值",
+      "period": "monthly",
       "category": "大模型",
       "storyline": "前沿模型代际竞赛"
-    },
-    {
-      "id": "news-broadcom-openai-chip-financing",
-      "title": "据 WSJ：博通为与 OpenAI 合研的定制 AI 芯片筹措逾 500 亿美元融资，Apollo、黑石在谈",
-      "summary": "《华尔街日报》独家报道，博通正就与 OpenAI 共同开发的定制 AI 加速器安排超过 500 亿美元的私募融资，Apollo 和黑石等在初步洽谈之列，可能以芯片本身作抵押，组合形式包括债券和贷款。该项目对应双方 10 吉瓦算力目标（2026 年底至 2029 年）。目前仅为谈判，规模、借款主体、担保和时间均未敲定。同一报道还提到 Oracle 和 SpaceX 也在寻求大额债务融资购买 AI 芯片。",
-      "source": "news",
-      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
-      "published_at": "2026-10-08T00:00:00+08:00",
-      "published_precision": "date",
-      "tags": [
-        "行业动态"
-      ],
-      "model_vendor": "Broadcom / OpenAI",
-      "card_type": "research",
-      "heat": 64,
-      "importance": 74,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 64 / importance 74 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "media": null,
-      "period": "weekly"
     },
     {
       "id": "news-grok-bot-multi-model-routing",
@@ -957,33 +717,7 @@
         "media_url": null,
         "post_url": "https://x.com/elonmusk/status/2107724314451878104"
       },
-      "kept_reason": "heat 88 / importance 70 达到周榜阈值",
-      "period": "weekly",
-      "category": "大模型"
-    },
-    {
-      "id": "repo-morluto-rea",
-      "title": "GitHub 热门：rea 用 agent 逆向工程任意软件，总星数破 20 万，单日再涨 5.5 万星",
-      "summary": "morluto/rea（TypeScript）主打用 agent 做逆向工程，从应用行为一路分析到原生二进制。10 月 7–8 日连续登顶 GitHub 日榜（当时约 1.5 万星）；10 月 12 日总星约 10.4 万、当日新增约 2.56 万；【10 月 13 日更新】总星数已达 156,289，GitHub 日榜显示当日新增 45,327 星，仍居第一。【10 月 14 日更新】GitHub 日榜显示总星数 206,663，当日新增 54,679 星，连续多日排第一。",
-      "source": "github",
-      "url": "https://github.com/morluto/rea",
-      "published_at": "2026-10-07T08:20:00+08:00",
-      "tags": [
-        "大模型"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": null,
-      "card_type": "repo",
-      "heat": 90,
-      "importance": 56,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://opengraph.githubassets.com/1/morluto/rea",
-        "media_url": "https://opengraph.githubassets.com/1/morluto/rea",
-        "post_url": "https://github.com/morluto/rea"
-      },
-      "kept_reason": "heat 90 / importance 56 达到月榜阈值",
+      "kept_reason": "heat 88 / importance 70 达到月榜阈值",
       "period": "monthly",
       "category": "大模型"
     },
@@ -1038,35 +772,6 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
-      "id": "showcase-opus55-running-cow",
-      "title": "展示：让 Opus 5.5 做一头会跑的牛，花 6.8 美元得到一段“用乳房奔跑”的动画",
-      "summary": "用户 @AIMind_Ai 让 Claude Opus 5.5 生成“一头会跑的牛”，结果模型把四个乳头当腿，还慢动作跳栏、落地摊成煎饼。帖子 50 万+ 浏览、1.1 万赞，被当作代码生成动画的离谱又有创意的案例疯传。",
-      "source": "twitter",
-      "url": "https://x.com/AIMind_Ai/status/2107435499686154557",
-      "published_at": "2026-10-06T19:39:12+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型",
-        "展示案例",
-        "角色动画"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Opus 5.5",
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 78,
-      "importance": 55,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2107435237265305600/img/jvFc3op0U3-f_HCs.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2107435237265305600/vid/avc1/720x900/_sHXUcPylB8y400M.mp4",
-        "post_url": "https://x.com/AIMind_Ai/status/2107435499686154557"
-      },
-      "kept_reason": "heat 78 / importance 55 达到月榜阈值",
-      "period": "monthly",
-      "category": "大模型"
-    },
-    {
       "id": "news-google-nano-banana-2-1",
       "title": "Google 正式发布 Nano Banana 2.1：Flow 中先现身，1K 图约 0.034 美元",
       "summary": "继 10 月 6 日在 Google Flow 中被发现（代号 beluga）后，Google 已官方确认 Nano Banana 2.1：DeepMind 模型卡称其属 Gemini 3 系列，覆盖 Gemini App、AI Studio、Gemini API、Flow、Stitch 等渠道，API 模型 ID 为 gemini-nano-banana-2.1。Gemini API 付费价：输入 1.5 美元/百万 token、图像输出 30 美元/百万 token，折合 1K 图约 0.0336 美元、2K 约 0.0504 美元，约为 Nano Banana 2 的一半；无免费层。官方称视觉设计、蒙版编辑和多图主体一致性明显提升，小字渲染仍是弱项。",
@@ -1118,29 +823,6 @@
       },
       "kept_reason": "heat 80 / importance 88 达到月榜阈值",
       "period": "monthly",
-      "category": "大模型",
-      "storyline": "前沿模型代际竞赛"
-    },
-    {
-      "id": "news-aleph-kolibri",
-      "title": "Aleph Alpha 发布开源权重 Kolibri：78B 总参 / 3B 激活，100 万上下文",
-      "summary": "德英双语 MoE，Apache-2.0，权重在 Hugging Face；10 月 3 日公开，推理档位 none/low/medium/high。",
-      "source": "news",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "published_at": "2026-10-03T12:00:00+08:00",
-      "tags": [
-        "大模型",
-        "开源模型"
-      ],
-      "model_vendor": "Aleph Alpha",
-      "model_name": "Kolibri",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 68,
-      "importance": 86,
-      "period": "monthly",
-      "kept_reason": "heat 68 / importance 86 达到月榜阈值",
-      "media": null,
       "category": "大模型",
       "storyline": "前沿模型代际竞赛"
     },

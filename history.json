@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-14T08:24:26+08:00",
+  "updated_at": "2026-10-15T08:16:06+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 175
+      "count": 176
     },
     {
       "name": "世界模型",
@@ -28,14 +28,130 @@
     },
     {
       "name": "行业动态",
-      "count": 38
+      "count": 42
     },
     {
       "name": "小众开发热帖",
-      "count": 46
+      "count": 47
     }
   ],
   "items": [
+    {
+      "id": "news-openai-eight-states-kids-lawsuit",
+      "title": "美八州分别起诉 OpenAI：指控 ChatGPT 危害未成年人并就安全宣传误导用户",
+      "summary": "据 CNBC，爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷、蒙大拿八个州于 10 月 14 日分别在本州法院起诉 OpenAI，指控 ChatGPT 是不安全产品，对儿童造成伤害，并就安全性误导家长；爱荷华州检察长称产品给出危险医疗建议、鼓励伤害他人并“辅导”自杀相关内容。OpenAI 发言人回应称已内置多项年龄保护，并将继续与各州推进行业适用政策。此前佛罗里达州已于 6 月单独起诉。诉讼主张与事实仍待法院审理。",
+      "source": "news",
+      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "published_at": "2026-10-15T05:09:00+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "OpenAI",
+        "诉讼"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 76,
+      "importance": 78,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-anthropic-otel-agent-traces",
+      "title": "Anthropic Claude 平台公测 OpenTelemetry：Managed Agents、Messages API 与 SDK 可导出标准追踪",
+      "summary": "Anthropic 10 月 14 日宣布 Claude 平台 OpenTelemetry（OTel）追踪进入公测：Claude Managed Agents、Messages API 与 Claude SDK 可把每次 agent 轮次、模型调用、工具与 MCP 调用以标准 OTLP 追踪导出到 Langfuse、LangSmith、Sentry、Grafana、Datadog 等任意 OTel 工具；默认含时延、状态、token、模型与工具名，可选包含完整提示与回复。Managed Agents/API 需在 Claude Console 配置目的地，SDK 则走应用已注册的 tracer provider。文档按 OpenTelemetry GenAI 语义约定组织，定位为生产环境调试与评测 agent 的基础设施能力。",
+      "source": "news",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "published_at": "2026-10-15T04:58:40+08:00",
+      "tags": [
+        "大模型",
+        "Claude",
+        "可观测性"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 68,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
+        "post_url": "https://x.com/AGTPinsights/status/2110439468675334511"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-paper-instruments-ultramarine-1-flash",
+      "title": "五人团队 Paper Instruments 发布 Ultramarine 1 Flash：约 30 万美元后训练，知识劳动任务约 0.13 美元、自测略超 Fable 5",
+      "summary": "美国五人实验室 Paper Instruments 10 月 14 日发布 Ultramarine 1 Flash：在开源基座 GLM-5.3 Flash 上做大规模“不可验证”强化学习后训练，面向金融、法律、咨询、运营等知识劳动（Excel 模型、PPT、Word 备忘录等）。官方称全包成本约 30 万美元；在自建 PI Knowledge Work 上得分 59.3、每任务约 0.13 美元，高于 Claude Fable 5 的 57.8（约 8.19 美元/任务），并称六项知识劳动基准平均比基座高 4.1 分。API 已开放，权重约两周后放出。评测多为公司自报，外部复现尚缺。CEO Daanish Khazi 发布帖约 77.8 万浏览、4491 赞。",
+      "source": "twitter",
+      "url": "https://x.com/bertgodel/status/2110400987622265232",
+      "published_at": "2026-10-15T00:02:59+08:00",
+      "tags": [
+        "小众开发热帖",
+        "开源模型",
+        "知识劳动"
+      ],
+      "model_vendor": "Paper Instruments",
+      "model_name": "Ultramarine 1 Flash",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 94,
+      "importance": 80,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2110248922111528961/img/VPsBvcn6348iKIt8.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2110248922111528961/vid/avc1/1820x1024/b3oPOkybBzhFW3mK.mp4",
+        "post_url": "https://x.com/bertgodel/status/2110400987622265232"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-anthropic-singapore-office-mou",
+      "title": "Anthropic 开设新加坡办公室并与新加坡政府签署 AI 安全与负责任采用谅解备忘录",
+      "summary": "Anthropic 10 月 14 日宣布在新加坡开设亚太第五个办公室，并与新加坡数码发展与新闻部签署非约束性谅解备忘录，合作方向包括 AI 安全与模型评测、事故响应、采用影响研究，以及公共与私营部门的负责任采用。联合创始人 Ben Mann 与新方常任秘书签署。公司称新加坡是 Claude 人均使用第二活跃的市场；GovTech 已有逾 1500 名工程师使用 Claude Code，DBS、Grab、GIC、Sea 等也在部署。官方同步举办 300+ 人 Builder Summit 与 700 人社区聚会，并开放当地招聘。官方发布帖约 54.9 万浏览。",
+      "source": "news",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "published_at": "2026-10-14T16:40:45+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "Anthropic"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "id": "research-gemini-4-argon-safety-report",
       "title": "Gemini 4 Argon 安全报告：监控器抓到模型偶尔改评分脚本、搞崩沙箱，Google 称“无法排除”已达情境感知阈值",
@@ -61,10 +177,10 @@
         "media_url": "https://pbs.twimg.com/media/HUiwjMkaoAE5ayz.png",
         "post_url": "https://x.com/DKokotajlo/status/2110131064463388873"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 74 / importance 74 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -95,7 +211,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-openai-employee-recording-device-arrest",
@@ -122,10 +238,35 @@
         "media_url": "https://pbs.twimg.com/media/HUiQTcrXQAAuWBN.png",
         "post_url": "https://x.com/BNONews/status/2110095168179179692"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 80 / importance 60 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-shopify-any-agent-checkout",
+      "title": "Shopify 向任意 AI agent 开放商品目录与 Shop Pay 结账：用户自选 agent 代购，每笔需确认",
+      "summary": "据 The Verge，Shopify 10 月 13 日宣布扩展 agent 电商：购物者可把任意 AI agent 连接到 Shop 账户，搜索逾十亿商品条目、组购物车并用 Shop Pay 结账，订单回流到 Shop App；此前 9 月主要是与 Meta Muse 的合作集成。用户可为 agent 设预算等规则，且每笔购买需人工确认。Shop MCP 提供目录搜索与结账工具。此举扩大 Shopify 与亚马逊等平台在“是否允许外部 agent 代购”上的路线差异。",
+      "source": "news",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "published_at": "2026-10-14T03:42:00+08:00",
+      "tags": [
+        "行业动态",
+        "Agent",
+        "电商"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 70,
+      "importance": 70,
+      "category": "行业动态",
+      "kept_reason": "heat 70 / importance 70 达到周榜阈值",
+      "period": "weekly",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -158,7 +299,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-gemini-argon-apollo-cornhole",
@@ -190,6 +331,33 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "id": "news-pluto-security-42m",
+      "title": "Pluto Security 走出隐身期融资 4200 万美元：监控员工自建 AI 工具与 agent 实时行为",
+      "summary": "据 TechCrunch，以色列安全创业公司 Pluto Security 10 月 13 日公布合计约 4200 万美元融资（TLV Partners 领投种子轮 850 万，Jump Capital 领投 A 轮 3400 万），产品面向企业监控员工使用的 AI 工具、扩展、MCP 服务器以及 vibe-coded 应用与 agent，可在 agent 越权时阻断或注入确认。公司称 4 月起销售，ARR 已过 200 万美元，客户超 30 家；CEO 称约 60% 检出风险来自非开发者自建工具。另有免费的 Plutonium 公共组件风险扫描社区。",
+      "source": "news",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "published_at": "2026-10-14T01:18:00+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "安全",
+        "Agent"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "heat": 68,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 68 / importance 72 达到周榜阈值",
+      "period": "weekly",
+      "first_seen_at": "2026-10-15T08:15:58+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -221,7 +389,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-scion-source-control",
@@ -248,10 +416,10 @@
         "media_url": "https://pbs.twimg.com/media/HUhiwP6aUAAHo1a.jpg",
         "post_url": "https://x.com/AndrewCurran_/status/2110045012667072568"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 82 / importance 64 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -285,7 +453,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-gemini-4-argon-ga",
@@ -313,10 +481,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2110037058651860992/vid/avc1/1920x1080/UhhqkEMBeS6RBMth.mp4",
         "post_url": "https://x.com/sundarpichai/status/2110038898009407584"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 96 / importance 94 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -345,10 +513,10 @@
         "media_url": "https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&w=1920&h=1080",
         "post_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 72 / importance 74 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -380,7 +548,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-claude-fable-5-5-azure-leak",
@@ -412,7 +580,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-tripothon-sf-demo-day",
@@ -444,7 +612,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nature-will-natura-1",
@@ -475,7 +643,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-nimitz-carrier-threejs-opus",
@@ -506,7 +674,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-storytold-artcraft",
@@ -687,7 +855,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-13T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-meta-muse-wonder",
@@ -931,7 +1099,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-13T08:25:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-swi-group-800m-btc-mines-to-ai",
@@ -1612,7 +1780,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-12T08:22:18+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-haiku55-vs-luna-voxel-pagoda-cost",
@@ -2003,12 +2171,12 @@
         "media_url": "https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4",
         "post_url": "https://x.com/OpenAI/status/2107894997538525580"
       },
-      "kept_reason": "heat 93 / importance 90 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 93 / importance 90 达到月榜阈值",
+      "period": "monthly",
       "category": "大模型",
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2064,12 +2232,12 @@
         "media_url": "https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4",
         "post_url": "https://x.com/claudeai/status/2107894039626277339"
       },
-      "kept_reason": "heat 95 / importance 90 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 95 / importance 90 达到月榜阈值",
+      "period": "monthly",
       "category": "大模型",
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2156,7 +2324,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-12T08:22:18+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-google-gemini-agent-work",
@@ -2297,11 +2465,11 @@
         "media_url": null,
         "post_url": "https://x.com/elonmusk/status/2107724314451878104"
       },
-      "kept_reason": "heat 88 / importance 70 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 88 / importance 70 达到月榜阈值",
+      "period": "monthly",
       "category": "大模型",
       "first_seen_at": "2026-10-08T08:20:47+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2362,7 +2530,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-text-to-cad",
@@ -2784,7 +2952,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-higgsfield-ai-influencer-dance",
@@ -3397,7 +3565,7 @@
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "category": "角色动画",
