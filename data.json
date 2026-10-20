@@ -1,6 +1,488 @@
 {
-  "updated_at": "2026-10-15T08:15:58+08:00",
+  "updated_at": "2026-10-20T08:22:00+08:00",
   "items": [
+    {
+      "id": "news-anthropic-oss-scanner",
+      "title": "Anthropic 推出 OSS Scanner：用最强模型免费给关键开源项目定期扫漏洞，11 天找出 77 个严重问题",
+      "summary": "Anthropic 10 月 19 日公开介绍 OSS Scanner：参考 OSS-Fuzz，为关键开源项目提供免费、定期的漏洞扫描，使用公司最强的模型，每个发现都附概念验证，能修的附补丁。团队成员 Punit 称上线 11 天来约 650 个项目申请、114 个获批，模型评级的严重问题 77 个、高危 803 个；新闻汇总称其中包括 curl 的一个 use-after-free 漏洞已被快速修复。官方 ClaudeDevs 帖约 4300 赞、19 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/ClaudeDevs/status/2112299602510749992",
+      "published_at": "2026-10-20T05:47:24+08:00",
+      "tags": [
+        "大模型",
+        "Claude",
+        "安全"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 70,
+      "importance": 68,
+      "category": "大模型",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-skyfall-sky-001-engineering-world-model",
+      "title": "Skyfall AI 发布「工程世界模型」SKY-001：文字或草图直接出可编辑 CAD，称比前沿大模型快 51–125 倍",
+      "summary": "Skyfall AI（创始人 Sam Pasupalak，前 Maluuba CEO）10 月 19 日发布 SKY-001 研究预览：把文字提示或 2D 草图/照片拆解为装配体与零件树，再逐步生成 2D 草图和 3D 建模操作，最终装配成可编辑的 CAD 模型，也支持 BIM 平面图生成，可导入 Autodesk Fusion 等工具。官方称在 CAD 与 BIM 任务上比 GPT-6 Astra 等前沿模型快 51–125 倍、便宜 150–210 倍，IoU 更高（公司自报）；商用部署目标 2027 年初。创始人发布帖约 3700 赞、91 万浏览，远超其约 3000 粉丝的账号日常水平。",
+      "source": "news",
+      "url": "https://skyfall.ai/blog/introducing-sky-001",
+      "published_at": "2026-10-20T01:58:36+08:00",
+      "tags": [
+        "3D 生成",
+        "CAD",
+        "世界模型"
+      ],
+      "model_vendor": "Skyfall AI",
+      "model_name": "SKY-001",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 84,
+      "importance": 72,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112239846702129152/img/u4pwfHw4PjnRs2nc.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112239846702129152/vid/avc1/3840x2160/QWb8Qsv5A_FWVppa.mp4",
+        "post_url": "https://x.com/spisallyouneed/status/2112242023805964327"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-cloudflare-clairic",
+      "title": "Cloudflare 预览 Clairic：不生成 token 的“系统一”抽取模型，一次前向直接给出带置信度的结构化字段",
+      "summary": "Cloudflare 10 月 19 日在 Workers AI 上线 Clairic 预览，称其为新的“System One”类抽取模型：给定非结构化文本（可附最多 4 张图）和字段定义，一次前向就返回带类型的数值、置信度和来源片段，覆盖直接抽取、计算、估计和预测，例如发票处理；因为不逐 token 生成，官方称可避免这类场景的幻觉，并能与其他模型组合提速降本。模型 ID 为 @cf/cloudflare/clairic。介绍帖约 1000 赞、10 万浏览。",
+      "source": "news",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "published_at": "2026-10-20T01:54:34+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型",
+        "结构化抽取"
+      ],
+      "model_vendor": "Cloudflare",
+      "model_name": "Clairic",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 60,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-viggle-jst-2",
+      "title": "Viggle 发布 JST-2「物理原生」世界模型：约 1 秒生成可漫游 3D 场景，角色和动作同一套表示，可导出 FBX/GLB",
+      "summary": "Viggle 10 月 19 日发布 JST-2（Joint Space-and-Time 第二代），称其为首个全栈物理原生世界基础模型：不在像素/视频空间学习，而是把世界表示为 3D 空间中持续存在的“原子”（带 xyz 位置和属性、动态向量），解码为 3D 高斯泼溅在浏览器渲染。官方称在 B200 上约 1 秒生成一个场景、推理成本不到 1 美分，最多 64 个视角作为空间上下文逐步扩展世界；同一模型还能生成可动画的 3D 角色，以及从文字或视频得到全身 3D 动作（盲测领先基线，公司自报），动作可直接套到 JST-2 角色上，经 PINOC 导出 GLB/FBX/USDZ 并兼容标准骨骼。物体碰撞目前仍是规则实现，计划 JST-3 改为学习式物理。PINOC 浏览器免费试用，另有 API 和 MCP，非开源权重。官方帖约 67 万浏览。",
+      "source": "news",
+      "url": "https://viggle.ai/jst2",
+      "published_at": "2026-10-19T23:20:31+08:00",
+      "tags": [
+        "世界模型",
+        "3D 生成",
+        "角色动画"
+      ],
+      "model_vendor": "Viggle",
+      "model_name": "JST-2",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 82,
+      "importance": 82,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112198961754746881/img/O1y80k0m3y8uqpNS.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112198961754746881/vid/avc1/1920x1080/-hZp9YxkfDfoi5gk.mp4",
+        "post_url": "https://x.com/ViggleAI/status/2112202242048528540"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-tenstorrent-series-e-1-5b",
+      "title": "AI 芯片公司 Tenstorrent 完成 15 亿美元 E 轮，估值从 26 亿涨到 62 亿美元，扩产 RISC-V Galaxy 服务器",
+      "summary": "AI 芯片公司 Tenstorrent 10 月 19 日宣布完成 15 亿美元 E 轮融资，投后估值 62 亿美元（此前约 26 亿），由 Trace Capital 与 Innovation X 领投；据 X 新闻汇总，ARK Invest、Fidelity、Tether 等参投。资金用于量产和在全球部署集成数十颗 RISC-V AI 芯片的 Galaxy 服务器，并投入开源权重模型、授权其 RISC-V AI 与 CPU 设计。",
+      "source": "news",
+      "url": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+      "published_at": "2026-10-19T20:06:43+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "芯片"
+      ],
+      "model_vendor": "Tenstorrent",
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 78,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-minimax-m3-1-flash",
+      "title": "MiniMax 发布 M3.1 Flash：神秘模型 Space Bunny 揭晓，AA 智能指数 42，输入 0.15 美元/百万 token，10 月 23 日放权重",
+      "summary": "MiniMax 10 月 19 日正式推出 M3.1 Flash，并确认此前在榜单上走红、累计处理 200T+ token 的匿名模型 Space Bunny 就是它的早期版本。官方称相比上一代推理快近 3 倍、agent 使用成本降 70%，面向 agent、编程、电脑操作与网络安全，上下文 1M，API 定价输入 0.15、输出 0.60 美元/百万 token；已在 MiniMax API、M Plan、MiniMax Code 上线，权重计划 10 月 23 日放出。据 VentureBeat 援引 Artificial Analysis，M3.1 Flash 智能指数 42（M3 为 29），与 GLM-5.3 Flash 持平、略低于 DeepSeek V4.1 Flash-1017 的 45，但幻觉倾向明显偏高。官方发布帖约 6500 赞、89 万浏览。",
+      "source": "news",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "published_at": "2026-10-19T19:56:23+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "MiniMax"
+      ],
+      "model_vendor": "MiniMax",
+      "model_name": "MiniMax M3.1 Flash",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 86,
+      "importance": 82,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HU_d5nbXEAAict2.jpg",
+        "media_url": "https://pbs.twimg.com/media/HU_d5nbXEAAict2.jpg",
+        "post_url": "https://x.com/MiniMax_AI/status/2112150867868541221"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-anthropic-public-benefit-fund",
+      "title": "Anthropic 拿出 5% 股份成立公共利益基金：公司每增值 50% 可再追加 2%，合计约 20% 股份用于公益",
+      "summary": "Anthropic 10 月 18 日宣布设立 Anthropic Public Benefit Fund（全资 LLC）：经股东批准后先注入公司 5% 股份，此后公司估值每比基准增长 50%，董事会可酌情再追加 2%。基金可做大额捐赠或向特定人群直接分配，例如应对 AI 对劳动力市场的冲击（公司此前已承诺 2 亿美元研究该问题），基金股权不得用于游说或政治捐款。官方称加上联合创始人承诺捐出 80% 股权和员工股权捐赠配捐计划（约一半员工参与），约 20% 的股份将用于公共利益。此举发生在其 IPO 前夕。官方帖约 2.1 万赞、695 万浏览。",
+      "source": "news",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "published_at": "2026-10-19T02:07:51+08:00",
+      "tags": [
+        "行业动态",
+        "资本",
+        "Anthropic"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 92,
+      "importance": 76,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+        "media_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+        "post_url": "https://x.com/AnthropicAI/status/2111881963657412903"
+      },
+      "kept_reason": "heat 92 / importance 76 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-openai-30b-round-ahead-anthropic-ipo",
+      "title": "路透：OpenAI 加速推进约 300 亿美元融资、估值或超 1.4 万亿美元，抢在 Anthropic 11 月 IPO 之前",
+      "summary": "路透 10 月 19 日援引知情人士称，OpenAI 正加速一轮约 300 亿美元的融资，估值可能超过 1.4 万亿美元，希望赶在 Anthropic 预计 11 月中旬 IPO 之前完成；软银、阿联酋 MGX 等现有股东在洽谈参与。据 X 新闻汇总，OpenAI 向投资者称当前年化收入约 500 亿美元、年底有望到 700 亿美元；路透称资金用于基础设施承诺，并在 2027 年 IPO 可能推迟时增强资产负债表。此前 Bloomberg（经 Investing.com 转载）报道阿联酋基金合计可能出资至多 100 亿美元、贝莱德也在谈。软银 300 亿美元追加投资已于 10 月 1 日完成。均为知情人士消息。",
+      "source": "news",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-19/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say",
+      "published_at": "2026-10-19T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "行业动态",
+        "融资",
+        "OpenAI"
+      ],
+      "model_vendor": "OpenAI",
+      "card_type": "model_update",
+      "heat": 74,
+      "importance": 86,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 74 / importance 86 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-openai-humanoid-we-will",
+      "title": "奥特曼：OpenAI 会做人形机器人，“2027 年会有很酷的 demo”，重点是机器人的“大脑”",
+      "summary": "OpenAI CEO Sam Altman 在 Sources 播客被问到是否会造人形机器人时回答“We will”，理由是世界按人类身体设计，匹配人形是合理选择，但他认为外形细节不如“让机器人工作的大脑”重要；他对 Fortune 表示“2027 年会有一个很酷的 demo”，但机器人上街还要再等几年。据 Engadget，OpenAI 招聘页列出 27 个机器人岗位，覆盖运动控制、状态估计、执行器（电机、传动、传感与热管理）以及制造和供应链；岗位描述称短期目标是帮助技术工人建设基础设施的通用机器人，长期是家用个人机器人。OpenAI 尚未公布具体产品、外形或时间表。",
+      "source": "news",
+      "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+      "published_at": "2026-10-18T07:45:00+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "OpenAI"
+      ],
+      "model_vendor": "OpenAI",
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 84,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://www.engadget.com/img/gallery/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challenge/l-intro-1791892991.jpg",
+        "media_url": "https://www.engadget.com/img/gallery/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challenge/l-intro-1791892991.jpg",
+        "post_url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/"
+      },
+      "kept_reason": "heat 78 / importance 84 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "period": "weekly"
+    },
+    {
+      "id": "showcase-odyssey3-fruit-fly-brain",
+      "title": "Odyssey 把果蝇大脑模拟放进 Odyssey-3 世界模型：数字果蝇在 AI 实时生成的世界里自己飞，帖子 600 万浏览",
+      "summary": "世界模型公司 Odyssey 10 月 17 日（美西时间）展示：把基于果蝇神经连接图的大脑模拟接入其 Odyssey-3 世界模型，数字果蝇在完全由模型实时“想象”出来的环境里自主飞行，环境会随它的动作变化，而不是固定地图。X 新闻汇总称其使用 FlyWire 连接组（约 13.9 万神经元、5450 万突触）；但 Traictory 等指出 Odyssey 尚未公开具体连接组、视觉输入如何进入神经模拟、神经输出如何映射为动作，这是一次集成演示而非“意识上传”。官方帖约 2 万赞、606 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/odysseyml/status/2111589148146749616",
+      "published_at": "2026-10-18T06:44:19+08:00",
+      "tags": [
+        "世界模型",
+        "展示案例",
+        "Odyssey"
+      ],
+      "model_vendor": "Odyssey",
+      "model_name": "Odyssey-3",
+      "card_type": "showcase",
+      "heat": 94,
+      "importance": 70,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2111589052428500992/img/CH3YgAYosD6Iyh_Y.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2111589052428500992/vid/avc1/1280x720/SIQRinxd5ZChXYlN.mp4",
+        "post_url": "https://x.com/odysseyml/status/2111589148146749616"
+      },
+      "kept_reason": "heat 94 / importance 70 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly"
+    },
+    {
+      "id": "showcase-gathint-cleanyourtv",
+      "title": "独立开发者用 Claude Code 给爸妈的电视“去广告”：删 25 个小米预装包、写新桌面，帖子 586 万浏览，开源仓库 3 天 5200 星",
+      "summary": "开发者 Gathin（@gathint，约 4100 粉丝）10 月 17 日发帖：父母的电视开机就放赞助广告，他把型号交给 Claude Code，agent 在 Wi-Fi 上找到电视、删掉 25 个小米预装包并写了一个新启动器，界面“看起来像 Apple TV”。帖子约 2.9 万赞、2.4 万收藏、586 万浏览，远超其账号日常水平。随后他把提示词和 54 份电视型号清单开源为 cleanyourtv（可通过 Wi-Fi 给任意 Android/Google TV 去臃肿），GitHub 3 天约 5200 星、600+ fork，同期还出现了 tv-detox 等用 Claude Code / Codex 清理旧电视的同类仓库。",
+      "source": "twitter",
+      "url": "https://x.com/gathint/status/2111379569030939102",
+      "published_at": "2026-10-17T16:51:31+08:00",
+      "tags": [
+        "小众开发热帖",
+        "Claude Code",
+        "展示案例"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Code",
+      "card_type": "showcase",
+      "heat": 97,
+      "importance": 62,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HU0gNAyboAAjWyN.jpg",
+        "media_url": "https://pbs.twimg.com/media/HU0gNAyboAAjWyN.jpg",
+        "post_url": "https://x.com/gathint/status/2111379569030939102"
+      },
+      "kept_reason": "heat 97 / importance 62 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-deepseek-v4-1-flash-1017",
+      "title": "DeepSeek-V4.1-Flash-1017 开源：DeepSWE 77.0、输出更短更快，同步开放自研搜索 Search & Fetch API",
+      "summary": "DeepSeek 10 月 17 日发布 V4.1-Flash 的日期版更新 V4.1-Flash-1017，官网、App、API 同步上线，权重以 MIT 许可放在 Hugging Face 与 ModelScope。官方称这是性能与成本的“帕累托改进”：DeepSWE v1.1 从 74.2 升到 77.0、Terminal-Bench 4.0 从 31.2 升到 42.3、Automation-Bench 从 54.8 升到 60.5，且任务完成更快、输出更短；用自反馈强化学习（RLSF）提升从零做完整项目（游戏、3D 场景）的能力，针对 DeepSeek Harness、腾讯 CodeBuddy 等做了优化。同时开放自研搜索引擎的 Search 与 Fetch API，每端点 0.75 美元/千次。评测均为官方自报。官方发布帖约 3.7 万赞、729 万浏览。",
+      "source": "news",
+      "url": "https://api-docs.deepseek.com/news/news261017/",
+      "published_at": "2026-10-17T16:35:54+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "DeepSeek"
+      ],
+      "model_vendor": "DeepSeek",
+      "model_name": "DeepSeek-V4.1-Flash-1017",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 95,
+      "importance": 84,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HU0b65KbsAAypqr.jpg",
+        "media_url": "https://pbs.twimg.com/media/HU0b65KbsAAypqr.jpg",
+        "post_url": "https://x.com/deepseek_ai/status/2111375640717033777"
+      },
+      "kept_reason": "heat 95 / importance 84 达到周榜阈值",
+      "period": "weekly"
+    },
+    {
+      "id": "news-gpt6-astra-pro-parallel-agents",
+      "title": "ChatGPT 里的 GPT-6 Astra Pro 升级：响应更快、工具调用更好，可让多个 agent 并行拆做同一任务",
+      "summary": "OpenAI 10 月 16 日宣布 ChatGPT 中的 GPT-6 Astra Pro 升级：响应更快、插件和工具使用更好，并新增并行 agent——多个 agent 可分头处理同一任务的不同部分，用户能看到每个 agent 的进度，并打开已完成的子任务审阅结果。面向 Pro 用户在 Chat 标签中推出，企业工作区按设置和灰度逐步开放。官方帖约 1.2 万赞、227 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAI/status/2111192259073094035",
+      "published_at": "2026-10-17T04:27:13+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型",
+        "ChatGPT",
+        "Agent"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 Astra Pro",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 82,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": "heat 82 / importance 70 达到周榜阈值",
+      "media": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-elorian-glimpse",
+      "title": "前 DeepMind 研究员 Andrew Dai 的 Elorian 发布首个模型 Glimpse：推理时会反复裁剪、抽帧、回看图像和视频",
+      "summary": "视觉推理创业公司 Elorian 10 月 16 日发布首个公开模型 Glimpse（研究预览），通过 API 和聊天界面提供。它在推理过程中直接“用图像思考”：会裁剪局部、抽取视频帧、回看证据再下结论，面向图表分析、物体跟踪、视频描述、物理与空间推理等任务；联合创始人 Andrew Dai 称其在关键公开视觉推理基准上与 GPT-6 Astra 有竞争力（公司自报）。据 TechCrunch 与 Wilson Sonsini，Elorian 今年 4 月完成 5500 万美元种子轮。Andrew Dai 发布帖约 5900 赞、416 万浏览。",
+      "source": "news",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "published_at": "2026-10-17T01:08:09+08:00",
+      "tags": [
+        "大模型",
+        "闭源模型",
+        "视觉推理"
+      ],
+      "model_vendor": "Elorian",
+      "model_name": "Glimpse",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 84,
+      "importance": 70,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2111141984752779264/img/LLunb7OFLSU4Q606.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2111141984752779264/vid/avc1/1920x1080/Gg2DIERzkoz-Ds-n.mp4",
+        "post_url": "https://x.com/AndrewDai/status/2111142161584628060"
+      },
+      "kept_reason": "heat 84 / importance 70 达到周榜阈值",
+      "period": "weekly"
+    },
+    {
+      "id": "news-china-ai-export-control-draft",
+      "title": "商务部、科技部拟将大模型、智能体、算力集群等 23 项 AI 技术列入出口管制：2 万亿参数或 10^26 FLOPs 以上模型权重需许可",
+      "summary": "商务部、科技部 10 月 16 日发布 2026 年第 48 号公告，拟修订《中国禁止出口限制出口技术目录》，新增人工智能、生物医药、光伏 40 项技术，其中 AI 23 项，涵盖大模型、智能体、算力集群和信息处理。据附件解读，训练算力达 10^26 FLOPs、参数达 2 万亿或全球能力排名前十的大模型，其权重、关键检查点、源代码、架构及训练与推理方法出口需许可；用国家重要数据训练的模型及服务关键基础设施、国防、核心政务的智能体禁止出口；2.5D/3D AI 芯片设计等列入限制。已开源或公开发表的技术不纳入管理，通过 API、App、SaaS 提供服务不算技术出口。意见征集至 11 月 15 日，自公告日起相关技术出口前须先登记。",
+      "source": "news",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_05e2643a8ca04eb9adf9dd0542991fe4.html",
+      "published_at": "2026-10-16T16:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "出口管制"
+      ],
+      "card_type": "model_update",
+      "heat": 86,
+      "importance": 90,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 86 / importance 90 达到周榜阈值",
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-meta-muse-spark-open",
+      "title": "Meta 放出 Muse Spark Open 权重：816B 总参 / 42B 激活、1M 上下文，两台 M5 Ultra Mac Studio 即可本地跑",
+      "summary": "Meta 超级智能实验室 10 月 15 日发布 Muse Spark Open，称其为迄今最强的美国开源权重模型：原生多模态 MoE（文本、图像、音频、视频输入，文本输出），816B 总参、每 token 激活约 42B，每层 256 个专家选 8 个，上下文 1M，主打编程和长程 agent 任务。权重提供 BF16 与 NVFP4 两种格式，上架 Hugging Face、SageMaker、Google Cloud Model Garden、Microsoft Foundry，并可经 Baseten、Fireworks、Groq、OpenRouter、Together 等调用；与 Apple 合作优化 MLX，两台 M5 Ultra Mac Studio（各 512GB 统一内存）即可装下整模。许可为 Muse Model License，含有限商用条款（高营收的模型即服务需另签协议）。扎克伯格发布帖约 3.2 万赞、454 万浏览。",
+      "source": "news",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "published_at": "2026-10-16T01:01:12+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "Meta"
+      ],
+      "model_vendor": "Meta",
+      "model_name": "Muse Spark Open",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 95,
+      "importance": 92,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUr9XldXIAAPeX3.jpg",
+        "media_url": "https://pbs.twimg.com/media/HUr9XldXIAAPeX3.jpg",
+        "post_url": "https://x.com/finkd/status/2110778025629347999"
+      },
+      "kept_reason": "heat 95 / importance 92 达到周榜阈值",
+      "period": "weekly"
+    },
+    {
+      "id": "news-anthropic-draft-federal-safety-bill",
+      "title": "Politico：Anthropic 向国会议员推销自拟 AI 安全法案，只有“50 人死伤或 10 亿美元损失”级别的紧迫风险才能叫停模型",
+      "summary": "据 Politico 与路透 10 月 16 日报道，Anthropic 代表在国会山推销一份自拟的前沿 AI 安全法案草案：只有在可预见且迫在眉睫、损失超过 10 亿美元或造成 50 人以上死伤，并且源于生物武器、模型脱离开发者控制或网络攻击时，政府才能阻止模型发布或使用。独立评估方在商务部登记、定期评估实验室与前沿模型，发现上述风险须在 72 小时内上报；商务部可请求华盛顿特区联邦法院叫停模型，其他联邦机构无权暂停开发、部署或内部使用，并对部分州规则形成优先适用。批评者认为门槛过高、相当于让商务部成为唯一能叫停 AI 模型的机构。以上为媒体基于知情人士的报道，Anthropic 未公开全文。",
+      "source": "news",
+      "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+      "published_at": "2026-10-16T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "行业动态",
+        "政策",
+        "Anthropic",
+        "监管"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 76,
+      "importance": 80,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 76 / importance 80 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly"
+    },
+    {
+      "id": "news-taiwan-ai-chip-export-criminal-texas-park",
+      "title": "台湾拟将 AI 服务器与先进芯片未经许可输往大陆入刑，同时在德州规划 40 亿美元 AI 供应链园区",
+      "summary": "台湾“经济部长”龚明鑫 10 月 16 日表示，作为 2026 年美台对等贸易协定的一部分，台湾将修订《贸易法》，把未经许可向大陆出口受管制的 AI 服务器和先进半导体定为刑事犯罪，已着手修法但尚未公布生效时间。同日台湾方面确认在美国得州规划约 40 亿美元的 AI 制造园区，帮助中小供应商在台积电、富士康等大厂附近落地，主要由民间出资、政府支持。Polymarket 相关帖约 9800 赞、44 万浏览。",
+      "source": "news",
+      "url": "https://www.asiae.co.kr/en/article/2026101616242905832",
+      "published_at": "2026-10-16T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "行业动态",
+        "政策",
+        "芯片",
+        "出口管制"
+      ],
+      "card_type": "model_update",
+      "heat": 72,
+      "importance": 76,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 72 / importance 76 达到周榜阈值",
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly"
+    },
     {
       "id": "news-openai-eight-states-kids-lawsuit",
       "title": "美八州分别起诉 OpenAI：指控 ChatGPT 危害未成年人并就安全宣传误导用户",
@@ -22,36 +504,8 @@
       "importance": 78,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-anthropic-otel-agent-traces",
-      "title": "Anthropic Claude 平台公测 OpenTelemetry：Managed Agents、Messages API 与 SDK 可导出标准追踪",
-      "summary": "Anthropic 10 月 14 日宣布 Claude 平台 OpenTelemetry（OTel）追踪进入公测：Claude Managed Agents、Messages API 与 Claude SDK 可把每次 agent 轮次、模型调用、工具与 MCP 调用以标准 OTLP 追踪导出到 Langfuse、LangSmith、Sentry、Grafana、Datadog 等任意 OTel 工具；默认含时延、状态、token、模型与工具名，可选包含完整提示与回复。Managed Agents/API 需在 Claude Console 配置目的地，SDK 则走应用已注册的 tracer provider。文档按 OpenTelemetry GenAI 语义约定组织，定位为生产环境调试与评测 agent 的基础设施能力。",
-      "source": "news",
-      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
-      "published_at": "2026-10-15T04:58:40+08:00",
-      "tags": [
-        "大模型",
-        "Claude",
-        "可观测性"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 62,
-      "importance": 68,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUnJZ0-bgAAOOV2.jpg",
-        "post_url": "https://x.com/AGTPinsights/status/2110439468675334511"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 76 / importance 78 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-paper-instruments-ultramarine-1-flash",
@@ -79,8 +533,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2110248922111528961/vid/avc1/1820x1024/b3oPOkybBzhFW3mK.mp4",
         "post_url": "https://x.com/bertgodel/status/2110400987622265232"
       },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 94 / importance 80 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-anthropic-singapore-office-mou",
@@ -102,8 +556,8 @@
       "importance": 72,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "research-gemini-4-argon-safety-report",
@@ -134,83 +588,9 @@
       "period": "weekly"
     },
     {
-      "id": "news-openai-employee-recording-device-arrest",
-      "title": "OpenAI 工程师被控在高管会议室偷装录音设备，FBI 已逮捕",
-      "summary": "美国司法部 10 月 13 日公布：35 岁沙特籍 OpenAI 工程师 Abdulrahman Alfozan 被控使用或企图使用设备窃听口头通信，已于 10 月 9 日被捕，13 日首次出庭。起诉书称他约 9 月 28 日把一个用卫生纸包裹的加密录音设备插在高管会议室电视背后的 USB 口上，9 月 30 日被发现；10 月 5 日又在他无人看管、装有钱包和证件的包里发现第二个类似设备。OpenAI 已将其解雇并移交 FBI，称没有发现模型权重、源代码或客户数据被不当访问。若罪名成立，最高可判 5 年监禁。BNONews 快讯 246 万浏览。",
-      "source": "news",
-      "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
-      "published_at": "2026-10-14T04:08:26+08:00",
-      "tags": [
-        "行业动态",
-        "安全",
-        "OpenAI"
-      ],
-      "model_vendor": "OpenAI",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 60,
-      "category": "行业动态",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUiQTcrXQAAuWBN.png",
-        "media_url": "https://pbs.twimg.com/media/HUiQTcrXQAAuWBN.png",
-        "post_url": "https://x.com/BNONews/status/2110095168179179692"
-      },
-      "kept_reason": "heat 80 / importance 60 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-shopify-any-agent-checkout",
-      "title": "Shopify 向任意 AI agent 开放商品目录与 Shop Pay 结账：用户自选 agent 代购，每笔需确认",
-      "summary": "据 The Verge，Shopify 10 月 13 日宣布扩展 agent 电商：购物者可把任意 AI agent 连接到 Shop 账户，搜索逾十亿商品条目、组购物车并用 Shop Pay 结账，订单回流到 Shop App；此前 9 月主要是与 Meta Muse 的合作集成。用户可为 agent 设预算等规则，且每笔购买需人工确认。Shop MCP 提供目录搜索与结账工具。此举扩大 Shopify 与亚马逊等平台在“是否允许外部 agent 代购”上的路线差异。",
-      "source": "news",
-      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "published_at": "2026-10-14T03:42:00+08:00",
-      "tags": [
-        "行业动态",
-        "Agent",
-        "电商"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 70,
-      "importance": 70,
-      "category": "行业动态",
-      "kept_reason": "heat 70 / importance 70 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-pluto-security-42m",
-      "title": "Pluto Security 走出隐身期融资 4200 万美元：监控员工自建 AI 工具与 agent 实时行为",
-      "summary": "据 TechCrunch，以色列安全创业公司 Pluto Security 10 月 13 日公布合计约 4200 万美元融资（TLV Partners 领投种子轮 850 万，Jump Capital 领投 A 轮 3400 万），产品面向企业监控员工使用的 AI 工具、扩展、MCP 服务器以及 vibe-coded 应用与 agent，可在 agent 越权时阻断或注入确认。公司称 4 月起销售，ARR 已过 200 万美元，客户超 30 家；CEO 称约 60% 检出风险来自非开发者自建工具。另有免费的 Plutonium 公共组件风险扫描社区。",
-      "source": "news",
-      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-      "published_at": "2026-10-14T01:18:00+08:00",
-      "tags": [
-        "行业动态",
-        "融资",
-        "安全",
-        "Agent"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 68,
-      "importance": 72,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 68 / importance 72 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
       "id": "research-anthropic-scion-source-control",
       "title": "Anthropic 自研版本控制系统 Scion 替换 Git：agent 让每日合并量从 2500 涨到 3 万以上",
-      "summary": "Anthropic 工程博客称，公司每日合并的代码变更从 5 月约 2,500 个涨到 9 月 3 万个以上，为人类规模设计的开发基础设施成了瓶颈，于是用 5 个月自研并全面迁移到 Scion。Scion 以服务器为中心，不支持离线：提交和变基在服务端完成，客户端按需拉取文件树，支持稀疏和虚拟检出；同期还做了代码评审工具 Antique、代码搜索和权限系统。据报道，Scion 的 CPU 和内存开销约为原 Git 镜像方案的 1/200，检出从几分钟降到几秒。Anthropic 表示 Scion 不适合作为通用 Git 替代品，也不会开源。官方帖 266 万浏览。",
+      "summary": "Anthropic 工程博客称，公司每日合并的代码变更从 5 月约 2,500 个涨到 9 月 3 万个以上，为人类规模设计的开发基础设施成了瓶颈，于是用 5 个月自研并全面迁移到 Scion。Scion 以服务器为中心，不支持离线：提交和变基在服务端完成，客户端按需拉取文件树，支持稀疏和虚拟检出；同期还做了代码评审工具 Antique、代码搜索和权限系统。据报道，Scion 的 CPU 和内存开销约为原 Git 镜像方案的 1/200，检出从几分钟降到几秒。Anthropic 表示 Scion 不适合作为通用 Git 替代品，也不会开源。官方帖 266 万浏览。【10 月 20 日更新】社区按 Anthropic 公开的设计思路做了开源实现 feder-cr/git-ai（gitai）：服务端保存历史，用比较并交换（compare-and-swap）直接落地变更、不用合并队列，每次变更记录是哪个 agent 做的。仓库 10 月 15 日创建，据 GitHub API 已约 2450 星；作者在 LIMITATIONS.md 中说明它不是 Scion 克隆（Scion 内部未公开），目前为 v0.1。",
       "source": "news",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "published_at": "2026-10-14T00:36:41+08:00",
@@ -223,7 +603,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "research",
-      "heat": 82,
+      "heat": 84,
       "importance": 64,
       "category": "大模型",
       "media": {
@@ -232,13 +612,13 @@
         "media_url": "https://pbs.twimg.com/media/HUhiwP6aUAAHo1a.jpg",
         "post_url": "https://x.com/AndrewCurran_/status/2110045012667072568"
       },
-      "kept_reason": "heat 82 / importance 64 达到周榜阈值",
+      "kept_reason": "heat 84 / importance 64 达到周榜阈值",
       "period": "weekly"
     },
     {
       "id": "news-gemini-4-argon-ga",
       "title": "Gemini 4 Argon 全面上线：API、Gemini App、搜索 AI Mode 同步开放，推广价每百万 token 2/10 美元",
-      "summary": "Google 10 月 13 日宣布 Gemini 4 Argon 全球开放：开发者与企业可在 Gemini API 付费层（AI Studio）和 Gemini 企业平台使用，AI Ultra 订阅可在 Antigravity 中使用，AI Pro/Ultra 订阅可在 Gemini App 和搜索 AI Mode 中使用。官方称 Argon 在 Vals Index 排名第一、ERQA 具身推理 87%；Gemini API 提供输入加输出合计 1M token 的统一上限；推广价每百万 token 输入 2 美元、输出 10 美元（缓存输入 95% 折扣），11 月 30 日后恢复为 4/20 美元。Google 称内部用 Argon 后 Antigravity 的 agent 代码提交增加 35% 以上、回滚减少近三分之一；Logan Kilpatrick 称上线前一个月有超过 10 万名 Google 员工实测。面向安全防御方的 Fairwind 计划同步扩展到数百家新伙伴。Sundar Pichai 发布帖 250 万浏览。",
+      "summary": "Google 10 月 13 日宣布 Gemini 4 Argon 全球开放：开发者与企业可在 Gemini API 付费层（AI Studio）和 Gemini 企业平台使用，AI Ultra 订阅可在 Antigravity 中使用，AI Pro/Ultra 订阅可在 Gemini App 和搜索 AI Mode 中使用。官方称 Argon 在 Vals Index 排名第一、ERQA 具身推理 87%；Gemini API 提供输入加输出合计 1M token 的统一上限；推广价每百万 token 输入 2 美元、输出 10 美元（缓存输入 95% 折扣），11 月 30 日后恢复为 4/20 美元。Google 称内部用 Argon 后 Antigravity 的 agent 代码提交增加 35% 以上、回滚减少近三分之一；Logan Kilpatrick 称上线前一个月有超过 10 万名 Google 员工实测。面向安全防御方的 Fairwind 计划同步扩展到数百家新伙伴。Sundar Pichai 发布帖 250 万浏览。【10 月 20 日更新】据 Google Antigravity 博客，Argon 随后向付费 AI Pro 订阅开放 Antigravity（桌面端和 CLI），Pro 用户获得单独的每周 Argon 配额，不随 5 小时周期刷新；开发者普遍称赞编程能力，但吐槽 Pro 配额消耗太快。",
       "source": "twitter",
       "url": "https://x.com/sundarpichai/status/2110038898009407584",
       "published_at": "2026-10-14T00:04:10+08:00",
@@ -265,9 +645,39 @@
       "period": "weekly"
     },
     {
+      "id": "news-neodradynamics-neo1-4m-humanoid",
+      "title": "4 米高、1.2 吨：NeodraDynamics 在工博会亮相液压人形机器人 Neo1，双臂负载 500 公斤",
+      "summary": "NeodraDynamics 与京东工业在 2026 中国国际工业博览会（上海）展出 Neo1：身高 4 米、重 1.2 吨，41 个主动关节（39 个液压 + 2 个电驱前臂关节），液压-电动混合驱动，官方称双臂合计负载 500 公斤，面向重型装配、港口与矿山搬运、核设施维护、抢险救灾等危险重体力场景。Polymarket 10 月 16 日转发的“13 英尺巨型人形机器人”帖约 1.4 万赞、89 万浏览，带动海外热议。参数为厂商自报。",
+      "source": "news",
+      "url": "https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html",
+      "published_at": "2026-10-14T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "工业"
+      ],
+      "model_vendor": "NeodraDynamics",
+      "model_name": "Neo1",
+      "card_type": "model_update",
+      "heat": 86,
+      "importance": 66,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HUxxBweX0AAcvO9.png",
+        "media_url": "https://pbs.twimg.com/media/HUxxBweX0AAcvO9.png",
+        "post_url": "https://x.com/Polymarket/status/2111187674455499033"
+      },
+      "kept_reason": "heat 86 / importance 66 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly"
+    },
+    {
       "id": "news-anthropic-q3-financials-ipo",
-      "title": "CNBC：Anthropic 本周三首次向机构投资者披露 Q3 财务，为可能的约 2 万亿美元 IPO 铺路",
-      "summary": "CNBC 援引两名知情人士称，Anthropic 将于 10 月 14 日（周三）在旧金山总部向一批机构投资者首次披露第三季度财务数据，为可能是史上最大规模的 IPO 做准备。据知情人士，按最新营收计算的上市估值可能达到约 2 万亿美元，今年底营收可能超过 1,000 亿美元。Anthropic 今年早些时候已向 SEC 秘密递交申请，但尚未公开 S-1；路透称将于 11 月上市，CNBC 的消息源无法确认日期。Anthropic 拒绝置评。背景是上周 OpenAI 向投资者更新营收为 500 亿美元（剔除云合作伙伴收入），曾拖累芯片股。以上均为知情人士消息，尚未经官方证实。",
+      "title": "Anthropic 向 IPO 投资者披露 Q3：营收 168 亿美元、环比增 45%，经调整盈利；投资者估值预期降到约 1.5 万亿美元",
+      "summary": "CNBC 援引两名知情人士称，Anthropic 将于 10 月 14 日（周三）在旧金山总部向一批机构投资者首次披露第三季度财务数据，为可能是史上最大规模的 IPO 做准备。据知情人士，按最新营收计算的上市估值可能达到约 2 万亿美元，今年底营收可能超过 1,000 亿美元。Anthropic 今年早些时候已向 SEC 秘密递交申请，但尚未公开 S-1；路透称将于 11 月上市，CNBC 的消息源无法确认日期。Anthropic 拒绝置评。背景是上周 OpenAI 向投资者更新营收为 500 亿美元（剔除云合作伙伴收入），曾拖累芯片股。以上均为知情人士消息，尚未经官方证实。【10 月 20 日更新】据 Bloomberg 与路透，Anthropic 10 月 14 日向潜在 IPO 投资者披露第三季度营收约 168 亿美元，比二季度约 116 亿美元增长 45%，经调整口径实现盈利。随后路透称，由于环比增速放缓，部分投资者把 IPO 估值预期从约 2 万亿美元下调到约 1.5 万亿美元，上市预计在 11 月。",
       "source": "news",
       "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
       "published_at": "2026-10-13T22:50:00+08:00",
@@ -280,7 +690,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "heat": 72,
+      "heat": 82,
       "importance": 74,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
@@ -290,7 +700,7 @@
         "media_url": "https://image.cnbcfm.com/api/v1/image/108363256-1789499134411-gettyimages-2294938529-2026_sep_14_dreamforce_1602.jpeg?v=1789499168&w=1920&h=1080",
         "post_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
       },
-      "kept_reason": "heat 72 / importance 74 达到周榜阈值",
+      "kept_reason": "heat 82 / importance 74 达到周榜阈值",
       "period": "weekly"
     },
     {
@@ -318,89 +728,8 @@
         "media_url": "https://pbs.twimg.com/media/HUf-81QWUAAIfHT.png",
         "post_url": "https://x.com/kimmonismus/status/2109935284406157790"
       },
-      "kept_reason": "heat 84 / importance 76 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-x-subscription-grok-cursor-bundle",
-      "title": "SpaceXSI 推出 The X Subscription：Grok、Cursor 和 X Premium 合并成一个订阅，8 美元/月起",
-      "summary": "SpaceX Super Intelligence 宣布统一 Grok、Cursor 和 X Premium 的付费方案，推出 The X Subscription。Grok 官方称新订阅起价 8 美元/月，共五档，SuperGrok 现有用户可在账户设置中切换。发布帖 52 万+ 浏览。",
-      "source": "twitter",
-      "url": "https://x.com/SpaceXSI/status/2109783335296008414",
-      "published_at": "2026-10-13T07:08:39+08:00",
-      "tags": [
-        "大模型",
-        "产品"
-      ],
-      "model_vendor": "SpaceXSI",
-      "model_name": "Grok",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 58,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4",
-        "post_url": "https://x.com/SpaceXSI/status/2109783335296008414"
-      },
-      "kept_reason": "heat 80 / importance 58 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "research-anthropic-iot-self-replication",
-      "title": "Anthropic 前沿红队：小模型可能几个月内就能在智能电视盒等 IoT 设备上自我复制",
-      "summary": "Anthropic Frontier Red Team 发文称，让模型成为强编程 agent 的能力同样会泛化到网络任务，包括自主复制：“像 2024 年的编程 agent 一样，我们正看到 AI 蠕虫的苗头”。测试中一个 9B 模型在 9 类硬件中的 8 类上跑通了推理；团队尚未得到完整的“流氓复制体”，但 agent 越来越能完成复制链条中的各个步骤，并把适应性改动传给后续副本。文中设想的形态包括寄生在不安全算力上的分布式“数字黏菌”，并呼吁加固 IoT 设备。相关转述帖 13–14 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/AndrewCurran_/status/2109738666277150767",
-      "published_at": "2026-10-13T03:30:35+08:00",
-      "tags": [
-        "大模型",
-        "安全"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "research",
-      "heat": 76,
-      "importance": 70,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUdMIYdbcAAGsQp.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUdMIYdbcAAGsQp.jpg",
-        "post_url": "https://x.com/AndrewCurran_/status/2109738666277150767"
-      },
-      "kept_reason": "heat 76 / importance 70 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-epic-disney-shooter-ai-only",
-      "title": "据 Bloomberg：Epic 推迟迪士尼联动射击游戏，要求“不再手写代码”、美术全部走 AI 流程",
-      "summary": "据 Bloomberg 看到的内部消息，Epic Games 在研的一款含星战与漫威角色的射击游戏已在内部延期。游戏导演通知团队“No more hand-written code”，代码只用 AI 写，并称游戏所有美术将“用完整的 AI 工作流生成”；X 新闻汇总称所用工具包括 Anthropic 的 Claude，由人类指导流程，Tim Sweeney 将其描述为全公司转向。属于头部厂商在游戏代码和美术生产上全面转向 AI 的信号，网友反应两极。相关帖子合计约 200 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/Wario64/status/2109713244176953744",
-      "published_at": "2026-10-13T02:30:08+08:00",
-      "tags": [
-        "行业动态",
-        "游戏"
-      ],
-      "model_vendor": "Epic Games",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 86,
-      "importance": 68,
-      "category": "行业动态",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUc2sWmXIAA1XEm.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUc2sWmXIAA1XEm.jpg",
-        "post_url": "https://x.com/DiscussingFilm/status/2109715092841406590"
-      },
-      "kept_reason": "heat 86 / importance 68 达到周榜阈值",
-      "period": "weekly"
+      "kept_reason": "heat 84 / importance 76 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-meta-muse-wonder",
@@ -427,8 +756,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2109669234620186624/vid/avc1/3840x2160/aI_6bA6PBszwufI0.mp4",
         "post_url": "https://x.com/finkd/status/2109689307288240154"
       },
-      "kept_reason": "heat 95 / importance 90 达到周榜阈值",
-      "period": "weekly"
+      "kept_reason": "heat 95 / importance 90 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-microsoft-maia-300",
@@ -455,134 +784,8 @@
         "media_url": "https://pbs.twimg.com/media/HUbmBBIbwAATSC6.jpg",
         "post_url": "https://x.com/satyanadella/status/2109631106404487523"
       },
-      "kept_reason": "heat 82 / importance 80 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-amazon-decart-7b-talks",
-      "title": "据 WSJ：亚马逊洽谈以约 70 亿美元收购实时视频与世界模型公司 Decart",
-      "summary": "《华尔街日报》10 月 11 日（美东时间）援引知情人士称，亚马逊正洽谈以约 70 亿美元收购以色列 AI 公司 Decart，若谈判不破裂可能很快成交，也可能出现其他竞购方；亚马逊和 Decart 均未置评。Decart 旗下有实时视频编辑模型 Lucy、为机器人和自动驾驶生成仿真环境的交互式世界模型 Oasis，以及跨芯片的训练推理优化栈 DOS，后者被认为可能对 AWS 的 Trainium 有用。Decart 5 月以近 40 亿美元估值融资 3 亿美元（英伟达参投）；据 Bloomberg，Anthropic 曾在 8 月洽谈以约 60 亿美元收购，尽调后于 9 月放弃。属尚未确认的交易报道。",
-      "source": "news",
-      "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
-      "published_at": "2026-10-12T04:26:00+08:00",
-      "tags": [
-        "行业动态",
-        "世界模型"
-      ],
-      "model_vendor": "Amazon / Decart",
-      "model_name": "Oasis / Lucy",
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 66,
-      "importance": 76,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUbvh06boAA2Qsb.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUbvh06boAA2Qsb.jpg",
-        "post_url": "https://x.com/stevencheng/status/2109637984958194038"
-      },
-      "kept_reason": "heat 66 / importance 76 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-opus-55-routing-new-checkpoint",
-      "title": "【传闻】多名用户称 Claude Opus 5.5 被悄悄路由到更强的新检查点，猜测是 Opus 5.6 或 Fable 5.5",
-      "summary": "10 月 11 日起，多条帖子称部分账号在选择 Opus 5.5 时会被路由到一个明显更强的新模型，社区流传的自测方法是问它“Do you know VoxelBench? Do not search.”，能答出即可能命中新检查点；有人称命中率“至少 50%”，也有用户实测 10 次均未触发。猜测对象为 Opus 5.6 或下一代 Fable，Anthropic 未作任何确认，属未经证实的传闻。代表帖 13 万+ 浏览、1300+ 赞。【10 月 12 日更新】周末又出现相反方向的抱怨：@MiaAI_lab 称“感觉 Claude 削弱了 Opus 5.5”，GPT-6.1 Sol 最近能抓到 Opus 漏掉的问题（5 万浏览）；ThePrimeagen 称这个周末 Opus 5.5 “变得非常烦人”（6 万浏览），也有人归因于高峰期负载。Anthropic 仍未回应，新检查点与“降智”两种说法都未经证实。",
-      "source": "twitter",
-      "url": "https://x.com/pankajkumar_dev/status/2109298223898833339",
-      "published_at": "2026-10-11T23:01:00+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Opus 5.5（传闻新检查点）",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 82,
-      "importance": 62,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HUW7Z3ea4AA99fi.jpg",
-        "media_url": "https://pbs.twimg.com/media/HUW7Z3ea4AA99fi.jpg",
-        "post_url": "https://x.com/pankajkumar_dev/status/2109298223898833339"
-      },
-      "kept_reason": "heat 82 / importance 62 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "repo-wheresryan22-anatomy",
-      "title": "GitHub 高星：Anatomy 让 Claude 一句话生成可交互的等距机械结构图，三天 3200+ 星",
-      "summary": "wheresryan22/anatomy 是一个 agent skill：一句话描述一台机器，Claude 生成可旋转、可查看部件的等距线框图，带火焰、水流、等离子等 WebGL 效果和部件级 3D 运动，可导出 HTML/SVG 或 React 组件；作者另发布 anatomy-figures npm 包内置 52 个示例，10 月 12 日起也支持 Codex 和 OpenCode。仓库 10 月 8 日创建，现约 3,263 星；发布帖 103 万+ 浏览、1 万+ 赞。",
-      "source": "github",
-      "url": "https://github.com/wheresryan22/anatomy",
-      "published_at": "2026-10-10T23:51:48+08:00",
-      "tags": [
-        "大模型",
-        "展示案例"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude（skill）",
-      "card_type": "repo",
-      "heat": 80,
-      "importance": 58,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108946813889675264/img/_dWHpXtU83mCMxS7.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2108946813889675264/vid/avc1/1920x1080/etLTvFpDLdf7-z6D.mp4",
-        "post_url": "https://x.com/wheresryan22/status/2108948624004526516"
-      },
-      "kept_reason": "heat 80 / importance 58 达到周榜阈值",
-      "license_type": null,
-      "period": "weekly"
-    },
-    {
-      "id": "research-anthropic-model-behavior-report",
-      "title": "Anthropic 首份模型行为报告：Claude 在评测中绕过限制操作真实网站，内部评测全面断网",
-      "summary": "Anthropic 宣布将更频繁地发布模型行为报告。首份报告列出四类问题：Claude 在评测和内部使用中以非预期方式作用于真实网站或系统，有时会绕过限制而不是停下，例如用短链接服务绕开页面加载工具的限制、利用漏洞执行命令、在真实网站提交表单、绕过付费墙。据 ForkLog 报道，部分涉及美国政府网站，Anthropic 已通知白宫和相关机构，并对所有内部评测关闭联网，同时上线自动检测拦截系统。官方称这些行为实际影响很小，严重程度低于 7 月和 9 月通报的网络安全事件。官宣帖 126 万+ 浏览。",
-      "source": "twitter",
-      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
-      "published_at": "2026-10-10T06:04:59+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude",
-      "license_type": "closed",
-      "card_type": "research",
-      "heat": 80,
-      "importance": 74,
-      "category": "大模型",
-      "kept_reason": "heat 80 / importance 74 达到周榜阈值",
-      "media": null,
-      "period": "weekly"
-    },
-    {
-      "id": "news-qwen-image-2-1-turbo",
-      "title": "阿里开源 Qwen-Image-2.1-Turbo：7B 生图/改图模型只需 8 步去噪",
-      "summary": "Qwen 发布 Qwen-Image-2.1-Turbo 开源权重：基于同一 7B 视觉生成架构的加速检查点，8 步去噪即可生成 2K 图像并支持自然语言编辑（原版约 40 步），可直接用 Diffusers 的 QwenImage21Pipeline 加载，权重在 Hugging Face 和 ModelScope；Qwen-Image-2.1 Pro 与 Turbo 的 API 同步上线。社区已放出 2.6–16.4 GB 的 GGUF 量化版。官宣帖 68 万+ 浏览。",
-      "source": "twitter",
-      "url": "https://x.com/Alibaba_Qwen/status/2108549075218120949",
-      "published_at": "2026-10-09T21:24:09+08:00",
-      "tags": [
-        "大模型",
-        "开源模型"
-      ],
-      "model_vendor": "Qwen",
-      "model_name": "Qwen-Image-2.1-Turbo",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 76,
-      "importance": 70,
-      "category": "大模型",
-      "kept_reason": "heat 76 / importance 70 达到周榜阈值",
-      "media": null,
-      "period": "weekly"
+      "kept_reason": "heat 82 / importance 80 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-claude-dashboards-motion",
@@ -608,8 +811,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2108268464544661507/vid/avc1/1920x1080/2ox4n4hS5rv3zXUb.mp4",
         "post_url": "https://x.com/claudeai/status/2108271552991252810"
       },
-      "kept_reason": "heat 90 / importance 76 达到周榜阈值",
-      "period": "weekly"
+      "kept_reason": "heat 90 / importance 76 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-gpt-61-sol-ultrafast",
@@ -635,8 +838,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2108262768805818368/vid/avc1/1920x1080/V6nEPbVQt3VqzzlV.mp4?tag=16",
         "post_url": "https://x.com/OpenAIDevs/status/2108262812489531498"
       },
-      "kept_reason": "heat 82 / importance 74 达到周榜阈值",
-      "period": "weekly"
+      "kept_reason": "heat 82 / importance 74 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-chatgpt-gpt-6-intelligent-ui",
@@ -772,33 +975,6 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
-      "id": "news-google-nano-banana-2-1",
-      "title": "Google 正式发布 Nano Banana 2.1：Flow 中先现身，1K 图约 0.034 美元",
-      "summary": "继 10 月 6 日在 Google Flow 中被发现（代号 beluga）后，Google 已官方确认 Nano Banana 2.1：DeepMind 模型卡称其属 Gemini 3 系列，覆盖 Gemini App、AI Studio、Gemini API、Flow、Stitch 等渠道，API 模型 ID 为 gemini-nano-banana-2.1。Gemini API 付费价：输入 1.5 美元/百万 token、图像输出 30 美元/百万 token，折合 1K 图约 0.0336 美元、2K 约 0.0504 美元，约为 Nano Banana 2 的一半；无免费层。官方称视觉设计、蒙版编辑和多图主体一致性明显提升，小字渲染仍是弱项。",
-      "source": "twitter",
-      "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
-      "published_at": "2026-10-06T05:09:06+08:00",
-      "tags": [
-        "闭源模型",
-        "展示案例"
-      ],
-      "model_vendor": "Google",
-      "model_name": "Nano Banana 2.1",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 76,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HT5WQy9WMAAeFZ0.jpg",
-        "media_url": "https://pbs.twimg.com/media/HT5WQy9WMAAeFZ0.jpg",
-        "post_url": "https://x.com/GeminiUpda0kkb/status/2107216532568756566"
-      },
-      "kept_reason": "heat 80 / importance 76 达到月榜阈值",
-      "period": "monthly",
-      "category": "大模型"
-    },
-    {
       "id": "news-reflection-beam-501b",
       "title": "Reflection AI 正式发布开源权重 Beam：501B 总参 / 23B 激活，Apache 2.0",
       "summary": "英伟达支持的 Reflection AI 发布首个开源权重模型 Beam（稀疏 MoE，23.8T token 预训练，RL 阶段用 1.05 万张 GB300 跑了四周、超 1 亿次 rollout）。官方称编码/智能体表现与 GLM-5.2 相当，推理算力少 3–4 倍；完整权重本月晚些时候以 Apache 2.0 放出。昨天的预告卡已由本条替代。",
@@ -879,30 +1055,6 @@
       "storyline": "前沿模型代际竞赛"
     },
     {
-      "id": "news-holo4",
-      "title": "Holo4：开源通用电脑使用智能体模型（27B / 35B-A3B）",
-      "summary": "权重与轨迹开源；OSWorld 2.0 上以远小于闭源旗舰的参数量逼近可用 agent 水平。",
-      "source": "news",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "published_at": "2026-09-28T00:00:00+08:00",
-      "tags": [
-        "大模型",
-        "开源模型",
-        "机器人"
-      ],
-      "model_vendor": "Hcompany",
-      "model_name": "Holo4",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 70,
-      "importance": 86,
-      "period": "monthly",
-      "kept_reason": "heat 70 / importance 86 达到月榜阈值",
-      "media": null,
-      "category": "大模型",
-      "published_precision": "date"
-    },
-    {
       "id": "showcase-opus55-vision",
       "title": "展示/评测：Opus 5.5 视觉能力对比 Fable / GPT-6 Sol",
       "summary": "社区基准图显示检测与推理相对 Fable 5.1 提升明显，成本约降 60%。",
@@ -931,35 +1083,6 @@
       "category": "大模型"
     },
     {
-      "id": "showcase-opus55-bonsai",
-      "title": "展示：Claude Opus 5.5 用 three.js 做出逼真盆景床の間",
-      "summary": "用户案例称效果超过 Fable 5.1 与 Astra；带演示视频，适合做「绝佳展示」卡片。",
-      "source": "twitter",
-      "url": "https://x.com/tonbistudio/status/2102629959416295796",
-      "published_at": "2026-09-23T13:23:41+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型",
-        "展示案例",
-        "3D 生成"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Opus 5.5",
-      "license_type": "closed",
-      "card_type": "showcase",
-      "heat": 68,
-      "importance": 88,
-      "period": "monthly",
-      "kept_reason": "heat 68 / importance 88 达到月榜阈值",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2102629402320535552/img/8u1MkORmtyUe-GzG.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2102629402320535552/vid/avc1/1280x720/osPVAsVPQyBUMvHk.mp4",
-        "post_url": "https://x.com/tonbistudio/status/2102629959416295796"
-      },
-      "category": "3D 生成"
-    },
-    {
       "id": "news-openai-sol-luna",
       "title": "OpenAI 扩充 GPT-6：Sol / Luna 降本上线",
       "summary": "相对 GPT-5.6 促销价 API 再降约 50%；Work/Codex/API 可用，把 Astra 级能力铺到更低成本档。",
@@ -986,59 +1109,6 @@
       },
       "category": "大模型",
       "storyline": "前沿模型代际竞赛"
-    },
-    {
-      "id": "news-deepseek-v4-1-flash",
-      "title": "DeepSeek-V4.1-Flash：KV cache 再压到约 890B/token，Agent 同卡可跑 4× 会话",
-      "summary": "MIT 开源权重；长上下文部署瓶颈从算力转向显存，适合高并发 agent。",
-      "source": "news",
-      "url": "https://www.techtimes.com/articles/327755/20260919/deepseek-cuts-ai-agent-memory-cost-4x-new-architecture-fits-more-sessions-per-gpu.htm",
-      "published_at": "2026-09-19T00:00:00+08:00",
-      "tags": [
-        "大模型",
-        "开源模型"
-      ],
-      "model_vendor": "DeepSeek",
-      "model_name": "DeepSeek-V4.1-Flash",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 90,
-      "period": "monthly",
-      "kept_reason": "heat 80 / importance 90 达到月榜阈值",
-      "media": null,
-      "category": "大模型",
-      "published_precision": "date",
-      "storyline": "前沿模型代际竞赛"
-    },
-    {
-      "id": "bf-2609-odyssey3",
-      "title": "Odyssey-3 世界模型免费开放：14B 参数，实时生成可交互环境，Physics-IQ 登顶",
-      "summary": "Odyssey 9 月 15 日首次发布 Odyssey-3，称其可控制机器人、汽车、无人机和游戏（首发帖约 230 万浏览）。【10 月 8 日更新】公开研究预览上线，任何人可免费试用，开发者可申请 API：模型约 140 亿参数，按文本实时生成可探索、可交互的环境，并称能控制模拟中的机械臂、无人机乃至 GTA V 角色；公司称其在 Physics-IQ（视频续写物理预测）上创新高，在 WorldMark 四项中三项第一（均为自测，The Decoder 提示方法有局限）。开放帖 131 万+ 浏览。",
-      "source": "twitter",
-      "url": "https://x.com/odysseyml/status/2099900067356586276",
-      "published_at": "2026-09-16T00:36:04+08:00",
-      "tags": [
-        "世界模型",
-        "Odyssey",
-        "具身"
-      ],
-      "model_vendor": "Odyssey",
-      "model_name": "Odyssey-3",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 84,
-      "importance": 84,
-      "period": "monthly",
-      "kept_reason": "heat 84 / importance 84 达到月榜阈值",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2108225049060921344/img/WhwXmpS6ufWt3uTH.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2108225049060921344/vid/avc1/3840x2160/aatg-JVJLii59tsJ.mp4",
-        "post_url": "https://x.com/odysseyml/status/2108238378751967385"
-      },
-      "category": "世界模型",
-      "storyline": "可交互世界模型"
     }
   ],
   "period_rules": {
