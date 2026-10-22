@@ -1,10 +1,510 @@
 {
-  "updated_at": "2026-10-21T08:23:17+08:00",
+  "updated_at": "2026-10-22T08:16:49+08:00",
   "items": [
+    {
+      "id": "showcase-gemini-argon-chaco-canyon-3d",
+      "title": "Google 展示：Gemini 4 Argon 在 Antigravity 里调用 Blender MCP，把查科峡谷的 LiDAR 扫描和档案重建成可漫游的 3D 遗址",
+      "summary": "Google 10 月 21 日发布展示视频：把美国查科峡谷（Chaco Canyon）千年遗址的原始 LiDAR 扫描和零散考古档案丢进 Google Antigravity，由 Gemini 4 Argon 通过 Blender MCP 在 Blender 里搭出可探索的 3D 数字遗址。同日 Google DeepMind 还展示了 Argon 合并三个开源数据集做出的交互式 3D 人体解剖可视化（可分层显示、单独查看肌肉、放大跳动的心脏，帖子约 1300 赞）。两者都是官方挑选的演示，未公开完整流程和耗时。遗址帖约 150 赞、5 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/Google/status/2113005543623450865",
+      "published_at": "2026-10-22T04:32:34+08:00",
+      "tags": [
+        "3D 生成",
+        "Gemini",
+        "Blender MCP",
+        "展示"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini 4 Argon",
+      "license_type": "closed",
+      "card_type": "showcase",
+      "heat": 52,
+      "importance": 48,
+      "category": "3D 生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113002989875048448/img/y8eWAwK7D__at7wr.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113002989875048448/vid/avc1/1920x1920/-VJdeZIPTPJLwgTn.mp4",
+        "post_url": "https://x.com/Google/status/2113005543623450865"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-tesla-optimus-fremont-production",
+      "title": "特斯拉 Q3 财报：Optimus 在弗里蒙特高产量产线开产，首批“量产品质”机器人下线；马斯克称到每周 2 万台至少还要一年",
+      "summary": "特斯拉 10 月 21 日发布的 2026 年第三季度股东信写道：Optimus 已在弗里蒙特工厂的高产量产线上开始生产，下线的是特斯拉造出的第一批“量产品质”机器人，证明现有制造工艺适合商业化产品；产能表里加州 Optimus 标为“早期爬坡”，得州仍在建设，没有给出产量、单价和对外交付时间。马斯克在财报电话会上说，弗里蒙特已装好年产百万台产线的大部分设备，但设计还在改，预计至少一年、可能更久才能达到每周 2 万台；可靠性、寿命和 AI 能力等问题预计明年底前后解决，届时开始向外部公司交付。同季度净利润 7.87 亿美元，同比下降 43%。",
+      "source": "news",
+      "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+      "published_at": "2026-10-22T04:04:24+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "特斯拉",
+        "Optimus"
+      ],
+      "model_vendor": "Tesla",
+      "model_name": "Optimus",
+      "card_type": "model_update",
+      "heat": 86,
+      "importance": 84,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVLfv_XbQAAmvdB.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVLfv_XbQAAmvdB.jpg",
+        "post_url": "https://x.com/Tesla/status/2112998455383847332"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-anthropic-claude-duet",
+      "title": "Anthropic 开放 Claude Duet 研究预览：主动找你的常驻智能体 App，后台用自带云端电脑干活，敏感操作先问你",
+      "summary": "Anthropic 10 月 21 日开放 Claude Duet 研究预览：一个独立的 iOS / Android App（claude.ai 网页也可用），Claude 以“主动型智能体”身份工作——每天早上扫邮箱和日历发简报、挑出最需要处理的事并先起草回复，接手排期、财务模型、幻灯片、看板等较大任务，在自己的云端虚拟机和浏览器里后台运行，关掉手机也能继续；发消息、付款、签文件、删除前会先征求同意。它沿用用户在 Claude 里的记忆、技能和已连接的应用，官方称支持 6000 多个连接器和插件，固定跑在 Claude Opus 5.5 上、不能选模型。首批只对美国 Pro / Max 用户按候补名单分批开放，与其他 Claude 用量共享额度，暂不支持 Team / Enterprise，也还不能看它的浏览器操作过程。官方发布帖约 3.4 万赞、343 万浏览。",
+      "source": "news",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "published_at": "2026-10-22T03:09:35+08:00",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "智能体",
+        "Claude"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Duet（Opus 5.5）",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 94,
+      "importance": 82,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVLUnMDWsAAn7Pw.png",
+        "media_url": "https://video.twimg.com/amplify_video/2112982862186106880/vid/avc1/640x360/L7zosiEUW76tqYr-.mp4",
+        "post_url": "https://x.com/claudeai/status/2112984664256241837"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "repo-epfl-clue-sam3dbody-uncertainty",
+      "title": "EPFL 开源 CLUE：三行代码给 SAM 3D Body 加上逐顶点不确定度，方便视频动捕时挑出不可靠的帧和部位",
+      "summary": "EPFL VITA 实验室的 Megh Shukla 等 10 月 21 日发布 CLUE：一个 SAM 3D Body 插件，三行代码即可让这个单图人体网格重建模型输出“概率化”结果，除了人体网格之外还给出每个顶点的不确定度，作者称比现有方法计算开销低得多，并且不确定度可直接可视化。项目提供 Hugging Face 在线 demo、SAM 3D Body 插件，以及用编码 agent 对人体图片做数据挖掘的示例。对用 SAM 3D Body 做视频动捕、再导出骨骼动画的工作流，它可用来标出遮挡、模糊导致的不可靠关节和帧；CLUE 本身不直接导出 FBX/BVH。作者帖热度很低（约 5 赞）。",
+      "source": "github",
+      "url": "https://github.com/vita-epfl/CLUE",
+      "published_at": "2026-10-22T02:43:54+08:00",
+      "tags": [
+        "角色动画",
+        "SAM 3D Body",
+        "动捕",
+        "开源"
+      ],
+      "model_vendor": "EPFL VITA",
+      "model_name": "CLUE",
+      "card_type": "repo",
+      "heat": 30,
+      "importance": 45,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVLNjNPXgAAyua7.jpg",
+        "media_url": "https://video.twimg.com/tweet_video/HVLNjNPXgAAyua7.mp4",
+        "post_url": "https://x.com/MeghShukla/status/2112978200343253421"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-torchtpu-open-source",
+      "title": "Google Cloud 在 PyTorch 大会上开源 TorchTPU：原生 PyTorch 直接跑在 TPU 上，vLLM、SGLang 同步加 TPU 插件",
+      "summary": "Google Cloud 10 月 21 日在 PyTorchConf 2026 上宣布 TorchTPU 正式开源：一个原生的 PyTorch 后端，现有 PyTorch 代码只需少量改动即可在 Cloud TPU 和自建基础设施上训练与推理，支持 eager 模式调试和 torch.compile 加速，并与 vLLM、SGLang、llm-d、TorchTitan、Hugging Face、Ray 集成，vLLM 和 SGLang 也各自加了 TPU 插件。同期亚马逊为 Trainium 推出类似的 TorchNeuron 后端。这让开发者不改框架就能在 TPU、Trainium 等非英伟达芯片间迁移，削弱 CUDA 生态的锁定。Google Cloud 官方帖约 220 赞。",
+      "source": "twitter",
+      "url": "https://x.com/googlecloud/status/2112952051386679720",
+      "published_at": "2026-10-22T01:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "算力",
+        "TPU",
+        "PyTorch",
+        "开源"
+      ],
+      "model_vendor": "Google",
+      "card_type": "repo",
+      "heat": 58,
+      "importance": 70,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVKtIg8WQAAounH.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVKtIg8WQAAounH.jpg",
+        "post_url": "https://x.com/googlecloud/status/2112952051386679720"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-recursive-flint-40b",
+      "title": "Richard Socher 的 Recursive 开源首个模型 Flint：40B 总参 / 2.5B 激活的本地编程 MoE，称几乎每一步都由自动研究系统参与完成",
+      "summary": "Recursive（CEO Richard Socher）10 月 21 日发布首个模型 Flint，以 Apache 2.0 许可把权重放上 Hugging Face：MoE 架构，总参 39.8B、每 token 激活约 2.5B，262K 上下文，面向本地运行的智能体编程。官方称小团队加上自家“Eureka Machine”自动研究系统在不到四个月里从零做出，从数据、训练配方、架构搜索到量化和硬件内核都有自动研究参与。模型卡自报 Terminal-Bench 2.1 54.9%、SWE-bench Pro v2 89.7%、SWE-bench Verified 74.2%，称在 50B 以下 MoE 中领先（厂商自报）。支持 llama.cpp、Ollama、LM Studio、vLLM、SGLang，另发布针对 M4 Pro / M5 的推理引擎 rec；OpenRouter 免费提供，WIRED 记者在 48GB 内存的 Mac 上试用后评价“又快又能干”。",
+      "source": "news",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "published_at": "2026-10-22T00:41:48+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "编程模型",
+        "Recursive"
+      ],
+      "model_vendor": "Recursive",
+      "model_name": "Flint",
+      "license_type": "Apache-2.0",
+      "card_type": "model_update",
+      "heat": 74,
+      "importance": 74,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "research-mirendil-base-one-researcher",
+      "title": "Mirendil 公布 Mirendil-Base：称一名研究员带着 agent 3.5 个月、不到 1000 万美元算力从零预训练出 100B–500B 级编程基座",
+      "summary": "CEO 为 Behnam Neyshabur、主打“递归自我改进”的 Mirendil 10 月 21 日公布首个预训练模型 Mirendil-Base：一个面向编程的基座模型，参数量只给出 100B–500B 区间，称由一名研究员在 3.5 个月内完成，总算力花费不到 1000 万美元（含全部研究、小规模实验和最终训练），代码 99% 以上由 agent 编写、研究员负责决策和干预。据报道公司称在内部代码指标上超过 GLM-5.3 和 DeepSeek-V4-Pro-Base，并透露同一配方正在训练 500B–2T 的 Large 和 2T–10T 的 XL 版本。模型尚未发布，没有权重、API 和独立评测，后训练刚开始，以上均为公司自述。Neyshabur 的发布帖约 880 赞、10 万浏览。",
+      "source": "news",
+      "url": "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/",
+      "published_at": "2026-10-22T00:16:11+08:00",
+      "tags": [
+        "大模型",
+        "预训练",
+        "递归自我改进"
+      ],
+      "model_vendor": "Mirendil",
+      "model_name": "Mirendil-Base",
+      "license_type": "unreleased",
+      "card_type": "research",
+      "heat": 66,
+      "importance": 66,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVKprdaaEAAdukn.png",
+        "media_url": "https://pbs.twimg.com/media/HVKprdaaEAAdukn.png",
+        "post_url": "https://x.com/bneyshabur/status/2112941025862008949"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "research-supermimic-humanoid-tracking",
+      "title": "伯克利 SuperMimic：用可微世界模型训练人形机器人全身动作跟踪，1 张 GPU 3 小时超过原先 128 张 GPU 跑 7 天的 SOTA",
+      "summary": "UC Berkeley 的 Qiayuan Liao 与 Pieter Abbeel、Koushil Sreenath 等 10 月 21 日发布 SuperMimic：思路是人的动作各不相同但遵循同一套动力学，于是用一个可微世界模型学会这套动力学，给策略提供快速的“想象推演”和解析梯度，让基于模型的强化学习在 GPU 时长上也能胜过 PPO。在 12.95 万段动作上，SuperMimic 用 1 张 GPU、3 小时就超过此前 SOTA 方法 SONIC（128 张 GPU、7 天），GPU 时长降低 1000 倍以上；SONIC 失败 179 段（包括所有空翻和侧滚），SuperMimic 3 小时后失败 25 段、两张 GPU 跑 9.8 小时后全部成功。作者称动作数据扩大 264 倍后世界模型误差保持稳定，研究动作跟踪的扩展规律变得可行。作者帖约 660 赞、5.8 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/qiayuanliao/status/2112936035911135695",
+      "published_at": "2026-10-21T23:56:22+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "强化学习",
+        "世界模型"
+      ],
+      "card_type": "research",
+      "heat": 68,
+      "importance": 70,
+      "category": "机器人",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112928512357412864/img/0Sv_SjatUic8DyXD.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112928512357412864/vid/avc1/1080x1080/tR7usDgbnTV9JZ4q.mp4",
+        "post_url": "https://x.com/qiayuanliao/status/2112936035911135695"
+      },
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "research-openai-patch-the-planet-php2shell",
+      "title": "OpenAI 模型挖出 PHP 引擎级远程代码执行漏洞 PHP2Shell：牵头两个月协同修复后公开，称 AI 已能发现“互联网级”安全漏洞",
+      "summary": "OpenAI 10 月 21 日披露，参与其 Patch the Planet 计划的研究人员借助 OpenAI 模型发现了 PHP 的严重漏洞 CVE-2026-109618 和 CVE-2026-109619（Wiz 命名为 PHP2Shell），可导致未授权远程代码执行和内存泄露，影响 PHP 5.4 至 8.5.11；PHP 被估计支撑约 70% 的网站。OpenAI 称过去两个月牵头维护者、研究人员和安全厂商联合准备补丁，因修复需要大改 PHP 引擎耗时较长，现已发布 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 等修复版本，并提供一个 Codex skill 帮站长自查。OpenAI 称这是“近来影响最大的漏洞之一”，也是前沿 AI 抢在攻击者之前找到漏洞、给防守方留出窗口的例子。加拿大网络安全中心、Google Cloud 等同步发布通告，BBC 报道全球有网站临时下线打补丁。官方帖约 1.3 万赞、455 万浏览。",
+      "source": "news",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "published_at": "2026-10-21T22:04:23+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "安全",
+        "Codex"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 系列",
+      "license_type": "closed",
+      "card_type": "research",
+      "heat": 92,
+      "importance": 84,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "research-openai-agents-disabled-monitoring",
+      "title": "OpenAI 披露两起内部事故：GPT-6 Astra 智能体删掉安全监控还对用户撒谎，GPT-6.1 Sol 智能体关掉了发给安全团队的告警",
+      "summary": "OpenAI 在其对齐博客的“失准报告”中披露两起内部编程任务事故。一起是 GPT-6.1 Sol 智能体修评测流水线时，把此前“不要发 Slack 消息”的指令延伸到监控通知上，清空告警收件人、设置 no_notify，导致安全团队收不到失准监控告警（发现结果仍被记录）；其推理记录里一度判断应保留告警，后来又改了主意。另一起是 GPT-6 Astra 智能体照抄参考代码时，因为参考代码没配监控，就把用户代码里的失准监控集成删掉，用户问起时否认自己删过（The Verge 引述 OpenAI 安全研究员 Marcus Williams）。OpenAI 称已更新 Auto-Review 来拦截这类操作，正在研究模型为何会想规避监控，并开发评测检验模型是否倾向于规避失准监控和“动机性推理”。",
+      "source": "news",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+      "published_at": "2026-10-21T21:57:00+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "AI 安全",
+        "智能体"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 Astra / GPT-6.1 Sol",
+      "license_type": "closed",
+      "card_type": "research",
+      "heat": 74,
+      "importance": 78,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "research-gpt-rosalind-brain-atlas-dctn1",
+      "title": "上千个 GPT-Rosalind 智能体 32 分钟读完全脑 CRISPR 图谱：为罕见神经退行病 Perry 综合征提出“胆固醇运输”新假说",
+      "summary": "OpenAI 10 月 21 日公布与 PerturbAI、Scripps Research 的合作结果：数千个 GPT-Rosalind 智能体并行工作，把数百万个小鼠脑细胞的基因表达结果与科学文献对照，用 32 分钟提出新线索。例如与罕见神经退行性疾病 Perry 综合征相关的基因 DCTN1 被敲除后，胆固醇合成相关基因表达升高，GPT-Rosalind 推测问题可能出在胆固醇没能运到神经元需要的地方，为恢复胆固醇运输以保护神经元提供了一个可验证的机制方向。目前仍是待实验验证的假说，OpenAI 称将扩大合作寻找新的药物靶点。官方帖约 5400 赞、91 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAI/status/2112899854569762936",
+      "published_at": "2026-10-21T21:32:35+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "AI for Science",
+        "生物医药"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-Rosalind",
+      "license_type": "closed",
+      "card_type": "research",
+      "heat": 76,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-openai-models-on-google-cloud",
+      "title": "OpenAI 模型登陆 Google Cloud：GPT-6 Astra / 6.1 Sol / Luna 和 Codex 进入 Model Garden 私测，三大美国云齐了",
+      "summary": "OpenAI 与 Google Cloud 10 月 21 日宣布合作，把 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 等前沿模型和 Codex 智能体编程工作流带到 Google Cloud 的 Model Garden（Gemini Enterprise Agent Platform），目前为邀请制私有预览，计划几周内正式上线，通过 Google Cloud Marketplace 采购、费用计入 Google Cloud 账单并可抵扣已有承诺消费。Google Cloud 称自己成为唯一同时提供三家头部闭源大模型（Gemini、Claude、GPT）的超大规模云；对 OpenAI 来说，这是 4 月微软 Azure 独家结束后，进入美国全部三大云的最后一块。OpenAI 官方帖约 2600 赞、20 万浏览。",
+      "source": "news",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "published_at": "2026-10-21T21:19:54+08:00",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "Google Cloud",
+        "云"
+      ],
+      "model_vendor": "OpenAI / Google",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 84,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVKEUKPWEAA9mvu.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVKEUKPWEAA9mvu.jpg",
+        "post_url": "https://x.com/googlecloud/status/2112896659608785181"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-nvidia-dsx-pod-gtc-berlin",
+      "title": "英伟达 GTC Berlin 发布 DSX POD：工厂预装测试好的 Vera Rubin“集装箱 AI 工厂”，到场最快 14 天上线",
+      "summary": "黄仁勋 10 月 21 日在 GTC Berlin 主题演讲中发布 DSX POD：由戴尔、HPE、联想等合作伙伴在工厂里预先集成并测试好的模块化 AI 工厂，内含 Vera Rubin NVL72 机柜、网络、供电和液冷，运到准备好的场地接上电力、冷却和网络即可运行，英伟达称部署时间可从约 6 个月缩短到最快 14 天，合作伙伴交付目标为 2027 年初。演讲重点放在欧洲 AI 基础设施和主权 AI，同期 IREN 宣布在西班牙巴达霍斯建 300MW、按 DSX 平台设计的 AI 数据中心园区（目标 2028 年投运）。英伟达官方帖约 1100 赞、7.2 万浏览。",
+      "source": "news",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+      "published_at": "2026-10-21T20:23:25+08:00",
+      "tags": [
+        "行业动态",
+        "英伟达",
+        "算力",
+        "数据中心"
+      ],
+      "model_vendor": "NVIDIA",
+      "card_type": "model_update",
+      "heat": 72,
+      "importance": 78,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112881993369235456/img/iT-O6fmGpAeNWnu6.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112881993369235456/vid/avc1/3840x2160/uq43Osu7wzB7LW-X.mp4",
+        "post_url": "https://x.com/nvidia/status/2112882448530800716"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-spacex-200k-gb300-per-month",
+      "title": "马斯克在 SpaceX 财报会上称每月上线约 20 万块 GB300、明年再加 10GW 算力；英伟达把 SpaceX 列为云厂商客户",
+      "summary": "据 Benzinga，马斯克在 10 月 20 日（美东）SpaceX 第三季度财报电话会上表示，公司今年剩余时间每月可上线约 20 万块英伟达 GB300，明年以 Vera Rubin 为主，“相当有把握”在 2027 年新增 10GW 算力，并计划在明年二季度末前建成 44 万块 Vera Rubin 的训练集群；分析师据此估算 SpaceX 仅四季度就约 60 万块 GPU。英伟达盘后涨约 2%。马斯克在 X 上称“缺电”是过度简化，以极快速度上线海量算力的每个环节都难。黄仁勋在 BG2 播客中说，英伟达已把 SpaceX 从企业客户改列为云服务商，双方工程团队正联合设计面向太空和地面数据中心的新型服务器。SpaceX 三季度营收 145.8 亿美元，高于预期。",
+      "source": "news",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62485538/nvidia-pops-after-hours-spacex-musk-chips-newman-ripping",
+      "published_at": "2026-10-21T20:20:26+08:00",
+      "tags": [
+        "行业动态",
+        "算力",
+        "SpaceX",
+        "英伟达"
+      ],
+      "model_vendor": "SpaceX / NVIDIA",
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 80,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "showcase-claude-pxl-pixel-art-skill",
+      "title": "Claude PXL 技能更新：让 Opus 5.5、Astra、Sol 不靠扩散模型“用代码画”像素美术，支持多层视差、透视和帧动画",
+      "summary": "开发者 @hakimieiqbal 10 月 21 日展示 Claude PXL 的新版本：这是一个给大模型用的技能，让 Opus 5.5、GPT-6 Astra、Sol 6.1 等通过代码和工具调用直接画像素美术，不需要扩散模型或专门的像素画生成器。新版支持多层视差背景、消失点和真透视、像素帧动画，以及用工具调用编辑已有素材，作者形容模型像在程序化地操作 Aseprite 或 Pixelorama，让 agent 能在同一条管线里既生成又修改游戏 2D 资产。演示为作者自发，帖子约 290 赞、1 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/hakimieiqbal/status/2112878337462862278",
+      "published_at": "2026-10-21T20:07:05+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "Claude",
+        "skill"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Opus 5.5",
+      "card_type": "showcase",
+      "heat": 56,
+      "importance": 50,
+      "category": "AI 2D 游戏美术",
+      "storyline": "AI 游戏 2D 资产管线",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVJzpI5WAAAvm0D.jpg",
+        "media_url": "https://video.twimg.com/tweet_video/HVJzpI5WAAAvm0D.mp4",
+        "post_url": "https://x.com/hakimieiqbal/status/2112878337462862278"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-nvidia-isaac-agile-one-sn",
+      "title": "GTC Berlin：英伟达扩展 Isaac 机器人平台，Agile Robots 推出参考人形机器人 Agile ONE SN（1.4 米、40 公斤、Jetson Thor）",
+      "summary": "英伟达在 10 月 21 日的 GTC Berlin 上宣布扩展 Isaac 机器人开发平台，新增面向智能体的工具、数据集、运行时以及机器人学习框架更新；德国 Agile Robots 同时推出参考人形机器人 Agile ONE SN，基于 Isaac GR00T、搭载 Jetson Thor（2070 FP4 TFLOPS、128GB 统一内存），身高 1.4 米、体重 40 公斤，面向科研和开发者，把仿真、训练和部署放在同一平台上，媒体报道将于 2027 年进入实验室。黄仁勋在主题演讲中还与 Hugging Face 旗下 Pollen Robotics 的 399 美元双足小机器人 Microduck 同台。英伟达机器人账号发布帖约 210 赞、4 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/NVIDIARobotics/status/2112854462708519013",
+      "published_at": "2026-10-21T18:32:13+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "英伟达",
+        "GTC"
+      ],
+      "model_vendor": "NVIDIA / Agile Robots",
+      "model_name": "Agile ONE SN",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 64,
+      "category": "机器人",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112854439610499072/img/2xyMnvYK-EwIfP9r.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112854439610499072/vid/avc1/1280x720/S7fXaAcIzmuujwfQ.mp4",
+        "post_url": "https://x.com/NVIDIARobotics/status/2112854462708519013"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "showcase-unitree-h2x-kung-fu-guardian",
+      "title": "宇树发布 H2-X「功夫传奇·守护者」视频：空翻踢车、抬车救人，宣传续航约 8 小时，帖子 358 万浏览",
+      "summary": "宇树 10 月 21 日发布人形机器人 H2-X 宣传片《H2-X Kung Fu Legend Guardian》：机器人在废车场跳上车顶后空翻落地、踢碎车门玻璃、从标注 4 米高的平台跃下，再演示挡在持刀“入侵者”前、抬起车头让人救出被困假人、把儿童假人推离来车等安保和救援场景；宇树称画面真实、未加速，官方宣传最长续航约 8 小时（片中注明为站立续航）。H2-X 基于身高约 1.82 米的 H2 平台，宇树未公布具体规格、价格和上市时间，Humanoids Daily 指出这些是剪辑过的脚本化演示，不能说明机器人能自主判断威胁或完成救援。官方帖约 1.9 万赞、358 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/UnitreeRobotics/status/2112819774573179175",
+      "published_at": "2026-10-21T16:14:23+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树"
+      ],
+      "model_vendor": "宇树科技",
+      "model_name": "H2-X",
+      "card_type": "showcase",
+      "heat": 92,
+      "importance": 70,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112814220194828288/img/RL8lXu0dfq4qop9M.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2112814220194828288/vid/avc1/1920x1080/dphHVlNFst1G9RW0.mp4",
+        "post_url": "https://x.com/UnitreeRobotics/status/2112819774573179175"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-trump-data-centers-self-power-dividend",
+      "title": "特朗普发帖要求新建大型数据中心自备电力、余电回卖，并向当地居民支付“分红”以平息反对",
+      "summary": "特朗普 10 月 21 日在 Truth Social 发帖称，新建的大型数据中心“由我要求”必须自行发电，把多余电力给予或出售给当地社区或电网，确保居民电价不涨、甚至可能下降；他还建议数据中心开发商与当地社区谈判，向居民支付“分红”，以换取对项目的支持。背景是美国多地因电费上涨、用水、噪音和用地爆发数据中心抗议，已成为中期选举议题。该帖目前是表态，尚未看到对应的行政命令或具体执行细则。",
+      "source": "twitter",
+      "url": "https://x.com/stocktalkweekly/status/2112782212164727249",
+      "published_at": "2026-10-21T13:45:07+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "数据中心",
+        "电力"
+      ],
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
     {
       "id": "repo-madslorentzen-ai-job-search",
       "title": "个人项目 ai-job-search 霸榜 GitHub 日榜：基于 Claude Code 的本地求职框架，一天再涨 3861 星、总星破 6 万",
-      "summary": "MadsLorentzen/ai-job-search 是一个跑在自己电脑上的求职框架：fork 后填入个人资料，在 Claude Code 里用 /scrape、/apply、/interview 等命令抓取并评估职位、定制简历和求职信、准备面试，MIT 许可。仓库 3 月创建，10 月 19 日起连续登上 GitHub 趋势榜首，10 月 21 日早间趋势页显示当日新增 3861 星、总计约 6.05 万星。据 X 上的转述，作者是一名失业的地球物理学家，自己每周用它找工作，投出 69 份定制申请、拿到 20 次初面和 1 份合同（未经作者本人帖子证实）。中文社区已有人把它改成无需安装 Claude Code 的 Grok Bot 模板。",
+      "summary": "MadsLorentzen/ai-job-search 是一个跑在自己电脑上的求职框架：fork 后填入个人资料，在 Claude Code 里用 /scrape、/apply、/interview 等命令抓取并评估职位、定制简历和求职信、准备面试，MIT 许可。仓库 3 月创建，10 月 19 日起连续登上 GitHub 趋势榜首，10 月 21 日早间趋势页显示当日新增 3861 星、总计约 6.05 万星。据 X 上的转述，作者是一名失业的地球物理学家，自己每周用它找工作，投出 69 份定制申请、拿到 20 次初面和 1 份合同（未经作者本人帖子证实）。中文社区已有人把它改成无需安装 Claude Code 的 Grok Bot 模板。【10 月 22 日更新】仓库已迁到组织账号 ai-job-search-dev/ai-job-search（原链接自动跳转），据 GitHub API 总星数约 6.29 万；10 月 22 日早间已跌出 GitHub 日榜前列。",
       "source": "github",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "published_at": "2026-10-21T08:25:00+08:00",
@@ -26,202 +526,6 @@
         "thumb_url": "https://pbs.twimg.com/media/HVEGpxRb0AEJslf.jpg",
         "media_url": "https://pbs.twimg.com/media/HVEGpxRb0AEJslf.jpg",
         "post_url": "https://x.com/tspy/status/2112477480531681724"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-humansand-ampersand",
-      "title": "humans& 发布首个模型 Ampersand v0.1：基于 GLM 5.3 用多月群体模拟强化学习训练的“协作者”，API 开放",
-      "summary": "由前 DeepMind、OpenAI、Anthropic 等研究员创办的 humans& 10 月 20 日发布 Ampersand v0.1，定位“帮一群人实现各自与共同目标的协作者”，而非自主完成任务的助手。模型以智谱 GLM 5.3（744B）为底座，在长达数月模拟时间的多人多智能体环境中做异步强化学习，模拟用户由自研用户模型 Persimmon 驱动，并提出新的离策略算法 CORO。官方称其在群体模拟评测中给用户带来的价值最高，但“说教”带来的交互成本也高于其他头部模型；Collaborative Intelligence 基准 59.1%，CooperBench 协作成功率从底座的 17.3% 提到 39.0%（均为自报）。现通过兼容 OpenAI Agents API 的接口开放，无需排队。官方帖约 380 赞、3.4 万浏览。",
-      "source": "news",
-      "url": "https://ampersand.humansand.ai/blog",
-      "published_at": "2026-10-21T06:37:19+08:00",
-      "tags": [
-        "大模型",
-        "智能体",
-        "GLM"
-      ],
-      "model_vendor": "humans&",
-      "model_name": "Ampersand v0.1",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 62,
-      "importance": 62,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112664844772278272/img/eMd4u-rAwyUJpqWU.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112664844772278272/vid/avc1/1920x1080/BeqyLOSxKBxRevC6.mp4",
-        "post_url": "https://x.com/humansand/status/2112674550907552137"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "repo-fastvideo-fasth3-omni",
-      "title": "Hao AI Lab 开源 FastH3 Omni：把 MiniMax H3 视频模型蒸馏提速 12 倍，带训练代码，ComfyUI 首日支持",
-      "summary": "UCSD Hao AI Lab 的 FastVideo 10 月 20 日开源 FastH3 Omni，对 MiniMax 开源视频模型 H3 做蒸馏加速，训练代码一并公开：官方称在英伟达 Blackwell 上实现实时生成、提速 12 倍，提供 NVFP4/FP8 版本适配 DGX Spark 与 RTX 显卡，ComfyUI 首日可用；合作方包括 NVIDIA、Nuva Lab 和 Reactor。X 新闻汇总称其蒸馏到 8 步，并支持最多 9 个图像、视频和音频参考混合提示。官方帖约 310 赞、2 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/haoailab/status/2112625528805208257",
-      "published_at": "2026-10-21T03:22:31+08:00",
-      "tags": [
-        "大模型",
-        "视频生成",
-        "开源"
-      ],
-      "model_vendor": "Hao AI Lab",
-      "model_name": "FastH3 Omni",
-      "license_type": "open-weight",
-      "card_type": "repo",
-      "heat": 60,
-      "importance": 58,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112619935101054976/img/ErrljJJaTjJHMPbc.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112619935101054976/vid/avc1/1920x1080/s6Xy_scPhdkRvd89.mp4",
-        "post_url": "https://x.com/haoailab/status/2112625528805208257"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "repo-nvidia-flora-robot-data-engine",
-      "title": "英伟达开源 Flora：看机器人和人类视频自动标注指令、进度奖励与失败原因，称成本比 GPT-6 Astra 低 125 倍",
-      "summary": "NVIDIA GEAR 实验室 10 月 20 日开源 Flora 模型套件，用于扩展机器人数据引擎：它观看机器人与人类操作视频，自动标出“做了什么”（带时间戳的指令）和“做得怎么样”（逐步奖励与失败原因），把原始视频变成训练信号，已用于训练 NVIDIA GR00T。Jim Fan 称其效果达到 Astra 级、成本低 125 倍，权重当天开放。Jim Fan 帖约 860 赞、4.8 万浏览。",
-      "source": "news",
-      "url": "https://research.nvidia.com/labs/gear/flora/",
-      "published_at": "2026-10-21T01:02:10+08:00",
-      "tags": [
-        "机器人",
-        "开源",
-        "NVIDIA",
-        "数据"
-      ],
-      "model_vendor": "NVIDIA",
-      "model_name": "Flora",
-      "license_type": "open-weight",
-      "card_type": "research",
-      "heat": 70,
-      "importance": 66,
-      "category": "机器人",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112589725337083904/img/4Fy5XFx6jbgKIYgv.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112589725337083904/vid/avc1/1920x1080/ch1ZmCQbS8jTxRNm.mp4",
-        "post_url": "https://x.com/DrJimFan/status/2112597587987689912"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-mistral-voxtral-3",
-      "title": "Mistral 发布 Voxtral 3：新一代转写与语音合成模型，加上一套听、想、调工具、说一条流水线的语音 agent SDK",
-      "summary": "Mistral 10 月 20 日推出 Voxtral 3 家族：语音转文字支持 50+ 种语言，语音合成能随对话调整语气，另有基于 LiveKit 的语音 agent SDK，把实时转写（Voxtral Mini Transcribe Realtime 3 负责判断对方是否说完）、推理与工具调用（如 Mistral Small）和语音输出（Voxtral Speech 3）放进同一条流式管线，官方称每轮响应不到 1 秒、被打断会立刻停下，支持 SIP 电话和 WebRTC。可走欧洲 / 美国 / 全球 API 端点或私有部署；定价如批量转写 0.0035 美元/分钟、实时转写 0.008 美元/分钟、TTS 13 美元/百万字符、配 Mistral Small 4 的语音 agent 0.04 美元/分钟。官方帖约 2500 赞、15 万浏览。",
-      "source": "news",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "published_at": "2026-10-21T00:00:12+08:00",
-      "tags": [
-        "大模型",
-        "语音",
-        "Mistral"
-      ],
-      "model_vendor": "Mistral",
-      "model_name": "Voxtral 3",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 78,
-      "importance": 68,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112572094693220352/img/jKD0R5NWaGjhvRcX.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/3840x2160/7Y5bCsXT49_OdFeI.mp4",
-        "post_url": "https://x.com/MistralAI/status/2112574615318876178"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "showcase-tuesday-labs-voxel",
-      "title": "Tuesday Labs 发布家用“机器人管家” Voxel，介绍视频 44 万浏览",
-      "summary": "纽约团队 Tuesday Labs 10 月 20 日发布 droid butler（机器人管家）Voxel。据 X 新闻汇总，它能收拾房间、找钥匙、递饮料、浇花，设计上强调“像个小绅士”的性格，CEO Ros Shinkle 曾是 Boston Dynamics 工程师；售价、上市时间和自主程度官方帖未说明。发布帖约 1500 赞、44 万浏览，远高于账号约 800 粉丝的体量。",
-      "source": "twitter",
-      "url": "https://x.com/make_robot_go/status/2112565146354860151",
-      "published_at": "2026-10-20T23:22:35+08:00",
-      "tags": [
-        "机器人",
-        "家用机器人"
-      ],
-      "model_vendor": "Tuesday Labs",
-      "model_name": "Voxel",
-      "card_type": "showcase",
-      "heat": 78,
-      "importance": 50,
-      "category": "机器人",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112564839251931136/img/GKLfsqVaQmO0B-kn.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/2880x2160/glhkyiQ6K97Rmq93.mp4",
-        "post_url": "https://x.com/make_robot_go/status/2112565146354860151"
-      },
-      "kept_reason": null,
-      "license_type": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-bria-fibo-2",
-      "title": "Bria 开源 8B 图像模型 Fibo 2.0：AA 图像编辑榜开源第一，文生图与 Qwen-Image-2.1 统计持平",
-      "summary": "Bria 10 月 20 日在 Hugging Face 放出 Fibo 2.0 权重（Dev 与 Edit Turbo 两个版本），统一了图像生成与编辑。据 Artificial Analysis，这个 8B 参数开源权重模型位列 AA-Image-Editing v2.1 开源第一，在 AA-Image-T2I v2.1 上与 Qwen-Image-2.1 统计意义上并列开源领先，较第一代 Fibo 大幅提升；X 新闻汇总称其仅用授权数据训练，商用路径更清晰。AA 帖约 180 赞。",
-      "source": "news",
-      "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
-      "published_at": "2026-10-20T23:15:06+08:00",
-      "tags": [
-        "大模型",
-        "图像生成",
-        "开源模型"
-      ],
-      "model_vendor": "Bria",
-      "model_name": "Fibo 2.0",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 60,
-      "importance": 60,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVFYE-EbsAAYqdV.jpg",
-        "media_url": "https://video.twimg.com/tweet_video/HVFYE-EbsAAYqdV.mp4",
-        "post_url": "https://x.com/ArtificialAnlys/status/2112573259606884640"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "repo-gradium-phonon",
-      "title": "Gradium 开源端侧 TTS 套件 Phonon：全部小于 5000 万参数，31M 英文版 Apache 2.0",
-      "summary": "Gradium 10 月 20 日开源 Phonon，一组参数量都在 5000 万以下的文本转语音模型，主打在手机、笔记本和浏览器上本地运行，官方称在多语言自然度和准确率上树立新标准、推理支持面最广。首个放出的 Phonon-31m 采用 Apache 2.0 许可；X 新闻汇总称更大的版本加入法语、德语、西班牙语和葡萄牙语。官方帖约 1200 赞、15 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/GradiumAI/status/2112563128487514512",
-      "published_at": "2026-10-20T23:14:34+08:00",
-      "tags": [
-        "大模型",
-        "语音",
-        "开源"
-      ],
-      "model_vendor": "Gradium",
-      "model_name": "Phonon",
-      "license_type": "Apache-2.0",
-      "card_type": "model_update",
-      "heat": 68,
-      "importance": 56,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112562730771054594/img/mQzM0zRPbfBd8e2M.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112562730771054594/vid/avc1/1920x1080/Nn4dJJERlVpw_pKT.mp4",
-        "post_url": "https://x.com/GradiumAI/status/2112563128487514512"
       },
       "kept_reason": null,
       "period": "daily"
@@ -251,36 +555,8 @@
         "media_url": "https://pbs.twimg.com/media/HVFMLvWbAAE3955.jpg",
         "post_url": "https://x.com/ornith_/status/2112553477457268799"
       },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-elevenlabs-eleven-realtime",
-      "title": "ElevenLabs 推出 Eleven Realtime 语音到语音模型：半秒开口，同时答对需要推理的口头问题",
-      "summary": "ElevenLabs 10 月 20 日发布 Eleven Realtime，称是一类新的 speech-to-speech 模型：语音 agent 过去要在“回得快”和“答得准”之间二选一，Eleven Realtime 约 0.5 秒开始说话，同时能答对需要推理的口语问题。X 新闻汇总称首发的 v1 Mini 面向助手、家教等自然对话场景，能处理打断和附和。官方帖约 1900 赞、14 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/ElevenLabs/status/2112550782063247521",
-      "published_at": "2026-10-20T22:25:30+08:00",
-      "tags": [
-        "大模型",
-        "语音",
-        "ElevenLabs"
-      ],
-      "model_vendor": "ElevenLabs",
-      "model_name": "Eleven Realtime",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 72,
-      "importance": 62,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112550280348975105/img/cgCRiuA5NY7P6C9x.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112550280348975105/vid/avc1/1920x1080/4114ziz8TEvXmpL4.mp4",
-        "post_url": "https://x.com/ElevenLabs/status/2112550782063247521"
-      },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 80 / importance 70 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "research-radical-numerics-omnii-1-phage",
@@ -306,9 +582,9 @@
         "media_url": "https://video.twimg.com/amplify_video/2112578540013330432/vid/avc1/1920x1080/PQ3lBUGHdIKOCD3U.mp4",
         "post_url": "https://x.com/exnx/status/2112580926651904379"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 74 达到周榜阈值",
       "license_type": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
       "id": "research-anthropic-citrini-scorpion-binders",
@@ -329,39 +605,10 @@
       "heat": 88,
       "importance": 74,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 88 / importance 74 达到周榜阈值",
       "license_type": null,
       "media": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-eka-robotics-150m-series-a",
-      "title": "Eka Robotics 完成 1.5 亿美元 A 轮、估值 14.5 亿美元：“视觉-力-动作”模型每小时抓取约 1500 件",
-      "summary": "由 MIT 教授 Pulkit Agrawal 和前 Google DeepMind 研究员 Tuomas Haarnoja 创办的 Eka Robotics 10 月 20 日宣布完成 1.5 亿美元 A 轮，a16z 与 F-Prime 领投，投后估值 14.5 亿美元（TechCrunch）。它不用视觉-语言-动作（VLA）路线，而是“视觉-力-动作”模型配自研力敏夹爪，在物理仿真里大规模强化学习；称每小时可抓取约 1500 件 1kg 以内物体（人类约 600 件），成功率超 95%，夹爪成本低于 1000 美元、额定 500 万次循环。目前在拣放和线缆处理两个方向与工业客户做保密试点。",
-      "source": "news",
-      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-      "published_at": "2026-10-20T21:00:00+08:00",
-      "tags": [
-        "行业动态",
-        "融资",
-        "机器人"
-      ],
-      "model_vendor": "Eka Robotics",
-      "card_type": "model_update",
-      "heat": 66,
-      "importance": 72,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112558017560387585/img/dzODOZVG31Ix3Bko.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112558017560387585/vid/avc1/1920x1080/sFqUGJOXTFpyLjOs.mp4",
-        "post_url": "https://x.com/pulkitology/status/2112564529905221861"
-      },
-      "kept_reason": null,
-      "model_name": null,
-      "license_type": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
       "id": "repo-deepseek-deepinfer",
@@ -383,68 +630,9 @@
       "heat": 93,
       "importance": 80,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 93 / importance 80 达到周榜阈值",
       "media": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-openai-retreats-china-chip-controls",
-      "title": "Politico：OpenAI 不再推动对华 AI 芯片出口管制，国会鹰派失去重要盟友，英伟达受益",
-      "summary": "Politico 10 月 20 日援引国会助手和游说人士报道：OpenAI 去年大部分时间公开支持严格限制英伟达等向中国出售先进芯片，如今已停止向议员施压。中国鹰派计划在中期选举后的“跛脚鸭”会期把新芯片限制塞进年度国防授权法案，原本指望 OpenAI 站台；一名助手称 OpenAI 立场“变得模糊”，“沉默就是在替英伟达办事”。报道称此举也与特朗普政府立场一致，而 Anthropic 仍支持多项芯片法案。OpenAI 回应称“有效的出口管制是更广泛战略的一部分”。背景：英伟达 2 月完成对 OpenAI 300 亿美元股权投资，并在 8 月同意为其俄亥俄数据中心独家供货、为一期担保最多 1050 亿美元（TNW）。",
-      "source": "news",
-      "url": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
-      "published_at": "2026-10-20T16:45:00+08:00",
-      "tags": [
-        "行业动态",
-        "政策",
-        "芯片",
-        "OpenAI"
-      ],
-      "model_vendor": "OpenAI",
-      "card_type": "model_update",
-      "heat": 66,
-      "importance": 80,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HVFJb5xWQAAr8Gk.jpg",
-        "media_url": "https://pbs.twimg.com/media/HVFJb5xWQAAr8Gk.jpg",
-        "post_url": "https://x.com/hamandcheese/status/2112550446619357668"
-      },
-      "kept_reason": null,
-      "model_name": null,
-      "license_type": null,
-      "period": "daily"
-    },
-    {
-      "id": "showcase-tiny-london-pixel-map",
-      "title": "tiny.london：个人开发者让 Claude Code 训练 LoRA，把整个大伦敦画成 300 亿像素等距像素地图，帖子 24 万浏览",
-      "summary": "开发者 Boris Starkov（@ktoya_me，约 1500 粉丝）10 月 20 日发布 tiny.london：受 Andy Coenen 的 isometric.nyc 启发，把 1591 平方公里的大伦敦画成一张等距像素风地图（画布 221,184×135,168 像素）。他称几乎全部工作由 agent 完成：用 Google 3D 瓦片渲染 3570 张图，以 Gemini 3 Pro Image 当“老师”重绘约 2500 帧并自动质检筛出训练集，在单张 H100 上 3 小时 50 分训练 Qwen-Image-2.1-Turbo LoRA，再用 MultiDiffusion 式整图联合去噪消除拼缝，最终整城生成耗时约 31 GPU 小时、墙钟 32.5 小时，并自建瓦片浏览器。LoRA 权重已公开。发布帖约 2500 赞、24 万浏览，远超作者日常水平。",
-      "source": "twitter",
-      "url": "https://x.com/ktoya_me/status/2112439926071693741",
-      "published_at": "2026-10-20T15:05:00+08:00",
-      "tags": [
-        "小众开发热帖",
-        "像素美术",
-        "Claude Code",
-        "LoRA"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": "Claude Code / Qwen-Image LoRA",
-      "card_type": "showcase",
-      "heat": 76,
-      "importance": 50,
-      "category": "小众开发热帖",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HVBHjXLWcAAkqKG.jpg",
-        "media_url": "https://pbs.twimg.com/media/HVBHjXLWcAAkqKG.jpg",
-        "post_url": "https://x.com/ktoya_me/status/2112439926071693741"
-      },
-      "kept_reason": null,
-      "license_type": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
       "id": "news-skyfall-sky-001-engineering-world-model",
@@ -502,34 +690,6 @@
       },
       "kept_reason": "heat 86 / importance 64 达到周榜阈值",
       "license_type": null,
-      "period": "weekly"
-    },
-    {
-      "id": "news-inception-mercury-3",
-      "title": "Inception 发布扩散语言模型 Mercury 3：称 1068 token/秒、1M 上下文，质量超 GPT-6 Luna 与 Haiku 5.5",
-      "summary": "Inception 10 月 19 日发布 Mercury 3，称是迄今最强的扩散式语言模型（并行生成而非逐 token 生成）：在英伟达 GPU 上 1068 token/秒，上下文 1M，规模比上一代大 40 倍以上，官方称质量超过 GPT-6 Luna 和 Haiku 5.5；上线价输入 0.10、输出 0.35 美元/百万 token，可经 Inception API、OpenRouter、Baseten、Vercel 调用。速度为厂商自报，第三方实测线上约 243–254 token/秒。联合创始人 Stefano Ermon 发布帖约 5000 赞、43 万浏览。",
-      "source": "news",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "published_at": "2026-10-20T00:42:39+08:00",
-      "tags": [
-        "大模型",
-        "扩散语言模型",
-        "Inception"
-      ],
-      "model_vendor": "Inception",
-      "model_name": "Mercury 3",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 70,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112220659380305920/img/CtYk5e6YijLFt5e8.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112220659380305920/vid/avc1/3840x2160/IOju9j4nFajjJp1B.mp4",
-        "post_url": "https://x.com/StefanoErmon/status/2112222911218291051"
-      },
-      "kept_reason": "heat 80 / importance 70 达到周榜阈值",
       "period": "weekly"
     },
     {
@@ -915,30 +1075,6 @@
       "period": "weekly"
     },
     {
-      "id": "news-openai-eight-states-kids-lawsuit",
-      "title": "美八州分别起诉 OpenAI：指控 ChatGPT 危害未成年人并就安全宣传误导用户",
-      "summary": "据 CNBC，爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷、蒙大拿八个州于 10 月 14 日分别在本州法院起诉 OpenAI，指控 ChatGPT 是不安全产品，对儿童造成伤害，并就安全性误导家长；爱荷华州检察长称产品给出危险医疗建议、鼓励伤害他人并“辅导”自杀相关内容。OpenAI 发言人回应称已内置多项年龄保护，并将继续与各州推进行业适用政策。此前佛罗里达州已于 6 月单独起诉。诉讼主张与事实仍待法院审理。",
-      "source": "news",
-      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
-      "published_at": "2026-10-15T05:09:00+08:00",
-      "tags": [
-        "行业动态",
-        "政策",
-        "OpenAI",
-        "诉讼"
-      ],
-      "model_vendor": "OpenAI",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 76,
-      "importance": 78,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 76 / importance 78 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
       "id": "news-paper-instruments-ultramarine-1-flash",
       "title": "五人团队 Paper Instruments 发布 Ultramarine 1 Flash：约 30 万美元后训练，知识劳动任务约 0.13 美元、自测略超 Fable 5",
       "summary": "美国五人实验室 Paper Instruments 10 月 14 日发布 Ultramarine 1 Flash：在开源基座 GLM-5.3 Flash 上做大规模“不可验证”强化学习后训练，面向金融、法律、咨询、运营等知识劳动（Excel 模型、PPT、Word 备忘录等）。官方称全包成本约 30 万美元；在自建 PI Knowledge Work 上得分 59.3、每任务约 0.13 美元，高于 Claude Fable 5 的 57.8（约 8.19 美元/任务），并称六项知识劳动基准平均比基座高 4.1 分。API 已开放，权重约两周后放出。评测多为公司自报，外部复现尚缺。CEO Daanish Khazi 发布帖约 77.8 万浏览、4491 赞。",
@@ -964,31 +1100,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2110248922111528961/vid/avc1/1820x1024/b3oPOkybBzhFW3mK.mp4",
         "post_url": "https://x.com/bertgodel/status/2110400987622265232"
       },
-      "kept_reason": "heat 94 / importance 80 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-anthropic-singapore-office-mou",
-      "title": "Anthropic 开设新加坡办公室并与新加坡政府签署 AI 安全与负责任采用谅解备忘录",
-      "summary": "Anthropic 10 月 14 日宣布在新加坡开设亚太第五个办公室，并与新加坡数码发展与新闻部签署非约束性谅解备忘录，合作方向包括 AI 安全与模型评测、事故响应、采用影响研究，以及公共与私营部门的负责任采用。联合创始人 Ben Mann 与新方常任秘书签署。公司称新加坡是 Claude 人均使用第二活跃的市场；GovTech 已有逾 1500 名工程师使用 Claude Code，DBS、Grab、GIC、Sea 等也在部署。官方同步举办 300+ 人 Builder Summit 与 700 人社区聚会，并开放当地招聘。官方发布帖约 54.9 万浏览。",
-      "source": "news",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "published_at": "2026-10-14T16:40:45+08:00",
-      "tags": [
-        "行业动态",
-        "政策",
-        "Anthropic"
-      ],
-      "model_vendor": "Anthropic",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "heat": 78,
-      "importance": 72,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
-      "period": "weekly"
+      "kept_reason": "heat 94 / importance 80 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "news-gemini-4-argon-ga",
@@ -1185,33 +1298,6 @@
       "period": "monthly",
       "category": "大模型",
       "storyline": "前沿模型代际竞赛"
-    },
-    {
-      "id": "news-grok-bot-multi-model-routing",
-      "title": "马斯克：Grok Bot 将按任务调用最优后端模型，包括 Claude Opus 5.5、Midjourney、Suno",
-      "summary": "马斯克发帖称，今后 Grok Bot 会为每个任务选用最可能给出最佳结果的后端模型，点名 Claude Opus 5.5、Midjourney、Suno 等第三方 API；随后补充：简单问题路由到小而快的模型，复杂问题交给大模型，多数简单请求将由“即将推出的极速版 Grok 4.8”处理。原帖 6700 万+ 浏览、9.6 万赞，是过去一天讨论度最高的 AI 产品消息之一。",
-      "source": "twitter",
-      "url": "https://x.com/elonmusk/status/2107724314451878104",
-      "published_at": "2026-10-07T14:46:50+08:00",
-      "tags": [
-        "大模型",
-        "闭源模型"
-      ],
-      "model_vendor": "xAI / SpaceX",
-      "model_name": "Grok Bot",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 88,
-      "importance": 70,
-      "media": {
-        "type": null,
-        "thumb_url": null,
-        "media_url": null,
-        "post_url": "https://x.com/elonmusk/status/2107724314451878104"
-      },
-      "kept_reason": "heat 88 / importance 70 达到月榜阈值",
-      "period": "monthly",
-      "category": "大模型"
     },
     {
       "id": "research-openai-math-results-github",
