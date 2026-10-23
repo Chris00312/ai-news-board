@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-22T08:17:05+08:00",
+  "updated_at": "2026-10-23T08:13:04+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 208
+      "count": 214
     },
     {
       "name": "世界模型",
@@ -28,7 +28,7 @@
     },
     {
       "name": "行业动态",
-      "count": 59
+      "count": 64
     },
     {
       "name": "小众开发热帖",
@@ -36,6 +36,258 @@
     }
   ],
   "items": [
+    {
+      "id": "news-canva-craft-image-model",
+      "title": "Canva 发布首个自研图像模型 Craft：先规划构图再出图，DesignArena 图像榜第 4，人像与风景子榜第 1",
+      "summary": "Canva 10 月 22 日发布首个自研图像生成模型 Craft。官方称它采用两阶段架构，先规划画面构图再渲染，因此版式更准、文字更准确、可控性更强。DesignArena 称 Craft 在其图像榜排第 4，使 Canva 成为仅次于 OpenAI 的第二大图像实验室，在人像和风景子榜排第 1，最擅长单个主体的写实产品与物件摄影。Canva 发布帖约 1700 赞、29 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/canva/status/2113348707223753165",
+      "published_at": "2026-10-23T03:16:00+08:00",
+      "tags": [
+        "大模型",
+        "图像生成",
+        "Canva"
+      ],
+      "model_vendor": "Canva",
+      "model_name": "Craft",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113343729167958017/img/1WgmTkjCS8-UW8Qt.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113343729167958017/vid/avc1/1920x1080/ZA44JjzdSbMTrEfO.mp4",
+        "post_url": "https://x.com/canva/status/2113348707223753165"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-agent-skills-donated-aaif",
+      "title": "Anthropic 把 Agent Skills 标准捐给 Agentic AI Foundation：已有 70 多个平台接入，OpenAI、Google、微软等共组技术委员会",
+      "summary": "Anthropic 10 月 22 日宣布把 Agent Skills（智能体技能）开放标准捐给 Agentic AI Foundation（AAIF，MCP 也在这个基金会下）。官方称已有 70 多个平台接入，包括 ChatGPT、Cursor、GitHub Copilot 和 VS Code；现有技能照常可用、许可不变，任何人不加入 AAIF 也能使用或贡献。标准将由 Anthropic、Earendil（Pi）、Google、微软、OpenAI 和 OpenCode 的工程师组成技术指导委员会共同治理。@ClaudeDevs 发布帖约 5700 赞、43 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+      "published_at": "2026-10-23T01:55:00+08:00",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "Agent Skills",
+        "开放标准",
+        "智能体"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 74,
+      "category": "大模型",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-us-chips-389m-power-semis",
+      "title": "美国商务部发出最高 3.89 亿美元 CHIPS 意向书，补贴功率半导体，用于核聚变和 AI 数据中心供电，Helion 最高 1.75 亿",
+      "summary": "据 Polymarket 10 月 22 日快讯，美国商务部按 CHIPS 计划发出总额最高 3.89 亿美元的初步意向书，支持功率半导体项目，应用面向核聚变和 AI 数据中心供电，其中核聚变公司 Helion 最高可获 1.75 亿美元。意向书不等于最终拨款。目前只核对到快讯帖（约 1300 赞），未看到商务部公告原文。",
+      "source": "twitter",
+      "url": "https://x.com/Polymarket/status/2113269222960668881",
+      "published_at": "2026-10-22T22:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "CHIPS",
+        "数据中心",
+        "能源"
+      ],
+      "card_type": "model_update",
+      "heat": 56,
+      "importance": 66,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-ant-ling-3-1-flash-1019",
+      "title": "蚂蚁百灵发布 Ling-3.1-flash-1019：Artificial Analysis 智能指数从 41 升到 44，同时开源医疗增强版 Ling-3.0-flash-Sante",
+      "summary": "蚂蚁 inclusionAI 10 月 22 日发布 Ling-3.1-flash 的日期版更新 Ling-3.1-flash-1019：Artificial Analysis 智能指数 44（上一版 41），智能体任务提升明显，AA-Briefcase 从约 1400 升到 1524 Elo，AutomationBench-AA 从 62% 升到 68%；API 和开放权重“即将推出”。同日还开源了医疗增强 MoE 模型 Ling-3.0-flash-Sante，面向医疗研究和工作流，强化深度研究、多智能体协作和工具调用。AntLingAGI 发布帖约 1000 赞、26 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/AntLingAGI/status/2113226531522891851",
+      "published_at": "2026-10-22T19:10:00+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "蚂蚁",
+        "百灵"
+      ],
+      "model_vendor": "蚂蚁 inclusionAI",
+      "model_name": "Ling-3.1-flash-1019",
+      "license_type": "open-weights",
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVOwQ52bAAAGl1J.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVOwQ52bAAAGl1J.jpg",
+        "post_url": "https://x.com/AntLingAGI/status/2113226531522891851"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-nebius-3-5b-citi-credit",
+      "title": "Nebius 拿到花旗 35 亿美元 364 天期担保信贷额度，继续为 AI 云扩张筹钱",
+      "summary": "据 X 上投资账号 @mvcinvesting 转述的公告，AI 云公司 Nebius 与花旗签下 35 亿美元、期限 364 天的担保信贷额度，利率为 SOFR 加 2.75 个百分点、之后可升至 3.50 个百分点。这是 AI 云厂商继续靠举债扩建算力的又一例。目前只看到转述帖，未核对到 Nebius 的监管文件原文；该帖约 1000 赞。",
+      "source": "twitter",
+      "url": "https://x.com/mvcinvesting/status/2113225838212665428",
+      "published_at": "2026-10-22T19:07:00+08:00",
+      "tags": [
+        "行业动态",
+        "算力",
+        "Nebius",
+        "债务融资"
+      ],
+      "model_vendor": "Nebius",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 64,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVOvk79XgAAPaxx.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVOvk79XgAAPaxx.jpg",
+        "post_url": "https://x.com/mvcinvesting/status/2113225838212665428"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-hf-carbon-x-dna-model",
+      "title": "Hugging Face 开源 14B 的 DNA+文本模型 Carbon-X：用大白话和 DNA 对话，称 DNA 基准超过所有开源模型",
+      "summary": "Hugging Face 10 月 22 日开源 Carbon-X：在 Qwen3-14B 上用约 3000 亿 token 的 DNA、英文和图文交错数据做中期训练，英文用 BPE、DNA 用 6-mer 的混合分词器，可以用自然语言提问、理解和生成 DNA 序列。CEO Clément Delangue 称它在五个 DNA 理解与生成基准上超过所有测过的开源语言模型，比 Qwen3-14B 提高 27 分，接近前沿闭源 API 水平，而成本低三个数量级（两条官方帖分别写约 1000 倍、1800 倍低于 GPT-6.1 Sol）。他还批评前沿实验室在生物领域的“浅层护栏”挡住了科研人员。成绩为官方自报。",
+      "source": "twitter",
+      "url": "https://x.com/LoubnaBenAllal1/status/2113212025560023513",
+      "published_at": "2026-10-22T18:13:00+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "Hugging Face",
+        "AI for Science",
+        "生物"
+      ],
+      "model_vendor": "Hugging Face",
+      "model_name": "Carbon-X",
+      "license_type": "open-weights",
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 66,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113211098279170048/img/d3iIDvNIUokrjjB2.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113211098279170048/vid/avc1/1920x1080/qlCfE8GnrfFH2H3s.mp4",
+        "post_url": "https://x.com/LoubnaBenAllal1/status/2113212025560023513"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-kimi-k3-1-kibitz-rumor",
+      "title": "【传闻】Kimi K3.1 或在下周二前发布：Arena 匿名模型“Kibitz”被指是它，Minecraft 建造测试用料多、成本低",
+      "summary": "【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。",
+      "source": "twitter",
+      "url": "https://x.com/ChrisGPT/status/2113180444858667485",
+      "published_at": "2026-10-22T16:07:00+08:00",
+      "tags": [
+        "大模型",
+        "传闻",
+        "Kimi",
+        "月之暗面"
+      ],
+      "model_vendor": "月之暗面",
+      "model_name": "Kimi K3.1（传闻）",
+      "license_type": "unreleased",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 60,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113180409877950464/img/b-a4pAd1FFeVMX5Z.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113180409877950464/vid/avc1/2160x1066/Ywl8p-a6gKgBkPrP.mp4",
+        "post_url": "https://x.com/ChrisGPT/status/2113180444858667485"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-deepseek-15b-funding-round",
+      "title": "据 Bloomberg：DeepSeek 完成约 150 亿美元融资、腾讯和宁德时代参投，正筹备 IPO，资金投向数据中心和开源模型",
+      "summary": "据 Bloomberg 10 月 22 日报道，DeepSeek 完成约 150 亿美元（约 1000 亿元人民币）融资，是中国史上最大的融资之一，腾讯和宁德时代参投。据 X 新闻聚合转述的报道细节，本轮投前估值约 740 亿美元，投资人需求让融资额从最初约 70 亿美元的目标翻倍；DeepSeek 正在筹备 IPO，新资金将用于建设 AI 数据中心和继续开发开源模型。就在几天前，美国国土安全部刚要求联邦民用机构清除 DeepSeek 产品。原文需付费，DeepSeek 尚未公开回应；X 上 @ns123abc 的转述帖约 5200 赞、19.5 万浏览。",
+      "source": "news",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+      "published_at": "2026-10-22T11:51:21+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "DeepSeek",
+        "腾讯",
+        "宁德时代"
+      ],
+      "model_vendor": "DeepSeek",
+      "card_type": "model_update",
+      "heat": 88,
+      "importance": 88,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVNLxgjW4AAbwn1.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVNLxgjW4AAbwn1.jpg",
+        "post_url": "https://x.com/ns123abc/status/2113115967555301735"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "id": "showcase-gemini-argon-chaco-canyon-3d",
       "title": "Google 展示：Gemini 4 Argon 在 Antigravity 里调用 Blender MCP，把查科峡谷的 LiDAR 扫描和档案重建成可漫游的 3D 遗址",
@@ -66,7 +318,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-tesla-optimus-fremont-production",
@@ -94,11 +346,11 @@
         "media_url": "https://pbs.twimg.com/media/HVLfv_XbQAAmvdB.jpg",
         "post_url": "https://x.com/Tesla/status/2112998455383847332"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 86 / importance 84 达到周榜阈值",
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -127,10 +379,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2112982862186106880/vid/avc1/640x360/L7zosiEUW76tqYr-.mp4",
         "post_url": "https://x.com/claudeai/status/2112984664256241837"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 94 / importance 82 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -164,6 +416,70 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "id": "news-baselabs-mammoth-elephant-decision",
+      "title": "Base Labs 开源“决策模型” mammoth-1（27B）和 elephant-1（9B）：一次前向就给出校准过的概率，称决策榜第一",
+      "summary": "Base Labs 北京时间 10 月 22 日凌晨开源 mammoth-1 和 elephant-1 两个“决策模型”：输入状态或上下文加问题，一次前向直接输出校准后的概率，适合工单路由、内容分类、是非判断等场景。官方称 mammoth-1 是全球排名第一的决策模型（据 X 新闻聚合，Jev Decision Index 71.24，27B 参数），9B 的 elephant-1 是 15B 以下最强、并超过 Jev。权重全部开源并附技术报告，排名为官方自报。发布帖约 720 赞、8 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/baselabs/status/2112955587059450035",
+      "published_at": "2026-10-22T01:14:03+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "决策模型"
+      ],
+      "model_vendor": "Base Labs",
+      "model_name": "mammoth-1 / elephant-1",
+      "license_type": "open-weights",
+      "card_type": "model_update",
+      "heat": 54,
+      "importance": 56,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVK56K4aYAEMDmC.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVK56K4aYAEMDmC.jpg",
+        "post_url": "https://x.com/baselabs/status/2112955587059450035"
+      },
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-flapping-airplanes-1b-series-a",
+      "title": "Flapping Airplanes 完成 10 亿美元 A 轮、估值约 60 亿美元：Index 与 Lux 领投，英伟达跟投，主打“单个巨型内核”跑完训练和推理",
+      "summary": "AI 基础设施初创公司 Flapping Airplanes 10 月 21 日宣布完成 10 亿美元 A 轮融资，由 Index Ventures 和 Lux Capital 联合领投；据 X 新闻聚合，估值约 60 亿美元，红杉、GV、Kleiner Perkins 和英伟达参投。公司做的是 GPU 底层原语，同日称已做出“世界上最完整的 megakernel 框架”：一个 GPU 内核里就能跑完整个训练、提供推理服务、玩电子游戏，甚至三件事同时进行（公司自述，未见独立测评）。融资公告帖约 3700 赞、77 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/flappyairplanes/status/2112955212612919318",
+      "published_at": "2026-10-22T01:12:00+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "GPU",
+        "推理"
+      ],
+      "model_vendor": "Flapping Airplanes",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 76,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVK5hvPa4AAuD2s.jpg",
+        "media_url": "https://video.twimg.com/tweet_video/HVK5hvPa4AAuD2s.mp4",
+        "post_url": "https://x.com/flappyairplanes/status/2112955212612919318"
+      },
+      "kept_reason": "heat 80 / importance 76 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -198,7 +514,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-recursive-flint-40b",
@@ -225,7 +541,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-mirendil-base-one-researcher",
@@ -256,7 +572,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-supermimic-humanoid-tracking",
@@ -288,7 +604,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-openai-patch-the-planet-php2shell",
@@ -310,11 +626,11 @@
       "heat": 92,
       "importance": 84,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 92 / importance 84 达到周榜阈值",
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -342,7 +658,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-gpt-rosalind-brain-atlas-dctn1",
@@ -369,7 +685,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-openai-models-on-google-cloud",
@@ -397,11 +713,11 @@
         "media_url": "https://pbs.twimg.com/media/HVKEUKPWEAA9mvu.jpg",
         "post_url": "https://x.com/googlecloud/status/2112896659608785181"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 84 达到周榜阈值",
       "model_name": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -435,7 +751,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-spacex-200k-gb300-per-month",
@@ -456,13 +772,13 @@
       "importance": 80,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 80 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -496,7 +812,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nvidia-isaac-agile-one-sn",
@@ -528,7 +844,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-unitree-h2x-kung-fu-guardian",
@@ -555,11 +871,11 @@
         "media_url": "https://video.twimg.com/amplify_video/2112814220194828288/vid/avc1/1920x1080/dphHVlNFst1G9RW0.mp4",
         "post_url": "https://x.com/UnitreeRobotics/status/2112819774573179175"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 92 / importance 70 达到周榜阈值",
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -588,7 +904,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-madslorentzen-ai-job-search",
@@ -620,7 +936,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-levelsio-gta-sa-vibe-coding-mission",
@@ -685,6 +1001,39 @@
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "daily",
       "on_board": false
+    },
+    {
+      "id": "news-anthropic-s1-h1-loss-80b",
+      "title": "据 WSJ 看到的 S-1 草案：Anthropic 2026 上半年营收 163 亿美元、净亏损约 800 亿美元",
+      "summary": "据《华尔街日报》报道其看到的 Anthropic IPO 招股书（S-1）草案，Anthropic 2026 年上半年营收 163 亿美元，净亏损约 800 亿美元；据 X 新闻聚合转述，草案还列出约 4500 亿美元的长期云服务承诺。数字来自媒体对草案的转述，Anthropic 尚未公开递交招股书。消息在 X 上刷屏：Polymarket 的快讯帖约 3.1 万赞、566 万浏览，@InternetH0F 的帖子约 4.7 万赞、278 万浏览，不少评论拿“营收冲高、亏损更大”调侃。",
+      "source": "twitter",
+      "url": "https://x.com/Polymarket/status/2112634886070919426",
+      "published_at": "2026-10-21T03:59:00+08:00",
+      "tags": [
+        "行业动态",
+        "Anthropic",
+        "IPO",
+        "财务"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 90,
+      "importance": 82,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVHtKFUXYAAGZyK.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVHtKFUXYAAGZyK.jpg",
+        "post_url": "https://x.com/InternetH0F/status/2112758565593129390"
+      },
+      "kept_reason": "heat 90 / importance 82 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-23T08:13:03+08:00",
+      "last_period": "weekly",
+      "on_board": true
     },
     {
       "id": "repo-fastvideo-fasth3-omni",
@@ -934,7 +1283,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-elevenlabs-eleven-realtime",
@@ -996,7 +1345,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-citrini-scorpion-binders",
@@ -1385,7 +1734,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-inception-mercury-3",
@@ -1444,7 +1793,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-schaeffler-taicang-humanoid-factory",
@@ -1900,7 +2249,7 @@
     {
       "id": "news-deepseek-v4-1-flash-1017",
       "title": "DeepSeek-V4.1-Flash-1017 开源：DeepSWE 77.0、输出更短更快，同步开放自研搜索 Search & Fetch API",
-      "summary": "DeepSeek 10 月 17 日发布 V4.1-Flash 的日期版更新 V4.1-Flash-1017，官网、App、API 同步上线，权重以 MIT 许可放在 Hugging Face 与 ModelScope。官方称这是性能与成本的“帕累托改进”：DeepSWE v1.1 从 74.2 升到 77.0、Terminal-Bench 4.0 从 31.2 升到 42.3、Automation-Bench 从 54.8 升到 60.5，且任务完成更快、输出更短；用自反馈强化学习（RLSF）提升从零做完整项目（游戏、3D 场景）的能力，针对 DeepSeek Harness、腾讯 CodeBuddy 等做了优化。同时开放自研搜索引擎的 Search 与 Fetch API，每端点 0.75 美元/千次。评测均为官方自报。官方发布帖约 3.7 万赞、729 万浏览。",
+      "summary": "DeepSeek 10 月 17 日发布 V4.1-Flash 的日期版更新 V4.1-Flash-1017，官网、App、API 同步上线，权重以 MIT 许可放在 Hugging Face 与 ModelScope。官方称这是性能与成本的“帕累托改进”：DeepSWE v1.1 从 74.2 升到 77.0、Terminal-Bench 4.0 从 31.2 升到 42.3、Automation-Bench 从 54.8 升到 60.5，且任务完成更快、输出更短；用自反馈强化学习（RLSF）提升从零做完整项目（游戏、3D 场景）的能力，针对 DeepSeek Harness、腾讯 CodeBuddy 等做了优化。同时开放自研搜索引擎的 Search 与 Fetch API，每端点 0.75 美元/千次。评测均为官方自报。官方发布帖约 3.7 万赞、729 万浏览。【10 月 22 日更新】Fireworks 称 V4.1-Flash-1017 在其 Ultrafast 服务上跑到每秒 1521 token 以上，11 秒写完俄罗斯方块，比 Claude Opus 5.5 快 7 倍（厂商自测，帖子约 4000 赞、65 万浏览）；Vercel CEO Guillermo Rauch 宣布它已加入 Vercel Token Pass，并提供零数据保留。另据 Bloomberg，DeepSeek 刚完成约 150 亿美元融资（见单独卡片）。",
       "source": "news",
       "url": "https://api-docs.deepseek.com/news/news261017/",
       "published_at": "2026-10-17T16:35:54+08:00",
@@ -1953,7 +2302,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-elorian-glimpse",
@@ -1984,7 +2333,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-gemini-argon-minecraft-agents",
@@ -2255,10 +2604,10 @@
         "media_url": "https://pbs.twimg.com/media/HUr9XldXIAAPeX3.jpg",
         "post_url": "https://x.com/finkd/status/2110778025629347999"
       },
-      "kept_reason": "heat 95 / importance 92 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 95 / importance 92 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2288,7 +2637,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-taiwan-ai-chip-export-criminal-texas-park",
@@ -3241,7 +3590,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-14T08:24:08+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-x-subscription-grok-cursor-bundle",
@@ -5096,7 +5445,7 @@
     {
       "id": "news-openai-api-tiers-decisions-api",
       "title": "OpenAI API 速率等级五合三，最高档门槛降到 500 美元；Decisions API 公测",
-      "summary": "OpenAI Developers 宣布付费等级从五档简化为 Build / Launch / Grow 三档，Grow 门槛从 1000 美元累计付费降到 500 美元，老用户自动升级。同期 Decisions API 公测，从文本或图像快速给出结构化选择，据称比在 Responses API 上用 GPT-6 Luna 做同类任务快约 10 倍。",
+      "summary": "OpenAI Developers 宣布付费等级从五档简化为 Build / Launch / Grow 三档，Grow 门槛从 1000 美元累计付费降到 500 美元，老用户自动升级。同期 Decisions API 公测，从文本或图像快速给出结构化选择，据称比在 Responses API 上用 GPT-6 Luna 做同类任务快约 10 倍。【10 月 23 日更新】OpenAI Developers 北京时间 10 月 23 日凌晨宣布 Decisions API 结束公测、正式可用，基于 GPT-6 Luna，用于分类、评估这类只需结构化判断、不必生成完整回复的任务。",
       "source": "twitter",
       "url": "https://x.com/OpenAIDevs/status/2107539647392096384",
       "published_at": "2026-10-07T02:33:02+08:00",
