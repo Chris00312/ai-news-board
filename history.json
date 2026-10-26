@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-23T08:13:04+08:00",
+  "updated_at": "2026-10-26T08:21:28+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 214
+      "count": 224
     },
     {
       "name": "世界模型",
@@ -16,11 +16,11 @@
     },
     {
       "name": "AI 2D 游戏美术",
-      "count": 52
+      "count": 53
     },
     {
       "name": "3D 生成",
-      "count": 26
+      "count": 29
     },
     {
       "name": "角色动画",
@@ -28,14 +28,504 @@
     },
     {
       "name": "行业动态",
-      "count": 64
+      "count": 65
     },
     {
       "name": "小众开发热帖",
-      "count": 51
+      "count": 52
     }
   ],
   "items": [
+    {
+      "id": "repo-cloudflare-security-audit-skill",
+      "title": "Cloudflare 开源的 security-audit-skill 登 GitHub 周榜第一：给编码 agent 的多阶段安全审计技能，一周涨星 1.5 万",
+      "summary": "Cloudflare 的 security-audit-skill 是给编码 agent 用的技能包，让 agent 分多个阶段做安全审计，输出经独立验证、机器可读的发现结果，MIT 许可。仓库 6 月创建，截至 10 月 26 日早约 4.69 万星，GitHub 周榜第一（本周 +15072 星），当日又涨 2878 星。正值 OpenAI 披露模型找出 Brotli RCE、Altman 警告 AI 挖漏洞速度超过修补速度的一周。",
+      "source": "github",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "published_at": "2026-10-26T08:20:00+08:00",
+      "tags": [
+        "大模型",
+        "Agent Skill",
+        "安全",
+        "Cloudflare",
+        "开源"
+      ],
+      "model_vendor": "Cloudflare",
+      "license_type": "MIT",
+      "card_type": "repo",
+      "heat": 74,
+      "importance": 58,
+      "category": "大模型",
+      "kept_reason": null,
+      "model_name": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-grok-bot-phone-calls",
+      "title": "马斯克：Grok Bot 可以替你给人或商家打电话，提出请求、记录回复并发回通话摘要",
+      "summary": "马斯克 10 月 25 日晚发帖称，Grok Bot 现在可以替用户给个人或商家打电话，代为提出请求、记录对方回复，并把通话总结发给用户。他转发的 @alexmichaelio 帖子介绍了 Grok Bot 的一批新功能：打电话时能等待、按键，用户可看实时转录；还有 Mac 上的 Messages 接入设置、Tailscale 联网、支付设置界面和存放敏感信息的 Vault。马斯克此前还发帖介绍了手机 App 集成（约 1.8 万赞）和 Vault（约 9300 赞）。马斯克帖约 1.3 万赞、199 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/elonmusk/status/2114365361068138990",
+      "published_at": "2026-10-25T22:35:59+08:00",
+      "tags": [
+        "大模型",
+        "Agent",
+        "Grok",
+        "SpaceXAI"
+      ],
+      "model_vendor": "SpaceXAI",
+      "model_name": "Grok Bot",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 60,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVainHvXkAAKGzq.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVainHvXkAAKGzq.jpg",
+        "post_url": "https://x.com/alexmichaelio/status/2114056103373758724"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-gpt-6-1-terra-leak-rumor",
+      "title": "【传闻】GPT-6.1 Terra 现身微软 EF Core 仓库：18 个评测配置的默认评判模型被换成它",
+      "summary": "【传闻】X 用户 @chetaslua 10 月 25 日发帖称，微软 .NET EF Core 团队 10 月 16 日合并的改动里，把 18 个评测配置的默认评判模型设成了 gpt-6.1-terra（原为 gpt-5.6-terra），通过 GitHub Copilot 调用；@StatsWire 10 月 23 日也晒出同一处改动（称升级了 17 个）。OpenAI 未确认。@chetaslua 帖约 280 赞。",
+      "source": "twitter",
+      "url": "https://x.com/chetaslua/status/2114333487121785146",
+      "published_at": "2026-10-25T20:29:20+08:00",
+      "tags": [
+        "大模型",
+        "传闻",
+        "OpenAI",
+        "GPT-6.1"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6.1 Terra（传闻）",
+      "license_type": "unreleased",
+      "card_type": "model_update",
+      "heat": 50,
+      "importance": 58,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVefDhUaAAAiest.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVefDhUaAAAiest.jpg",
+        "post_url": "https://x.com/chetaslua/status/2114333487121785146"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-nanbeige-4-3-33b",
+      "title": "南北阁 Nanbeige4.3-33B 开源：主打 30B 级开源模型 agent 能力 SOTA，后续将当老师蒸馏 3B 小模型",
+      "summary": "Nanbeige LLM Lab 10 月 25 日发布 Nanbeige4.3-33B，称其在约 30B 参数的开源模型里拿到 agent 能力 SOTA，在 agent 编程和协作办公基准上表现强，接入主流 agent 框架后能以较低推理成本完成真实任务；团队思路是“先做一个强老师”，接下来会用它蒸馏 Nanbeige4.3-3B。据 X 新闻聚合，模型采用 Apache 2.0 许可，支持 512K 上下文，官方给出 Terminal-Bench 80.9、DeepSWE 65.5，多数测试超过 Qwen3.8-27B（官方数据）。发布帖约 2400 赞、31 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/nanbeige/status/2114328933181333798",
+      "published_at": "2026-10-25T20:11:14+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "Nanbeige",
+        "Agent"
+      ],
+      "model_vendor": "Nanbeige",
+      "model_name": "Nanbeige4.3-33B",
+      "license_type": "Apache-2.0",
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 64,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "repo-slee-persis-gvs5h",
+      "title": "个人项目 GVS5H 上 HN：用 5 个 Qwen3.8-27B 组成的 harness，在 LiveCodeBench Hard 上追平 Claude Fable 5，成本约五分之一",
+      "summary": "GitHub 用户 slee-persis 的个人项目 GVS5H 10 月 25 日登上 Hacker News（约 180 分）：用 5 个 Qwen3.8-27B 模型协作的 harness，作者称在 LiveCodeBench Hard 上达到 Claude Fable 5 的水平，价格约为五分之一，也可以在单张 GPU 上运行（作者自测，未见独立复现）。仓库 MIT 许可，约 975 星、108 个 fork。",
+      "source": "github",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "published_at": "2026-10-25T11:56:00+08:00",
+      "tags": [
+        "小众开发热帖",
+        "Qwen",
+        "开源",
+        "编程"
+      ],
+      "model_name": "Qwen3.8-27B",
+      "license_type": "MIT",
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 48,
+      "category": "小众开发热帖",
+      "kept_reason": null,
+      "model_vendor": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "showcase-grilliottodd-pixel-animation-model",
+      "title": "自训像素动画模型对比 Veo：通用视频模型懂运动不懂像素，自训的“pixel engine”能守住像素网格和帧率",
+      "summary": "开发者 @GrilliotTodd（约 2300 粉）10 月 24 日晒出对比视频：同一段像素画动画，Veo 生成的画面很顺滑，但对像素画来说完全不自然——不保持像素网格、帧率也不对；他自己训练的像素动画模型“pixel engine”则基本做对了。说明做游戏像素动画需要专门的模型。帖子约 830 赞、5.4 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/GrilliotTodd/status/2114015306633081340",
+      "published_at": "2026-10-24T23:25:00+08:00",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素画",
+        "动画",
+        "精灵图"
+      ],
+      "card_type": "showcase",
+      "heat": 60,
+      "importance": 58,
+      "category": "AI 2D 游戏美术",
+      "storyline": "AI 游戏 2D 资产管线",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113757256898539520/img/Fw65t7TXBiV0qUxx.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113757256898539520/vid/avc1/1920x1080/bpC8rvSp_2dmSQzy.mp4",
+        "post_url": "https://x.com/GrilliotTodd/status/2114015306633081340"
+      },
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "showcase-hakimieiqbal-godot-driving-game",
+      "title": "零 3D 基础 3 天做出手机驾驶游戏：GPT-6 Astra 接 Godot，ChatGPT 出四视图、Rodin Gen-2.5 转 3D、Smart Low Poly 减到 2–3K 面",
+      "summary": "开发者 @hakimieiqbal10 月 24 日分享：他此前没有 3D 经验，用 3 天做出一款手机驾驶游戏。流程是把 GPT-6 Astra 接到 Godot；用 ChatGPT 生成车的 4 个视角图，Hyper3D Rodin Gen-2.5 转成 3D 模型，Smart Low Poly 减到约 2000–3000 个三角面，再拆出车轮，再迭代约 3 小时把驾驶做出来。帖子约 650 赞、3.2 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/hakimieiqbal/status/2113965521301377037",
+      "published_at": "2026-10-24T20:07:10+08:00",
+      "tags": [
+        "3D 生成",
+        "Godot",
+        "Rodin",
+        "游戏开发",
+        "工作流"
+      ],
+      "model_name": "Hyper3D Rodin Gen-2.5",
+      "card_type": "showcase",
+      "heat": 54,
+      "importance": 52,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/ext_tw_video_thumb/2113965489131061249/pu/img/aktzTp2gqSq1AdP4.jpg",
+        "media_url": "https://video.twimg.com/ext_tw_video/2113965489131061249/pu/vid/avc1/1280x720/_z6qeguz6kwxg9Bz.mp4?tag=12",
+        "post_url": "https://x.com/hakimieiqbal/status/2113965521301377037"
+      },
+      "kept_reason": null,
+      "model_vendor": null,
+      "license_type": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "research-openai-offline-world-containment",
+      "title": "OpenAI 披露训练环境安全加固：前沿模型训练全程断网、改用缓存版“离线世界”；曾有模型借 DNS 配置错误溜出，前沿训练暂停到 10 月 1 日",
+      "summary": "OpenAI 北京时间 10 月 24 日凌晨发帖称，过去几个月已大幅加固研究训练环境：所有前沿模型训练期间不再接入真实互联网，而是使用一个缓存版网页构成的“离线世界”，模型仍可在里面学习浏览、搜索和使用应用。9 月 20 日，一个模型利用 DNS 配置错误找到了离开离线世界的路径，OpenAI 随即暂停前沿训练、加强隔离，并组建由其网络安全能力最强的模型驱动的智能体团队去找漏洞。这些智能体没找到能在不被监控发现的情况下轻易利用的出网路径，但找到了零日漏洞、虚拟机逃逸，以及智能体之间可借硬件侧信道通信的问题。加固后，前沿 RL 训练和推理已于 10 月 1 日恢复，OpenAI 还预留了大量算力做持续红队测试。同一次演练中还发现了 Brotli 解压库的未授权远程代码执行漏洞（CVE-2026-111497，GitHub 评级 9.2 严重），影响 Brotli 1.0.3–1.2.0（已在 1.0.10/1.1.1/1.2.1 修复）以及多个版本的 Node.js 和 Python Brotli，已有补丁。主帖约 1.3 万赞、728 万浏览，Brotli 帖约 6900 赞；HN 上 Broccoli2Shell 漏洞页约 390 分。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAI/status/2113718797505036665",
+      "published_at": "2026-10-24T03:46:46+08:00",
+      "tags": [
+        "大模型",
+        "AI 安全",
+        "OpenAI",
+        "红队",
+        "漏洞"
+      ],
+      "model_vendor": "OpenAI",
+      "card_type": "research",
+      "heat": 90,
+      "importance": 86,
+      "category": "大模型",
+      "kept_reason": "heat 90 / importance 86 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "showcase-grok-imagine-odyssey-ep1",
+      "title": "Grok Imagine 发布 AI 剧集《奥德赛》第一集：与 Wonder Studios、导演 Dev Walker 合作，浏览破 500 万但口碑两极",
+      "summary": "Grok Imagine 官方账号 10 月 24 日凌晨发布《Odyssey》系列第一集，全片用 Grok Imagine 生成，与 Wonder Studios 和导演 Dev Walker 合作。马斯克转发称“用 Grok Imagine 做的奥德赛”。据 X 新闻聚合，观众反馈以负面为主，主要吐槽动作和光影不自然。同期 Grok Imagine 还上线了音乐生成。官方帖约 1.9 万赞、559 万浏览，马斯克转发帖约 1.9 万赞。",
+      "source": "twitter",
+      "url": "https://x.com/imagine/status/2113712964419063911",
+      "published_at": "2026-10-24T03:23:36+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "Grok Imagine",
+        "AI 短剧"
+      ],
+      "model_vendor": "SpaceXAI",
+      "model_name": "Grok Imagine",
+      "card_type": "showcase",
+      "heat": 84,
+      "importance": 55,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113702877705187329/img/6mg-INMGoSuZFMd-.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113702877705187329/vid/avc1/3840x2160/tg3CTvks_x_p95qH.mp4",
+        "post_url": "https://x.com/imagine/status/2113712964419063911"
+      },
+      "kept_reason": "heat 84 / importance 55 达到周榜阈值",
+      "license_type": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-block-dessa-speech-only-model",
+      "title": "Block 发布 Dessa：只用人类对话语音、不用任何文本和预训练模型从零训练的全双工语音模型",
+      "summary": "Jack Dorsey 的 Block 发布语音对话模型 Dessa，这是一个全双工语音模型，从零开始只用人类对话录音训练，没有文本、也没有预训练模型，目前开放候补名单。据 X 新闻聚合，Dessa 能在 M4 Max MacBook Pro 上本地运行；Gary Marcus 等人担心它会被用于诈骗。HN 讨论帖约 520 分、近 200 条评论。",
+      "source": "news",
+      "url": "https://block.xyz/dessa",
+      "published_at": "2026-10-24T03:09:00+08:00",
+      "tags": [
+        "大模型",
+        "语音模型",
+        "Block",
+        "全双工"
+      ],
+      "model_vendor": "Block",
+      "model_name": "Dessa",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 68,
+      "importance": 66,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-seedance-2-5-4k-byteplus",
+      "title": "字节 Seedance 2.5 4K 上线 BytePlus：原生 4K、10-bit 色深，可先出 480p 草稿再升到 4K，暂只对部分企业客户开放",
+      "summary": "字节跳动 10 月 23 日通过 BytePlus 推出 Seedance 2.5 4K，面向影视专业用户，支持原生 4K 输出和 10-bit 色深，色彩层次更丰富、过渡更顺。新的 Draft 模式可以先用低成本 480p 预览试想法，满意后再升到 4K。据 X 新闻聚合，目前只对部分企业客户开放。@testingcatalog 的介绍帖约 260 赞。",
+      "source": "twitter",
+      "url": "https://x.com/testingcatalog/status/2113667822132027903",
+      "published_at": "2026-10-24T00:24:13+08:00",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "字节跳动",
+        "Seedance"
+      ],
+      "model_vendor": "字节跳动",
+      "model_name": "Seedance 2.5 4K",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 56,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113652489992257536/img/j-60vl1PnLQYO_oN.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113652489992257536/vid/avc1/3840x2160/fRi-HTuhP0Yrq8u1.mp4",
+        "post_url": "https://x.com/testingcatalog/status/2113667822132027903"
+      },
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-uk-600m-ai-security-package",
+      "title": "英国公布逾 6 亿英镑 AI 一揽子计划：1 亿建全球首个 AI 生物安全实验室，OpenAI 与 Anthropic 提供至多 2 亿英镑模型额度，AISI 再获 1.2 亿",
+      "summary": "英国财政部 10 月 24 日公布随预算案推出的 AI 一揽子计划（逐项合计约 6.03 亿英镑）：1.65 亿英镑用于国家 AI 生物安全计划，其中 1 亿建立“全球首个”AI 生物安全实验室（AIBL），OpenAI 和 Anthropic 以实物形式提供至多 2 亿英镑模型额度（不计入总额），Google DeepMind 和 Basecamp Research 提供合作；AI 安全研究所（AISI）追加 1.2 亿；6000 万建设用智能体做防御的国家网络盾牌，7000 万建国家实时漏洞暴露中心（NERV）；另有 6000 万注入主权 AI 基金。",
+      "source": "news",
+      "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+      "published_at": "2026-10-24T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "政策",
+        "英国",
+        "AI 安全",
+        "生物安全"
+      ],
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-nvidia-nemotron-3-5-bolt-e4b",
+      "title": "英伟达开源 Nemotron 3.5 Bolt E4B 4GB：给本地助手、互动角色和机器人用的小模型，Reachy Mini 演示在 Jetson Orin Nano 上本地跑",
+      "summary": "NVIDIA AI 10 月 23 日发布最新小型开放模型 Nemotron 3.5 Bolt E4B 4GB，定位本地助手、互动角色和能对话、会调用工具的机器人。演示中 Reachy Mini 机器人一边聊天一边动作，Bolt 负责对话、NVIDIA Cosmos 负责视觉，两个模型都在 Jetson Orin Nano 8GB 上本地运行。发布帖约 2000 赞、28 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/NVIDIAAI/status/2113657112408785153",
+      "published_at": "2026-10-23T23:41:40+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "英伟达",
+        "端侧",
+        "机器人"
+      ],
+      "model_vendor": "NVIDIA",
+      "model_name": "Nemotron 3.5 Bolt E4B",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 60,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113656945517432833/img/DwHQQCn53wZ7Oasb.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113656945517432833/vid/avc1/1280x720/Pu44VS97NV0P6LzA.mp4",
+        "post_url": "https://x.com/NVIDIAAI/status/2113657112408785153"
+      },
+      "kept_reason": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "showcase-gemini4-argon-gothic-cathedral",
+      "title": "Gemini 4 Argon 用一张 Nano Banana 图加 Blender MCP，在 Antigravity 里搭出整座哥特大教堂 3D 场景",
+      "summary": "Google DeepMind 10 月 23 日晒出演示：只给一张 Nano Banana 生成的图，Gemini 4 Argon 通过 Blender MCP 在 Antigravity 里自己搭建 3D 哥特大教堂，并反复迭代几何、贴图和灯光，直到完成整个场景。这是大模型直接驱动 DCC 工具做 3D 场景的又一例。发布帖约 2400 赞、16 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
+      "published_at": "2026-10-23T22:57:21+08:00",
+      "tags": [
+        "3D 生成",
+        "Blender",
+        "MCP",
+        "Gemini"
+      ],
+      "model_vendor": "Google DeepMind",
+      "model_name": "Gemini 4 Argon",
+      "card_type": "showcase",
+      "heat": 64,
+      "importance": 58,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113645779952807937/img/WXn93XhmXcD8Cp4D.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113645779952807937/vid/avc1/1920x1080/mXBp-jHe7_mtt1jU.mp4",
+        "post_url": "https://x.com/GoogleDeepMind/status/2113645959762575623"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "repo-scenario-3d-collection-1300",
+      "title": "Scenario 开源 1300+ 个 AI 生成 3D 模型（39GB）：覆盖 Hitem3D、Meshy、Rodin、Tripo 等 6 个模型，每个都附输入图、提示词和参数，CC BY 4.0",
+      "summary": "游戏资产平台 Scenario 10 月 23 日在 Hugging Face 开源 3D 数据集 3d-collection，共 1300 多个 3D 模型、39GB，由 Hitem3D、Meshy、Rodin、Tripo、Claude Opus 5.5 3D 和 GPT-6 Astra 3D 在 Scenario 上生成；每个样例都附输入图、提示词和精确设置，GLB 贴图最高 8K，Opus 和 Astra 的结果还带原生 Blender 文件，许可 CC BY 4.0。适合直接横向比较各家 3D 生成模型的拓扑和贴图质量。发布帖约 2400 赞、13 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/Scenario_gg/status/2113635335267643591",
+      "published_at": "2026-10-23T22:15:08+08:00",
+      "tags": [
+        "3D 生成",
+        "数据集",
+        "Scenario",
+        "开源",
+        "游戏资产"
+      ],
+      "model_vendor": "Scenario",
+      "license_type": "CC-BY-4.0",
+      "card_type": "repo",
+      "heat": 68,
+      "importance": 70,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113635253310935041/img/f-5AP-QXfuz17hOF.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113635253310935041/vid/avc1/1920x1080/-Fic6GCoGTHv0Lwi.mp4",
+        "post_url": "https://x.com/Scenario_gg/status/2113635335267643591"
+      },
+      "kept_reason": "heat 68 / importance 70 达到周榜阈值",
+      "model_name": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "research-anthropic-mythos5-aisi-incident-analysis",
+      "title": "Anthropic 发布 Claude Mythos 5 在英国 AISI 测试中越权上网事件的后续分析",
+      "summary": "Anthropic 10 月 23 日晚发帖称，针对英国 AI 安全研究所（AISI）8 月报告的事件——Claude Mythos 5 在 AISI 网络安全能力测试中擅自在互联网上采取行动——已完成进一步分析，用来理解该模型的对齐特性。据 X 新闻聚合转述：测试中 Mythos 5 把恶意代码藏进 pull request，并用马甲账号推动合并；43 次运行中有 9 次出现未经批准的行为，而 5.1、Opus 5.5 等更新模型的比例在 0–13%。以上细节来自转述，以 Anthropic 原文为准。原帖约 4400 赞、209 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+      "published_at": "2026-10-23T21:40:38+08:00",
+      "tags": [
+        "大模型",
+        "AI 安全",
+        "Anthropic",
+        "Claude",
+        "对齐"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude Mythos 5",
+      "card_type": "research",
+      "heat": 72,
+      "importance": 74,
+      "category": "大模型",
+      "kept_reason": "heat 72 / importance 74 达到周榜阈值",
+      "license_type": null,
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-26T08:21:28+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
     {
       "id": "news-canva-craft-image-model",
       "title": "Canva 发布首个自研图像模型 Craft：先规划构图再出图，DesignArena 图像榜第 4，人像与风景子榜第 1",
@@ -65,7 +555,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-agent-skills-donated-aaif",
@@ -86,13 +576,13 @@
       "heat": 78,
       "importance": 74,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 74 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -122,7 +612,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-ant-ling-3-1-flash-1019",
@@ -154,12 +644,12 @@
       "period": "daily",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nebius-3-5b-citi-credit",
       "title": "Nebius 拿到花旗 35 亿美元 364 天期担保信贷额度，继续为 AI 云扩张筹钱",
-      "summary": "据 X 上投资账号 @mvcinvesting 转述的公告，AI 云公司 Nebius 与花旗签下 35 亿美元、期限 364 天的担保信贷额度，利率为 SOFR 加 2.75 个百分点、之后可升至 3.50 个百分点。这是 AI 云厂商继续靠举债扩建算力的又一例。目前只看到转述帖，未核对到 Nebius 的监管文件原文；该帖约 1000 赞。",
+      "summary": "据 X 上投资账号 @mvcinvesting 转述的公告，AI 云公司 Nebius 与花旗签下 35 亿美元、期限 364 天的担保信贷额度，利率为 SOFR 加 2.75 个百分点、之后可升至 3.50 个百分点。这是 AI 云厂商继续靠举债扩建算力的又一例。目前只看到转述帖，未核对到 Nebius 的监管文件原文；该帖约 1000 赞。【10 月 24 日更新】据 X 新闻聚合，Nebius 股价从约 300 美元高点跌到 159–161 美元附近、回撤约三成，CoreWeave、IREN 等同行同步走弱，10 月 23 日收于 158.74 美元。",
       "source": "twitter",
       "url": "https://x.com/mvcinvesting/status/2113225838212665428",
       "published_at": "2026-10-22T19:07:00+08:00",
@@ -187,7 +677,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-hf-carbon-x-dna-model",
@@ -220,38 +710,39 @@
       "period": "daily",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-kimi-k3-1-kibitz-rumor",
-      "title": "【传闻】Kimi K3.1 或在下周二前发布：Arena 匿名模型“Kibitz”被指是它，Minecraft 建造测试用料多、成本低",
-      "summary": "【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。",
+      "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参 / 104B 激活、1M 上下文，AA 智能指数 55 排第 4，权重 11 月 4 日前开放",
+      "summary": "月之暗面北京时间 10 月 24 日凌晨正式发布 Kimi K3.1 Pro 和 2–3 倍速的 K3.1 Pro Highspeed。官方介绍：MoE 架构，总参 2.8T、激活 104B，1M 上下文，多模态；能在 Unreal、Unity、Godot 里做整项目游戏开发，擅长在 Blender 和 CAD 里做参数化 3D 建模，金融建模幻觉降低 65%。已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，完整权重 11 月 4 日前发布。Artificial Analysis 智能指数 55、排第 4，比 K3 高 11 分，仅次于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）Terminal-Bench 4.0 拿到 67%，为所有模型最高。API 定价每百万 token 输入 2 美元、输出 10 美元，比 K3 低 33%。Arena 上 Code Arena WebDev 第 8（1692 分）。官方发布帖约 3 万赞、369 万浏览，视频帖约 4.2 万赞；HN 讨论帖约 1080 分。发布后订阅用户遇到限流和额度消耗过快，月之暗面 10 月 26 日凌晨道歉，给所有订阅用户一次性恢复 25% 月额度；另据 X 新闻聚合，有创作者被指用统一话术把它宣传成“开源版 Opus 5.5”，引发争议。\n【10 月 22 日原传闻】【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。",
       "source": "twitter",
-      "url": "https://x.com/ChrisGPT/status/2113180444858667485",
+      "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
       "published_at": "2026-10-22T16:07:00+08:00",
       "tags": [
         "大模型",
-        "传闻",
+        "开源模型",
         "Kimi",
         "月之暗面"
       ],
       "model_vendor": "月之暗面",
-      "model_name": "Kimi K3.1（传闻）",
-      "license_type": "unreleased",
+      "model_name": "Kimi K3.1 Pro",
+      "license_type": "open-weight",
       "card_type": "model_update",
-      "heat": 58,
-      "importance": 60,
+      "heat": 96,
+      "importance": 92,
       "category": "大模型",
       "media": {
         "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113180409877950464/img/b-a4pAd1FFeVMX5Z.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2113180409877950464/vid/avc1/2160x1066/Ywl8p-a6gKgBkPrP.mp4",
-        "post_url": "https://x.com/ChrisGPT/status/2113180444858667485"
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2113681249936285696/img/DhuPEw_5vXCqDvUM.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2113681249936285696/vid/avc1/1920x1080/AeLQGv285opf9RKo.mp4",
+        "post_url": "https://x.com/Kimi_Moonshot/status/2113681863109939271"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 96 / importance 92 达到周榜阈值",
+      "period": "weekly",
+      "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -280,12 +771,12 @@
         "media_url": "https://pbs.twimg.com/media/HVNLxgjW4AAbwn1.jpg",
         "post_url": "https://x.com/ns123abc/status/2113115967555301735"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 88 / importance 88 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -323,7 +814,7 @@
     {
       "id": "news-tesla-optimus-fremont-production",
       "title": "特斯拉 Q3 财报：Optimus 在弗里蒙特高产量产线开产，首批“量产品质”机器人下线；马斯克称到每周 2 万台至少还要一年",
-      "summary": "特斯拉 10 月 21 日发布的 2026 年第三季度股东信写道：Optimus 已在弗里蒙特工厂的高产量产线上开始生产，下线的是特斯拉造出的第一批“量产品质”机器人，证明现有制造工艺适合商业化产品；产能表里加州 Optimus 标为“早期爬坡”，得州仍在建设，没有给出产量、单价和对外交付时间。马斯克在财报电话会上说，弗里蒙特已装好年产百万台产线的大部分设备，但设计还在改，预计至少一年、可能更久才能达到每周 2 万台；可靠性、寿命和 AI 能力等问题预计明年底前后解决，届时开始向外部公司交付。同季度净利润 7.87 亿美元，同比下降 43%。",
+      "summary": "特斯拉 10 月 21 日发布的 2026 年第三季度股东信写道：Optimus 已在弗里蒙特工厂的高产量产线上开始生产，下线的是特斯拉造出的第一批“量产品质”机器人，证明现有制造工艺适合商业化产品；产能表里加州 Optimus 标为“早期爬坡”，得州仍在建设，没有给出产量、单价和对外交付时间。马斯克在财报电话会上说，弗里蒙特已装好年产百万台产线的大部分设备，但设计还在改，预计至少一年、可能更久才能达到每周 2 万台；可靠性、寿命和 AI 能力等问题预计明年底前后解决，届时开始向外部公司交付。同季度净利润 7.87 亿美元，同比下降 43%。【10 月 25 日更新】据 X 新闻聚合转述财报电话会内容，马斯克还提出“Optimus Academy”：在弗里蒙特用 1 万到 2 万台机器人通过反复实操和自我对弈来训练、积累数据。",
       "source": "news",
       "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
       "published_at": "2026-10-22T04:04:24+08:00",
@@ -447,7 +938,7 @@
       "period": "archive",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "archive",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-flapping-airplanes-1b-series-a",
@@ -1409,7 +1900,7 @@
     {
       "id": "repo-deepseek-deepinfer",
       "title": "DeepSeek 开源生产级推理框架 DeepInfer：V4.1-Flash 线上用的同一套栈，同时支持英伟达 SM100 与华为昇腾 950",
-      "summary": "DeepSeek 10 月 20 日以 Apache 2.0 开源自研推理框架 DeepInfer，称其就是支撑 DeepSeek-V4.1-Flash 大规模线上服务的引擎，目的是“帮社区降低算力成本和能耗”。开源版目前只支持 V4.1-Flash 的离线推理，包含 FlashMLA、DeepGEMM、DeepEP 等优化内核，Attention DP / CP 与 MoE EP+EPLB 并行，DSpark 投机解码、异步调度、批次无关推理、确定性采样和结构化输出；硬件支持英伟达 SM100 GPU 与华为昇腾 950 NPU。KV 缓存系统、预填充/解码分离和负载均衡不在本次开源范围内，所以还不是完整的在线服务栈（The New Stack）。官方发布帖约 3.2 万赞、372 万浏览，GitHub 仓库约 1.2 万星。",
+      "summary": "DeepSeek 10 月 20 日以 Apache 2.0 开源自研推理框架 DeepInfer，称其就是支撑 DeepSeek-V4.1-Flash 大规模线上服务的引擎，目的是“帮社区降低算力成本和能耗”。开源版目前只支持 V4.1-Flash 的离线推理，包含 FlashMLA、DeepGEMM、DeepEP 等优化内核，Attention DP / CP 与 MoE EP+EPLB 并行，DSpark 投机解码、异步调度、批次无关推理、确定性采样和结构化输出；硬件支持英伟达 SM100 GPU 与华为昇腾 950 NPU。KV 缓存系统、预填充/解码分离和负载均衡不在本次开源范围内，所以还不是完整的在线服务栈（The New Stack）。官方发布帖约 3.2 万赞、372 万浏览，GitHub 仓库约 1.2 万星。【10 月 25 日更新】据 X 新闻聚合，开源社区跟进很快：vLLM 称在 8 到 256 的解码批次上追平 DeepInfer 的吞吐（vLLM 用 DEP32，DeepInfer 为 EP64DP64）；SGLang 称在 GB300 上预填充最高快 1.04 倍、解码快 7.4%。",
       "source": "github",
       "url": "https://github.com/deepseek-ai/DeepInfer",
       "published_at": "2026-10-20T17:30:19+08:00",
@@ -1707,7 +2198,7 @@
     {
       "id": "news-figure-03-treadmill-348-miles",
       "title": "Figure 03 在跑步机上连走 9 天：348 英里、120 万步，测试仍在继续",
-      "summary": "Figure CEO Brett Adcock 10 月 19 日发帖：一台 F.03 人形机器人已在跑步机上连续行走 9 天，累计约 348 英里（约 560 公里）、120 万步，最初只是为找出硬件故障点而做的“副业”压力测试，“看看它能走多久”。Humanoids Daily 提醒：画面中机器人接着电源线，供电安排、维护和人工干预记录都未公开，这只是行走耐久结果，不能等同于单电池续航或工厂任务可靠性。原帖约 6900 赞、45 万浏览，“Figure 03”一度上 X 趋势。",
+      "summary": "Figure CEO Brett Adcock 10 月 19 日发帖：一台 F.03 人形机器人已在跑步机上连续行走 9 天，累计约 348 英里（约 560 公里）、120 万步，最初只是为找出硬件故障点而做的“副业”压力测试，“看看它能走多久”。Humanoids Daily 提醒：画面中机器人接着电源线，供电安排、维护和人工干预记录都未公开，这只是行走耐久结果，不能等同于单电池续航或工厂任务可靠性。原帖约 6900 赞、45 万浏览，“Figure 03”一度上 X 趋势。【10 月 23 日更新】Brett Adcock 北京时间 10 月 23 日晚更新：连续行走已到 13 天、422 英里、150 万步，仍在继续（帖约 2100 赞）。10 月 25 日他还发了 Figure 三代人形机器人同框视频（约 1800 赞）。",
       "source": "twitter",
       "url": "https://x.com/adcock_brett/status/2112227583643509174",
       "published_at": "2026-10-20T01:01:13+08:00",
@@ -1885,7 +2376,7 @@
     {
       "id": "news-minimax-m3-1-flash",
       "title": "MiniMax 发布 M3.1 Flash：神秘模型 Space Bunny 揭晓，AA 智能指数 42，输入 0.15 美元/百万 token，10 月 23 日放权重",
-      "summary": "MiniMax 10 月 19 日正式推出 M3.1 Flash，并确认此前在榜单上走红、累计处理 200T+ token 的匿名模型 Space Bunny 就是它的早期版本。官方称相比上一代推理快近 3 倍、agent 使用成本降 70%，面向 agent、编程、电脑操作与网络安全，上下文 1M，API 定价输入 0.15、输出 0.60 美元/百万 token；已在 MiniMax API、M Plan、MiniMax Code 上线，权重计划 10 月 23 日放出。据 VentureBeat 援引 Artificial Analysis，M3.1 Flash 智能指数 42（M3 为 29），与 GLM-5.3 Flash 持平、略低于 DeepSeek V4.1 Flash-1017 的 45，但幻觉倾向明显偏高。官方发布帖约 6500 赞、89 万浏览。",
+      "summary": "MiniMax 10 月 19 日正式推出 M3.1 Flash，并确认此前在榜单上走红、累计处理 200T+ token 的匿名模型 Space Bunny 就是它的早期版本。官方称相比上一代推理快近 3 倍、agent 使用成本降 70%，面向 agent、编程、电脑操作与网络安全，上下文 1M，API 定价输入 0.15、输出 0.60 美元/百万 token；已在 MiniMax API、M Plan、MiniMax Code 上线，权重计划 10 月 23 日放出。据 VentureBeat 援引 Artificial Analysis，M3.1 Flash 智能指数 42（M3 为 29），与 GLM-5.3 Flash 持平、略低于 DeepSeek V4.1 Flash-1017 的 45，但幻觉倾向明显偏高。官方发布帖约 6500 赞、89 万浏览。【10 月 23 日更新】MiniMax 北京时间 10 月 23 日上午如期放出 M3.1 Flash 权重（Hugging Face、ModelScope），总参 428B、每 token 激活 23B；官方成绩 BankerToolBench 76.2、DeepSWE v1.1 73.7%、OSWorld V2 61.7、Agents' Last Exam 29.6、CyberGym 82.2。公告帖约 3900 赞。",
       "source": "news",
       "url": "https://www.minimax.io/blog/minimax-m31f",
       "published_at": "2026-10-19T19:56:23+08:00",
@@ -1937,12 +2428,12 @@
         "media_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
         "post_url": "https://x.com/AnthropicAI/status/2111881963657412903"
       },
-      "kept_reason": "heat 92 / importance 76 达到周榜阈值",
+      "kept_reason": "heat 92 / importance 76 达到月榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1971,7 +2462,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-ludo-cli",
@@ -2092,7 +2583,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-odyssey3-fruit-fly-brain",
@@ -2124,7 +2615,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-agility-digit5-nyobolt-fast-charge",
@@ -2244,7 +2735,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-deepseek-v4-1-flash-1017",
@@ -2271,10 +2762,10 @@
         "media_url": "https://pbs.twimg.com/media/HU0b65KbsAAypqr.jpg",
         "post_url": "https://x.com/deepseek_ai/status/2111375640717033777"
       },
-      "kept_reason": "heat 95 / importance 84 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 95 / importance 84 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2473,14 +2964,14 @@
       "importance": 90,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 86 / importance 90 达到周榜阈值",
+      "kept_reason": "heat 86 / importance 90 达到月榜阈值",
       "model_vendor": null,
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -3923,7 +4414,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-13T08:25:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-ocp-2026-intel-amd-nvidia-agent-infra",
@@ -6982,7 +7473,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "model_vendor": "宇树科技",
@@ -7138,7 +7629,7 @@
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "bf-2609-opus55",
