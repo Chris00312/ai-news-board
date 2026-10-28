@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-27T08:22:10+08:00",
+  "updated_at": "2026-10-28T08:18:49+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 228
+      "count": 232
     },
     {
       "name": "世界模型",
-      "count": 26
+      "count": 27
     },
     {
       "name": "机器人",
-      "count": 55
+      "count": 58
     },
     {
       "name": "AI 2D 游戏美术",
@@ -20,15 +20,15 @@
     },
     {
       "name": "3D 生成",
-      "count": 29
+      "count": 30
     },
     {
       "name": "角色动画",
-      "count": 39
+      "count": 40
     },
     {
       "name": "行业动态",
-      "count": 71
+      "count": 73
     },
     {
       "name": "小众开发热帖",
@@ -36,6 +36,353 @@
     }
   ],
   "items": [
+    {
+      "id": "news-anthropic-gsa-onegov-40-discount",
+      "title": "Anthropic 扩大与美国 GSA 合作：各级政府买 Claude 全线打六折，预计为政府省 10 亿美元",
+      "summary": "Anthropic 10 月 27 日宣布与美国总务管理局（GSA）签新协议：联邦政府以及州、地方、部落和领地政府购买 Claude Enterprise、Claude for Government 和 Claude API 均可享 40% 折扣，首次覆盖直接采购和（未来几个月起）通过云厂商采购的所有渠道，没有最低消费要求。Anthropic 估计折扣可为政府节省约 10 亿美元。官方称目前约 500 个美国联邦、州和地方政府机构在用 Claude，Claude for Government 周活用户自 2 月以来增长约 8 倍。发布帖约 900 赞、8.6 万浏览。",
+      "source": "news",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "published_at": "2026-10-28T06:20:23+08:00",
+      "tags": [
+        "行业动态",
+        "Anthropic",
+        "政府采购",
+        "政策"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "model_update",
+      "heat": 45,
+      "importance": 58,
+      "category": "行业动态",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+        "media_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+        "post_url": "https://x.com/AnthropicAI/status/2115207004293853358"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "research-anthropic-drug-development-mithril",
+      "title": "Anthropic 公布 Claude 药物研发进展：已收购“一人生物技术公司”Mithril Medicine，并与 6 家药企和机构合作",
+      "summary": "Anthropic 北京时间 10 月 28 日凌晨发文介绍 Claude 在药物研发上的早期进展。重点案例是 Mithril Medicine：创始人 Cody Tranbarger 一个人用 Claude 协调 11 家外部实验室，不到 18 个月就把一个 LAMA2 相关先天性肌营养不良项目推进到小鼠概念验证。Anthropic 已在 7 月收购这家公司，这次才公开，并称最快可能在 2028 年底进入人体试验。目前成果大多停留在临床前阶段。合作方包括 BigHat、百时美施贵宝（BMS）、Divergence Labs、Enveda、Generate Biomedicines 和 The Column Group（后者正在组建新公司 Pleiades）。Anthropic 发布帖约 5000 赞、71 万浏览（R&D World 报道：https://www.rdworldonline.com/anthropic-acquires-mithril-medicine-one-person-biotech/ ）。",
+      "source": "news",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "published_at": "2026-10-28T04:27:48+08:00",
+      "tags": [
+        "大模型",
+        "AI for Science",
+        "Anthropic",
+        "药物研发",
+        "收购"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "research",
+      "heat": 78,
+      "importance": 76,
+      "category": "大模型",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-liquid-ai-lfm3",
+      "title": "Liquid AI 发布 LFM3 开放权重系列：文本、视觉、音频、全模态共 6 款端侧模型，1.7B 版 256K 上下文、4-bit 约 1GB",
+      "summary": "Liquid AI 北京时间 10 月 28 日凌晨发布第三代基础模型 LFM3，共 6 款：文本、视觉语言（VL）、音频、全模态（omni），以及面向决策的 d1 和 d1-omni。官方称采用三重混合架构，用 22 万亿 token 训练。旗舰 LFM3-1.7B 有 1.73B 参数，支持 256K 上下文，4-bit 量化后约 1GB，可在手机等设备本地运行，成绩超过上一代更大的 LFM2.5-2.6B。权重已上 Hugging Face，采用 LFM Open License v1.0。以上成绩为官方自述。发布帖约 4300 赞、84 万浏览。",
+      "source": "news",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "published_at": "2026-10-28T01:07:45+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "端侧模型",
+        "Liquid AI",
+        "多模态"
+      ],
+      "model_vendor": "Liquid AI",
+      "model_name": "LFM3",
+      "license_type": "LFM Open License v1.0",
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 72,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115125357439557633/img/X_jB63rlX-TyinU4.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
+        "post_url": "https://x.com/liquidai/status/2115128329003303107"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-deepmind-genie-4",
+      "title": "Google DeepMind 发布 Genie 4：基于 Gemini Omni，生成可实时交互的世界并自带环境声、音乐和人物对话",
+      "summary": "Google DeepMind 北京时间 10 月 28 日凌晨发布新一代世界模型 Genie 4。它基于 Gemini Omni，在 Genie 3 的可交互世界基础上新增原生音频，能生成环境声、音乐和角色对话，还能在运行中用文字实时改变场景。据 The Verge 报道，单次体验时长从 Genie 3 的约 1 分钟延长到约 2 分钟。目前先以研究预览形式向受信任测试者开放，之后会进入 Google AI Ultra 的 Project Genie，并向 Gemini API / AI Studio 的早期合作伙伴开放。DeepMind 还展示了与 Gemini 4 Argon 结合的机器人训练实验。官方承认仍存在画面漂移、物体恒存性、文字和音频准确度等问题。DeepMind 发布帖约 1.4 万赞、153 万浏览（Ars Technica：https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/ ）。",
+      "source": "news",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "published_at": "2026-10-28T00:10:55+08:00",
+      "tags": [
+        "世界模型",
+        "Google DeepMind",
+        "Genie",
+        "可交互世界"
+      ],
+      "model_vendor": "Google DeepMind",
+      "model_name": "Genie 4",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 96,
+      "importance": 92,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVplvENXUAA-sCS.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
+        "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-oracle-ai-world-google-tpu-cerebras-openai",
+      "title": "Oracle AI World：Google TPU 2027 年起进入 Oracle 云，Cerebras 推理同步上 OCI，OpenAI 把 Oracle 企业应用接进 ChatGPT",
+      "summary": "Oracle 10 月 27 日在拉斯维加斯 AI World 大会上发布三项合作。一是 Google TPU 将在 2027 年起通过 Oracle 云（OCI）提供，OCI 成为 Google 之外第一家提供 TPU 的超大规模云厂商，Oracle 负责电力、冷却和机房网络，双方称是多年、数吉瓦级的合作。二是 Cerebras 的 AI 推理服务也将于 2027 年上线 OCI（https://www.oracle.com/news/announcement/ai-world-cerebras-and-oracle-team-up-to-bring-cerebras-ai-inference-to-oracle-cloud-infrastructure-2026-10-27/ ）。三是 OpenAI 扩大与 Oracle 的合作，通过 Oracle AI Workspace 把 Oracle 企业应用、数据和云服务接入 ChatGPT，并推出用 Codex 构建企业应用的 App Composer（https://openai.com/index/oracle-apps-in-chatgpt/ ）。CNBC 等媒体同步报道。",
+      "source": "news",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+      "published_at": "2026-10-28T00:07:00+08:00",
+      "tags": [
+        "行业动态",
+        "算力",
+        "Oracle",
+        "Google TPU",
+        "Cerebras",
+        "OpenAI"
+      ],
+      "model_vendor": "Oracle",
+      "card_type": "model_update",
+      "heat": 68,
+      "importance": 80,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-gemini-robotics-er-2-public-preview",
+      "title": "Gemini Robotics ER 2 开放公开预览：机器人高层推理模型上 Google Cloud 和 Gemini API",
+      "summary": "Google 10 月 27 日把机器人具身推理模型 Gemini Robotics ER 2 开放为公开预览，可在 Google Cloud 的 Gemini Enterprise Agent Platform（Model Garden）和 Gemini API 中调用，模型名 gemini-robotics-er-2-preview。ER 2 是机器人的高层推理层，负责理解场景、规划多步任务和调用函数执行动作，支持文本、图像、音频和视频输入，输入上限约 13.1 万 token、输出 6.5 万 token。发布时间按 X 上最早相关帖估算。",
+      "source": "news",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+      "published_at": "2026-10-27T23:07:47+08:00",
+      "tags": [
+        "机器人",
+        "具身推理",
+        "Gemini Robotics",
+        "Google"
+      ],
+      "model_vendor": "Google DeepMind",
+      "model_name": "Gemini Robotics ER 2",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 55,
+      "importance": 68,
+      "category": "机器人",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-robotics-2__blog__cover.width-2200..max-2200x2200.png",
+        "media_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-robotics-2__blog__cover.width-2200..max-2200x2200.png",
+        "post_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-mai-image-2-7-preview-aa",
+      "title": "微软 MAI-Image-2.7-Preview 登上 Artificial Analysis 图像编辑榜第二，仅次于 GPT Image 2.5",
+      "summary": "Artificial Analysis 10 月 27 日公布微软 AI 新图像编辑模型 MAI-Image-2.7-Preview 的测试结果：在 AA-Image-Editing v2.1 榜上排第二，仅次于 GPT Image 2.5 Sunburst（max）。和上一代 MAI-Image-2.6 相比，它在 7 类编辑动作上全部领先，其中 4 类排名第一；构图（+57 Elo）、文字（+49）和场景（+48）提升最大，在 10 个使用场景中有 4 个排第一。结果来自 AA 的盲测排名，该帖约 400 赞、25 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/ArtificialAnlys/status/2115097540320506069",
+      "published_at": "2026-10-27T23:05:24+08:00",
+      "tags": [
+        "大模型",
+        "图像编辑",
+        "微软",
+        "评测"
+      ],
+      "model_vendor": "Microsoft",
+      "model_name": "MAI-Image-2.7-Preview",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 52,
+      "importance": 58,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVpVVKFbYAAwtCX.jpg",
+        "media_url": "https://video.twimg.com/tweet_video/HVpVVKFbYAAwtCX.mp4",
+        "post_url": "https://x.com/ArtificialAnlys/status/2115097540320506069"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-machenta-40m-seed",
+      "title": "伦敦机器人公司 Machenta 获 4000 万美元种子轮：帝国理工衍生，主打“看一次就会”的机器人学习",
+      "summary": "伦敦机器人初创公司 Machenta 10 月 27 日宣布完成 4000 万美元种子轮，由 Creandum 和 Union Square Ventures 共同领投。公司从帝国理工学院孵化，由机器人学教授 Edward Johns 和他的学生 Vitalis Vosylius 共同创办。核心技术叫“Instant Robot Learning”：机器人只看一次人类示范就能学会新任务，模型主要在仿真中训练（帝国理工新闻：https://www.imperial.ac.uk/news/articles/2026/imperial-ai-spinout-machenta-raises-40-million-to-make-robots-instant-learners/ ）。",
+      "source": "news",
+      "url": "https://tech.eu/2026/10/27/london-robotics-startup-machenta-raises-40m-seed-investment/",
+      "published_at": "2026-10-27T21:00:00+08:00",
+      "tags": [
+        "机器人",
+        "融资",
+        "机器人学习",
+        "Machenta"
+      ],
+      "model_vendor": "Machenta",
+      "card_type": "model_update",
+      "heat": 48,
+      "importance": 62,
+      "category": "机器人",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://cdn.tech.eu/uploads/2026/10/smart-2-217.jpg",
+        "media_url": "https://cdn.tech.eu/uploads/2026/10/smart-2-217.jpg",
+        "post_url": "https://tech.eu/2026/10/27/london-robotics-startup-machenta-raises-40m-seed-investment/"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-shanghai-embodied-ai-competition-1000-humanoids",
+      "title": "上海国际具身智能大赛落幕：800 多支队伍、约 1000 台人形机器人比拼 23 个项目",
+      "summary": "据《中国日报》10 月 27 日报道，作为 2026 全球开发者先锋大会的一部分，上海国际具身智能大赛于 10 月 26 日（周日）结束，800 多支队伍带着约 1000 台人形机器人参加 23 个类别的比赛。报道还提到，浦东已经发布 30 多款人形机器人。",
+      "source": "news",
+      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae0973de4b06d4aa0565764.html",
+      "published_at": "2026-10-27T20:21:00+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "上海",
+        "比赛"
+      ],
+      "card_type": "model_update",
+      "heat": 42,
+      "importance": 52,
+      "category": "机器人",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "repo-toyxyz-rgbmocap",
+      "title": "toyxyz 开源 RGBMocap：Windows 本地视频动捕，集成 GVHMR 等三种模型，带脚部接触修正、人形重定向和 FBX/VMD 导出",
+      "summary": "日本开发者 toyxyz（@toyxyz3，约 3.4 万关注）10 月 27 日发布 RGBMocap。这是一个原生 Windows 的单目视频动捕工具，集成 ExMR、FlowHMR 和 GVHMR 三种人体姿态估计模型，支持脚部接触修正（防止滑步）和人形骨架重定向，可导入 Mixamo 的 .fbx、MMD 的 .pmx 和 .vrm 模型，再导出 FBX 或 VMD 动画，能直接进 Blender、Unity 等管线。仓库创建于 10 月 27 日，目前约 110 星，未标明标准开源协议。演示帖约 530 赞、2 万浏览。",
+      "source": "github",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+      "published_at": "2026-10-27T18:37:37+08:00",
+      "tags": [
+        "角色动画",
+        "动捕",
+        "重定向",
+        "FBX",
+        "开源"
+      ],
+      "model_vendor": "toyxyz",
+      "model_name": "RGBMocap",
+      "card_type": "repo",
+      "heat": 62,
+      "importance": 66,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115030011745054721/img/YCjJOX6JH5lXfyrI.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115030011745054721/vid/avc1/1920x1080/5oHFUL62Bkt_JHaD.mp4",
+        "post_url": "https://x.com/toyxyz3/status/2115030148840038608"
+      },
+      "kept_reason": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "research-anthropic-claude-3sat-eth-refutation",
+      "title": "Anthropic 也发布推翻 ETH 的证明：内部 Claude 模型独立给出 3-SAT 亚指数时间算法，已用 Lean 4 形式化",
+      "summary": "继 OpenAI 之后，Anthropic 10 月 27 日公开论文《A 2^{o(n)} Time Algorithm for 3-SAT》，称内部一个 Claude 研究模型在 10 月 16 日独立得到结果：给出确定性的 #3-SAT 算法，运行时间为 2^O(n log log n/√log n)，从而推翻指数时间假设（ETH）。据论文和 Anthropic 研究员 @__alpoge__ 的介绍，模型用了约 1400 万输出 token，过程没有人工参与，证明已用 Lean 4 形式化，代码放在 anthropics/formal-math 仓库。结果纯属渐近意义，没有实际提速。ETH 原提出者 Impagliazzo、Paturi 和 MIT 的 Ryan Williams 正在组织核查，并表示目前“不应视为认证”。@__alpoge__ 发布帖约 2400 赞、60 万浏览。",
+      "source": "news",
+      "url": "https://hexagonmath.org/2610.00577v1",
+      "published_at": "2026-10-27T12:00:02+08:00",
+      "tags": [
+        "大模型",
+        "AI for Science",
+        "Anthropic",
+        "Claude",
+        "数学证明",
+        "Lean"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "research",
+      "heat": 80,
+      "importance": 86,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
+        "post_url": "https://x.com/choblin29/status/2114958912135078256"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "license_type": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "id": "news-cloudflare-glm53-kv-cache-exposure",
       "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 的跨请求 KV 缓存泄露：155 条回复混入其他用户数据，根因是配置失配加 SGLang 漏洞",
@@ -67,12 +414,12 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-openai-kakeya-eth-qcd-discoveries",
       "title": "OpenAI 宣布模型做出三项科学发现：全维度局部光滑化猜想（推出 Kakeya）、指数时间假设（ETH）被推翻、四维 QCD 存在性证明",
-      "summary": "OpenAI 北京时间 10 月 27 日清晨发布文章，称内部模型得出三项结果：数学上证明了 Sogge 1991 年提出的局部光滑化猜想在所有维度成立，从而也解决了所有维度的 Kakeya 猜想和 Stein 限制猜想（10 月 18 日得到、次日完成 Lean 形式化，书面稿和 Lean 证明已放到 GitHub）；计算机科学上证明指数时间假设（ETH）不成立，也已用 Lean 验证，将由 ETH 原提出者 Impagliazzo、Paturi 和 MIT 的 Ryan Williams 牵头核查，OpenAI 承诺资助一次研讨会；物理上给出包括量子色动力学（QCD）和纯 Yang-Mills 在内的部分四维量子场论存在性的严格证明，由诺奖得主 David Gross 等人组成的小组核查，相关材料暂不公开。据 Ryan Williams 介绍，ETH 的结论意味着 3-SAT 存在亚指数算法，但不等于 P=NP。以上均为 OpenAI 自述，仍待外部专家验证。OpenAI 研究员 Dan Roberts 的发布帖约 3100 赞、52 万浏览，Greg Brockman 转发帖约 4900 赞；HN 上公告帖约 260 分、ETH 论文帖约 160 分。",
+      "summary": "OpenAI 北京时间 10 月 27 日清晨发布文章，称内部模型得出三项结果：数学上证明了 Sogge 1991 年提出的局部光滑化猜想在所有维度成立，从而也解决了所有维度的 Kakeya 猜想和 Stein 限制猜想（10 月 18 日得到、次日完成 Lean 形式化，书面稿和 Lean 证明已放到 GitHub）；计算机科学上证明指数时间假设（ETH）不成立，也已用 Lean 验证，将由 ETH 原提出者 Impagliazzo、Paturi 和 MIT 的 Ryan Williams 牵头核查，OpenAI 承诺资助一次研讨会；物理上给出包括量子色动力学（QCD）和纯 Yang-Mills 在内的部分四维量子场论存在性的严格证明，由诺奖得主 David Gross 等人组成的小组核查，相关材料暂不公开。据 Ryan Williams 介绍，ETH 的结论意味着 3-SAT 存在亚指数算法，但不等于 P=NP。以上均为 OpenAI 自述，仍待外部专家验证。OpenAI 研究员 Dan Roberts 的发布帖约 3100 赞、52 万浏览，Greg Brockman 转发帖约 4900 赞；HN 上公告帖约 260 分、ETH 论文帖约 160 分。\n【10 月 27 日补充】同日 Anthropic 也公开了独立得出的 ETH 反驳论文，称内部 Claude 模型给出 3-SAT 亚指数时间算法并完成 Lean 4 形式化（见单独卡片）；Impagliazzo、Paturi 和 Ryan Williams 已开始组织核查，并表示目前不应视为认证。",
       "source": "news",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
       "published_at": "2026-10-27T05:36:56+08:00",
@@ -94,12 +441,12 @@
         "media_url": "https://pbs.twimg.com/media/HVloMu2aYAAYX5k.jpg",
         "post_url": "https://x.com/AndrewCurran_/status/2114836071028785289"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 88 / importance 90 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -122,13 +469,13 @@
       "importance": 80,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": null,
+      "kept_reason": "heat 68 / importance 80 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -162,7 +509,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-entire-git-forge-launch",
@@ -189,7 +536,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-scenario-pixel-vfx-forge",
@@ -223,7 +570,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-cohere-qwen38-exfil-attempt",
@@ -251,11 +598,11 @@
         "media_url": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
         "post_url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 66 / importance 72 达到周榜阈值",
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -288,7 +635,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-microsoft-voluntary-exit-60k",
@@ -319,7 +666,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-nvidia-motionbricks-weights-hf",
@@ -352,7 +699,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-meta-95b-equity-raise",
@@ -379,12 +726,12 @@
         "media_url": "https://pbs.twimg.com/media/HVjZVUxWAAA74AT.jpg",
         "post_url": "https://x.com/FT/status/2114678996352799131"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 72 / importance 82 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -418,7 +765,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-cloudflare-security-audit-skill",
@@ -911,7 +1258,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-mythos5-aisi-incident-analysis",
@@ -939,6 +1286,34 @@
       "period": "weekly",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
       "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "repo-hi3d-v1-open-source",
+      "title": "Hi3D（原 Sparc3D）开源 Hi3D V1.0 几何模型：200 万资产训练，几何细化最高 1536³",
+      "summary": "Hi3D 10 月 23 日宣布开源 Hi3D V1.0，称是首个经过生产验证的开源 AI 3D 模型。它是原 Sparc3D 的升级版，训练数据从 50 万个资产增加到 200 万个，几何细化分辨率最高 1536³，只输出几何（不含贴图），官方称 3D 打印切片成功率约 90%。同时推出 Hi3D Agent / MCP，并把积分价格降了一半。GitHub 仓库约 540 星，协议为自定义许可。以上指标为公司自述（PR Newswire 新闻稿：https://www.prnewswire.com/news-releases/hi3d-v1-0-goes-open-source-the-first-production-validated-open-source-ai-3d-model-302917998.html ）。",
+      "source": "github",
+      "url": "https://github.com/hi3d-official/Hi3Dv1.0",
+      "published_at": "2026-10-23T18:26:00+08:00",
+      "tags": [
+        "3D 生成",
+        "开源",
+        "Hi3D",
+        "Sparc3D"
+      ],
+      "model_vendor": "Hi3D",
+      "model_name": "Hi3D V1.0",
+      "license_type": "custom",
+      "card_type": "repo",
+      "heat": 50,
+      "importance": 62,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "kept_reason": null,
+      "media": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "archive",
       "on_board": true
     },
     {
@@ -1032,7 +1407,7 @@
     {
       "id": "news-ant-ling-3-1-flash-1019",
       "title": "蚂蚁百灵发布 Ling-3.1-flash-1019：Artificial Analysis 智能指数从 41 升到 44，同时开源医疗增强版 Ling-3.0-flash-Sante",
-      "summary": "蚂蚁 inclusionAI 10 月 22 日发布 Ling-3.1-flash 的日期版更新 Ling-3.1-flash-1019：Artificial Analysis 智能指数 44（上一版 41），智能体任务提升明显，AA-Briefcase 从约 1400 升到 1524 Elo，AutomationBench-AA 从 62% 升到 68%；API 和开放权重“即将推出”。同日还开源了医疗增强 MoE 模型 Ling-3.0-flash-Sante，面向医疗研究和工作流，强化深度研究、多智能体协作和工具调用。AntLingAGI 发布帖约 1000 赞、26 万浏览。",
+      "summary": "蚂蚁 inclusionAI 10 月 22 日发布 Ling-3.1-flash 的日期版更新 Ling-3.1-flash-1019：Artificial Analysis 智能指数 44（上一版 41），智能体任务提升明显，AA-Briefcase 从约 1400 升到 1524 Elo，AutomationBench-AA 从 62% 升到 68%；API 和开放权重“即将推出”。同日还开源了医疗增强 MoE 模型 Ling-3.0-flash-Sante，面向医疗研究和工作流，强化深度研究、多智能体协作和工具调用。AntLingAGI 发布帖约 1000 赞、26 万浏览。\n【10 月 27 日补充】Artificial Analysis 10 月 27 日公布测评：Ling 3.1 Flash 在 AA 智能指数 v4.3 得 44 分（上一版 41 分），AA-Briefcase Elo 1521（+124）；模型总参数 560B、激活 25B，支持 100 万上下文（https://x.com/ArtificialAnlys/status/2115155299334246584）。",
       "source": "twitter",
       "url": "https://x.com/AntLingAGI/status/2113226531522891851",
       "published_at": "2026-10-22T19:10:00+08:00",
@@ -1933,12 +2308,12 @@
         "media_url": "https://pbs.twimg.com/media/HVHtKFUXYAAGZyK.jpg",
         "post_url": "https://x.com/InternetH0F/status/2112758565593129390"
       },
-      "kept_reason": "heat 93 / importance 88 达到周榜阈值",
+      "kept_reason": "heat 93 / importance 88 达到月榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2278,7 +2653,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-eka-robotics-150m-series-a",
@@ -2332,11 +2707,11 @@
       "heat": 93,
       "importance": 80,
       "category": "大模型",
-      "kept_reason": "heat 93 / importance 80 达到周榜阈值",
+      "kept_reason": "heat 93 / importance 80 达到月榜阈值",
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-21T08:22:58+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -6346,7 +6721,7 @@
       "category": "大模型",
       "first_seen_at": "2026-10-07T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-openai-api-tiers-decisions-api",
@@ -6960,7 +7335,7 @@
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-06T08:25:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-opus55-humanoid-animation-pipelines",
