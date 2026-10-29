@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-28T08:18:49+08:00",
+  "updated_at": "2026-10-29T08:23:14+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 232
+      "count": 243
     },
     {
       "name": "世界模型",
@@ -12,7 +12,7 @@
     },
     {
       "name": "机器人",
-      "count": 58
+      "count": 59
     },
     {
       "name": "AI 2D 游戏美术",
@@ -20,22 +20,370 @@
     },
     {
       "name": "3D 生成",
-      "count": 30
+      "count": 31
     },
     {
       "name": "角色动画",
-      "count": 40
+      "count": 41
     },
     {
       "name": "行业动态",
-      "count": 73
+      "count": 77
     },
     {
       "name": "小众开发热帖",
-      "count": 52
+      "count": 53
     }
   ],
   "items": [
+    {
+      "id": "news-marvell-lumentum-acquisition-talks",
+      "title": "【报道】彭博：Marvell 正深入洽谈收购光器件商 Lumentum，后者市值约 830 亿美元，最快下周宣布",
+      "summary": "据彭博社北京时间 10 月 29 日早报道（援引知情人士），芯片公司 Marvell 正就收购 AI 数据中心光器件厂商 Lumentum 进行深入谈判，交易最快可能下周宣布，尚未达成最终协议。Lumentum 市值约 830 亿美元，Marvell 约 2210 亿美元。消息传出后 Lumentum 盘后大涨、Marvell 下跌。光互联已成 AI 集群扩容的关键环节。属媒体报道，双方未确认。",
+      "source": "news",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "published_at": "2026-10-29T07:50:08+08:00",
+      "tags": [
+        "行业动态",
+        "并购",
+        "光互联",
+        "Marvell",
+        "Lumentum",
+        "传闻"
+      ],
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-openai-chatgpt-subscribers-api-credits",
+      "title": "OpenAI：ChatGPT Pro 与 Business 订阅者每月可领最多 500 美元 API 额度",
+      "summary": "OpenAI 北京时间 10 月 29 日早宣布，符合条件的 ChatGPT Pro 和 Business 订阅者可每月领取最多 500 美元 API 额度，用来开发应用和智能体。帮助文档说明：需把付费订阅关联到自己拥有的 API 组织；Business 按席位累计（Standard 每席 20 美元、Premium 每席 100 美元），每个工作区每月上限 500 美元；额度当期有效、不结转，订阅需已生效至少 7 天。@OpenAIDevs 帖约 1900 赞。",
+      "source": "news",
+      "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "published_at": "2026-10-29T07:17:13+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "API"
+      ],
+      "model_vendor": "OpenAI",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 60,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVwQebcWUAA6B1s.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115583492662988800/vid/avc1/1920x1080/iJs0ZWOuUa7u0uHe.mp4?tag=16",
+        "post_url": "https://x.com/OpenAIDevs/status/2115583698074755078"
+      },
+      "kept_reason": null,
+      "model_name": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-gemini-4-carbon",
+      "title": "Google 发布 Gemini 4 Carbon：Argon 两周后再换旗舰，AA 智能指数 v5 以 59 分登顶，主打网络安全与长程任务",
+      "summary": "Google 北京时间 10 月 29 日凌晨发布下一代前沿模型 Gemini 4 Carbon，距 Gemini 4 Argon 上线仅两周。官方称它在 Artificial Analysis 智能指数 v5 上以 59 分排第一（AA 同时指出其在编码智能体指数上仅次于 Claude Opus 5.5）；网络安全方面 SEC-bench Pro 88.2%（找漏洞）、ExploitGym 54.8%（利用）、CWE-bench 71.0%（修补），WebDev Arena 升 89 分至第 4（1768）。内部测试称生成安全代码成功率是 Argon 两倍多，Terminal-Bench 4.0 作弊成功率降到 0%。发布节奏较谨慎：本周先向部分网络防御者开放，再经 Fairwind 计划逐步扩大，开发者和消费者版本“尽快”推出；推广期价格与 Argon 相同，每百万 token 输入 2 美元、输出 10 美元，之后为 4 / 20 美元。Pichai 发布帖约 2.4 万赞、310 万浏览。成绩均为官方或 AA 口径。",
+      "source": "news",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "published_at": "2026-10-29T01:01:48+08:00",
+      "tags": [
+        "大模型",
+        "Google",
+        "Gemini",
+        "前沿模型",
+        "网络安全"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini 4 Carbon",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 96,
+      "importance": 93,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVu5GHmbUAAppsK.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVu5GHmbUAAppsK.jpg",
+        "post_url": "https://x.com/sundarpichai/status/2115489219804352921"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-github-copilot-fusion",
+      "title": "GitHub Universe 发布 Copilot Fusion：在 Anthropic 与 OpenAI 模型间自动路由编排，AA 测得成本减半、分数仅低 2 分",
+      "summary": "GitHub 在 10 月 28 日开幕的 Universe 2026 上推出 Copilot Fusion：用户只选 Standard / High / Max 三档力度，系统在 Claude Opus 5.5、Claude Sonnet 5.5、GPT-6 Astra、GPT-6 Sol 等模型间自动选择，并用单模型、级联、互评（Critique）三种流程平衡质量、成本和延迟。Artificial Analysis 测得它在编码智能体指数上比 Claude Code 里的 Opus 5.5 低 2 分，但单任务成本约为一半。同场还发布了 Copilot 新应用和跨仓库 Projects。",
+      "source": "news",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "published_at": "2026-10-29T00:14:44+08:00",
+      "tags": [
+        "大模型",
+        "GitHub",
+        "Copilot",
+        "模型路由",
+        "编程智能体"
+      ],
+      "model_vendor": "GitHub",
+      "model_name": "Copilot Fusion",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 64,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVuvK6xbkAA232s.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVuvK6xbkAA232s.jpg",
+        "post_url": "https://x.com/ArtificialAnlys/status/2115477376981508419"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-alphabet-microsoft-q3-capex",
+      "title": "谷歌与微软财报：Alphabet Q3 资本支出 513.6 亿美元、自由现金流转负，股价盘后跌超 10%；微软 Azure 增 48%",
+      "summary": "Alphabet 10 月 28 日发布 Q3 财报：营收 1275.8 亿美元（同比 +25%）、调整后 EPS 2.67 美元，近四年首次营收和利润双双不及预期；资本支出 513.6 亿美元，自由现金流为 -90.7 亿美元，长期负债升至 1251 亿美元。全年资本支出指引维持 1950–2050 亿美元，CFO 称 2027 年将“显著增加”。Google Cloud 营收同比翻倍多至 307 亿美元，Gemini 应用用户达 10 亿；股价盘后跌超 10%。同日微软 FY27 Q1 营收 923 亿美元（+19%），Azure 增长 48% 至 332 亿美元；含融资租赁的资本支出 452 亿美元，低于此前 500 亿美元以上的指引，原因是第三方算力交付延迟，并预计 2026 自然年资本支出约 1700 亿美元（据财报电话会报道）。",
+      "source": "news",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "财报",
+        "资本支出",
+        "Alphabet",
+        "微软",
+        "算力"
+      ],
+      "card_type": "model_update",
+      "heat": 74,
+      "importance": 82,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://image.cnbcfm.com/api/v1/image/108476670-1793220059525-108476670-1793219835583-gettyimages-2286485713-ALPHABET_EARNS.jpeg?v=1793220075&w=1920&h=1080",
+        "media_url": "https://image.cnbcfm.com/api/v1/image/108476670-1793220059525-108476670-1793219835583-gettyimages-2286485713-ALPHABET_EARNS.jpeg?v=1793220075&w=1920&h=1080",
+        "post_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+      },
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "published_precision": "date",
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "repo-elayadesign-ai-design-skills",
+      "title": "个人开发者的 ai-design-skills 冲上 GitHub 趋势榜：给 Claude Code / Cursor / Codex 用的设计技能包，单日涨约 2100 星",
+      "summary": "GitHub 用户 elayadesign（个人账号，约 276 名关注者）的仓库 ai-design-skills 10 月 29 日登上 GitHub 每日趋势榜，单日新增约 2139 星、总星数约 1.1 万。它是一组给 AI 编程工具用的 Markdown 设计技能，目前主打 landing-page-design：先问需求，再给出页面结构、转化文案和完整视觉系统（字体、间距、圆角、动效），可装进 Claude Code、Cursor、Codex、Windsurf 等。作者另有 redesign-skill 仓库用于改版现有网站。星数为抓取时数据。",
+      "source": "github",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skills",
+        "设计",
+        "Claude Code"
+      ],
+      "card_type": "repo",
+      "heat": 70,
+      "importance": 48,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-cognition-70-80b-valuation-talks",
+      "title": "【报道】Cognition 获 700–800 亿美元估值投资意向，距 480 亿美元 E 轮仅数周",
+      "summary": "Business Insider 北京时间 10 月 28 日深夜援引知情人士报道，Devin 开发商 Cognition 收到估值 700–800 亿美元的投资报价，正认真考虑年底前完成新一轮融资；谈判尚处早期，估值可能变化。Cognition 9 月刚宣布以 480 亿美元估值融资超 20 亿美元，当时称年化收入从 5 月的 4.92 亿美元增至近 9 亿美元。属媒体报道，公司未确认。",
+      "source": "news",
+      "url": "https://www.businessinsider.com/cognition-round-of-funding-at-a-75-billion-valuation-2026-10",
+      "published_at": "2026-10-28T23:56:41+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "Cognition",
+        "AI 编程",
+        "传闻"
+      ],
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 70,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-claude-for-legal-artifact-gallery",
+      "title": "Claude for Legal 上线现成 Artifact 模板库：合同审查、监管扫描、引注核查等可直接套用",
+      "summary": "Anthropic 北京时间 10 月 28 日晚在 Claude for Legal 中加入一个现成 Artifact 模板库，覆盖合同审查、监管动向扫描、引注核查等法律场景；用户从内置示例出发，接入自己的文档和连接器后，可分享给企业内任何人使用。@claudeai 发布帖约 2.1 万赞、369 万浏览。属于产品功能更新。",
+      "source": "twitter",
+      "url": "https://x.com/claudeai/status/2115467192276025500",
+      "published_at": "2026-10-28T23:34:16+08:00",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "Claude",
+        "法律",
+        "产品更新"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 55,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115463032663072768/img/tiCUaCcDwMwVRih8.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115463032663072768/vid/avc1/1920x1080/TT9SzYHp-Pbwafs4.mp4",
+        "post_url": "https://x.com/claudeai/status/2115467192276025500"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-nvidia-nemotron-3-5-transcribe",
+      "title": "NVIDIA 开源 Nemotron 3.5 Transcribe：30B MoE（约 4B 激活）语音模型，40 种语言转写、说话人分离和翻译合一",
+      "summary": "NVIDIA 北京时间 10 月 28 日晚发布开放权重语音模型 Nemotron 3.5 Transcribe，30B 总参数 MoE、约 4B 激活，单个检查点支持 40 种语言转写、说话人归属、翻译、上下文提示和音频理解。Artificial Analysis 测得词错率 2.8%，与开放权重语音转文字模型并列第一。官方帖约 5300 赞、47 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
+      "published_at": "2026-10-28T23:14:50+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "NVIDIA",
+        "语音识别"
+      ],
+      "model_vendor": "NVIDIA",
+      "model_name": "Nemotron 3.5 Transcribe",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 70,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115457350056529921/img/N5GspUTGGH9ISNYp.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/1480x1080/jZ2Yjau1M6tU_tvl.mp4",
+        "post_url": "https://x.com/NVIDIAAI/status/2115462300241141882"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-diffuspace-clover-35b-a3b",
+      "title": "DiffuSpace 开源扩散语言模型 Clover-35B-A3B-Preview：35B MoE、约 3B 激活，按块并行解码",
+      "summary": "DiffuSpace 10 月 28 日开源 Clover-35B-A3B-Preview，一款基于 Qwen3.6-35B-A3B 改造的块扩散（block diffusion）语言模型：35B 总参数 MoE、约 3B 激活、128K 上下文，在每个块内并行填充被遮盖的 token，而不是逐个生成。团队称单 GPU BF16 可达约 680 token/秒（官方自述）。Apache-2.0 许可，权重在 Hugging Face，BF16 约需 69GB 显存，推荐用 SGLang 部署。热度较低，属技术路线新尝试。",
+      "source": "news",
+      "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+      "published_at": "2026-10-28T15:50:00+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "扩散语言模型",
+        "DiffuSpace"
+      ],
+      "model_vendor": "DiffuSpace",
+      "model_name": "Clover-35B-A3B-Preview",
+      "license_type": "Apache-2.0",
+      "card_type": "model_update",
+      "heat": 42,
+      "importance": 58,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVs4AqpbMAAfQ86.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVs4AqpbMAAfQ86.jpg",
+        "post_url": "https://x.com/dextune/status/2115350353655075010"
+      },
+      "kept_reason": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-giotto-sovereign-ai-kimi-weights",
+      "title": "瑞士 Giotto.ai 发布“主权 AI”Alto 和 Solo，随后承认部分权重来自 Kimi",
+      "summary": "瑞士洛桑初创公司 Giotto.ai 发布 Giotto Alto（免费旗舰推理模型，8 张 B300 部署）和 Giotto Solo（单 GPU 本地部署版），主打托管在欧洲云、数据不出境的“主权 AI”，并称在数学和科学基准上可比肩顶级模型。发布后遭质疑，CEO 承认模型“部分权重来自 Kimi”，称已用自有方法重新训练并配合专有测试时计算，但未披露 Kimi 版本和细节；其条款还限制独立基准测试。来源为公司新闻稿与媒体报道，基准成绩未经独立验证。",
+      "source": "news",
+      "url": "https://www.neuraldaily.news/en/a/giotto-alto-solo-kimi-weights-sovereign-ai",
+      "published_at": "2026-10-28T09:01:56+08:00",
+      "tags": [
+        "大模型",
+        "主权 AI",
+        "Kimi",
+        "欧洲"
+      ],
+      "model_vendor": "Giotto.ai",
+      "model_name": "Giotto Alto / Solo",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 48,
+      "importance": 55,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "period": "daily",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "id": "news-anthropic-gsa-onegov-40-discount",
       "title": "Anthropic 扩大与美国 GSA 合作：各级政府买 Claude 全线打六折，预计为政府省 10 亿美元",
@@ -66,6 +414,33 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "id": "news-spaitial-echo-3-iphone-3d-worlds",
+      "title": "SpAItial 发布 Echo-3 与 iPhone 应用：几分钟视频重建可测量的照片级 3D 空间",
+      "summary": "SpAItial 10 月 27 日（北京时间 28 日清晨）发布 Echo-3 及 iPhone 采集应用：用户慢走拍几分钟视频，即可生成真实比例的照片级 3D 场景，输出高斯泼溅、点云和网格，能补全漏拍区域，支持测量、浏览器分享、多楼层和室外空间。应用免费下载、处理按额度收费，需 iOS 18 以上，安卓版即将推出。适用于空间设计、仿真和 AR，偏场景重建而非资产生成。",
+      "source": "news",
+      "url": "https://spaitial.ai/blog/echo-3-release",
+      "published_at": "2026-10-28T05:45:43+08:00",
+      "tags": [
+        "3D 生成",
+        "3D 重建",
+        "高斯泼溅",
+        "SpAItial"
+      ],
+      "model_vendor": "SpAItial",
+      "model_name": "Echo-3",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 50,
+      "importance": 64,
+      "category": "3D 生成",
+      "kept_reason": null,
+      "media": null,
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
       "on_board": true
     },
     {
@@ -87,13 +462,13 @@
       "heat": 78,
       "importance": 76,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 76 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -123,10 +498,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
         "post_url": "https://x.com/liquidai/status/2115128329003303107"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -156,10 +531,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
         "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 96 / importance 92 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -183,13 +558,128 @@
       "importance": 80,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 68 / importance 80 达到周榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "weekly",
+      "first_seen_at": "2026-10-28T08:18:49+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-sk-hynix-q3-2026-record",
+      "title": "SK 海力士 Q3 营业利润 83.3 万亿韩元创纪录，营收首破 100 万亿韩元，HBM4 开始大规模出货",
+      "summary": "SK 海力士 10 月 28 日公布 2026 年第三季度业绩：营收 104.62 万亿韩元、营业利润 83.33 万亿韩元（利润率约 80%）、净利润 39.78 万亿韩元，营业利润同比增长 632%、环比增长 38%，均创纪录。公司称 HBM4 已在第三季度开始大规模出货，预计第四季度 HBM4 出货量和营收将超过 HBM3E；服务器 DDR5 出货增长 40% 以上，M15X 工厂年底满产。媒体报道公司同时公布了大规模股东回报计划。",
+      "source": "news",
+      "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "published_at": "2026-10-28T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "财报",
+        "HBM",
+        "SK 海力士",
+        "算力"
+      ],
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 60 / importance 72 达到周榜阈值",
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "weekly",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "research-anthropic-agents-judgment-calls",
+      "title": "Anthropic 研究：专家用 Claude Code 做分析时，86% 的关键判断跟随了智能体被暗中设定的倾向",
+      "summary": "Anthropic 发布研究《How AI agents shape experts’ judgment calls》：50 名因果推断专家用 Claude Code 分析一个虚构农业合作社的数据，研究者在四个分析选择上给智能体随机“抛硬币”设定了隐藏倾向。结果分析师 86% 的情况与智能体倾向一致；已有选择的人在智能体反对时有 60% 改变主意（同意时仅 6%）。许多人事后复述智能体的论点却很少注明来源。研究提示人类监督 AI 时，实际的顺从程度与自我感知的独立性之间存在落差。",
+      "source": "news",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "published_at": "2026-10-28T00:00:00+08:00",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "AI 安全",
+        "人机协作"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "research",
+      "heat": 52,
+      "importance": 62,
+      "category": "大模型",
       "kept_reason": null,
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
-      "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "daily",
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-sensenova-6-8-code2video",
+      "title": "商汤开源 SenseNova 6.8 Code2Video：27B 模型用写代码的方式生成可编辑动画视频",
+      "summary": "商汤开源 SenseNova 6.8 Code2Video（Apache-2.0），27B 参数，基于 Qwen3.8-27B 微调，支持 512K 上下文。它不直接生成像素，而是写 SVG、Three.js、Manim 等可执行代码，渲染后再自我修改，适合动态图形、讲解视频和风格化 2D/3D 动画；可上传参考视频让模型按画面、节奏和运动用代码复刻，之后通过对话修改。权重、源码、示例提示词和生成轨迹已放上 GitHub 与 Hugging Face。",
+      "source": "github",
+      "url": "https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video",
+      "published_at": "2026-10-28T00:00:00+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "商汤",
+        "视频生成",
+        "代码生成"
+      ],
+      "model_vendor": "商汤",
+      "model_name": "SenseNova 6.8 Code2Video",
+      "license_type": "Apache-2.0",
+      "card_type": "model_update",
+      "heat": 45,
+      "importance": 58,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
+      "id": "news-foundry-robotics-100m-series-a",
+      "title": "Foundry Robotics 完成 1 亿美元 A 轮，用机器人单元做“制造即服务”自主工厂",
+      "summary": "美国 Foundry Robotics 宣布完成 1 亿美元超额认购 A 轮融资，由 Marlinspike Partners 领投、Khosla Ventures 等参投，将扩建加州埃默里维尔 13 万平方英尺工厂并在生产中部署 AI 模型。公司以机器人单元承接复杂机电装配，客户涉及国防、能源、电信和自动驾驶，提供“制造即服务”。非人形机器人。",
+      "source": "news",
+      "url": "https://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-%24100-Million-Series-A-to-Build-Americas-First-Autonomous-Factory-for-Assembly",
+      "published_at": "2026-10-28T00:00:00+08:00",
+      "tags": [
+        "机器人",
+        "融资",
+        "自主工厂",
+        "Foundry Robotics"
+      ],
+      "card_type": "model_update",
+      "heat": 40,
+      "importance": 55,
+      "category": "机器人",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
       "on_board": true
     },
     {
@@ -222,7 +712,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-mai-image-2-7-preview-aa",
@@ -254,6 +744,39 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "id": "research-axiom-cfsg-lean",
+      "title": "Axiom 用数十个 AI 智能体 24 天完成有限单群分类定理的 Lean 全形式化：约 4310 万行，无 sorry",
+      "summary": "AI 数学公司 Axiom 宣布完成有限单群分类（CFSG，原证明约 1.5 万页、百余位数学家参与）的完整 Lean 4 形式化。官方博客称，工程师和数学家指挥数十个 AI 智能体组成的“蜂群”，从 10 月 1 日起用 24 天写出约 4310 万行 Lean 代码，按 108 个里程碑、约 380 个子任务协作；仓库称证明不含 sorry，只依赖 Lean 三条标准公理，Apache-2.0 开源。过程中发现 34 处与已发表文献不符的重要偏差，并得到一个关于 Unbalanced Group Theorem 的新结果。注意：截至 10 月 28 日尚无外部团队独立重建验证，官方 X 帖写“5000 万行”与博客 4310 万行不一致，以博客为准。发布帖约 6900 赞、355 万浏览。",
+      "source": "news",
+      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+      "published_at": "2026-10-27T22:34:38+08:00",
+      "tags": [
+        "大模型",
+        "AI 数学",
+        "Lean",
+        "形式化证明",
+        "智能体"
+      ],
+      "model_vendor": "Axiom",
+      "model_name": "AxiomProver",
+      "license_type": "Apache-2.0",
+      "card_type": "research",
+      "heat": 82,
+      "importance": 84,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVpOm-eaUAAZZVL.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4",
+        "post_url": "https://x.com/axiommathai/status/2115089794867040584"
+      },
+      "kept_reason": "heat 82 / importance 84 达到周榜阈值",
+      "period": "weekly",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -286,7 +809,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-shanghai-embodied-ai-competition-1000-humanoids",
@@ -313,7 +836,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-toyxyz-rgbmocap",
@@ -347,7 +870,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-claude-3sat-eth-refutation",
@@ -375,12 +898,12 @@
         "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
         "post_url": "https://x.com/choblin29/status/2114958912135078256"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 86 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -606,6 +1129,33 @@
       "on_board": true
     },
     {
+      "id": "news-aa-intelligence-index-v5",
+      "title": "Artificial Analysis 智能指数升级 v5：六成评测改用私有测试集，新增 FrontierCode 2.0 与 Terminal-Bench-Science",
+      "summary": "第三方评测机构 Artificial Analysis 10 月 27 日发布智能指数 v5，称是 1 月 v4 以来最大升级：9 项评测中 60% 基于私有测试集或保留答案；新增 Cognition 的私有编码基准 FrontierCode 2.0（132 个真实仓库任务，以维护者是否愿意合并为准）和 Terminal-Bench-Science（70 个科研智能体任务），HLE 换成 HLE-Diamond，移除 GDPval-AA、SciCode、AA-LCR。同时推出基于项目反应理论的 Progress Index v1，把 2022 年 11 月以来的模型放在同一能力尺度上。v5 发布当天 Claude Opus 5.5 居首，次日 Gemini 4 Carbon 以 59 分登顶。",
+      "source": "news",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "published_at": "2026-10-27T00:00:00+08:00",
+      "tags": [
+        "大模型",
+        "评测",
+        "Artificial Analysis"
+      ],
+      "card_type": "research",
+      "heat": 58,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
+      "on_board": true
+    },
+    {
       "id": "news-mirendil-fern-0-1-10m-context",
       "title": "Mirendil 发布首个模型 Fern 0.1：从零预训练，号称支持 1000 万 token 上下文",
       "summary": "Behnam Neyshabur 创办的 Mirendil 10 月 26 日发布首个模型 Fern。Fern 从零预训练，官方称架构、训练和推理都支持最多 1000 万 token 上下文（约 23 MB、50 万行代码）。首版 Fern 0.1 就是上周公布的 Mirendil-Base 经过短暂后训练的版本，据 Startup Fortune 报道，公司公布的 RULER 测试在 1000 万长度下单针检索 100%、多键检索 90%、多跳问答 45%（每项 20 个样例）。更大的 Mirendil-Base-Large（0.5–2T）和 XL（2–10T）还在预训练。目前只开放抢先体验申请，没有价格，以上均为公司自述。Neyshabur 发布帖约 1600 赞、11.8 万浏览。",
@@ -823,6 +1373,37 @@
       "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-mocai-video-mocap-oct-updates",
+      "title": "单目视频动捕 Mocai 10 月更新：导出带 T/A-pose 参考帧、脚部锁地、支持 MCP 与 CLI 批量处理",
+      "summary": "单摄像头无标记动捕服务 Mocai 更新日志显示，10 月 9 日起骨骼导出可加 T-pose 或 A-pose 首帧（Mixamo 为标准 T-pose，UE5 与 MetaHuman 为 Epic 官方 A-pose），方便在 Maya/MotionBuilder 中手动重定向；着地的脚会锁定在地面不漂移；新增 MCP 连接器和 mocai CLI，可让 Claude、Cursor 等智能体把整个视频文件夹批量转成动捕。10 月 26 日更新让附加导出即时生成、导出失败有明确回执，多人画面只追踪指定演员时快约一倍。支持 FBX、GLB、USD、BVH 导出及 Blender/Maya/Unreal/Unity 插件，可直接重定向到 Mixamo、UE5、MetaHuman 骨架。来源为官方更新日志，社区热度不高。",
+      "source": "news",
+      "url": "https://mocai.ai/changelog",
+      "published_at": "2026-10-26T00:00:00+08:00",
+      "tags": [
+        "角色动画",
+        "视频动捕",
+        "重定向",
+        "FBX",
+        "Unreal",
+        "Mocai"
+      ],
+      "model_vendor": "Mocai",
+      "model_name": "Mocai",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 30,
+      "importance": 55,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "kept_reason": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "archive",
+      "first_seen_at": "2026-10-29T08:23:14+08:00",
+      "last_period": "archive",
       "on_board": true
     },
     {
@@ -1314,7 +1895,7 @@
       "period": "archive",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "archive",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-canva-craft-image-model",
@@ -1632,7 +2213,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-anthropic-claude-duet",
@@ -1660,10 +2241,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2112982862186106880/vid/avc1/640x360/L7zosiEUW76tqYr-.mp4",
         "post_url": "https://x.com/claudeai/status/2112984664256241837"
       },
-      "kept_reason": "heat 94 / importance 82 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 94 / importance 82 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1761,7 +2342,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-23T08:13:03+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-torchtpu-open-source",
@@ -1907,11 +2488,11 @@
       "heat": 92,
       "importance": 84,
       "category": "大模型",
-      "kept_reason": "heat 92 / importance 84 达到周榜阈值",
+      "kept_reason": "heat 92 / importance 84 达到月榜阈值",
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1999,7 +2580,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-nvidia-dsx-pod-gtc-berlin",
@@ -2060,7 +2641,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "showcase-claude-pxl-pixel-art-skill",
@@ -2157,7 +2738,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-trump-data-centers-self-power-dividend",
@@ -3192,7 +3773,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-anthropic-public-benefit-fund",
@@ -3224,7 +3805,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-20T08:22:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-openai-30b-round-ahead-anthropic-ipo",
@@ -5720,7 +6301,7 @@
     {
       "id": "news-gemini-4-carbon-internal",
       "title": "【传闻】Gemini 4 新检查点 Carbon：BI 曝内部测试，10 月 21 日起多名用户称已在 LMArena 以 Argon 名义出现、合作伙伴拿到早期访问",
-      "summary": "Business Insider 根据内部文件、截图和聊天记录报道，Google 内部在测试多个 Gemini 4 变体（Argon、Barium、Carbon）。Carbon 近几天部署到内部编程平台 Jetski，主要在编程上强于 Argon，一名员工称其“感觉像 Opus 5.5”，但仍需更多测试；已公布的 Argon 内部代号为“Barium-B”。没有公开跑分，Google 未确认 Carbon 会以何种名义发布。【10 月 21 日更新·传闻】多名 X 用户称 Gemini 4 Carbon 已以“Gemini 4 Argon”名义在 LMArena 上被路由测试，早期访问已发给合作伙伴，晒出的 SVG、体素和 3D 场景样例被认为比 Argon 更干净、细节更好，但生成更慢、前端表现一般。以上均为用户转述，Google 未确认。",
+      "summary": "Business Insider 根据内部文件、截图和聊天记录报道，Google 内部在测试多个 Gemini 4 变体（Argon、Barium、Carbon）。Carbon 近几天部署到内部编程平台 Jetski，主要在编程上强于 Argon，一名员工称其“感觉像 Opus 5.5”，但仍需更多测试；已公布的 Argon 内部代号为“Barium-B”。没有公开跑分，Google 未确认 Carbon 会以何种名义发布。【10 月 21 日更新·传闻】多名 X 用户称 Gemini 4 Carbon 已以“Gemini 4 Argon”名义在 LMArena 上被路由测试，早期访问已发给合作伙伴，晒出的 SVG、体素和 3D 场景样例被认为比 Argon 更干净、细节更好，但生成更慢、前端表现一般。以上均为用户转述，Google 未确认。\n【10-29 更新】Gemini 4 Carbon 已于北京时间 10 月 29 日凌晨正式发布（AA 智能指数 v5 第一，先向网络防御者开放），详见新卡 news-gemini-4-carbon。",
       "source": "news",
       "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10",
       "published_at": "2026-10-10T03:37:54+08:00",

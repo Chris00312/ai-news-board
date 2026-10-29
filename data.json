@@ -1,33 +1,319 @@
 {
-  "updated_at": "2026-10-28T08:18:49+08:00",
+  "updated_at": "2026-10-29T08:23:14+08:00",
   "items": [
     {
-      "id": "news-anthropic-gsa-onegov-40-discount",
-      "title": "Anthropic 扩大与美国 GSA 合作：各级政府买 Claude 全线打六折，预计为政府省 10 亿美元",
-      "summary": "Anthropic 10 月 27 日宣布与美国总务管理局（GSA）签新协议：联邦政府以及州、地方、部落和领地政府购买 Claude Enterprise、Claude for Government 和 Claude API 均可享 40% 折扣，首次覆盖直接采购和（未来几个月起）通过云厂商采购的所有渠道，没有最低消费要求。Anthropic 估计折扣可为政府节省约 10 亿美元。官方称目前约 500 个美国联邦、州和地方政府机构在用 Claude，Claude for Government 周活用户自 2 月以来增长约 8 倍。发布帖约 900 赞、8.6 万浏览。",
+      "id": "news-marvell-lumentum-acquisition-talks",
+      "title": "【报道】彭博：Marvell 正深入洽谈收购光器件商 Lumentum，后者市值约 830 亿美元，最快下周宣布",
+      "summary": "据彭博社北京时间 10 月 29 日早报道（援引知情人士），芯片公司 Marvell 正就收购 AI 数据中心光器件厂商 Lumentum 进行深入谈判，交易最快可能下周宣布，尚未达成最终协议。Lumentum 市值约 830 亿美元，Marvell 约 2210 亿美元。消息传出后 Lumentum 盘后大涨、Marvell 下跌。光互联已成 AI 集群扩容的关键环节。属媒体报道，双方未确认。",
       "source": "news",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "published_at": "2026-10-28T06:20:23+08:00",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "published_at": "2026-10-29T07:50:08+08:00",
       "tags": [
         "行业动态",
-        "Anthropic",
-        "政府采购",
-        "政策"
+        "并购",
+        "光互联",
+        "Marvell",
+        "Lumentum",
+        "传闻"
       ],
-      "model_vendor": "Anthropic",
       "card_type": "model_update",
-      "heat": 45,
-      "importance": 58,
+      "heat": 66,
+      "importance": 74,
       "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-openai-chatgpt-subscribers-api-credits",
+      "title": "OpenAI：ChatGPT Pro 与 Business 订阅者每月可领最多 500 美元 API 额度",
+      "summary": "OpenAI 北京时间 10 月 29 日早宣布，符合条件的 ChatGPT Pro 和 Business 订阅者可每月领取最多 500 美元 API 额度，用来开发应用和智能体。帮助文档说明：需把付费订阅关联到自己拥有的 API 组织；Business 按席位累计（Standard 每席 20 美元、Premium 每席 100 美元），每个工作区每月上限 500 美元；额度当期有效、不结转，订阅需已生效至少 7 天。@OpenAIDevs 帖约 1900 赞。",
+      "source": "news",
+      "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "published_at": "2026-10-29T07:17:13+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "API"
+      ],
+      "model_vendor": "OpenAI",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 66,
+      "importance": 60,
+      "category": "大模型",
       "media": {
-        "type": "image",
-        "thumb_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
-        "media_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
-        "post_url": "https://x.com/AnthropicAI/status/2115207004293853358"
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVwQebcWUAA6B1s.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115583492662988800/vid/avc1/1920x1080/iJs0ZWOuUa7u0uHe.mp4?tag=16",
+        "post_url": "https://x.com/OpenAIDevs/status/2115583698074755078"
       },
       "kept_reason": null,
       "model_name": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-gemini-4-carbon",
+      "title": "Google 发布 Gemini 4 Carbon：Argon 两周后再换旗舰，AA 智能指数 v5 以 59 分登顶，主打网络安全与长程任务",
+      "summary": "Google 北京时间 10 月 29 日凌晨发布下一代前沿模型 Gemini 4 Carbon，距 Gemini 4 Argon 上线仅两周。官方称它在 Artificial Analysis 智能指数 v5 上以 59 分排第一（AA 同时指出其在编码智能体指数上仅次于 Claude Opus 5.5）；网络安全方面 SEC-bench Pro 88.2%（找漏洞）、ExploitGym 54.8%（利用）、CWE-bench 71.0%（修补），WebDev Arena 升 89 分至第 4（1768）。内部测试称生成安全代码成功率是 Argon 两倍多，Terminal-Bench 4.0 作弊成功率降到 0%。发布节奏较谨慎：本周先向部分网络防御者开放，再经 Fairwind 计划逐步扩大，开发者和消费者版本“尽快”推出；推广期价格与 Argon 相同，每百万 token 输入 2 美元、输出 10 美元，之后为 4 / 20 美元。Pichai 发布帖约 2.4 万赞、310 万浏览。成绩均为官方或 AA 口径。",
+      "source": "news",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "published_at": "2026-10-29T01:01:48+08:00",
+      "tags": [
+        "大模型",
+        "Google",
+        "Gemini",
+        "前沿模型",
+        "网络安全"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini 4 Carbon",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 96,
+      "importance": 93,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVu5GHmbUAAppsK.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVu5GHmbUAAppsK.jpg",
+        "post_url": "https://x.com/sundarpichai/status/2115489219804352921"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-github-copilot-fusion",
+      "title": "GitHub Universe 发布 Copilot Fusion：在 Anthropic 与 OpenAI 模型间自动路由编排，AA 测得成本减半、分数仅低 2 分",
+      "summary": "GitHub 在 10 月 28 日开幕的 Universe 2026 上推出 Copilot Fusion：用户只选 Standard / High / Max 三档力度，系统在 Claude Opus 5.5、Claude Sonnet 5.5、GPT-6 Astra、GPT-6 Sol 等模型间自动选择，并用单模型、级联、互评（Critique）三种流程平衡质量、成本和延迟。Artificial Analysis 测得它在编码智能体指数上比 Claude Code 里的 Opus 5.5 低 2 分，但单任务成本约为一半。同场还发布了 Copilot 新应用和跨仓库 Projects。",
+      "source": "news",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "published_at": "2026-10-29T00:14:44+08:00",
+      "tags": [
+        "大模型",
+        "GitHub",
+        "Copilot",
+        "模型路由",
+        "编程智能体"
+      ],
+      "model_vendor": "GitHub",
+      "model_name": "Copilot Fusion",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 64,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVuvK6xbkAA232s.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVuvK6xbkAA232s.jpg",
+        "post_url": "https://x.com/ArtificialAnlys/status/2115477376981508419"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-alphabet-microsoft-q3-capex",
+      "title": "谷歌与微软财报：Alphabet Q3 资本支出 513.6 亿美元、自由现金流转负，股价盘后跌超 10%；微软 Azure 增 48%",
+      "summary": "Alphabet 10 月 28 日发布 Q3 财报：营收 1275.8 亿美元（同比 +25%）、调整后 EPS 2.67 美元，近四年首次营收和利润双双不及预期；资本支出 513.6 亿美元，自由现金流为 -90.7 亿美元，长期负债升至 1251 亿美元。全年资本支出指引维持 1950–2050 亿美元，CFO 称 2027 年将“显著增加”。Google Cloud 营收同比翻倍多至 307 亿美元，Gemini 应用用户达 10 亿；股价盘后跌超 10%。同日微软 FY27 Q1 营收 923 亿美元（+19%），Azure 增长 48% 至 332 亿美元；含融资租赁的资本支出 452 亿美元，低于此前 500 亿美元以上的指引，原因是第三方算力交付延迟，并预计 2026 自然年资本支出约 1700 亿美元（据财报电话会报道）。",
+      "source": "news",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "财报",
+        "资本支出",
+        "Alphabet",
+        "微软",
+        "算力"
+      ],
+      "card_type": "model_update",
+      "heat": 74,
+      "importance": 82,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://image.cnbcfm.com/api/v1/image/108476670-1793220059525-108476670-1793219835583-gettyimages-2286485713-ALPHABET_EARNS.jpeg?v=1793220075&w=1920&h=1080",
+        "media_url": "https://image.cnbcfm.com/api/v1/image/108476670-1793220059525-108476670-1793219835583-gettyimages-2286485713-ALPHABET_EARNS.jpeg?v=1793220075&w=1920&h=1080",
+        "post_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+      },
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
       "license_type": null,
+      "published_precision": "date",
+      "period": "daily"
+    },
+    {
+      "id": "repo-elayadesign-ai-design-skills",
+      "title": "个人开发者的 ai-design-skills 冲上 GitHub 趋势榜：给 Claude Code / Cursor / Codex 用的设计技能包，单日涨约 2100 星",
+      "summary": "GitHub 用户 elayadesign（个人账号，约 276 名关注者）的仓库 ai-design-skills 10 月 29 日登上 GitHub 每日趋势榜，单日新增约 2139 星、总星数约 1.1 万。它是一组给 AI 编程工具用的 Markdown 设计技能，目前主打 landing-page-design：先问需求，再给出页面结构、转化文案和完整视觉系统（字体、间距、圆角、动效），可装进 Claude Code、Cursor、Codex、Windsurf 等。作者另有 redesign-skill 仓库用于改版现有网站。星数为抓取时数据。",
+      "source": "github",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "Agent Skills",
+        "设计",
+        "Claude Code"
+      ],
+      "card_type": "repo",
+      "heat": 70,
+      "importance": 48,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "published_precision": "date",
+      "period": "daily"
+    },
+    {
+      "id": "news-cognition-70-80b-valuation-talks",
+      "title": "【报道】Cognition 获 700–800 亿美元估值投资意向，距 480 亿美元 E 轮仅数周",
+      "summary": "Business Insider 北京时间 10 月 28 日深夜援引知情人士报道，Devin 开发商 Cognition 收到估值 700–800 亿美元的投资报价，正认真考虑年底前完成新一轮融资；谈判尚处早期，估值可能变化。Cognition 9 月刚宣布以 480 亿美元估值融资超 20 亿美元，当时称年化收入从 5 月的 4.92 亿美元增至近 9 亿美元。属媒体报道，公司未确认。",
+      "source": "news",
+      "url": "https://www.businessinsider.com/cognition-round-of-funding-at-a-75-billion-valuation-2026-10",
+      "published_at": "2026-10-28T23:56:41+08:00",
+      "tags": [
+        "行业动态",
+        "融资",
+        "Cognition",
+        "AI 编程",
+        "传闻"
+      ],
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 70,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": null,
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-claude-for-legal-artifact-gallery",
+      "title": "Claude for Legal 上线现成 Artifact 模板库：合同审查、监管扫描、引注核查等可直接套用",
+      "summary": "Anthropic 北京时间 10 月 28 日晚在 Claude for Legal 中加入一个现成 Artifact 模板库，覆盖合同审查、监管动向扫描、引注核查等法律场景；用户从内置示例出发，接入自己的文档和连接器后，可分享给企业内任何人使用。@claudeai 发布帖约 2.1 万赞、369 万浏览。属于产品功能更新。",
+      "source": "twitter",
+      "url": "https://x.com/claudeai/status/2115467192276025500",
+      "published_at": "2026-10-28T23:34:16+08:00",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "Claude",
+        "法律",
+        "产品更新"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": "Claude",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 80,
+      "importance": 55,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115463032663072768/img/tiCUaCcDwMwVRih8.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115463032663072768/vid/avc1/1920x1080/TT9SzYHp-Pbwafs4.mp4",
+        "post_url": "https://x.com/claudeai/status/2115467192276025500"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-nvidia-nemotron-3-5-transcribe",
+      "title": "NVIDIA 开源 Nemotron 3.5 Transcribe：30B MoE（约 4B 激活）语音模型，40 种语言转写、说话人分离和翻译合一",
+      "summary": "NVIDIA 北京时间 10 月 28 日晚发布开放权重语音模型 Nemotron 3.5 Transcribe，30B 总参数 MoE、约 4B 激活，单个检查点支持 40 种语言转写、说话人归属、翻译、上下文提示和音频理解。Artificial Analysis 测得词错率 2.8%，与开放权重语音转文字模型并列第一。官方帖约 5300 赞、47 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
+      "published_at": "2026-10-28T23:14:50+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "NVIDIA",
+        "语音识别"
+      ],
+      "model_vendor": "NVIDIA",
+      "model_name": "Nemotron 3.5 Transcribe",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 70,
+      "importance": 62,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115457350056529921/img/N5GspUTGGH9ISNYp.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/1480x1080/jZ2Yjau1M6tU_tvl.mp4",
+        "post_url": "https://x.com/NVIDIAAI/status/2115462300241141882"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-diffuspace-clover-35b-a3b",
+      "title": "DiffuSpace 开源扩散语言模型 Clover-35B-A3B-Preview：35B MoE、约 3B 激活，按块并行解码",
+      "summary": "DiffuSpace 10 月 28 日开源 Clover-35B-A3B-Preview，一款基于 Qwen3.6-35B-A3B 改造的块扩散（block diffusion）语言模型：35B 总参数 MoE、约 3B 激活、128K 上下文，在每个块内并行填充被遮盖的 token，而不是逐个生成。团队称单 GPU BF16 可达约 680 token/秒（官方自述）。Apache-2.0 许可，权重在 Hugging Face，BF16 约需 69GB 显存，推荐用 SGLang 部署。热度较低，属技术路线新尝试。",
+      "source": "news",
+      "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+      "published_at": "2026-10-28T15:50:00+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "扩散语言模型",
+        "DiffuSpace"
+      ],
+      "model_vendor": "DiffuSpace",
+      "model_name": "Clover-35B-A3B-Preview",
+      "license_type": "Apache-2.0",
+      "card_type": "model_update",
+      "heat": 42,
+      "importance": 58,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVs4AqpbMAAfQ86.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVs4AqpbMAAfQ86.jpg",
+        "post_url": "https://x.com/dextune/status/2115350353655075010"
+      },
+      "kept_reason": null,
+      "period": "daily"
+    },
+    {
+      "id": "news-giotto-sovereign-ai-kimi-weights",
+      "title": "瑞士 Giotto.ai 发布“主权 AI”Alto 和 Solo，随后承认部分权重来自 Kimi",
+      "summary": "瑞士洛桑初创公司 Giotto.ai 发布 Giotto Alto（免费旗舰推理模型，8 张 B300 部署）和 Giotto Solo（单 GPU 本地部署版），主打托管在欧洲云、数据不出境的“主权 AI”，并称在数学和科学基准上可比肩顶级模型。发布后遭质疑，CEO 承认模型“部分权重来自 Kimi”，称已用自有方法重新训练并配合专有测试时计算，但未披露 Kimi 版本和细节；其条款还限制独立基准测试。来源为公司新闻稿与媒体报道，基准成绩未经独立验证。",
+      "source": "news",
+      "url": "https://www.neuraldaily.news/en/a/giotto-alto-solo-kimi-weights-sovereign-ai",
+      "published_at": "2026-10-28T09:01:56+08:00",
+      "tags": [
+        "大模型",
+        "主权 AI",
+        "Kimi",
+        "欧洲"
+      ],
+      "model_vendor": "Giotto.ai",
+      "model_name": "Giotto Alto / Solo",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 48,
+      "importance": 55,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": null,
       "period": "daily"
     },
     {
@@ -49,11 +335,11 @@
       "heat": 78,
       "importance": 76,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 76 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
       "id": "news-liquid-ai-lfm3",
@@ -82,8 +368,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
         "post_url": "https://x.com/liquidai/status/2115128329003303107"
       },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-deepmind-genie-4",
@@ -112,8 +398,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
         "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
       },
-      "kept_reason": null,
-      "period": "daily"
+      "kept_reason": "heat 96 / importance 92 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "news-oracle-ai-world-google-tpu-cerebras-openai",
@@ -136,153 +422,68 @@
       "importance": 80,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": null,
+      "kept_reason": "heat 68 / importance 80 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
-      "id": "news-gemini-robotics-er-2-public-preview",
-      "title": "Gemini Robotics ER 2 开放公开预览：机器人高层推理模型上 Google Cloud 和 Gemini API",
-      "summary": "Google 10 月 27 日把机器人具身推理模型 Gemini Robotics ER 2 开放为公开预览，可在 Google Cloud 的 Gemini Enterprise Agent Platform（Model Garden）和 Gemini API 中调用，模型名 gemini-robotics-er-2-preview。ER 2 是机器人的高层推理层，负责理解场景、规划多步任务和调用函数执行动作，支持文本、图像、音频和视频输入，输入上限约 13.1 万 token、输出 6.5 万 token。发布时间按 X 上最早相关帖估算。",
+      "id": "news-sk-hynix-q3-2026-record",
+      "title": "SK 海力士 Q3 营业利润 83.3 万亿韩元创纪录，营收首破 100 万亿韩元，HBM4 开始大规模出货",
+      "summary": "SK 海力士 10 月 28 日公布 2026 年第三季度业绩：营收 104.62 万亿韩元、营业利润 83.33 万亿韩元（利润率约 80%）、净利润 39.78 万亿韩元，营业利润同比增长 632%、环比增长 38%，均创纪录。公司称 HBM4 已在第三季度开始大规模出货，预计第四季度 HBM4 出货量和营收将超过 HBM3E；服务器 DDR5 出货增长 40% 以上，M15X 工厂年底满产。媒体报道公司同时公布了大规模股东回报计划。",
       "source": "news",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
-      "published_at": "2026-10-27T23:07:47+08:00",
+      "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "published_at": "2026-10-28T00:00:00+08:00",
       "tags": [
-        "机器人",
-        "具身推理",
-        "Gemini Robotics",
-        "Google"
-      ],
-      "model_vendor": "Google DeepMind",
-      "model_name": "Gemini Robotics ER 2",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 55,
-      "importance": 68,
-      "category": "机器人",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-robotics-2__blog__cover.width-2200..max-2200x2200.png",
-        "media_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-robotics-2__blog__cover.width-2200..max-2200x2200.png",
-        "post_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-mai-image-2-7-preview-aa",
-      "title": "微软 MAI-Image-2.7-Preview 登上 Artificial Analysis 图像编辑榜第二，仅次于 GPT Image 2.5",
-      "summary": "Artificial Analysis 10 月 27 日公布微软 AI 新图像编辑模型 MAI-Image-2.7-Preview 的测试结果：在 AA-Image-Editing v2.1 榜上排第二，仅次于 GPT Image 2.5 Sunburst（max）。和上一代 MAI-Image-2.6 相比，它在 7 类编辑动作上全部领先，其中 4 类排名第一；构图（+57 Elo）、文字（+49）和场景（+48）提升最大，在 10 个使用场景中有 4 个排第一。结果来自 AA 的盲测排名，该帖约 400 赞、25 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/ArtificialAnlys/status/2115097540320506069",
-      "published_at": "2026-10-27T23:05:24+08:00",
-      "tags": [
-        "大模型",
-        "图像编辑",
-        "微软",
-        "评测"
-      ],
-      "model_vendor": "Microsoft",
-      "model_name": "MAI-Image-2.7-Preview",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 52,
-      "importance": 58,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVpVVKFbYAAwtCX.jpg",
-        "media_url": "https://video.twimg.com/tweet_video/HVpVVKFbYAAwtCX.mp4",
-        "post_url": "https://x.com/ArtificialAnlys/status/2115097540320506069"
-      },
-      "kept_reason": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-machenta-40m-seed",
-      "title": "伦敦机器人公司 Machenta 获 4000 万美元种子轮：帝国理工衍生，主打“看一次就会”的机器人学习",
-      "summary": "伦敦机器人初创公司 Machenta 10 月 27 日宣布完成 4000 万美元种子轮，由 Creandum 和 Union Square Ventures 共同领投。公司从帝国理工学院孵化，由机器人学教授 Edward Johns 和他的学生 Vitalis Vosylius 共同创办。核心技术叫“Instant Robot Learning”：机器人只看一次人类示范就能学会新任务，模型主要在仿真中训练（帝国理工新闻：https://www.imperial.ac.uk/news/articles/2026/imperial-ai-spinout-machenta-raises-40-million-to-make-robots-instant-learners/ ）。",
-      "source": "news",
-      "url": "https://tech.eu/2026/10/27/london-robotics-startup-machenta-raises-40m-seed-investment/",
-      "published_at": "2026-10-27T21:00:00+08:00",
-      "tags": [
-        "机器人",
-        "融资",
-        "机器人学习",
-        "Machenta"
-      ],
-      "model_vendor": "Machenta",
-      "card_type": "model_update",
-      "heat": 48,
-      "importance": 62,
-      "category": "机器人",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://cdn.tech.eu/uploads/2026/10/smart-2-217.jpg",
-        "media_url": "https://cdn.tech.eu/uploads/2026/10/smart-2-217.jpg",
-        "post_url": "https://tech.eu/2026/10/27/london-robotics-startup-machenta-raises-40m-seed-investment/"
-      },
-      "kept_reason": null,
-      "model_name": null,
-      "license_type": null,
-      "period": "daily"
-    },
-    {
-      "id": "news-shanghai-embodied-ai-competition-1000-humanoids",
-      "title": "上海国际具身智能大赛落幕：800 多支队伍、约 1000 台人形机器人比拼 23 个项目",
-      "summary": "据《中国日报》10 月 27 日报道，作为 2026 全球开发者先锋大会的一部分，上海国际具身智能大赛于 10 月 26 日（周日）结束，800 多支队伍带着约 1000 台人形机器人参加 23 个类别的比赛。报道还提到，浦东已经发布 30 多款人形机器人。",
-      "source": "news",
-      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae0973de4b06d4aa0565764.html",
-      "published_at": "2026-10-27T20:21:00+08:00",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "上海",
-        "比赛"
+        "行业动态",
+        "财报",
+        "HBM",
+        "SK 海力士",
+        "算力"
       ],
       "card_type": "model_update",
-      "heat": 42,
-      "importance": 52,
-      "category": "机器人",
-      "kept_reason": null,
+      "heat": 60,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 60 / importance 72 达到周榜阈值",
       "model_vendor": null,
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily"
+      "published_precision": "date",
+      "period": "weekly"
     },
     {
-      "id": "repo-toyxyz-rgbmocap",
-      "title": "toyxyz 开源 RGBMocap：Windows 本地视频动捕，集成 GVHMR 等三种模型，带脚部接触修正、人形重定向和 FBX/VMD 导出",
-      "summary": "日本开发者 toyxyz（@toyxyz3，约 3.4 万关注）10 月 27 日发布 RGBMocap。这是一个原生 Windows 的单目视频动捕工具，集成 ExMR、FlowHMR 和 GVHMR 三种人体姿态估计模型，支持脚部接触修正（防止滑步）和人形骨架重定向，可导入 Mixamo 的 .fbx、MMD 的 .pmx 和 .vrm 模型，再导出 FBX 或 VMD 动画，能直接进 Blender、Unity 等管线。仓库创建于 10 月 27 日，目前约 110 星，未标明标准开源协议。演示帖约 530 赞、2 万浏览。",
-      "source": "github",
-      "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
-      "published_at": "2026-10-27T18:37:37+08:00",
+      "id": "research-axiom-cfsg-lean",
+      "title": "Axiom 用数十个 AI 智能体 24 天完成有限单群分类定理的 Lean 全形式化：约 4310 万行，无 sorry",
+      "summary": "AI 数学公司 Axiom 宣布完成有限单群分类（CFSG，原证明约 1.5 万页、百余位数学家参与）的完整 Lean 4 形式化。官方博客称，工程师和数学家指挥数十个 AI 智能体组成的“蜂群”，从 10 月 1 日起用 24 天写出约 4310 万行 Lean 代码，按 108 个里程碑、约 380 个子任务协作；仓库称证明不含 sorry，只依赖 Lean 三条标准公理，Apache-2.0 开源。过程中发现 34 处与已发表文献不符的重要偏差，并得到一个关于 Unbalanced Group Theorem 的新结果。注意：截至 10 月 28 日尚无外部团队独立重建验证，官方 X 帖写“5000 万行”与博客 4310 万行不一致，以博客为准。发布帖约 6900 赞、355 万浏览。",
+      "source": "news",
+      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+      "published_at": "2026-10-27T22:34:38+08:00",
       "tags": [
-        "角色动画",
-        "动捕",
-        "重定向",
-        "FBX",
-        "开源"
+        "大模型",
+        "AI 数学",
+        "Lean",
+        "形式化证明",
+        "智能体"
       ],
-      "model_vendor": "toyxyz",
-      "model_name": "RGBMocap",
-      "card_type": "repo",
-      "heat": 62,
-      "importance": 66,
-      "category": "角色动画",
-      "storyline": "游戏引擎角色动画",
+      "model_vendor": "Axiom",
+      "model_name": "AxiomProver",
+      "license_type": "Apache-2.0",
+      "card_type": "research",
+      "heat": 82,
+      "importance": 84,
+      "category": "大模型",
       "media": {
         "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115030011745054721/img/YCjJOX6JH5lXfyrI.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2115030011745054721/vid/avc1/1920x1080/5oHFUL62Bkt_JHaD.mp4",
-        "post_url": "https://x.com/toyxyz3/status/2115030148840038608"
+        "thumb_url": "https://pbs.twimg.com/media/HVpOm-eaUAAZZVL.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4",
+        "post_url": "https://x.com/axiommathai/status/2115089794867040584"
       },
-      "kept_reason": null,
-      "license_type": null,
-      "period": "daily"
+      "kept_reason": "heat 82 / importance 84 达到周榜阈值",
+      "period": "weekly"
     },
     {
       "id": "research-anthropic-claude-3sat-eth-refutation",
@@ -310,10 +511,10 @@
         "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
         "post_url": "https://x.com/choblin29/status/2114958912135078256"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 86 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily"
+      "period": "weekly"
     },
     {
       "id": "research-openai-kakeya-eth-qcd-discoveries",
@@ -683,36 +884,6 @@
       "period": "weekly"
     },
     {
-      "id": "news-tesla-optimus-fremont-production",
-      "title": "特斯拉 Q3 财报：Optimus 在弗里蒙特高产量产线开产，首批“量产品质”机器人下线；马斯克称到每周 2 万台至少还要一年",
-      "summary": "特斯拉 10 月 21 日发布的 2026 年第三季度股东信写道：Optimus 已在弗里蒙特工厂的高产量产线上开始生产，下线的是特斯拉造出的第一批“量产品质”机器人，证明现有制造工艺适合商业化产品；产能表里加州 Optimus 标为“早期爬坡”，得州仍在建设，没有给出产量、单价和对外交付时间。马斯克在财报电话会上说，弗里蒙特已装好年产百万台产线的大部分设备，但设计还在改，预计至少一年、可能更久才能达到每周 2 万台；可靠性、寿命和 AI 能力等问题预计明年底前后解决，届时开始向外部公司交付。同季度净利润 7.87 亿美元，同比下降 43%。【10 月 25 日更新】据 X 新闻聚合转述财报电话会内容，马斯克还提出“Optimus Academy”：在弗里蒙特用 1 万到 2 万台机器人通过反复实操和自我对弈来训练、积累数据。",
-      "source": "news",
-      "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
-      "published_at": "2026-10-22T04:04:24+08:00",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "特斯拉",
-        "Optimus"
-      ],
-      "model_vendor": "Tesla",
-      "model_name": "Optimus",
-      "card_type": "model_update",
-      "heat": 86,
-      "importance": 84,
-      "category": "机器人",
-      "storyline": "人形机器人落地",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HVLfv_XbQAAmvdB.jpg",
-        "media_url": "https://pbs.twimg.com/media/HVLfv_XbQAAmvdB.jpg",
-        "post_url": "https://x.com/Tesla/status/2112998455383847332"
-      },
-      "kept_reason": "heat 86 / importance 84 达到周榜阈值",
-      "license_type": null,
-      "period": "weekly"
-    },
-    {
       "id": "news-anthropic-claude-duet",
       "title": "Anthropic 开放 Claude Duet 研究预览：主动找你的常驻智能体 App，后台用自带云端电脑干活，敏感操作先问你",
       "summary": "Anthropic 10 月 21 日开放 Claude Duet 研究预览：一个独立的 iOS / Android App（claude.ai 网页也可用），Claude 以“主动型智能体”身份工作——每天早上扫邮箱和日历发简报、挑出最需要处理的事并先起草回复，接手排期、财务模型、幻灯片、看板等较大任务，在自己的云端虚拟机和浏览器里后台运行，关掉手机也能继续；发消息、付款、签文件、删除前会先征求同意。它沿用用户在 Claude 里的记忆、技能和已连接的应用，官方称支持 6000 多个连接器和插件，固定跑在 Claude Opus 5.5 上、不能选模型。首批只对美国 Pro / Max 用户按候补名单分批开放，与其他 Claude 用量共享额度，暂不支持 Team / Enterprise，也还不能看它的浏览器操作过程。官方发布帖约 3.4 万赞、343 万浏览。",
@@ -738,38 +909,8 @@
         "media_url": "https://video.twimg.com/amplify_video/2112982862186106880/vid/avc1/640x360/L7zosiEUW76tqYr-.mp4",
         "post_url": "https://x.com/claudeai/status/2112984664256241837"
       },
-      "kept_reason": "heat 94 / importance 82 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-flapping-airplanes-1b-series-a",
-      "title": "Flapping Airplanes 完成 10 亿美元 A 轮、估值约 60 亿美元：Index 与 Lux 领投，英伟达跟投，主打“单个巨型内核”跑完训练和推理",
-      "summary": "AI 基础设施初创公司 Flapping Airplanes 10 月 21 日宣布完成 10 亿美元 A 轮融资，由 Index Ventures 和 Lux Capital 联合领投；据 X 新闻聚合，估值约 60 亿美元，红杉、GV、Kleiner Perkins 和英伟达参投。公司做的是 GPU 底层原语，同日称已做出“世界上最完整的 megakernel 框架”：一个 GPU 内核里就能跑完整个训练、提供推理服务、玩电子游戏，甚至三件事同时进行（公司自述，未见独立测评）。融资公告帖约 3700 赞、77 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/flappyairplanes/status/2112955212612919318",
-      "published_at": "2026-10-22T01:12:00+08:00",
-      "tags": [
-        "行业动态",
-        "融资",
-        "GPU",
-        "推理"
-      ],
-      "model_vendor": "Flapping Airplanes",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 76,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/tweet_video_thumb/HVK5hvPa4AAuD2s.jpg",
-        "media_url": "https://video.twimg.com/tweet_video/HVK5hvPa4AAuD2s.mp4",
-        "post_url": "https://x.com/flappyairplanes/status/2112955212612919318"
-      },
-      "kept_reason": "heat 80 / importance 76 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "period": "weekly"
+      "kept_reason": "heat 94 / importance 82 达到月榜阈值",
+      "period": "monthly"
     },
     {
       "id": "research-openai-patch-the-planet-php2shell",
@@ -791,93 +932,9 @@
       "heat": 92,
       "importance": 84,
       "category": "大模型",
-      "kept_reason": "heat 92 / importance 84 达到周榜阈值",
+      "kept_reason": "heat 92 / importance 84 达到月榜阈值",
       "media": null,
-      "period": "weekly"
-    },
-    {
-      "id": "news-openai-models-on-google-cloud",
-      "title": "OpenAI 模型登陆 Google Cloud：GPT-6 Astra / 6.1 Sol / Luna 和 Codex 进入 Model Garden 私测，三大美国云齐了",
-      "summary": "OpenAI 与 Google Cloud 10 月 21 日宣布合作，把 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 等前沿模型和 Codex 智能体编程工作流带到 Google Cloud 的 Model Garden（Gemini Enterprise Agent Platform），目前为邀请制私有预览，计划几周内正式上线，通过 Google Cloud Marketplace 采购、费用计入 Google Cloud 账单并可抵扣已有承诺消费。Google Cloud 称自己成为唯一同时提供三家头部闭源大模型（Gemini、Claude、GPT）的超大规模云；对 OpenAI 来说，这是 4 月微软 Azure 独家结束后，进入美国全部三大云的最后一块。OpenAI 官方帖约 2600 赞、20 万浏览。",
-      "source": "news",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "published_at": "2026-10-21T21:19:54+08:00",
-      "tags": [
-        "行业动态",
-        "OpenAI",
-        "Google Cloud",
-        "云"
-      ],
-      "model_vendor": "OpenAI / Google",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 80,
-      "importance": 84,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HVKEUKPWEAA9mvu.jpg",
-        "media_url": "https://pbs.twimg.com/media/HVKEUKPWEAA9mvu.jpg",
-        "post_url": "https://x.com/googlecloud/status/2112896659608785181"
-      },
-      "kept_reason": "heat 80 / importance 84 达到周榜阈值",
-      "model_name": null,
-      "period": "weekly"
-    },
-    {
-      "id": "news-spacex-200k-gb300-per-month",
-      "title": "马斯克在 SpaceX 财报会上称每月上线约 20 万块 GB300、明年再加 10GW 算力；英伟达把 SpaceX 列为云厂商客户",
-      "summary": "据 Benzinga，马斯克在 10 月 20 日（美东）SpaceX 第三季度财报电话会上表示，公司今年剩余时间每月可上线约 20 万块英伟达 GB300，明年以 Vera Rubin 为主，“相当有把握”在 2027 年新增 10GW 算力，并计划在明年二季度末前建成 44 万块 Vera Rubin 的训练集群；分析师据此估算 SpaceX 仅四季度就约 60 万块 GPU。英伟达盘后涨约 2%。马斯克在 X 上称“缺电”是过度简化，以极快速度上线海量算力的每个环节都难。黄仁勋在 BG2 播客中说，英伟达已把 SpaceX 从企业客户改列为云服务商，双方工程团队正联合设计面向太空和地面数据中心的新型服务器。SpaceX 三季度营收 145.8 亿美元，高于预期。",
-      "source": "news",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62485538/nvidia-pops-after-hours-spacex-musk-chips-newman-ripping",
-      "published_at": "2026-10-21T20:20:26+08:00",
-      "tags": [
-        "行业动态",
-        "算力",
-        "SpaceX",
-        "英伟达"
-      ],
-      "model_vendor": "SpaceX / NVIDIA",
-      "card_type": "model_update",
-      "heat": 78,
-      "importance": 80,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 78 / importance 80 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "media": null,
-      "period": "weekly"
-    },
-    {
-      "id": "showcase-unitree-h2x-kung-fu-guardian",
-      "title": "宇树发布 H2-X「功夫传奇·守护者」视频：空翻踢车、抬车救人，宣传续航约 8 小时，帖子 358 万浏览",
-      "summary": "宇树 10 月 21 日发布人形机器人 H2-X 宣传片《H2-X Kung Fu Legend Guardian》：机器人在废车场跳上车顶后空翻落地、踢碎车门玻璃、从标注 4 米高的平台跃下，再演示挡在持刀“入侵者”前、抬起车头让人救出被困假人、把儿童假人推离来车等安保和救援场景；宇树称画面真实、未加速，官方宣传最长续航约 8 小时（片中注明为站立续航）。H2-X 基于身高约 1.82 米的 H2 平台，宇树未公布具体规格、价格和上市时间，Humanoids Daily 指出这些是剪辑过的脚本化演示，不能说明机器人能自主判断威胁或完成救援。官方帖约 1.9 万赞、358 万浏览。",
-      "source": "twitter",
-      "url": "https://x.com/UnitreeRobotics/status/2112819774573179175",
-      "published_at": "2026-10-21T16:14:23+08:00",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "宇树"
-      ],
-      "model_vendor": "宇树科技",
-      "model_name": "H2-X",
-      "card_type": "showcase",
-      "heat": 92,
-      "importance": 70,
-      "category": "机器人",
-      "storyline": "人形机器人落地",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2112814220194828288/img/RL8lXu0dfq4qop9M.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2112814220194828288/vid/avc1/1920x1080/dphHVlNFst1G9RW0.mp4",
-        "post_url": "https://x.com/UnitreeRobotics/status/2112819774573179175"
-      },
-      "kept_reason": "heat 92 / importance 70 达到周榜阈值",
-      "license_type": null,
-      "period": "weekly"
+      "period": "monthly"
     },
     {
       "id": "news-anthropic-s1-h1-loss-80b",
@@ -931,63 +988,6 @@
       "category": "大模型",
       "kept_reason": "heat 93 / importance 80 达到月榜阈值",
       "media": null,
-      "period": "monthly"
-    },
-    {
-      "id": "news-minimax-m3-1-flash",
-      "title": "MiniMax 发布 M3.1 Flash：神秘模型 Space Bunny 揭晓，AA 智能指数 42，输入 0.15 美元/百万 token，10 月 23 日放权重",
-      "summary": "MiniMax 10 月 19 日正式推出 M3.1 Flash，并确认此前在榜单上走红、累计处理 200T+ token 的匿名模型 Space Bunny 就是它的早期版本。官方称相比上一代推理快近 3 倍、agent 使用成本降 70%，面向 agent、编程、电脑操作与网络安全，上下文 1M，API 定价输入 0.15、输出 0.60 美元/百万 token；已在 MiniMax API、M Plan、MiniMax Code 上线，权重计划 10 月 23 日放出。据 VentureBeat 援引 Artificial Analysis，M3.1 Flash 智能指数 42（M3 为 29），与 GLM-5.3 Flash 持平、略低于 DeepSeek V4.1 Flash-1017 的 45，但幻觉倾向明显偏高。官方发布帖约 6500 赞、89 万浏览。【10 月 23 日更新】MiniMax 北京时间 10 月 23 日上午如期放出 M3.1 Flash 权重（Hugging Face、ModelScope），总参 428B、每 token 激活 23B；官方成绩 BankerToolBench 76.2、DeepSWE v1.1 73.7%、OSWorld V2 61.7、Agents' Last Exam 29.6、CyberGym 82.2。公告帖约 3900 赞。",
-      "source": "news",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "published_at": "2026-10-19T19:56:23+08:00",
-      "tags": [
-        "大模型",
-        "开源模型",
-        "MiniMax"
-      ],
-      "model_vendor": "MiniMax",
-      "model_name": "MiniMax M3.1 Flash",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "heat": 86,
-      "importance": 82,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HU_d5nbXEAAict2.jpg",
-        "media_url": "https://pbs.twimg.com/media/HU_d5nbXEAAict2.jpg",
-        "post_url": "https://x.com/MiniMax_AI/status/2112150867868541221"
-      },
-      "kept_reason": "heat 86 / importance 82 达到月榜阈值",
-      "period": "monthly"
-    },
-    {
-      "id": "news-anthropic-public-benefit-fund",
-      "title": "Anthropic 拿出 5% 股份成立公共利益基金：公司每增值 50% 可再追加 2%，合计约 20% 股份用于公益",
-      "summary": "Anthropic 10 月 18 日宣布设立 Anthropic Public Benefit Fund（全资 LLC）：经股东批准后先注入公司 5% 股份，此后公司估值每比基准增长 50%，董事会可酌情再追加 2%。基金可做大额捐赠或向特定人群直接分配，例如应对 AI 对劳动力市场的冲击（公司此前已承诺 2 亿美元研究该问题），基金股权不得用于游说或政治捐款。官方称加上联合创始人承诺捐出 80% 股权和员工股权捐赠配捐计划（约一半员工参与），约 20% 的股份将用于公共利益。此举发生在其 IPO 前夕。官方帖约 2.1 万赞、695 万浏览。",
-      "source": "news",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "published_at": "2026-10-19T02:07:51+08:00",
-      "tags": [
-        "行业动态",
-        "资本",
-        "Anthropic"
-      ],
-      "model_vendor": "Anthropic",
-      "card_type": "model_update",
-      "heat": 92,
-      "importance": 76,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
-        "media_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
-        "post_url": "https://x.com/AnthropicAI/status/2111881963657412903"
-      },
-      "kept_reason": "heat 92 / importance 76 达到月榜阈值",
-      "model_name": null,
-      "license_type": null,
       "period": "monthly"
     },
     {
