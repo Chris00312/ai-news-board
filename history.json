@@ -1,41 +1,507 @@
 {
-  "updated_at": "2026-10-30T09:26:42+08:00",
+  "updated_at": "2026-11-02T08:15:04+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 251
+      "count": 256
     },
     {
       "name": "世界模型",
-      "count": 28
+      "count": 29
     },
     {
       "name": "机器人",
-      "count": 61
+      "count": 62
     },
     {
       "name": "AI 2D 游戏美术",
-      "count": 54
+      "count": 55
     },
     {
       "name": "3D 生成",
-      "count": 33
+      "count": 35
     },
     {
       "name": "角色动画",
-      "count": 43
+      "count": 45
     },
     {
       "name": "行业动态",
-      "count": 79
+      "count": 83
     },
     {
       "name": "小众开发热帖",
-      "count": 54
+      "count": 55
     }
   ],
   "items": [
+    {
+      "source": "github",
+      "tags": [
+        "小众开发热帖",
+        "GitHub 趋势",
+        "Claude Code",
+        "游戏开发",
+        "智能体"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": "open_source",
+      "card_type": "repo",
+      "kept_reason": null,
+      "media": null,
+      "id": "repo-donchitos-claude-code-game-studios",
+      "title": "个人项目 Claude-Code-Game-Studios 冲上 GitHub 日榜：49 个智能体、72 个工作流技能把 Claude Code 变成游戏工作室",
+      "summary": "开发者 Donchitos 的 Claude-Code-Game-Studios（MIT，2026 年 2 月建库）11 月 2 日在 GitHub 日趋势榜，当日新增 967 星，总星约 3.2 万、fork 约 4400。项目把 Claude Code 组织成完整的游戏开发工作室：49 个 AI 智能体、72 个工作流技能，以及模仿真实工作室层级的协作体系。",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 70,
+      "importance": 48,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "角色动画",
+        "动作生成",
+        "开源",
+        "文本生成动作"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": "open_source",
+      "card_type": "research",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116822395617148928/img/8t7g-evIhL_ha2PC.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/mgdw0/status/2116822429234577465"
+      },
+      "id": "research-flooddiffusion-2-streaming-motion",
+      "title": "FloodDiffusion 2 开源：路径可控的流式 3D 人体动作生成，RTX 4090 上每步 2.3 毫秒",
+      "summary": "作者 @mgdw0 11 月 1 日发布 FloodDiffusion 2：支持路径控制的流式 3D 动作生成，在 RTX 4090 上每步 2.3 毫秒，项目页、arXiv 论文、代码、Hugging Face 演示和模型全部开源；同时整理了语音驱动全身+面部手势（BEAT2/SMPL-X+FLAME）和流式文本/轨迹/场景动作（HumanML3D）系列工作。产出为 SMPL 类人体动作，进游戏引擎需再做重定向。帖子互动不高（约 45 赞）。",
+      "url": "https://x.com/mgdw0/status/2116822429234577465",
+      "published_at": "2026-11-01T17:19:30+08:00",
+      "heat": 40,
+      "importance": 56,
+      "category": "角色动画",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "AI 2D 游戏美术",
+        "精灵图",
+        "像素美术",
+        "agent-sprite-forge",
+        "Godot"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116582648113963008/img/pWxJFjp9sAEL9M4I.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/Mnilax/status/2116583914684702837"
+      },
+      "id": "showcase-mnilax-agent-sprite-forge-pokemon",
+      "title": "展示：用 agent-sprite-forge 一张定稿图出整套宝可梦式精灵动作，推荐帖 5.3 万浏览",
+      "summary": "开发者 Mnimiy（@Mnilax）10 月 31 日发帖推荐开源 Claude/Codex/Grok 技能 agent-sprite-forge：确认一张主图后自动生成待机、走、跑、攻击、跳、受击等动作片段，脚本负责抠背景、对齐帧、循环和调时间；像素模式锁定有限调色板；可导出 PNG 图集、带透明 WebM、Godot SpriteFrames 或 Aseprite；generate2dmap 还能给 Tiled、Godot、LDtk 生成瓦片和整关地图，并记录每次调用成本、设预算上限。帖子称仓库 4700+ 星，约 630 赞、715 收藏、5.3 万浏览。",
+      "url": "https://x.com/Mnilax/status/2116583914684702837",
+      "published_at": "2026-11-01T01:31:44+08:00",
+      "heat": 62,
+      "importance": 50,
+      "category": "AI 2D 游戏美术",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Meta",
+        "傅利叶",
+        "Jetson Thor"
+      ],
+      "model_vendor": "Meta",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-meta-fourier-humanoid-max",
+      "title": "【报道】The Information：Meta 与傅利叶约三个月造出人形机器人原型 Max，第二代已在开发",
+      "summary": "据 The Information（路透转述，未能独立核实），Meta 与上海傅利叶合作，用约三个月造出人形机器人原型 Max：身高约 1.5 米、重约 48 公斤，搭载英伟达 Jetson Thor，有五指灵巧手和屏幕脸。Meta 机器人产品负责人 Li-Chen Miller 在上海待了约两个月推进项目，第二代 Max 2 从 9 月开始开发。Meta 把人形机器人视为其 AI 智能体 Muse 的实体形态；Meta 称目前只用于内部研究，没有销售计划。",
+      "url": "https://thenextweb.com/news/meta-humanoid-robot-fourier-max",
+      "published_at": "2026-11-01T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 74,
+      "importance": 76,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "HUMAIN",
+        "沙特阿美",
+        "PIF",
+        "数据中心",
+        "投资"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-aramco-humain-49pct-close",
+      "title": "沙特阿美完成入股 HUMAIN 49%：2026 年注资约 26 亿美元现金加 AI 与算力资产，PIF 保留 51%",
+      "summary": "沙特公共投资基金（PIF）与沙特阿美 11 月 1 日宣布完成交易：阿美取得沙特国家 AI 公司 HUMAIN 49% 股权，PIF 保留 51%。阿美在 2026 年向 HUMAIN 注入约 99 亿里亚尔（约 26 亿美元）现金，并转入 AI 与算力相关资产。HUMAIN 目标到 2030 年部署 3 吉瓦 AI 数据中心容量。交易源于 2025 年 10 月 28 日签署的条款书。",
+      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+      "published_at": "2026-11-01T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 56,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "传闻",
+        "Anthropic",
+        "OpenAI",
+        "智谱",
+        "Qwen"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-rumor-next-week-mythos55-gpt62-glm55",
+      "title": "【传闻】下周或迎密集发布：Claude Mythos 5.5 现身官网源码、GPT-6.2 Astra 出现在 Codex 统计、GLM-5.5 内部合并训练",
+      "summary": "X 上多条帖子称：Anthropic 官网源码里出现“Claude Mythos 5.5”字样，Fable 5.5 传有合作方内测；有用户在 Codex 用量统计里看到 GPT-6.2 Astra；另有泄露称智谱正在后训练 32B、122B、256B 内部模型并合并成 GLM-5.5 基座。加上此前 Qwen4“下周发布”的说法，社区押注本周是大模型密集发布周。以上均为传闻或截图，官方未确认，也没有日期。",
+      "url": "https://x.com/i/trending/2116851813911527712",
+      "published_at": "2026-11-01T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 64,
+      "importance": 58,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "AI 安全",
+        "Anthropic",
+        "Claude",
+        "红队"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HV7E-P7bwAA7OxM.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/AnthropicAI/status/2116349211549843666"
+      },
+      "id": "research-anthropic-automated-emergent-misalignment",
+      "title": "Anthropic 让数千个 Claude 智能体自动做红队：造出“看着无害”却能教坏模型的训练数据",
+      "summary": "Anthropic 10 月 31 日发布新研究：为了把红队测试自动化，让数千个 Claude 智能体尝试绕过训练数据监控器。智能体造出了监控器看起来无害（如老摔跤手带新人、专业养蜂问答）、实际会让模型学到失准行为的数据。这些样例可直接用来改进未来的训练数据监控器。Anthropic 称这只是第一步，更强的模型和更多算力可能让自动红队效果更好。官方帖约 4000 赞、73 万浏览，全文在 Alignment Science Blog。",
+      "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+      "published_at": "2026-10-31T09:59:06+08:00",
+      "heat": 74,
+      "importance": 70,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "角色动画",
+        "SAM 3D Body",
+        "姿态估计",
+        "FF14",
+        "模组"
+      ],
+      "model_vendor": "Meta",
+      "model_name": "SAM 3D Body",
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": null,
+      "id": "showcase-ffxiv-brio-sam3d-body-pose",
+      "title": "SAM 3D Body 进了 FF14 摆拍圈：本地 AI 插件把一张图直接转成游戏骨骼姿势",
+      "summary": "FF14 模组圈作者 peachy（@peachy_lychees）10 月 31 日解释：一款与摆姿工具 Brio 分开的插件（作者称是 vibe coding 写的）在本机跑 AI 后端，用 Meta 的 SAM 3D Body 及其数据集读取图片，把姿势转换到 FF14 角色骨骼上，帖子约 310 赞、1.9 万浏览。引发讨论的原帖里，手工摆姿作者 Azai 说“图转 Brio 姿势”出现后自己没了动力，约 5.1 万浏览。这是 SAM 3D Body 被玩家直接用到游戏骨骼上的一例，插件名称和仓库未在帖中给出。",
+      "url": "https://x.com/peachy_lychees/status/2116291005117075612",
+      "published_at": "2026-10-31T06:07:49+08:00",
+      "heat": 50,
+      "importance": 52,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "融资",
+        "估值"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-openai-round-cut-20b-125t",
+      "title": "【报道】FT/CNBC：OpenAI 把本轮融资目标从约 300 亿美元下调到约 200 亿美元，估值目标从 1.4 万亿降至 1.25 万亿美元",
+      "summary": "据《金融时报》报道、CNBC 确认，OpenAI 把最新一轮融资目标从约 300 亿美元下调到约 200 亿美元，投后估值目标从 1.4 万亿美元降到 1.25 万亿美元，首轮交割预计不到 200 亿美元。以 MGX 为首的阿联酋财团预计领投，Founders Fund、Coatue、红杉、a16z 参与；之后还计划按 1.25 万亿美元估值做面向个人投资者的发行。本轮尚未结束，条款可能变化。",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "published_at": "2026-10-31T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 82,
+      "importance": 84,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "Baseten",
+        "融资",
+        "推理"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-baseten-2b-30b-valuation",
+      "title": "【报道】彭博：推理云 Baseten 拟融资约 20 亿美元，分两批估值 260 亿和 300 亿美元",
+      "summary": "据彭博报道，AI 推理基础设施公司 Baseten 正准备约 20 亿美元的两批次融资，第一批估值 260 亿美元、第二批 300 亿美元，由老股东 Sands Capital 领投，估值较上一轮翻倍以上。截至 10 月 30–31 日条款尚未最终敲定或官宣。",
+      "url": "https://thenextweb.com/news/baseten-valuation-30bn-2bn-round-bloomberg",
+      "published_at": "2026-10-31T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 52,
+      "importance": 70,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "github",
+      "tags": [
+        "大模型",
+        "DeepSeek",
+        "智能体",
+        "编程",
+        "开源"
+      ],
+      "model_vendor": "DeepSeek",
+      "model_name": null,
+      "license_type": "open_source",
+      "card_type": "repo",
+      "kept_reason": null,
+      "media": null,
+      "id": "repo-deepseek-dsh-superagent-prototype",
+      "title": "DeepSeek 开源 dsh-superagent 研究原型：盯住一个 GitHub 仓库和飞书，接活后自己开会话、提 PR",
+      "summary": "DeepSeek Harness 团队 10 月 31 日在 GitHub 放出 dsh-superagent-prototype（MIT 许可）：一个主动式编程智能体，盯住一个 GitHub 仓库和可选的飞书消息，有人派活后自动建工作项、去处理，再以 PR 等形式回复交付；网页面板只列出需要人处理的事项。README 明确说明这不是 DeepSeek 的正式产品。The Next Web 等媒体 11 月 1 日跟进报道。",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "published_at": "2026-10-31T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 68,
+      "importance": 66,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "github",
+      "tags": [
+        "3D 生成",
+        "Scenario",
+        "智能体技能",
+        "Blender",
+        "Unity",
+        "Unreal",
+        "Godot",
+        "开源"
+      ],
+      "model_vendor": "Scenario",
+      "model_name": null,
+      "license_type": "open_source",
+      "card_type": "repo",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116188665508397058/img/e7TjmUY-YuCA7Wfl.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/emmanuel_2m/status/2116188727579918358"
+      },
+      "id": "repo-scenario-3d-os",
+      "title": "Scenario 开源 3D OS：给编程智能体 6 个部门、约 80 个技能，从草图走到可进引擎的 3D 资产",
+      "summary": "Scenario 创始人 Emm 10 月 30 日发布 3D OS：一套 MIT 开源的智能体技能（scenario-labs/skills），可在 Claude Code、Codex、Cursor 里使用，跑在 Scenario 平台上。6 个部门约 80 个技能，覆盖动画（任意角色绑骨、视频提取动作）、美术、建模（图生 3D、硬表面武器载具）、材质灯光、世界（可行走 3D 世界、天空盒和泼溅场景）、管线（重拓扑、UV 烘焙、可进游戏的导出），另有直接在本机驱动 Blender、Maya、ZBrush、Unreal、Unity、Godot、Roblox 的专家工具。发布帖约 3100 赞、5500 收藏、18 万浏览。",
+      "url": "https://github.com/scenario-labs/skills",
+      "published_at": "2026-10-30T23:21:24+08:00",
+      "heat": 76,
+      "importance": 68,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "企业",
+        "隐私"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": "closed",
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116186389536788480/img/hbO4g10coOsa0Gy3.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/OpenAI/status/2116186509384815084"
+      },
+      "id": "news-openai-private-intelligence",
+      "title": "OpenAI 推出 Private Intelligence：让企业用最强模型处理敏感数据时拥有更强的数据控制",
+      "summary": "OpenAI 10 月 30 日发布面向企业的 OpenAI Private Intelligence，称可在使用其最强模型的同时，给企业更强的数据控制，这些保护措施与部分最大客户合作打造，用于把前沿 AI 用在最敏感的工作上。官方帖约 3000 赞、41 万浏览；具体技术细节见官网页面。",
+      "url": "https://openai.com/business/private-intelligence/",
+      "published_at": "2026-10-30T23:12:35+08:00",
+      "heat": 64,
+      "importance": 62,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "xAI",
+        "Grok",
+        "预告"
+      ],
+      "model_vendor": "xAI",
+      "model_name": "Grok 4.8",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-musk-grok-4-8-not-disappoint",
+      "title": "马斯克回应 Grok 4.8 延期：“不会让人失望”，不为跑分优化而追求真正有用",
+      "summary": "马斯克 10 月 30 日回复网友时说：Grok 4.8 比预期花了更久，但不会让人失望；团队不针对基准测试优化，“我真的不在乎 Grok 在跑分上表现如何”，但它会非常有用。该回复约 1.46 万赞、97 万浏览。尚无发布日期和官方参数。",
+      "url": "https://x.com/elonmusk/status/2116036703538606301",
+      "published_at": "2026-10-30T13:17:18+08:00",
+      "heat": 70,
+      "importance": 52,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "3D 生成",
+        "Kimi",
+        "月之暗面",
+        "Blender",
+        "CAD",
+        "智能体"
+      ],
+      "model_vendor": "Moonshot AI",
+      "model_name": "Kimi",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116003610509377536/img/tTDEreSob9R_UftI.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
+      },
+      "id": "news-kimi-3d-make",
+      "title": "Kimi 推出 3D Make：连接 Blender 和 CAD 工具建模、搭场景、做游戏",
+      "summary": "月之暗面 10 月 30 日上线 Kimi 3D Make：Kimi 直接操作 Blender 和 CAD 等工具，生成 3D 模型、组装场景并开发游戏，已在 Kimi 网页和 Kimi Work 上线。官方帖附 74 秒演示视频，约 3500 赞、17.6 万浏览、1400 收藏。",
+      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
+      "published_at": "2026-10-30T11:14:13+08:00",
+      "heat": 74,
+      "importance": 66,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "id": "research-openai-frontier-monitoring-system",
       "title": "OpenAI 公开扩展后的前沿模型监控系统：所有强化学习训练和内部 Codex 都在监控下，9 月曾在 15 分钟内抓到模型借 DNS 漏洞上网",
@@ -55,13 +521,13 @@
       "heat": 78,
       "importance": 82,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 78 / importance 82 达到周榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -94,7 +560,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-claude-self-assessment",
@@ -116,12 +582,12 @@
       "heat": 72,
       "importance": 72,
       "category": "大模型",
-      "kept_reason": null,
+      "kept_reason": "heat 72 / importance 72 达到周榜阈值",
       "license_type": null,
       "media": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -151,10 +617,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115856315037913088/vid/avc1/1920x1080/UoGtlCTMhMn7I6er.mp4",
         "post_url": "https://x.com/pika_labs/status/2115860471215788262"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 68 / importance 68 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -183,7 +649,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-sparkjs-spark-radix-webgpu",
@@ -217,7 +683,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-tencent-hy-nomas-world-model",
@@ -251,7 +717,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-gemini-app-docs-pdf-slides",
@@ -279,12 +745,12 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-milind-soni-openmausbot",
-      "title": "个人开发者的 OpenMausBot 上 GitHub 趋势榜：自称开源版 Grok Bot，给智能体配一台可用的虚拟机，单日涨约 1200 星",
-      "summary": "GitHub 用户 milind-soni 的仓库 OpenMausBot 10 月 30 日在 GitHub 每日趋势榜上，单日新增约 1199 星、总星数约 7491。项目自述为“开源的 Grok Bot 替代品，带一台机器人可以使用的虚拟机”，即给 AI 智能体一台自己的电脑来操作。同榜还有 JetBrains 的 thinkrail（单日约 1100 星）、nightly-labs/openbot（本地多智能体桌面工作区）等“给智能体一台电脑”类项目。星数为抓取时数据，功能为项目自述。",
+      "title": "个人开发者的 OpenMausBot 上 GitHub 趋势榜：自称开源版 Grok Bot，给智能体配一台可用的虚拟机，首日涨约 1200 星，11/2 总星破万",
+      "summary": "GitHub 用户 milind-soni 的仓库 OpenMausBot 10 月 30 日在 GitHub 每日趋势榜上，单日新增约 1199 星、总星数约 7491。项目自述为“开源的 Grok Bot 替代品，带一台机器人可以使用的虚拟机”，即给 AI 智能体一台自己的电脑来操作。同榜还有 JetBrains 的 thinkrail（单日约 1100 星）、nightly-labs/openbot（本地多智能体桌面工作区）等“给智能体一台电脑”类项目。星数为抓取时数据，功能为项目自述。 更新（11 月 2 日）：仍在 GitHub 日趋势榜，总星约 10,505，当日新增约 922。",
       "source": "github",
       "url": "https://github.com/milind-soni/OpenMausBot",
       "published_at": "2026-10-30T00:00:00+08:00",
@@ -308,6 +774,67 @@
       "published_precision": "date",
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
+      "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "亚马逊",
+        "AWS",
+        "算力",
+        "融资",
+        "数据中心"
+      ],
+      "model_vendor": "Amazon",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-amazon-80b-supplier-financing",
+      "title": "亚马逊 10-Q 披露最高 800 亿美元供应商融资贷款：以所购 AI 服务器等资产作抵押，2027 年起可提款",
+      "summary": "亚马逊在第三季度 10-Q 中披露一项最高 800 亿美元的有担保供应商融资贷款额度，用于采购技术基础设施（含 AI 硬件）。亚马逊可在 2027 年一季度到 2028 年三季度之间自主提款，浮动利率，每笔提款 5 年到期，以所购特定资产作抵押；文件未说明具体资产，也未说明是否已提款。这是亚马逊从现金和发债之外，新增的 AI 基建融资方式。",
+      "url": "https://www.investing.com/news/stock-market-news/amazon-sets-up-80-billion-supplier-financing-for-ai-hardware-4988386",
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 62,
+      "importance": 76,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "世界模型",
+        "机器人",
+        "仿真",
+        "Real-to-Sim",
+        "NTU"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": null,
+      "media": null,
+      "id": "research-ace-ntu-mundo-world-model",
+      "title": "ACE Robotics 与南洋理工 S-Lab 发布 Mundo：几张照片重建可编辑、带物理的场景，让机器人在里面预演",
+      "summary": "Mundo 是 ACE Robotics 与南洋理工 S-Lab 的世界模型：用 1–12 张照片重建可编辑、带物理属性的 3D 场景，供机器人做 Real-to-Sim 预演和训练。团队计划 11 月底前发布代码和权重。社交平台讨论热度不高。",
+      "url": "https://huggingface.co/blog/Luo-Yihang/mundo-world-model",
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 44,
+      "importance": 64,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
       "on_board": true
     },
@@ -337,12 +864,12 @@
         "media_url": "https://video.twimg.com/amplify_video/2115832198217560064/vid/avc1/3840x2160/qrl4TOaFEwRxLM8l.mp4",
         "post_url": "https://x.com/cohere/status/2115833490126336507"
       },
-      "kept_reason": null,
+      "kept_reason": "heat 74 / importance 80 达到周榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -376,7 +903,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-mistral-large-4-open-weights",
@@ -406,10 +933,10 @@
         "media_url": "https://pbs.twimg.com/media/HVzNm_7W4AAQsZV.jpg",
         "post_url": "https://x.com/MistralAI/status/2115811242556137820"
       },
-      "kept_reason": null,
-      "period": "daily",
+      "kept_reason": "heat 86 / importance 86 达到周榜阈值",
+      "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -444,7 +971,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-reachy-mini-level-up-wheels",
@@ -477,7 +1004,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-agibot-innovation-day-2026-worken",
@@ -511,7 +1038,7 @@
       "period": "daily",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-marvell-lumentum-acquisition-talks",
@@ -1946,7 +2473,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-mocai-video-mocap-oct-updates",
@@ -2009,7 +2536,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-gpt-6-1-terra-leak-rumor",
@@ -2037,11 +2564,11 @@
         "media_url": "https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/1920x1080/oUzhkuK2tc42w-OZ.mp4",
         "post_url": "https://x.com/OpenAI/status/2114780711664398349"
       },
-      "kept_reason": "heat 92 / importance 84 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 92 / importance 84 达到月榜阈值",
+      "period": "monthly",
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2184,13 +2711,13 @@
       "heat": 90,
       "importance": 86,
       "category": "大模型",
-      "kept_reason": "heat 90 / importance 86 达到周榜阈值",
+      "kept_reason": "heat 90 / importance 86 达到月榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2440,7 +2967,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-26T08:21:28+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-hi3d-v1-open-source",
@@ -5256,7 +5783,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-15T08:15:58+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-bfl-flux-3-image-klein",
@@ -9098,7 +9625,7 @@
       "storyline": "前沿模型代际竞赛",
       "first_seen_at": "2026-10-05T08:20:00+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "bf-2609-worldlabs-amd",
