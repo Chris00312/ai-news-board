@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-02T08:15:04+08:00",
+  "updated_at": "2026-11-03T08:11:19+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 256
+      "count": 261
     },
     {
       "name": "世界模型",
@@ -12,7 +12,7 @@
     },
     {
       "name": "机器人",
-      "count": 62
+      "count": 64
     },
     {
       "name": "AI 2D 游戏美术",
@@ -20,7 +20,7 @@
     },
     {
       "name": "3D 生成",
-      "count": 35
+      "count": 37
     },
     {
       "name": "角色动画",
@@ -28,14 +28,334 @@
     },
     {
       "name": "行业动态",
-      "count": 83
+      "count": 86
     },
     {
       "name": "小众开发热帖",
-      "count": 55
+      "count": 56
     }
   ],
   "items": [
+    {
+      "source": "twitter",
+      "tags": [
+        "行业动态",
+        "游戏",
+        "Steam",
+        "AI 申报"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWJJakHWIAEK6Cn.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/GameSpot/status/2117335498330968522"
+      },
+      "id": "tw-steam-oct-2026-ai-disclosure-49-9",
+      "title": "社区统计：10 月 Steam 新游戏 49.9% 申报使用 AI，2024 年还只有约 13%",
+      "summary": "Reddit 用户 u/ploz 在 r/Steam 发布社区统计，覆盖 Valve 2024 年 1 月加入 AI 申报以来约 6.36 万款游戏：2026 年 10 月上架的新游戏中有 49.9% 填写了 AI 使用申报，GameSpot 转述称 2024 年这一比例为 13.2%。据统计帖，申报中最多的是 AI 美术，其次是 AI 文本。属社区统计，非 Valve 官方数据。GameSpot 帖约 1.4 万浏览，相关转述帖约 2.7 万浏览。",
+      "url": "https://x.com/GameSpot/status/2117335498330968522",
+      "published_at": "2026-11-03T03:18:15+08:00",
+      "heat": 60,
+      "importance": 56,
+      "category": "行业动态",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "3D 生成",
+        "游戏引擎",
+        "无代码",
+        "自动绑骨"
+      ],
+      "model_vendor": "Wanaka",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117315220800745472/img/sdZBjxVzZd6Gf4uN.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/wanakaofficial/status/2117315926588846082"
+      },
+      "id": "tw-wanaka-studio-1-0-ai-native-engine",
+      "title": "Wanaka Studio 1.0 发布：面向 AI 的游戏引擎，一个工作台包办 3D 建模、绑骨、玩法和音效",
+      "summary": "团队 Wanaka 北京时间 11 月 3 日凌晨发布 Wanaka Studio 1.0，自称 AI 原生游戏引擎：不用写代码就能做 3D 多人游戏，思路是让 AI 用专门设计的引擎，而不是去操作 Unity。工作台内含 3D 模型、绑骨、玩法逻辑和音效，成品以链接分发、免安装。官方帖约 6.6 万浏览但只有约 37 赞，宣传成分较重，效果待实测。",
+      "url": "https://x.com/wanakaofficial/status/2117315926588846082",
+      "published_at": "2026-11-03T02:00:29+08:00",
+      "heat": 45,
+      "importance": 48,
+      "category": "3D 生成",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "基准测试",
+        "个人助理"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/OpenAI/status/2117307611338997846"
+      },
+      "id": "tw-openai-lifeval-benchmark",
+      "title": "OpenAI 推出 LifeVal 基准：按数千名 ChatGPT 用户反馈，测个人助理处理日常事务的能力",
+      "summary": "OpenAI 北京时间 11 月 3 日凌晨发布新基准 LifeVal，题目来自数千名 ChatGPT 用户希望个人助理帮忙的日常任务（官方举例如找托儿服务），用来衡量模型在真实生活事务上的帮助程度。官方帖约 4900 赞、45 万浏览。",
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "published_at": "2026-11-03T01:27:26+08:00",
+      "heat": 74,
+      "importance": 64,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure",
+        "量产"
+      ],
+      "model_vendor": "Figure",
+      "model_name": "F.03",
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117286032630857728/img/z9gzqC_d_FkIWrM2.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/adcock_brett/status/2117286067472937012"
+      },
+      "id": "tw-figure-f03-leaving-botq",
+      "title": "Figure：新下线的 F.03 人形机器人列队走出 BotQ 工厂，穿过园区",
+      "summary": "Figure 创始人 Brett Adcock 北京时间 11 月 3 日零点发视频，称新制造的 F.03 机器人正离开 BotQ 工厂、穿过园区前往别处，展示量产后的批量出厂场景。帖子约 2250 赞、12 万浏览。视频未说明数量和去向。",
+      "url": "https://x.com/adcock_brett/status/2117286067472937012",
+      "published_at": "2026-11-03T00:01:50+08:00",
+      "heat": 72,
+      "importance": 62,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "3D 生成",
+        "Tripo",
+        "Unity",
+        "工作流"
+      ],
+      "model_vendor": "Tripo",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117277519170736128/img/yK6jzjks_3e2Mlkn.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/rewind02/status/2117278100480262484"
+      },
+      "id": "tw-tripo-claude-unity-pumpkin-workflow",
+      "title": "实战工作流：一张南瓜图经 Tripo、Claude Opus 5.5、Blender、Unity 做成动起来的万圣节场景",
+      "summary": "创作者 @rewind02 11 月 2 日分享流程：先在 Tripo 用 P2 智能网格把图片转成四边面 3D 模型，再生成 UV 和 4K 贴图，然后把角色和场景拆开分别处理，借 Claude Opus 5.5 辅助在 Blender 和 Unity 里组装成带动画的场景。帖子约 70 赞、2000 浏览、46 收藏，热度不高但步骤完整。",
+      "url": "https://x.com/rewind02/status/2117278100480262484",
+      "published_at": "2026-11-02T23:30:10+08:00",
+      "heat": 38,
+      "importance": 42,
+      "category": "3D 生成",
+      "storyline": "AI 3D 资产生成",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "大模型",
+        "美团",
+        "LongCat",
+        "多模态",
+        "智能体编程",
+        "国产算力"
+      ],
+      "model_vendor": "美团",
+      "model_name": "LongCat-2.5",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWIIqOSbAAAeW8v.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/i/status/2117264311714537633"
+      },
+      "id": "news-meituan-longcat-2-5",
+      "title": "美团发布 LongCat-2.5：1.6 万亿参数原生多模态智能体模型，API 上线，权重暂未开放",
+      "summary": "美团 LongCat 团队 11 月 1 日发布技术博客、11 月 2 日正式上线 LongCat-2.5：总参数 1.6 万亿、每 token 激活约 480 亿的 MoE，在 LongCat-2.0 基础上加入原生视觉理解，强化长程智能体编程，训练全程用国产算力并做了 W4A4 推理优化。官网可体验，API 同步上线，官方帖称新注册送 1000 万 token、缓存命中免费。官方表格称 Terminal Bench v2.1 88.4（2.0 为 70.8），但尚无独立复测；GitHub 和 Hugging Face 目前标注「即将推出」，不是开源发布。官方帖约 1600 赞、9 万浏览。",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "published_at": "2026-11-02T22:35:23+08:00",
+      "heat": 72,
+      "importance": 80,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "AI for Science",
+        "GLM",
+        "开放权重"
+      ],
+      "model_vendor": "Deep Principle",
+      "model_name": "Hydrogen-1.0",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWH6pe4b0AAJUH2.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/DeepPrinciple/status/2117249008972550447"
+      },
+      "id": "news-deepprinciple-hydrogen-1",
+      "title": "杭州深度原理发布科研模型 Hydrogen-1.0：在 GLM-5.3 上用全流程实验记录后训练，开放权重",
+      "summary": "AI for Science 公司 Deep Principle（深度原理）北京时间 11 月 2 日晚发布 Hydrogen-1.0，基于智谱 GLM-5.3，用完整的实验室研究记录做后训练，面向科研推理，团队称开放权重。据 X 平台对团队介绍的汇总，模型约 7530 亿参数、MIT 许可，FrontierScience-Research 38.3%、GPQA-Diamond 93.0%；这些数字来自团队自报，Hugging Face 上暂未查到对应仓库。官方帖约 160 赞、31.7 万浏览。",
+      "url": "https://x.com/DeepPrinciple/status/2117249008972550447",
+      "published_at": "2026-11-02T21:34:34+08:00",
+      "heat": 56,
+      "importance": 64,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "Mistral",
+        "展示案例",
+        "科学计算"
+      ],
+      "model_vendor": "Mistral AI",
+      "model_name": "Mistral Large 4",
+      "license_type": "open-weight",
+      "card_type": "showcase",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117227739451199488/img/7i6I1Ao5OuqSBCD4.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/MistralAI/status/2117229259425038344"
+      },
+      "id": "tw-mistral-large4-scf-solver-showcase",
+      "title": "Mistral 官方展示：Large 4 凭一句短提示从零写出量子化学 SCF 求解器，并配 3D 可视化",
+      "summary": "Mistral 官方 11 月 2 日发帖展示 Mistral Large 4：用一段短提示让它演示分子断键过程，模型从零写出量子化学自洽场（SCF）求解器，自行校验输出并搭了 3D 视图。属官方挑选的展示案例。帖子约 1170 赞、4.6 万浏览。",
+      "url": "https://x.com/MistralAI/status/2117229259425038344",
+      "published_at": "2026-11-02T20:16:06+08:00",
+      "heat": 60,
+      "importance": 42,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "腾讯混元",
+        "研究智能体",
+        "AutoResearch"
+      ],
+      "model_vendor": "腾讯",
+      "model_name": "Hyra 2.0",
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWHM2bsaMAA6C3c.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/TencentHunyuan/status/2117198622022619399"
+      },
+      "id": "tw-tencent-hunyuan-hyra-2",
+      "title": "腾讯混元发布研究智能体 Hyra 2.0：从解题转向沉淀可复用的工具、模型和工作流",
+      "summary": "腾讯混元 11 月 2 日发布 Hunyuan Research Agent 的新版 Hyra 2.0，并发文阐述「AutoResearch」的下一阶段：智能体不只解决单个问题，还要产出能复用的工具、模型和工作流来加速后续研究。官方帖约 600 赞、5.1 万浏览；具体评测细节需看官方文章。",
+      "url": "https://x.com/TencentHunyuan/status/2117198622022619399",
+      "published_at": "2026-11-02T18:14:21+08:00",
+      "heat": 55,
+      "importance": 55,
+      "category": "大模型",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "github",
+      "tags": [
+        "小众开发热帖",
+        "GitHub",
+        "智能体",
+        "开源替代"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": "Apache-2.0",
+      "card_type": "repo",
+      "kept_reason": null,
+      "media": null,
+      "id": "repo-anil-matcha-open-duet",
+      "title": "开源自托管版 Claude Duet「Open Duet」走红：带记忆、例行任务和独立电脑的 AI 同事，GitHub 约 6500 星",
+      "summary": "开发者 Anil-matcha 的 open-duet 仓库定位为 Claude Duet 的开源自托管替代：可建多个具名智能体，各有指令、记忆、例行任务和隔离的电脑，执行前需用户批准。截至 11 月 3 日约 6552 星、817 fork，Apache-2.0。注意该仓库 2023 年就已创建，近期改造成现在的项目，星数不全是这次走红带来的。",
+      "url": "https://github.com/Anil-matcha/open-duet",
+      "published_at": "2026-11-02T11:17:05+08:00",
+      "heat": 58,
+      "importance": 40,
+      "category": "小众开发热帖",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "source": "github",
       "tags": [
@@ -63,6 +383,99 @@
       "storyline": "独立开发者 AI 爆款",
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
+      "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "source": "news",
+      "tags": [
+        "机器人",
+        "融资",
+        "a16z",
+        "仓储物流"
+      ],
+      "model_vendor": "Tutor Intelligence",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117285841387339776/img/WLfYL9pTzPj0xJAZ.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/TheHumanoidLabs/status/2117331121453310042"
+      },
+      "id": "news-tutor-intelligence-series-b-75m",
+      "title": "Tutor Intelligence 完成 7500 万美元 B 轮，a16z 领投：远程「导师」带机器人上岗，边干边训练模型",
+      "summary": "出自 MIT CSAIL 的机器人公司 Tutor Intelligence 11 月 2 日宣布 7500 万美元 B 轮，a16z 领投，USV 和 Neo 跟投，累计融资 1.17 亿美元。它的机器人 Sonny 和 Cassie 在美国工厂和仓库干活，卡住时由远程人类「导师」指导，每次作业数据都用来训练自家机器人基础模型；客户按小时或按拣选件数付费。公司称部署场地一年增长近 4 倍，预计 2027 年底签约机器人超 1000 台。",
+      "url": "https://www.businesswire.com/news/home/20261102314852/en/Tutor-Intelligence-Raises-%2475-Million-Series-B-Led-by-Andreessen-Horowitz-to-Scale-Frontier-Robotics-Model-Training-Manufacturing-and-Deployment",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 48,
+      "importance": 60,
+      "category": "机器人",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "阿联酋",
+        "主权 AI",
+        "融资"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-openai-abu-dhabi-adipec-deals",
+      "title": "Altman 在阿布扎比 ADIPEC 签四项协议：ADNOC 成首个部署 OpenAI 前沿技术的能源公司",
+      "summary": "据阿布扎比媒体办公室 11 月 2 日通报，Altman 会见阿布扎比王储后签下四项协议：ADNOC 联合 G42 子公司 Inception42 在全业务部署 OpenAI 前沿技术，推理放在阿联酋境内；阿布扎比政府与 OpenAI 启动「机器可读政府」，把法规转成 AI 可读形式辅助审批；穆巴达拉用 OpenAI 模型做投资分析；Inception42 与 OpenAI 签五年推广协议。CNBC 称 OpenAI 正寻求最多 200 亿美元新融资、阿联酋资方共同领投。Altman 在台上说 AI 最大的瓶颈是「能源」。另有现场帖称他提到下一代 GPT 即将发布，主流报道未证实，按传闻看待。",
+      "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 68,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "韩国",
+        "政策",
+        "主权 AI",
+        "半导体"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": null,
+      "media": null,
+      "id": "news-korea-2027-budget-ai-21-3t-won",
+      "title": "韩国 2027 年预算案：AI 与芯片投入 21.3 万亿韩元，几乎翻倍，另拨 4.7 万亿韩元打造前沿主权模型",
+      "summary": "韩国总统李在明 11 月 2 日在国会发表预算施政演说，2027 年总支出拟增 12.8% 至创纪录的 820.9 万亿韩元，其中半导体、物理 AI、AI 数据中心三大项目及 AI 投资合计 21.3 万亿韩元，约为今年两倍。另有 4.7 万亿韩元集中用于前沿 AI 模型（含 1 万张 GPU、数据和人才），目标让本土模型进入全球顶级；电力、用水和产业园区基础设施预算 2.1 万亿韩元。预算案还需国会表决。",
+      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 45,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "daily",
+      "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
       "on_board": true
     },
@@ -96,7 +509,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -129,7 +542,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "news",
@@ -144,7 +557,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 74 / importance 76 达到周榜阈值",
       "media": null,
       "id": "news-meta-fourier-humanoid-max",
       "title": "【报道】The Information：Meta 与傅利叶约三个月造出人形机器人原型 Max，第二代已在开发",
@@ -156,9 +569,9 @@
       "importance": 76,
       "category": "机器人",
       "storyline": "人形机器人落地",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -190,7 +603,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -220,7 +633,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -235,7 +648,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "research",
-      "kept_reason": null,
+      "kept_reason": "heat 74 / importance 70 达到周榜阈值",
       "media": {
         "type": "image",
         "thumb_url": "https://pbs.twimg.com/media/HV7E-P7bwAA7OxM.jpg",
@@ -250,9 +663,9 @@
       "heat": 74,
       "importance": 70,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -282,7 +695,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "news",
@@ -296,7 +709,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 82 / importance 84 达到周榜阈值",
       "media": null,
       "id": "news-openai-round-cut-20b-125t",
       "title": "【报道】FT/CNBC：OpenAI 把本轮融资目标从约 300 亿美元下调到约 200 亿美元，估值目标从 1.4 万亿降至 1.25 万亿美元",
@@ -308,9 +721,9 @@
       "importance": 84,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -340,7 +753,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "github",
@@ -369,7 +782,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "github",
@@ -387,7 +800,7 @@
       "model_name": null,
       "license_type": "open_source",
       "card_type": "repo",
-      "kept_reason": null,
+      "kept_reason": "heat 76 / importance 68 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2116188665508397058/img/e7TjmUY-YuCA7Wfl.jpg",
@@ -403,9 +816,9 @@
       "importance": 68,
       "category": "3D 生成",
       "storyline": "AI 3D 资产生成",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -438,7 +851,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -465,7 +878,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -500,7 +913,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-openai-frontier-monitoring-system",
@@ -621,7 +1034,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-openai-model-spec-five-values",
@@ -806,7 +1219,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "news",
@@ -836,7 +1249,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-cohere-series-e-cad-7b",
@@ -1042,10 +1455,10 @@
     },
     {
       "id": "news-marvell-lumentum-acquisition-talks",
-      "title": "【报道】彭博：Marvell 正深入洽谈收购光器件商 Lumentum，后者市值约 830 亿美元，最快下周宣布",
-      "summary": "据彭博社北京时间 10 月 29 日早报道（援引知情人士），芯片公司 Marvell 正就收购 AI 数据中心光器件厂商 Lumentum 进行深入谈判，交易最快可能下周宣布，尚未达成最终协议。Lumentum 市值约 830 亿美元，Marvell 约 2210 亿美元。消息传出后 Lumentum 盘后大涨、Marvell 下跌。光互联已成 AI 集群扩容的关键环节。属媒体报道，双方未确认。",
+      "title": "Marvell 正式宣布以全股票收购 Lumentum：隐含企业价值 1150 亿美元，押注 AI 数据中心光互联",
+      "summary": "更新（11 月 2 日）：Marvell 与 Lumentum 官宣达成最终协议（协议 11 月 1 日签署），Marvell 以全股票收购 Lumentum，每股 Lumentum 换 4.5 股 Marvell，隐含企业价值 1150 亿美元，约合每股 1132 美元，较 10 月 28 日传闻前收盘价溢价约 23.9%。交割后 Marvell 原股东持有约 67%、Lumentum 股东约 33%，预计 2028 年上半年完成，需双方股东和监管批准。官方称合并后可服务的市场达 5500 亿美元，年化成本协同超 10 亿美元。TechCrunch 指出 NVIDIA 今年 3 月分别向两家各投资 20 亿美元。最初消息来自彭博社 10 月 29 日的报道。",
       "source": "news",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
       "published_at": "2026-10-29T07:50:08+08:00",
       "tags": [
         "行业动态",
@@ -1053,14 +1466,14 @@
         "光互联",
         "Marvell",
         "Lumentum",
-        "传闻"
+        "官宣"
       ],
       "card_type": "model_update",
-      "heat": 66,
-      "importance": 74,
+      "heat": 80,
+      "importance": 90,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 66 / importance 74 达到周榜阈值",
+      "kept_reason": "heat 80 / importance 90 达到周榜阈值",
       "model_vendor": null,
       "model_name": null,
       "license_type": null,
@@ -2064,12 +2477,12 @@
         "media_url": "https://pbs.twimg.com/media/HVloMu2aYAAYX5k.jpg",
         "post_url": "https://x.com/AndrewCurran_/status/2114836071028785289"
       },
-      "kept_reason": "heat 88 / importance 90 达到周榜阈值",
+      "kept_reason": "heat 88 / importance 90 达到月榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2099,7 +2512,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-bedrock-robotics-600m-series-c",
@@ -2382,7 +2795,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-27T08:22:10+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-agility-gxo-expansion-2027",
@@ -3345,7 +3758,7 @@
       "period": "monthly",
       "first_seen_at": "2026-10-22T08:16:48+08:00",
       "last_period": "monthly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "repo-epfl-clue-sam3dbody-uncertainty",
