@@ -1,379 +1,80 @@
 {
-  "updated_at": "2026-11-03T08:11:05+08:00",
+  "updated_at": "2026-11-04T08:13:58+08:00",
   "items": [
     {
-      "source": "news",
-      "tags": [
-        "大模型",
-        "美团",
-        "LongCat",
-        "多模态",
-        "智能体编程",
-        "国产算力"
-      ],
-      "model_vendor": "美团",
-      "model_name": "LongCat-2.5",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "kept_reason": null,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HWIIqOSbAAAeW8v.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/i/status/2117264311714537633"
-      },
-      "id": "news-meituan-longcat-2-5",
-      "title": "美团发布 LongCat-2.5：1.6 万亿参数原生多模态智能体模型，API 上线，权重暂未开放",
-      "summary": "美团 LongCat 团队 11 月 1 日发布技术博客、11 月 2 日正式上线 LongCat-2.5：总参数 1.6 万亿、每 token 激活约 480 亿的 MoE，在 LongCat-2.0 基础上加入原生视觉理解，强化长程智能体编程，训练全程用国产算力并做了 W4A4 推理优化。官网可体验，API 同步上线，官方帖称新注册送 1000 万 token、缓存命中免费。官方表格称 Terminal Bench v2.1 88.4（2.0 为 70.8），但尚无独立复测；GitHub 和 Hugging Face 目前标注「即将推出」，不是开源发布。官方帖约 1600 赞、9 万浏览。",
-      "url": "https://longcat.ai/blog/longcat-2.5/",
-      "published_at": "2026-11-02T22:35:23+08:00",
-      "heat": 72,
-      "importance": 80,
-      "category": "大模型",
-      "storyline": "前沿模型代际竞赛",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "大模型",
-        "AI for Science",
-        "GLM",
-        "开放权重"
-      ],
-      "model_vendor": "Deep Principle",
-      "model_name": "Hydrogen-1.0",
-      "license_type": "open-weight",
-      "card_type": "model_update",
-      "kept_reason": null,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HWH6pe4b0AAJUH2.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/DeepPrinciple/status/2117249008972550447"
-      },
-      "id": "news-deepprinciple-hydrogen-1",
-      "title": "杭州深度原理发布科研模型 Hydrogen-1.0：在 GLM-5.3 上用全流程实验记录后训练，开放权重",
-      "summary": "AI for Science 公司 Deep Principle（深度原理）北京时间 11 月 2 日晚发布 Hydrogen-1.0，基于智谱 GLM-5.3，用完整的实验室研究记录做后训练，面向科研推理，团队称开放权重。据 X 平台对团队介绍的汇总，模型约 7530 亿参数、MIT 许可，FrontierScience-Research 38.3%、GPQA-Diamond 93.0%；这些数字来自团队自报，Hugging Face 上暂未查到对应仓库。官方帖约 160 赞、31.7 万浏览。",
-      "url": "https://x.com/DeepPrinciple/status/2117249008972550447",
-      "published_at": "2026-11-02T21:34:34+08:00",
-      "heat": 56,
-      "importance": 64,
-      "category": "大模型",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "基准测试",
-        "个人助理"
-      ],
       "model_vendor": "OpenAI",
       "model_name": null,
       "license_type": null,
-      "card_type": "research",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/OpenAI/status/2117307611338997846"
-      },
-      "id": "tw-openai-lifeval-benchmark",
-      "title": "OpenAI 推出 LifeVal 基准：按数千名 ChatGPT 用户反馈，测个人助理处理日常事务的能力",
-      "summary": "OpenAI 北京时间 11 月 3 日凌晨发布新基准 LifeVal，题目来自数千名 ChatGPT 用户希望个人助理帮忙的日常任务（官方举例如找托儿服务），用来衡量模型在真实生活事务上的帮助程度。官方帖约 4900 赞、45 万浏览。",
-      "url": "https://x.com/OpenAI/status/2117307611338997846",
-      "published_at": "2026-11-03T01:27:26+08:00",
-      "heat": 74,
-      "importance": 64,
-      "category": "大模型",
-      "period": "daily"
+      "media": null,
+      "id": "news-chatgpt-search-20pct-of-google",
+      "title": "OpenAI：ChatGPT 的搜索查询量已达谷歌的 20%",
+      "summary": "OpenAI ChatGPT 消费者产品负责人 Adam Fry 在 11 月 2 日（周一）的媒体活动上称，ChatGPT 处理的搜索查询量已相当于谷歌的五分之一。OpenAI 把“搜索”定义为用户输入后触发了联网搜索的查询，不含简单的释义或操作说明类问题。Fry 没有说明谷歌搜索量数据的来源。",
+      "source": "news",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "published_at": "2026-11-04T02:30:00+08:00",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "ChatGPT",
+        "搜索",
+        "谷歌"
+      ],
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 62,
+      "category": "行业动态",
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布"
     },
     {
-      "source": "twitter",
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": null,
+      "id": "research-anthropic-flashprove",
+      "title": "Anthropic 开源 FlashProve 研究：用密码学证明某条输出确实来自指定模型，防偷换模型",
+      "summary": "Anthropic 11 月 3 日（美国时间）发布研究博客，介绍开源系统 FlashProve，实现“可证明推理”：实验室为每个发布的模型公布不泄露权重的“指纹”，用户可在本地用密码学方法验证某条输出确实出自该模型，可防止服务方偷偷换成更便宜的模型，或用更贵的模型刷分，也能核验“某代码库已被前沿安全模型扫过”这类说法。技术规格和部分代码已在 GitHub 开源。Anthropic 称这是阶段性进展，目前没有在任何实验室部署的计划。",
+      "source": "news",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "published_at": "2026-11-04T06:41:00+08:00",
       "tags": [
         "大模型",
-        "Mistral",
-        "展示案例",
-        "科学计算"
+        "研究",
+        "安全",
+        "Anthropic",
+        "可验证推理"
       ],
-      "model_vendor": "Mistral AI",
-      "model_name": "Mistral Large 4",
-      "license_type": "open-weight",
-      "card_type": "showcase",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117227739451199488/img/7i6I1Ao5OuqSBCD4.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/MistralAI/status/2117229259425038344"
-      },
-      "id": "tw-mistral-large4-scf-solver-showcase",
-      "title": "Mistral 官方展示：Large 4 凭一句短提示从零写出量子化学 SCF 求解器，并配 3D 可视化",
-      "summary": "Mistral 官方 11 月 2 日发帖展示 Mistral Large 4：用一段短提示让它演示分子断键过程，模型从零写出量子化学自洽场（SCF）求解器，自行校验输出并搭了 3D 视图。属官方挑选的展示案例。帖子约 1170 赞、4.6 万浏览。",
-      "url": "https://x.com/MistralAI/status/2117229259425038344",
-      "published_at": "2026-11-02T20:16:06+08:00",
-      "heat": 60,
-      "importance": 42,
-      "category": "大模型",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "大模型",
-        "腾讯混元",
-        "研究智能体",
-        "AutoResearch"
-      ],
-      "model_vendor": "腾讯",
-      "model_name": "Hyra 2.0",
-      "license_type": null,
       "card_type": "research",
-      "kept_reason": null,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HWHM2bsaMAA6C3c.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/TencentHunyuan/status/2117198622022619399"
-      },
-      "id": "tw-tencent-hunyuan-hyra-2",
-      "title": "腾讯混元发布研究智能体 Hyra 2.0：从解题转向沉淀可复用的工具、模型和工作流",
-      "summary": "腾讯混元 11 月 2 日发布 Hunyuan Research Agent 的新版 Hyra 2.0，并发文阐述「AutoResearch」的下一阶段：智能体不只解决单个问题，还要产出能复用的工具、模型和工作流来加速后续研究。官方帖约 600 赞、5.1 万浏览；具体评测细节需看官方文章。",
-      "url": "https://x.com/TencentHunyuan/status/2117198622022619399",
-      "published_at": "2026-11-02T18:14:21+08:00",
       "heat": 55,
-      "importance": 55,
+      "importance": 65,
       "category": "大模型",
-      "period": "daily"
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布"
     },
     {
-      "source": "twitter",
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-kimm-humanoid-data-factory",
+      "title": "韩国首个人形机器人训练数据工厂开张：12 台遥操作人形机器人批量采集 VLA 数据，计划扩到 25 台",
+      "summary": "韩国机械与材料研究院（KIMM）联合 ETRI 11 月 3 日启用 AI Humanoid Data Factory：两层约 1000 平方米，12 台双足人形机器人由研究员遥控完成开冰箱取物、叠衣、整理沙发、操作车内按钮等动作，录下的数据用来训练视觉-语言-动作（VLA）模型，再回灌到机器人上测试。计划扩到 25 台，2027 年底起分阶段向企业、高校开放。项目属科学技术信息通信部 K-Moonshot 人形机器人任务；韩国此前已规划到 2030 年投入 2.3 万亿韩元扶持人形机器人产业。",
+      "source": "news",
+      "url": "https://www.ajupress.com/view/20261103143728182",
+      "published_at": "2026-11-03T14:00:00+08:00",
       "tags": [
         "机器人",
         "人形机器人",
-        "Figure",
-        "量产"
+        "韩国",
+        "训练数据",
+        "VLA"
       ],
-      "model_vendor": "Figure",
-      "model_name": "F.03",
-      "license_type": null,
-      "card_type": "showcase",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117286032630857728/img/z9gzqC_d_FkIWrM2.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/adcock_brett/status/2117286067472937012"
-      },
-      "id": "tw-figure-f03-leaving-botq",
-      "title": "Figure：新下线的 F.03 人形机器人列队走出 BotQ 工厂，穿过园区",
-      "summary": "Figure 创始人 Brett Adcock 北京时间 11 月 3 日零点发视频，称新制造的 F.03 机器人正离开 BotQ 工厂、穿过园区前往别处，展示量产后的批量出厂场景。帖子约 2250 赞、12 万浏览。视频未说明数量和去向。",
-      "url": "https://x.com/adcock_brett/status/2117286067472937012",
-      "published_at": "2026-11-03T00:01:50+08:00",
-      "heat": 72,
-      "importance": 62,
-      "category": "机器人",
-      "storyline": "人形机器人落地",
-      "period": "daily"
-    },
-    {
-      "source": "news",
-      "tags": [
-        "机器人",
-        "融资",
-        "a16z",
-        "仓储物流"
-      ],
-      "model_vendor": "Tutor Intelligence",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117285841387339776/img/WLfYL9pTzPj0xJAZ.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/TheHumanoidLabs/status/2117331121453310042"
-      },
-      "id": "news-tutor-intelligence-series-b-75m",
-      "title": "Tutor Intelligence 完成 7500 万美元 B 轮，a16z 领投：远程「导师」带机器人上岗，边干边训练模型",
-      "summary": "出自 MIT CSAIL 的机器人公司 Tutor Intelligence 11 月 2 日宣布 7500 万美元 B 轮，a16z 领投，USV 和 Neo 跟投，累计融资 1.17 亿美元。它的机器人 Sonny 和 Cassie 在美国工厂和仓库干活，卡住时由远程人类「导师」指导，每次作业数据都用来训练自家机器人基础模型；客户按小时或按拣选件数付费。公司称部署场地一年增长近 4 倍，预计 2027 年底签约机器人超 1000 台。",
-      "url": "https://www.businesswire.com/news/home/20261102314852/en/Tutor-Intelligence-Raises-%2475-Million-Series-B-Led-by-Andreessen-Horowitz-to-Scale-Frontier-Robotics-Model-Training-Manufacturing-and-Deployment",
-      "published_at": "2026-11-02T00:00:00+08:00",
-      "published_precision": "date",
-      "heat": 48,
+      "card_type": "research",
+      "heat": 40,
       "importance": 60,
       "category": "机器人",
-      "period": "daily"
-    },
-    {
-      "source": "news",
-      "tags": [
-        "行业动态",
-        "OpenAI",
-        "阿联酋",
-        "主权 AI",
-        "融资"
-      ],
-      "model_vendor": "OpenAI",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "kept_reason": null,
-      "media": null,
-      "id": "news-openai-abu-dhabi-adipec-deals",
-      "title": "Altman 在阿布扎比 ADIPEC 签四项协议：ADNOC 成首个部署 OpenAI 前沿技术的能源公司",
-      "summary": "据阿布扎比媒体办公室 11 月 2 日通报，Altman 会见阿布扎比王储后签下四项协议：ADNOC 联合 G42 子公司 Inception42 在全业务部署 OpenAI 前沿技术，推理放在阿联酋境内；阿布扎比政府与 OpenAI 启动「机器可读政府」，把法规转成 AI 可读形式辅助审批；穆巴达拉用 OpenAI 模型做投资分析；Inception42 与 OpenAI 签五年推广协议。CNBC 称 OpenAI 正寻求最多 200 亿美元新融资、阿联酋资方共同领投。Altman 在台上说 AI 最大的瓶颈是「能源」。另有现场帖称他提到下一代 GPT 即将发布，主流报道未证实，按传闻看待。",
-      "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
-      "published_at": "2026-11-02T00:00:00+08:00",
-      "published_precision": "date",
-      "heat": 68,
-      "importance": 74,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "period": "daily"
-    },
-    {
-      "source": "news",
-      "tags": [
-        "行业动态",
-        "韩国",
-        "政策",
-        "主权 AI",
-        "半导体"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": null,
-      "card_type": "model_update",
-      "kept_reason": null,
-      "media": null,
-      "id": "news-korea-2027-budget-ai-21-3t-won",
-      "title": "韩国 2027 年预算案：AI 与芯片投入 21.3 万亿韩元，几乎翻倍，另拨 4.7 万亿韩元打造前沿主权模型",
-      "summary": "韩国总统李在明 11 月 2 日在国会发表预算施政演说，2027 年总支出拟增 12.8% 至创纪录的 820.9 万亿韩元，其中半导体、物理 AI、AI 数据中心三大项目及 AI 投资合计 21.3 万亿韩元，约为今年两倍。另有 4.7 万亿韩元集中用于前沿 AI 模型（含 1 万张 GPU、数据和人才），目标让本土模型进入全球顶级；电力、用水和产业园区基础设施预算 2.1 万亿韩元。预算案还需国会表决。",
-      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
-      "published_at": "2026-11-02T00:00:00+08:00",
-      "published_precision": "date",
-      "heat": 45,
-      "importance": 72,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "行业动态",
-        "游戏",
-        "Steam",
-        "AI 申报"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": null,
-      "card_type": "research",
-      "kept_reason": null,
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HWJJakHWIAEK6Cn.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/GameSpot/status/2117335498330968522"
-      },
-      "id": "tw-steam-oct-2026-ai-disclosure-49-9",
-      "title": "社区统计：10 月 Steam 新游戏 49.9% 申报使用 AI，2024 年还只有约 13%",
-      "summary": "Reddit 用户 u/ploz 在 r/Steam 发布社区统计，覆盖 Valve 2024 年 1 月加入 AI 申报以来约 6.36 万款游戏：2026 年 10 月上架的新游戏中有 49.9% 填写了 AI 使用申报，GameSpot 转述称 2024 年这一比例为 13.2%。据统计帖，申报中最多的是 AI 美术，其次是 AI 文本。属社区统计，非 Valve 官方数据。GameSpot 帖约 1.4 万浏览，相关转述帖约 2.7 万浏览。",
-      "url": "https://x.com/GameSpot/status/2117335498330968522",
-      "published_at": "2026-11-03T03:18:15+08:00",
-      "heat": 60,
-      "importance": 56,
-      "category": "行业动态",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "3D 生成",
-        "游戏引擎",
-        "无代码",
-        "自动绑骨"
-      ],
-      "model_vendor": "Wanaka",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "showcase",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117315220800745472/img/sdZBjxVzZd6Gf4uN.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/wanakaofficial/status/2117315926588846082"
-      },
-      "id": "tw-wanaka-studio-1-0-ai-native-engine",
-      "title": "Wanaka Studio 1.0 发布：面向 AI 的游戏引擎，一个工作台包办 3D 建模、绑骨、玩法和音效",
-      "summary": "团队 Wanaka 北京时间 11 月 3 日凌晨发布 Wanaka Studio 1.0，自称 AI 原生游戏引擎：不用写代码就能做 3D 多人游戏，思路是让 AI 用专门设计的引擎，而不是去操作 Unity。工作台内含 3D 模型、绑骨、玩法逻辑和音效，成品以链接分发、免安装。官方帖约 6.6 万浏览但只有约 37 赞，宣传成分较重，效果待实测。",
-      "url": "https://x.com/wanakaofficial/status/2117315926588846082",
-      "published_at": "2026-11-03T02:00:29+08:00",
-      "heat": 45,
-      "importance": 48,
-      "category": "3D 生成",
-      "period": "daily"
-    },
-    {
-      "source": "twitter",
-      "tags": [
-        "3D 生成",
-        "Tripo",
-        "Unity",
-        "工作流"
-      ],
-      "model_vendor": "Tripo",
-      "model_name": null,
-      "license_type": null,
-      "card_type": "showcase",
-      "kept_reason": null,
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117277519170736128/img/yK6jzjks_3e2Mlkn.jpg",
-        "media_url": null,
-        "post_url": "https://x.com/rewind02/status/2117278100480262484"
-      },
-      "id": "tw-tripo-claude-unity-pumpkin-workflow",
-      "title": "实战工作流：一张南瓜图经 Tripo、Claude Opus 5.5、Blender、Unity 做成动起来的万圣节场景",
-      "summary": "创作者 @rewind02 11 月 2 日分享流程：先在 Tripo 用 P2 智能网格把图片转成四边面 3D 模型，再生成 UV 和 4K 贴图，然后把角色和场景拆开分别处理，借 Claude Opus 5.5 辅助在 Blender 和 Unity 里组装成带动画的场景。帖子约 70 赞、2000 浏览、46 收藏，热度不高但步骤完整。",
-      "url": "https://x.com/rewind02/status/2117278100480262484",
-      "published_at": "2026-11-02T23:30:10+08:00",
-      "heat": 38,
-      "importance": 42,
-      "category": "3D 生成",
-      "storyline": "AI 3D 资产生成",
-      "period": "daily"
-    },
-    {
-      "source": "github",
-      "tags": [
-        "小众开发热帖",
-        "GitHub",
-        "智能体",
-        "开源替代"
-      ],
-      "model_vendor": null,
-      "model_name": null,
-      "license_type": "Apache-2.0",
-      "card_type": "repo",
-      "kept_reason": null,
-      "media": null,
-      "id": "repo-anil-matcha-open-duet",
-      "title": "开源自托管版 Claude Duet「Open Duet」走红：带记忆、例行任务和独立电脑的 AI 同事，GitHub 约 6500 星",
-      "summary": "开发者 Anil-matcha 的 open-duet 仓库定位为 Claude Duet 的开源自托管替代：可建多个具名智能体，各有指令、记忆、例行任务和隔离的电脑，执行前需用户批准。截至 11 月 3 日约 6552 星、817 fork，Apache-2.0。注意该仓库 2023 年就已创建，近期改造成现在的项目，星数不全是这次走红带来的。",
-      "url": "https://github.com/Anil-matcha/open-duet",
-      "published_at": "2026-11-02T11:17:05+08:00",
-      "heat": 58,
-      "importance": 40,
-      "category": "小众开发热帖",
-      "period": "daily"
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布"
     },
     {
       "id": "news-gemini-4-carbon",
@@ -404,36 +105,6 @@
         "post_url": "https://x.com/sundarpichai/status/2115489219804352921"
       },
       "kept_reason": "heat 96 / importance 93 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-deepmind-genie-4",
-      "title": "Google DeepMind 发布 Genie 4：基于 Gemini Omni，生成可实时交互的世界并自带环境声、音乐和人物对话",
-      "summary": "Google DeepMind 北京时间 10 月 28 日凌晨发布新一代世界模型 Genie 4。它基于 Gemini Omni，在 Genie 3 的可交互世界基础上新增原生音频，能生成环境声、音乐和角色对话，还能在运行中用文字实时改变场景。据 The Verge 报道，单次体验时长从 Genie 3 的约 1 分钟延长到约 2 分钟。目前先以研究预览形式向受信任测试者开放，之后会进入 Google AI Ultra 的 Project Genie，并向 Gemini API / AI Studio 的早期合作伙伴开放。DeepMind 还展示了与 Gemini 4 Argon 结合的机器人训练实验。官方承认仍存在画面漂移、物体恒存性、文字和音频准确度等问题。DeepMind 发布帖约 1.4 万赞、153 万浏览（Ars Technica：https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/ ）。",
-      "source": "news",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "published_at": "2026-10-28T00:10:55+08:00",
-      "tags": [
-        "世界模型",
-        "Google DeepMind",
-        "Genie",
-        "可交互世界"
-      ],
-      "model_vendor": "Google DeepMind",
-      "model_name": "Genie 4",
-      "license_type": "closed",
-      "card_type": "model_update",
-      "heat": 96,
-      "importance": 92,
-      "category": "世界模型",
-      "storyline": "可交互世界模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/media/HVplvENXUAA-sCS.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
-        "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
-      },
-      "kept_reason": "heat 96 / importance 92 达到周榜阈值",
       "period": "weekly"
     },
     {
@@ -495,37 +166,6 @@
       "period": "weekly"
     },
     {
-      "id": "research-anthropic-claude-3sat-eth-refutation",
-      "title": "Anthropic 也发布推翻 ETH 的证明：内部 Claude 模型独立给出 3-SAT 亚指数时间算法，已用 Lean 4 形式化",
-      "summary": "继 OpenAI 之后，Anthropic 10 月 27 日公开论文《A 2^{o(n)} Time Algorithm for 3-SAT》，称内部一个 Claude 研究模型在 10 月 16 日独立得到结果：给出确定性的 #3-SAT 算法，运行时间为 2^O(n log log n/√log n)，从而推翻指数时间假设（ETH）。据论文和 Anthropic 研究员 @__alpoge__ 的介绍，模型用了约 1400 万输出 token，过程没有人工参与，证明已用 Lean 4 形式化，代码放在 anthropics/formal-math 仓库。结果纯属渐近意义，没有实际提速。ETH 原提出者 Impagliazzo、Paturi 和 MIT 的 Ryan Williams 正在组织核查，并表示目前“不应视为认证”。@__alpoge__ 发布帖约 2400 赞、60 万浏览。",
-      "source": "news",
-      "url": "https://hexagonmath.org/2610.00577v1",
-      "published_at": "2026-10-27T12:00:02+08:00",
-      "tags": [
-        "大模型",
-        "AI for Science",
-        "Anthropic",
-        "Claude",
-        "数学证明",
-        "Lean"
-      ],
-      "model_vendor": "Anthropic",
-      "card_type": "research",
-      "heat": 80,
-      "importance": 86,
-      "category": "大模型",
-      "media": {
-        "type": "image",
-        "thumb_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
-        "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
-        "post_url": "https://x.com/choblin29/status/2114958912135078256"
-      },
-      "kept_reason": "heat 80 / importance 86 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "period": "weekly"
-    },
-    {
       "source": "news",
       "tags": [
         "行业动态",
@@ -549,36 +189,6 @@
       "importance": 84,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "period": "weekly"
-    },
-    {
-      "id": "research-axiom-cfsg-lean",
-      "title": "Axiom 用数十个 AI 智能体 24 天完成有限单群分类定理的 Lean 全形式化：约 4310 万行，无 sorry",
-      "summary": "AI 数学公司 Axiom 宣布完成有限单群分类（CFSG，原证明约 1.5 万页、百余位数学家参与）的完整 Lean 4 形式化。官方博客称，工程师和数学家指挥数十个 AI 智能体组成的“蜂群”，从 10 月 1 日起用 24 天写出约 4310 万行 Lean 代码，按 108 个里程碑、约 380 个子任务协作；仓库称证明不含 sorry，只依赖 Lean 三条标准公理，Apache-2.0 开源。过程中发现 34 处与已发表文献不符的重要偏差，并得到一个关于 Unbalanced Group Theorem 的新结果。注意：截至 10 月 28 日尚无外部团队独立重建验证，官方 X 帖写“5000 万行”与博客 4310 万行不一致，以博客为准。发布帖约 6900 赞、355 万浏览。",
-      "source": "news",
-      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
-      "published_at": "2026-10-27T22:34:38+08:00",
-      "tags": [
-        "大模型",
-        "AI 数学",
-        "Lean",
-        "形式化证明",
-        "智能体"
-      ],
-      "model_vendor": "Axiom",
-      "model_name": "AxiomProver",
-      "license_type": "Apache-2.0",
-      "card_type": "research",
-      "heat": 82,
-      "importance": 84,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/media/HVpOm-eaUAAZZVL.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4",
-        "post_url": "https://x.com/axiommathai/status/2115089794867040584"
-      },
-      "kept_reason": "heat 82 / importance 84 达到周榜阈值",
       "period": "weekly"
     },
     {
@@ -671,28 +281,35 @@
       "period": "weekly"
     },
     {
-      "id": "research-anthropic-drug-development-mithril",
-      "title": "Anthropic 公布 Claude 药物研发进展：已收购“一人生物技术公司”Mithril Medicine，并与 6 家药企和机构合作",
-      "summary": "Anthropic 北京时间 10 月 28 日凌晨发文介绍 Claude 在药物研发上的早期进展。重点案例是 Mithril Medicine：创始人 Cody Tranbarger 一个人用 Claude 协调 11 家外部实验室，不到 18 个月就把一个 LAMA2 相关先天性肌营养不良项目推进到小鼠概念验证。Anthropic 已在 7 月收购这家公司，这次才公开，并称最快可能在 2028 年底进入人体试验。目前成果大多停留在临床前阶段。合作方包括 BigHat、百时美施贵宝（BMS）、Divergence Labs、Enveda、Generate Biomedicines 和 The Column Group（后者正在组建新公司 Pleiades）。Anthropic 发布帖约 5000 赞、71 万浏览（R&D World 报道：https://www.rdworldonline.com/anthropic-acquires-mithril-medicine-one-person-biotech/ ）。",
       "source": "news",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "published_at": "2026-10-28T04:27:48+08:00",
       "tags": [
         "大模型",
-        "AI for Science",
-        "Anthropic",
-        "药物研发",
-        "收购"
+        "美团",
+        "LongCat",
+        "多模态",
+        "智能体编程",
+        "国产算力"
       ],
-      "model_vendor": "Anthropic",
-      "card_type": "research",
-      "heat": 78,
-      "importance": 76,
+      "model_vendor": "美团",
+      "model_name": "LongCat-2.5",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "kept_reason": "heat 72 / importance 80 达到周榜阈值",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWIIqOSbAAAeW8v.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/i/status/2117264311714537633"
+      },
+      "id": "news-meituan-longcat-2-5",
+      "title": "美团发布 LongCat-2.5：1.6 万亿参数原生多模态智能体模型，API 上线，权重暂未开放",
+      "summary": "美团 LongCat 团队 11 月 1 日发布技术博客、11 月 2 日正式上线 LongCat-2.5：总参数 1.6 万亿、每 token 激活约 480 亿的 MoE，在 LongCat-2.0 基础上加入原生视觉理解，强化长程智能体编程，训练全程用国产算力并做了 W4A4 推理优化。官网可体验，API 同步上线，官方帖称新注册送 1000 万 token、缓存命中免费。官方表格称 Terminal Bench v2.1 88.4（2.0 为 70.8），但尚无独立复测；GitHub 和 Hugging Face 目前标注「即将推出」，不是开源发布。官方帖约 1600 赞、9 万浏览。",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "published_at": "2026-11-02T22:35:23+08:00",
+      "heat": 72,
+      "importance": 80,
       "category": "大模型",
-      "kept_reason": "heat 78 / importance 76 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "media": null,
+      "storyline": "前沿模型代际竞赛",
       "period": "weekly"
     },
     {
@@ -723,66 +340,9 @@
       "period": "weekly"
     },
     {
-      "id": "news-liquid-ai-lfm3",
-      "title": "Liquid AI 发布 LFM3 开放权重系列：文本、视觉、音频、全模态共 6 款端侧模型，1.7B 版 256K 上下文、4-bit 约 1GB",
-      "summary": "Liquid AI 北京时间 10 月 28 日凌晨发布第三代基础模型 LFM3，共 6 款：文本、视觉语言（VL）、音频、全模态（omni），以及面向决策的 d1 和 d1-omni。官方称采用三重混合架构，用 22 万亿 token 训练。旗舰 LFM3-1.7B 有 1.73B 参数，支持 256K 上下文，4-bit 量化后约 1GB，可在手机等设备本地运行，成绩超过上一代更大的 LFM2.5-2.6B。权重已上 Hugging Face，采用 LFM Open License v1.0。以上成绩为官方自述。发布帖约 4300 赞、84 万浏览。",
-      "source": "news",
-      "url": "https://www.liquid.ai/blog/lfm3",
-      "published_at": "2026-10-28T01:07:45+08:00",
-      "tags": [
-        "大模型",
-        "开源模型",
-        "端侧模型",
-        "Liquid AI",
-        "多模态"
-      ],
-      "model_vendor": "Liquid AI",
-      "model_name": "LFM3",
-      "license_type": "LFM Open License v1.0",
-      "card_type": "model_update",
-      "heat": 78,
-      "importance": 72,
-      "category": "大模型",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115125357439557633/img/X_jB63rlX-TyinU4.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
-        "post_url": "https://x.com/liquidai/status/2115128329003303107"
-      },
-      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
-      "period": "weekly"
-    },
-    {
-      "id": "news-oracle-ai-world-google-tpu-cerebras-openai",
-      "title": "Oracle AI World：Google TPU 2027 年起进入 Oracle 云，Cerebras 推理同步上 OCI，OpenAI 把 Oracle 企业应用接进 ChatGPT",
-      "summary": "Oracle 10 月 27 日在拉斯维加斯 AI World 大会上发布三项合作。一是 Google TPU 将在 2027 年起通过 Oracle 云（OCI）提供，OCI 成为 Google 之外第一家提供 TPU 的超大规模云厂商，Oracle 负责电力、冷却和机房网络，双方称是多年、数吉瓦级的合作。二是 Cerebras 的 AI 推理服务也将于 2027 年上线 OCI（https://www.oracle.com/news/announcement/ai-world-cerebras-and-oracle-team-up-to-bring-cerebras-ai-inference-to-oracle-cloud-infrastructure-2026-10-27/ ）。三是 OpenAI 扩大与 Oracle 的合作，通过 Oracle AI Workspace 把 Oracle 企业应用、数据和云服务接入 ChatGPT，并推出用 Codex 构建企业应用的 App Composer（https://openai.com/index/oracle-apps-in-chatgpt/ ）。CNBC 等媒体同步报道。",
-      "source": "news",
-      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
-      "published_at": "2026-10-28T00:07:00+08:00",
-      "tags": [
-        "行业动态",
-        "算力",
-        "Oracle",
-        "Google TPU",
-        "Cerebras",
-        "OpenAI"
-      ],
-      "model_vendor": "Oracle",
-      "card_type": "model_update",
-      "heat": 68,
-      "importance": 80,
-      "category": "行业动态",
-      "storyline": "算力、资本与政策格局",
-      "kept_reason": "heat 68 / importance 80 达到周榜阈值",
-      "model_name": null,
-      "license_type": null,
-      "media": null,
-      "period": "weekly"
-    },
-    {
       "id": "news-qwen4-next-week-apsara-amsterdam",
       "title": "【传闻】阿里云 CTO 在阿姆斯特丹云栖大会上称 Qwen4“下周”发布，现场幻灯片列出 Max / Plus / Flash / 27B 四款",
-      "summary": "【传闻】据现场参会者在 X 上转述及 Nvdium、LLMs Blog 等报道，阿里云 CTO 李飞飞 10 月 29 日在阿姆斯特丹举行的云栖大会上表示 Qwen4 将在“下周”推出，大屏幻灯片写着“Qwen4 Series Coming Soon”，并列出 Qwen4-Max、Qwen4-Plus、Qwen4-Flash、Qwen4-27B。阿里官方新闻稿只提到新开荷兰数据中心区域、Qwen3.8-Flash 在欧盟上线等，没有确认 Qwen4 的日期、规格、价格或是否开放权重；9 月官方只说 Qwen4 正在训练中。按报道推算发布窗口约为 11 月 2 日至 8 日，以官方发布为准。",
+      "summary": "【传闻】据现场参会者在 X 上转述及 Nvdium、LLMs Blog 等报道，阿里云 CTO 李飞飞 10 月 29 日在阿姆斯特丹举行的云栖大会上表示 Qwen4 将在“下周”推出，大屏幻灯片写着“Qwen4 Series Coming Soon”，并列出 Qwen4-Max、Qwen4-Plus、Qwen4-Flash、Qwen4-27B。阿里官方新闻稿只提到新开荷兰数据中心区域、Qwen3.8-Flash 在欧盟上线等，没有确认 Qwen4 的日期、规格、价格或是否开放权重；9 月官方只说 Qwen4 正在训练中。按报道推算发布窗口约为 11 月 2 日至 8 日，以官方发布为准。\n【11-03 更新】截至 11 月 3 日，Hugging Face 的 Qwen 组织和 models.dev 都还没有 Qwen4 条目；Qwen Code 代码库 10 月 31 日合入的 PR 给 qwen4 标识预设了推理强度档位，但不能当作发布证据。阿里仍未官宣日期。",
       "source": "news",
       "url": "https://nvdium.com/en/articles/981102567",
       "published_at": "2026-10-29T00:00:00+08:00",
@@ -804,38 +364,6 @@
       "license_type": null,
       "media": null,
       "published_precision": "date",
-      "period": "weekly"
-    },
-    {
-      "id": "repo-patch-gg-anymove",
-      "title": "开源 anymove：让视频模型同框拍出生物正面+侧面，DINOv2 读关节后拟合骨骼，非人形怪物也能“动捕”出 GLB 动画",
-      "summary": "开发者 Rehan Sheikh（Patch）10 月 27 日开源 anymove（Apache-2.0），专门解决龙、蜘蛛、狼这类非人形资产的动画。流程：先用图生 3D 得到带纹理模型，在 Blender 手动放骨骼并蒙皮；渲染约 2200 个随机姿势，为这只生物微调一个 DINOv2 关节识别器（RTX 4090 上渲染约 25 分钟、训练 17–20 分钟）；再让 MiniMax H3 Max 生成一段左正面、右侧面同框的动作视频，两路视角互相确定关节的 3D 位置，逐帧拟合到骨骼，导出 24fps GLB，作者称无需手修。官方数据：每段 5 秒视频约 0.26 美元，狼的平均 3D 关节误差 0.94 厘米；局限是骨骼要手放、八足行走和趴下拟合不好，大动作（咆哮、扑击、起飞）效果最好。仓库附 Claude Code 技能逐步引导。首发帖约 1500 赞、10 万浏览、2100 收藏；之后有人用它做了霸王龙 10 个动作（约 4 美元）、三头龙 Boss 动画，Hugging Face 的 Victor Mustar 也演示了用 DeepSeek Flash 编排建模+绑定+anymove 动画的流程。",
-      "source": "github",
-      "url": "https://github.com/patch-gg/anymove",
-      "published_at": "2026-10-27T16:51:37+08:00",
-      "tags": [
-        "角色动画",
-        "动捕",
-        "开源",
-        "GLB",
-        "非人形动画",
-        "视频转动作"
-      ],
-      "license_type": "Apache-2.0",
-      "card_type": "repo",
-      "heat": 72,
-      "importance": 76,
-      "category": "角色动画",
-      "storyline": "游戏引擎角色动画",
-      "media": {
-        "type": "video",
-        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115003287779061760/img/cXktxbj59hwCjpRK.jpg",
-        "media_url": "https://video.twimg.com/amplify_video/2115003287779061760/vid/avc1/1920x1080/vnH8OVLqJlsFvc1M.mp4",
-        "post_url": "https://x.com/rehan_shei/status/2115003471015588021"
-      },
-      "kept_reason": "heat 72 / importance 76 达到周榜阈值",
-      "model_vendor": null,
-      "model_name": null,
       "period": "weekly"
     },
     {
@@ -956,6 +484,171 @@
       "period": "weekly"
     },
     {
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 Astra",
+      "license_type": null,
+      "media": null,
+      "id": "research-mit-weight-space-programming",
+      "title": "MIT 提出“权重空间编程”：GPT-6 Astra 不用梯度直接改 Qwen3.5-0.8B 的 0.016% 权重，MATH-500 从 7.9% 升到 48.1%",
+      "summary": "MIT CSAIL 的 Rikiya Takehi、Jayden Teoh、Alex Zhang、Omar Khattab 发表《Sparks of Weight-Space Programming》：让通用大模型在 Python 内核里直接读写另一个网络的权重，不用梯度、优化器或 GPU。GPT-6 Astra 找到 Qwen3.5-0.8B 推理死循环对应的方向，在第 15、19 层 MLP 各改 64 列（共 131,072 个权重），MATH-500 从 7.9% 升到 48.1%，GSM8K 从 13.8% 到 67.1%，IFEval 从 21.0% 到 62.3%。作者称结果“非常早期”：对 Gemma 3 270M 几乎无效（6.8%→7.7%），也不能加出模型本来没有的能力；日志在 GitHub，改后模型在 Hugging Face。X 上讨论热烈，也有不少质疑帖（如 @JustinAngel 约 255 赞）。",
+      "source": "news",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "大模型",
+        "研究",
+        "可解释性",
+        "GPT-6 Astra",
+        "Qwen"
+      ],
+      "card_type": "research",
+      "heat": 70,
+      "importance": 74,
+      "category": "大模型",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 70 / importance 74 达到周榜阈值"
+    },
+    {
+      "source": "news",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "阿联酋",
+        "主权 AI",
+        "融资"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "model_update",
+      "kept_reason": "heat 68 / importance 74 达到周榜阈值",
+      "media": null,
+      "id": "news-openai-abu-dhabi-adipec-deals",
+      "title": "Altman 在阿布扎比 ADIPEC 签四项协议：ADNOC 成首个部署 OpenAI 前沿技术的能源公司",
+      "summary": "据阿布扎比媒体办公室 11 月 2 日通报，Altman 会见阿布扎比王储后签下四项协议：ADNOC 联合 G42 子公司 Inception42 在全业务部署 OpenAI 前沿技术，推理放在阿联酋境内；阿布扎比政府与 OpenAI 启动「机器可读政府」，把法规转成 AI 可读形式辅助审批；穆巴达拉用 OpenAI 模型做投资分析；Inception42 与 OpenAI 签五年推广协议。CNBC 称 OpenAI 正寻求最多 200 亿美元新融资、阿联酋资方共同领投。Altman 在台上说 AI 最大的瓶颈是「能源」。另有现场帖称他提到下一代 GPT 即将发布，主流报道未证实，按传闻看待。",
+      "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "published_precision": "date",
+      "heat": 68,
+      "importance": 74,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "period": "weekly"
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "基准测试",
+        "个人助理"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "kept_reason": "heat 74 / importance 64 达到周榜阈值",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/OpenAI/status/2117307611338997846"
+      },
+      "id": "tw-openai-lifeval-benchmark",
+      "title": "OpenAI 推出 LifeVal 基准：按数千名 ChatGPT 用户反馈，测个人助理处理日常事务的能力",
+      "summary": "OpenAI 北京时间 11 月 3 日凌晨发布新基准 LifeVal，题目来自数千名 ChatGPT 用户希望个人助理帮忙的日常任务（官方举例如找托儿服务），用来衡量模型在真实生活事务上的帮助程度。官方帖约 4900 赞、45 万浏览。",
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "published_at": "2026-11-03T01:27:26+08:00",
+      "heat": 74,
+      "importance": 64,
+      "category": "大模型",
+      "period": "weekly"
+    },
+    {
+      "source": "twitter",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure",
+        "量产"
+      ],
+      "model_vendor": "Figure",
+      "model_name": "F.03",
+      "license_type": null,
+      "card_type": "showcase",
+      "kept_reason": "heat 72 / importance 62 达到周榜阈值",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117286032630857728/img/z9gzqC_d_FkIWrM2.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/adcock_brett/status/2117286067472937012"
+      },
+      "id": "tw-figure-f03-leaving-botq",
+      "title": "Figure：新下线的 F.03 人形机器人列队走出 BotQ 工厂，穿过园区",
+      "summary": "Figure 创始人 Brett Adcock 北京时间 11 月 3 日零点发视频，称新制造的 F.03 机器人正离开 BotQ 工厂、穿过园区前往别处，展示量产后的批量出厂场景。帖子约 2250 赞、12 万浏览。视频未说明数量和去向。",
+      "url": "https://x.com/adcock_brett/status/2117286067472937012",
+      "published_at": "2026-11-03T00:01:50+08:00",
+      "heat": 72,
+      "importance": 62,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "period": "weekly"
+    },
+    {
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-nyt-sues-brave-ai-scraping",
+      "title": "《纽约时报》起诉 Brave：指其抓取报道建 300 亿网页索引，经搜索 API 卖给 AI 公司，并绕过付费墙",
+      "summary": "《纽约时报》11 月 2 日在纽约南区联邦法院起诉 Brave Software，指控 Brave 把时报内容抓进自建的 300 多亿网页搜索索引，通过 Search API 提供给 Anthropic、Perplexity、Mistral、xAI、Cohere 等 AI 公司，还通过 Ask Brave 复现付费文章、绕过访问控制。诉状主张版权侵权、DMCA 规避和不当得利，要求赔偿、追缴收益和禁令。《纽约每日新闻》《芝加哥论坛报》《奥兰多哨兵报》另提相关诉讼。",
+      "source": "news",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "诉讼",
+        "版权",
+        "Brave",
+        "纽约时报"
+      ],
+      "card_type": "model_update",
+      "heat": 65,
+      "importance": 68,
+      "category": "行业动态",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 65 / importance 68 达到周榜阈值"
+    },
+    {
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-salesforce-cresta-acquisition",
+      "title": "Salesforce 签约收购语音 AI 公司 Cresta：据 The Information 报道作价约 27 亿美元",
+      "summary": "Salesforce 11 月 2 日宣布签署最终协议收购 Cresta。Cresta 做端到端处理复杂客服电话的语音智能体，并给人工客服实时辅导、分析每通对话，客户包括万豪、Comcast、阿拉斯加航空。Salesforce 未披露价格，The Information 报道约 27 亿美元。Cresta 的对话智能将接入 Service Cloud 和 Salesforce 客户数据，同时继续支持第三方呼叫中心平台。预计在 Salesforce 2028 财年第一季度（2027 年 2–4 月）完成交割，需监管批准。这是 Salesforce 继 10 月 20 日收购 Braze 之后的又一笔 AI 并购。",
+      "source": "news",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "并购",
+        "Salesforce",
+        "Cresta",
+        "语音智能体"
+      ],
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 60 / importance 72 达到周榜阈值"
+    },
+    {
       "id": "news-gemini-4-argon-ga",
       "title": "Gemini 4 Argon 全面上线：API、Gemini App、搜索 AI Mode 同步开放，推广价每百万 token 2/10 美元",
       "summary": "Google 10 月 13 日宣布 Gemini 4 Argon 全球开放：开发者与企业可在 Gemini API 付费层（AI Studio）和 Gemini 企业平台使用，AI Ultra 订阅可在 Antigravity 中使用，AI Pro/Ultra 订阅可在 Gemini App 和搜索 AI Mode 中使用。官方称 Argon 在 Vals Index 排名第一、ERQA 具身推理 87%；Gemini API 提供输入加输出合计 1M token 的统一上限；推广价每百万 token 输入 2 美元、输出 10 美元（缓存输入 95% 折扣），11 月 30 日后恢复为 4/20 美元。Google 称内部用 Argon 后 Antigravity 的 agent 代码提交增加 35% 以上、回滚减少近三分之一；Logan Kilpatrick 称上线前一个月有超过 10 万名 Google 员工实测。面向安全防御方的 Fairwind 计划同步扩展到数百家新伙伴。Sundar Pichai 发布帖 250 万浏览。【10 月 20 日更新】据 Google Antigravity 博客，Argon 随后向付费 AI Pro 订阅开放 Antigravity（桌面端和 CLI），Pro 用户获得单独的每周 Argon 配额，不随 5 小时周期刷新；开发者普遍称赞编程能力，但吐槽 Pro 配额消耗太快。",
@@ -985,9 +678,39 @@
       "period": "monthly"
     },
     {
+      "id": "news-deepmind-genie-4",
+      "title": "Google DeepMind 发布 Genie 4：基于 Gemini Omni，生成可实时交互的世界并自带环境声、音乐和人物对话",
+      "summary": "Google DeepMind 北京时间 10 月 28 日凌晨发布新一代世界模型 Genie 4。它基于 Gemini Omni，在 Genie 3 的可交互世界基础上新增原生音频，能生成环境声、音乐和角色对话，还能在运行中用文字实时改变场景。据 The Verge 报道，单次体验时长从 Genie 3 的约 1 分钟延长到约 2 分钟。目前先以研究预览形式向受信任测试者开放，之后会进入 Google AI Ultra 的 Project Genie，并向 Gemini API / AI Studio 的早期合作伙伴开放。DeepMind 还展示了与 Gemini 4 Argon 结合的机器人训练实验。官方承认仍存在画面漂移、物体恒存性、文字和音频准确度等问题。DeepMind 发布帖约 1.4 万赞、153 万浏览（Ars Technica：https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/ ）。",
+      "source": "news",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "published_at": "2026-10-28T00:10:55+08:00",
+      "tags": [
+        "世界模型",
+        "Google DeepMind",
+        "Genie",
+        "可交互世界"
+      ],
+      "model_vendor": "Google DeepMind",
+      "model_name": "Genie 4",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 96,
+      "importance": 92,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVplvENXUAA-sCS.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
+        "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+      },
+      "kept_reason": "heat 96 / importance 92 达到月榜阈值",
+      "period": "monthly"
+    },
+    {
       "id": "news-kimi-k3-1-kibitz-rumor",
       "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参 / 104B 激活、1M 上下文，AA 智能指数 55 排第 4，权重 11 月 4 日前开放",
-      "summary": "月之暗面北京时间 10 月 24 日凌晨正式发布 Kimi K3.1 Pro 和 2–3 倍速的 K3.1 Pro Highspeed。官方介绍：MoE 架构，总参 2.8T、激活 104B，1M 上下文，多模态；能在 Unreal、Unity、Godot 里做整项目游戏开发，擅长在 Blender 和 CAD 里做参数化 3D 建模，金融建模幻觉降低 65%。已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，完整权重 11 月 4 日前发布。Artificial Analysis 智能指数 55、排第 4，比 K3 高 11 分，仅次于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）Terminal-Bench 4.0 拿到 67%，为所有模型最高。API 定价每百万 token 输入 2 美元、输出 10 美元，比 K3 低 33%。Arena 上 Code Arena WebDev 第 8（1692 分）。官方发布帖约 3 万赞、369 万浏览，视频帖约 4.2 万赞；HN 讨论帖约 1080 分。发布后订阅用户遇到限流和额度消耗过快，月之暗面 10 月 26 日凌晨道歉，给所有订阅用户一次性恢复 25% 月额度；另据 X 新闻聚合，有创作者被指用统一话术把它宣传成“开源版 Opus 5.5”，引发争议。\n【10 月 22 日原传闻】【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。\n【10-29 更新】【报道】The Information 称 Kimi K3.1 Pro 和 DeepSeek-V4.1-Flash 1017 训练时大量蒸馏了 GPT-6 Astra 的输出，当事方未回应，详见新卡 news-information-gpt6-astra-distillation。",
+      "summary": "月之暗面北京时间 10 月 24 日凌晨正式发布 Kimi K3.1 Pro 和 2–3 倍速的 K3.1 Pro Highspeed。官方介绍：MoE 架构，总参 2.8T、激活 104B，1M 上下文，多模态；能在 Unreal、Unity、Godot 里做整项目游戏开发，擅长在 Blender 和 CAD 里做参数化 3D 建模，金融建模幻觉降低 65%。已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，完整权重 11 月 4 日前发布。Artificial Analysis 智能指数 55、排第 4，比 K3 高 11 分，仅次于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）Terminal-Bench 4.0 拿到 67%，为所有模型最高。API 定价每百万 token 输入 2 美元、输出 10 美元，比 K3 低 33%。Arena 上 Code Arena WebDev 第 8（1692 分）。官方发布帖约 3 万赞、369 万浏览，视频帖约 4.2 万赞；HN 讨论帖约 1080 分。发布后订阅用户遇到限流和额度消耗过快，月之暗面 10 月 26 日凌晨道歉，给所有订阅用户一次性恢复 25% 月额度；另据 X 新闻聚合，有创作者被指用统一话术把它宣传成“开源版 Opus 5.5”，引发争议。\n【10 月 22 日原传闻】【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。\n【10-29 更新】【报道】The Information 称 Kimi K3.1 Pro 和 DeepSeek-V4.1-Flash 1017 训练时大量蒸馏了 GPT-6 Astra 的输出，当事方未回应，详见新卡 news-information-gpt6-astra-distillation。\n【11-04 更新】官方承诺的完整权重截止日为 11 月 4 日；据多家站点截至 11 月 4 日早些时候的核查，Hugging Face 上尚未见到 K3.1 Pro 权重仓库，许可证也未公布。以官方发布为准。",
       "source": "twitter",
       "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
       "published_at": "2026-10-22T16:07:00+08:00",
@@ -1129,8 +852,8 @@
     },
     {
       "id": "news-anthropic-s1-h1-loss-80b",
-      "title": "Anthropic 正式公开递交 S-1，拟以“ANT”在纳斯达克上市：上半年营收 163 亿美元、净亏损 807 亿美元",
-      "summary": "【10 月 26 日更新：正式递交】Anthropic 10 月 26 日宣布已向美国 SEC 公开递交 S-1，拟在纳斯达克全球精选市场以代码“ANT”上市，发行股数和价格区间未定，高盛和摩根士丹利为承销方。据 TechCrunch 读取的招股书，2026 上半年营收 163 亿美元（去年同期 12 亿美元），经营亏损 6.93 亿美元（去年同期 21 亿美元），净亏损 807 亿美元，主要来自与可转债相关的非现金会计调整。招股书显示公司采用特殊治理结构：长期利益信托（LTBT）通过 T 类股选出董事会多数，创始人 LLC 持有的 F 类股拥有 50.1% 投票权。HN 上 S-1 讨论帖约 1440 分、1400 多条评论。\n【10 月 21 日原报道】据《华尔街日报》报道其看到的 Anthropic IPO 招股书（S-1）草案，Anthropic 2026 年上半年营收 163 亿美元，净亏损约 800 亿美元；据 X 新闻聚合转述，草案还列出约 4500 亿美元的长期云服务承诺。数字来自媒体对草案的转述，Anthropic 尚未公开递交招股书。消息在 X 上刷屏：Polymarket 的快讯帖约 3.1 万赞、566 万浏览，@InternetH0F 的帖子约 4.7 万赞、278 万浏览，不少评论拿“营收冲高、亏损更大”调侃。",
+      "title": "Anthropic 递交 S-1 拟以“ANT”上市，修订版补三季报：Q3 营收约 170 亿美元、净亏损 232.9 亿美元，算力等采购承诺约 8954 亿美元",
+      "summary": "【11 月 2 日更新：修订版 S-1】据 CNBC，Anthropic 11 月 2 日递交修订版 S-1，补充三季度数据：Q3 营收约 170 亿美元，同比增长约 1127%，但环比增速降到约 47%（Q2 为 144%、Q1 为 132%）；Q3 净亏损 232.9 亿美元。前三季度营收 332.4 亿美元，净亏损 1040 亿美元，主要来自可转债和衍生负债公允价值变动。公司披露采购承诺和租赁协议合计约 8954 亿美元，“基本都与算力和基础设施相关”；前三季度算力和基础设施费用同比增加 144 亿美元（+329%）。另据 X 新闻聚合转述，路演预计 11 月 9 日开始，属未经官方确认的消息。\n【10 月 26 日更新：正式递交】Anthropic 10 月 26 日宣布已向美国 SEC 公开递交 S-1，拟在纳斯达克全球精选市场以代码“ANT”上市，发行股数和价格区间未定，高盛和摩根士丹利为承销方。据 TechCrunch 读取的招股书，2026 上半年营收 163 亿美元（去年同期 12 亿美元），经营亏损 6.93 亿美元（去年同期 21 亿美元），净亏损 807 亿美元，主要来自与可转债相关的非现金会计调整。招股书显示公司采用特殊治理结构：长期利益信托（LTBT）通过 T 类股选出董事会多数，创始人 LLC 持有的 F 类股拥有 50.1% 投票权。HN 上 S-1 讨论帖约 1440 分、1400 多条评论。\n【10 月 21 日原报道】据《华尔街日报》报道其看到的 Anthropic IPO 招股书（S-1）草案，Anthropic 2026 年上半年营收 163 亿美元，净亏损约 800 亿美元；据 X 新闻聚合转述，草案还列出约 4500 亿美元的长期云服务承诺。数字来自媒体对草案的转述，Anthropic 尚未公开递交招股书。消息在 X 上刷屏：Polymarket 的快讯帖约 3.1 万赞、566 万浏览，@InternetH0F 的帖子约 4.7 万赞、278 万浏览，不少评论拿“营收冲高、亏损更大”调侃。",
       "source": "twitter",
       "url": "https://www.anthropic.com/news/s1-sec",
       "published_at": "2026-10-21T03:59:00+08:00",
@@ -1375,6 +1098,122 @@
       "category": "大模型",
       "kept_reason": "heat 92 / importance 84 达到月榜阈值",
       "media": null,
+      "period": "monthly"
+    },
+    {
+      "id": "research-anthropic-claude-3sat-eth-refutation",
+      "title": "Anthropic 也发布推翻 ETH 的证明：内部 Claude 模型独立给出 3-SAT 亚指数时间算法，已用 Lean 4 形式化",
+      "summary": "继 OpenAI 之后，Anthropic 10 月 27 日公开论文《A 2^{o(n)} Time Algorithm for 3-SAT》，称内部一个 Claude 研究模型在 10 月 16 日独立得到结果：给出确定性的 #3-SAT 算法，运行时间为 2^O(n log log n/√log n)，从而推翻指数时间假设（ETH）。据论文和 Anthropic 研究员 @__alpoge__ 的介绍，模型用了约 1400 万输出 token，过程没有人工参与，证明已用 Lean 4 形式化，代码放在 anthropics/formal-math 仓库。结果纯属渐近意义，没有实际提速。ETH 原提出者 Impagliazzo、Paturi 和 MIT 的 Ryan Williams 正在组织核查，并表示目前“不应视为认证”。@__alpoge__ 发布帖约 2400 赞、60 万浏览。",
+      "source": "news",
+      "url": "https://hexagonmath.org/2610.00577v1",
+      "published_at": "2026-10-27T12:00:02+08:00",
+      "tags": [
+        "大模型",
+        "AI for Science",
+        "Anthropic",
+        "Claude",
+        "数学证明",
+        "Lean"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "research",
+      "heat": 80,
+      "importance": 86,
+      "category": "大模型",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
+        "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
+        "post_url": "https://x.com/choblin29/status/2114958912135078256"
+      },
+      "kept_reason": "heat 80 / importance 86 达到月榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "period": "monthly"
+    },
+    {
+      "id": "research-axiom-cfsg-lean",
+      "title": "Axiom 用数十个 AI 智能体 24 天完成有限单群分类定理的 Lean 全形式化：约 4310 万行，无 sorry",
+      "summary": "AI 数学公司 Axiom 宣布完成有限单群分类（CFSG，原证明约 1.5 万页、百余位数学家参与）的完整 Lean 4 形式化。官方博客称，工程师和数学家指挥数十个 AI 智能体组成的“蜂群”，从 10 月 1 日起用 24 天写出约 4310 万行 Lean 代码，按 108 个里程碑、约 380 个子任务协作；仓库称证明不含 sorry，只依赖 Lean 三条标准公理，Apache-2.0 开源。过程中发现 34 处与已发表文献不符的重要偏差，并得到一个关于 Unbalanced Group Theorem 的新结果。注意：截至 10 月 28 日尚无外部团队独立重建验证，官方 X 帖写“5000 万行”与博客 4310 万行不一致，以博客为准。发布帖约 6900 赞、355 万浏览。",
+      "source": "news",
+      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+      "published_at": "2026-10-27T22:34:38+08:00",
+      "tags": [
+        "大模型",
+        "AI 数学",
+        "Lean",
+        "形式化证明",
+        "智能体"
+      ],
+      "model_vendor": "Axiom",
+      "model_name": "AxiomProver",
+      "license_type": "Apache-2.0",
+      "card_type": "research",
+      "heat": 82,
+      "importance": 84,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/media/HVpOm-eaUAAZZVL.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4",
+        "post_url": "https://x.com/axiommathai/status/2115089794867040584"
+      },
+      "kept_reason": "heat 82 / importance 84 达到月榜阈值",
+      "period": "monthly"
+    },
+    {
+      "id": "research-anthropic-drug-development-mithril",
+      "title": "Anthropic 公布 Claude 药物研发进展：已收购“一人生物技术公司”Mithril Medicine，并与 6 家药企和机构合作",
+      "summary": "Anthropic 北京时间 10 月 28 日凌晨发文介绍 Claude 在药物研发上的早期进展。重点案例是 Mithril Medicine：创始人 Cody Tranbarger 一个人用 Claude 协调 11 家外部实验室，不到 18 个月就把一个 LAMA2 相关先天性肌营养不良项目推进到小鼠概念验证。Anthropic 已在 7 月收购这家公司，这次才公开，并称最快可能在 2028 年底进入人体试验。目前成果大多停留在临床前阶段。合作方包括 BigHat、百时美施贵宝（BMS）、Divergence Labs、Enveda、Generate Biomedicines 和 The Column Group（后者正在组建新公司 Pleiades）。Anthropic 发布帖约 5000 赞、71 万浏览（R&D World 报道：https://www.rdworldonline.com/anthropic-acquires-mithril-medicine-one-person-biotech/ ）。",
+      "source": "news",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "published_at": "2026-10-28T04:27:48+08:00",
+      "tags": [
+        "大模型",
+        "AI for Science",
+        "Anthropic",
+        "药物研发",
+        "收购"
+      ],
+      "model_vendor": "Anthropic",
+      "card_type": "research",
+      "heat": 78,
+      "importance": 76,
+      "category": "大模型",
+      "kept_reason": "heat 78 / importance 76 达到月榜阈值",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "period": "monthly"
+    },
+    {
+      "id": "news-liquid-ai-lfm3",
+      "title": "Liquid AI 发布 LFM3 开放权重系列：文本、视觉、音频、全模态共 6 款端侧模型，1.7B 版 256K 上下文、4-bit 约 1GB",
+      "summary": "Liquid AI 北京时间 10 月 28 日凌晨发布第三代基础模型 LFM3，共 6 款：文本、视觉语言（VL）、音频、全模态（omni），以及面向决策的 d1 和 d1-omni。官方称采用三重混合架构，用 22 万亿 token 训练。旗舰 LFM3-1.7B 有 1.73B 参数，支持 256K 上下文，4-bit 量化后约 1GB，可在手机等设备本地运行，成绩超过上一代更大的 LFM2.5-2.6B。权重已上 Hugging Face，采用 LFM Open License v1.0。以上成绩为官方自述。发布帖约 4300 赞、84 万浏览。",
+      "source": "news",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "published_at": "2026-10-28T01:07:45+08:00",
+      "tags": [
+        "大模型",
+        "开源模型",
+        "端侧模型",
+        "Liquid AI",
+        "多模态"
+      ],
+      "model_vendor": "Liquid AI",
+      "model_name": "LFM3",
+      "license_type": "LFM Open License v1.0",
+      "card_type": "model_update",
+      "heat": 78,
+      "importance": 72,
+      "category": "大模型",
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2115125357439557633/img/X_jB63rlX-TyinU4.jpg",
+        "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
+        "post_url": "https://x.com/liquidai/status/2115128329003303107"
+      },
+      "kept_reason": "heat 78 / importance 72 达到月榜阈值",
       "period": "monthly"
     }
   ],

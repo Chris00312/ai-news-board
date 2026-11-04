@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-03T08:11:19+08:00",
+  "updated_at": "2026-11-04T08:14:13+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 261
+      "count": 263
     },
     {
       "name": "世界模型",
@@ -12,7 +12,7 @@
     },
     {
       "name": "机器人",
-      "count": 64
+      "count": 67
     },
     {
       "name": "AI 2D 游戏美术",
@@ -24,11 +24,11 @@
     },
     {
       "name": "角色动画",
-      "count": 45
+      "count": 46
     },
     {
       "name": "行业动态",
-      "count": 86
+      "count": 89
     },
     {
       "name": "小众开发热帖",
@@ -36,6 +36,90 @@
     }
   ],
   "items": [
+    {
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": "open-source",
+      "media": null,
+      "id": "research-anthropic-flashprove",
+      "title": "Anthropic 开源 FlashProve 研究：用密码学证明某条输出确实来自指定模型，防偷换模型",
+      "summary": "Anthropic 11 月 3 日（美国时间）发布研究博客，介绍开源系统 FlashProve，实现“可证明推理”：实验室为每个发布的模型公布不泄露权重的“指纹”，用户可在本地用密码学方法验证某条输出确实出自该模型，可防止服务方偷偷换成更便宜的模型，或用更贵的模型刷分，也能核验“某代码库已被前沿安全模型扫过”这类说法。技术规格和部分代码已在 GitHub 开源。Anthropic 称这是阶段性进展，目前没有在任何实验室部署的计划。",
+      "source": "news",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "published_at": "2026-11-04T06:41:00+08:00",
+      "tags": [
+        "大模型",
+        "研究",
+        "安全",
+        "Anthropic",
+        "可验证推理"
+      ],
+      "card_type": "research",
+      "heat": 55,
+      "importance": 65,
+      "category": "大模型",
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "model_vendor": "OpenAI",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-chatgpt-search-20pct-of-google",
+      "title": "OpenAI：ChatGPT 的搜索查询量已达谷歌的 20%",
+      "summary": "OpenAI ChatGPT 消费者产品负责人 Adam Fry 在 11 月 2 日（周一）的媒体活动上称，ChatGPT 处理的搜索查询量已相当于谷歌的五分之一。OpenAI 把“搜索”定义为用户输入后触发了联网搜索的查询，不含简单的释义或操作说明类问题。Fry 没有说明谷歌搜索量数据的来源。",
+      "source": "news",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "published_at": "2026-11-04T02:30:00+08:00",
+      "tags": [
+        "行业动态",
+        "OpenAI",
+        "ChatGPT",
+        "搜索",
+        "谷歌"
+      ],
+      "card_type": "model_update",
+      "heat": 62,
+      "importance": 62,
+      "category": "行业动态",
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-kimm-humanoid-data-factory",
+      "title": "韩国首个人形机器人训练数据工厂开张：12 台遥操作人形机器人批量采集 VLA 数据，计划扩到 25 台",
+      "summary": "韩国机械与材料研究院（KIMM）联合 ETRI 11 月 3 日启用 AI Humanoid Data Factory：两层约 1000 平方米，12 台双足人形机器人由研究员遥控完成开冰箱取物、叠衣、整理沙发、操作车内按钮等动作，录下的数据用来训练视觉-语言-动作（VLA）模型，再回灌到机器人上测试。计划扩到 25 台，2027 年底起分阶段向企业、高校开放。项目属科学技术信息通信部 K-Moonshot 人形机器人任务；韩国此前已规划到 2030 年投入 2.3 万亿韩元扶持人形机器人产业。",
+      "source": "news",
+      "url": "https://www.ajupress.com/view/20261103143728182",
+      "published_at": "2026-11-03T14:00:00+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "韩国",
+        "训练数据",
+        "VLA"
+      ],
+      "card_type": "research",
+      "heat": 40,
+      "importance": 60,
+      "category": "机器人",
+      "period": "daily",
+      "kept_reason": "近 24 小时内发布",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "source": "twitter",
       "tags": [
@@ -66,7 +150,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -98,7 +182,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -112,7 +196,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "research",
-      "kept_reason": null,
+      "kept_reason": "heat 74 / importance 64 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg",
@@ -127,9 +211,9 @@
       "heat": 74,
       "importance": 64,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -144,7 +228,7 @@
       "model_name": "F.03",
       "license_type": null,
       "card_type": "showcase",
-      "kept_reason": null,
+      "kept_reason": "heat 72 / importance 62 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117286032630857728/img/z9gzqC_d_FkIWrM2.jpg",
@@ -160,10 +244,69 @@
       "importance": 62,
       "category": "机器人",
       "storyline": "人形机器人落地",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
+    },
+    {
+      "model_vendor": "小米",
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-xiaomi-humanoid-8h-car-factory",
+      "title": "小米两台人形机器人在汽车工厂分拣中控侧盖板：官方称连续完成 8 小时任务、可自主纠错",
+      "summary": "小米 11 月 3 日发布视频：两台全尺寸人形机器人在小米汽车工厂的中控侧盖板分拣工位作业，在移动料车和货架间搬运零件，画面带累计工时计数，部分片段 5 倍、100 倍速播放并标注“自主”。小米称机器人能自主发现并纠正异常、与产线系统协同，完成 8 小时任务。Humanoids Daily 指出，官方没有给出节拍、人工干预次数和电池管理细节。",
+      "source": "news",
+      "url": "https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting",
+      "published_at": "2026-11-03T00:00:00+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "小米",
+        "汽车制造"
+      ],
+      "card_type": "showcase",
+      "heat": 60,
+      "importance": 70,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "未进入周榜前 20，仅存历史",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
+      "on_board": false
+    },
+    {
+      "model_vendor": "Deemos",
+      "model_name": "Hyper3D Rodin",
+      "license_type": null,
+      "media": null,
+      "id": "news-hyper3d-prompt-editable-rigging",
+      "title": "Hyper3D（Rodin）自动绑骨支持用提示词改骨架：一句“加尾巴骨/耳朵骨”定制骨骼，细到手指，附动作预设",
+      "summary": "Deemos 旗下 Hyper3D 11 月 3 日更新日志：自动绑骨覆盖人类、动物和奇幻生物，精度到单根手指；需要不同骨架时直接用文字描述，例如“Add tail bones”“Add ear bones”；可选动作预设让模型先动起来，再用交互控件微调动画。更新日志未写明导出格式和引擎兼容细节，需实测确认。",
+      "source": "news",
+      "url": "https://hyper3d.ai/changelog/rigging-now-prompt-editable",
+      "published_at": "2026-11-03T00:00:00+08:00",
+      "tags": [
+        "角色动画",
+        "绑骨",
+        "Hyper3D",
+        "Rodin",
+        "Deemos"
+      ],
+      "card_type": "model_update",
+      "heat": 50,
+      "importance": 70,
+      "category": "角色动画",
+      "storyline": "游戏引擎角色动画",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "未进入周榜前 20，仅存历史",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -196,7 +339,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "news",
@@ -212,7 +355,7 @@
       "model_name": "LongCat-2.5",
       "license_type": "closed",
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 72 / importance 80 达到周榜阈值",
       "media": {
         "type": "image",
         "thumb_url": "https://pbs.twimg.com/media/HWIIqOSbAAAeW8v.jpg",
@@ -228,9 +371,9 @@
       "importance": 80,
       "category": "大模型",
       "storyline": "前沿模型代际竞赛",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -263,7 +406,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -295,7 +438,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -327,7 +470,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "github",
@@ -354,7 +497,41 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
+    },
+    {
+      "model_vendor": "智元机器人",
+      "model_name": "G2",
+      "license_type": null,
+      "media": {
+        "type": "link",
+        "thumb_url": null,
+        "media_url": null,
+        "post_url": "https://x.com/AGIBOTofficial/status/2117086439569867218"
+      },
+      "id": "news-agibot-g2-24h-convenience-store",
+      "title": "智元机器人直播 6 台 G2 人形机器人 24 小时便利店值班：理货、做咖啡热食、迎客、清垃圾",
+      "summary": "智元（AGIBOT）11 月 2 日至 3 日直播“Robots Never Clock Out”挑战：6 台 G2 人形机器人在便利店里分午高峰、晚高峰、深夜和早餐四个时段值班，负责理货上架、做咖啡和热食、迎接顾客、清理垃圾，与真实顾客共处。Interesting Engineering 指出，24 小时指的是直播时长，并不能证明每台机器人不间断自主工作；官方没有公布人工干预规则、任务成功率和充电安排。活动紧接智元创新日发布 G2 Max 和 Worken 指标。官方 X 帖互动不高（约 17 赞）。",
+      "source": "twitter",
+      "url": "https://x.com/AGIBOTofficial/status/2117086439569867218",
+      "published_at": "2026-11-02T10:48:35+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "智元",
+        "AGIBOT",
+        "零售"
+      ],
+      "card_type": "showcase",
+      "heat": 60,
+      "importance": 66,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "period": "weekly",
+      "kept_reason": "未进入周榜前 20，仅存历史",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
+      "on_board": false
     },
     {
       "source": "github",
@@ -417,7 +594,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "news",
@@ -432,7 +609,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 68 / importance 74 达到周榜阈值",
       "media": null,
       "id": "news-openai-abu-dhabi-adipec-deals",
       "title": "Altman 在阿布扎比 ADIPEC 签四项协议：ADNOC 成首个部署 OpenAI 前沿技术的能源公司",
@@ -444,9 +621,9 @@
       "importance": 74,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -477,6 +654,94 @@
       "period": "daily",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "daily",
+      "on_board": false
+    },
+    {
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 Astra",
+      "license_type": null,
+      "media": null,
+      "id": "research-mit-weight-space-programming",
+      "title": "MIT 提出“权重空间编程”：GPT-6 Astra 不用梯度直接改 Qwen3.5-0.8B 的 0.016% 权重，MATH-500 从 7.9% 升到 48.1%",
+      "summary": "MIT CSAIL 的 Rikiya Takehi、Jayden Teoh、Alex Zhang、Omar Khattab 发表《Sparks of Weight-Space Programming》：让通用大模型在 Python 内核里直接读写另一个网络的权重，不用梯度、优化器或 GPU。GPT-6 Astra 找到 Qwen3.5-0.8B 推理死循环对应的方向，在第 15、19 层 MLP 各改 64 列（共 131,072 个权重），MATH-500 从 7.9% 升到 48.1%，GSM8K 从 13.8% 到 67.1%，IFEval 从 21.0% 到 62.3%。作者称结果“非常早期”：对 Gemma 3 270M 几乎无效（6.8%→7.7%），也不能加出模型本来没有的能力；日志在 GitHub，改后模型在 Hugging Face。X 上讨论热烈，也有不少质疑帖（如 @JustinAngel 约 255 赞）。",
+      "source": "news",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "大模型",
+        "研究",
+        "可解释性",
+        "GPT-6 Astra",
+        "Qwen"
+      ],
+      "card_type": "research",
+      "heat": 70,
+      "importance": 74,
+      "category": "大模型",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 70 / importance 74 达到周榜阈值",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-nyt-sues-brave-ai-scraping",
+      "title": "《纽约时报》起诉 Brave：指其抓取报道建 300 亿网页索引，经搜索 API 卖给 AI 公司，并绕过付费墙",
+      "summary": "《纽约时报》11 月 2 日在纽约南区联邦法院起诉 Brave Software，指控 Brave 把时报内容抓进自建的 300 多亿网页搜索索引，通过 Search API 提供给 Anthropic、Perplexity、Mistral、xAI、Cohere 等 AI 公司，还通过 Ask Brave 复现付费文章、绕过访问控制。诉状主张版权侵权、DMCA 规避和不当得利，要求赔偿、追缴收益和禁令。《纽约每日新闻》《芝加哥论坛报》《奥兰多哨兵报》另提相关诉讼。",
+      "source": "news",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "诉讼",
+        "版权",
+        "Brave",
+        "纽约时报"
+      ],
+      "card_type": "model_update",
+      "heat": 65,
+      "importance": 68,
+      "category": "行业动态",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 65 / importance 68 达到周榜阈值",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": null,
+      "media": null,
+      "id": "news-salesforce-cresta-acquisition",
+      "title": "Salesforce 签约收购语音 AI 公司 Cresta：据 The Information 报道作价约 27 亿美元",
+      "summary": "Salesforce 11 月 2 日宣布签署最终协议收购 Cresta。Cresta 做端到端处理复杂客服电话的语音智能体，并给人工客服实时辅导、分析每通对话，客户包括万豪、Comcast、阿拉斯加航空。Salesforce 未披露价格，The Information 报道约 27 亿美元。Cresta 的对话智能将接入 Service Cloud 和 Salesforce 客户数据，同时继续支持第三方呼叫中心平台。预计在 Salesforce 2028 财年第一季度（2027 年 2–4 月）完成交割，需监管批准。这是 Salesforce 继 10 月 20 日收购 Braze 之后的又一笔 AI 并购。",
+      "source": "news",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "tags": [
+        "行业动态",
+        "并购",
+        "Salesforce",
+        "Cresta",
+        "语音智能体"
+      ],
+      "card_type": "model_update",
+      "heat": 60,
+      "importance": 72,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "published_precision": "date",
+      "period": "weekly",
+      "kept_reason": "heat 60 / importance 72 达到周榜阈值",
+      "first_seen_at": "2026-11-04T08:13:58+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -1651,7 +1916,7 @@
     {
       "id": "news-qwen4-next-week-apsara-amsterdam",
       "title": "【传闻】阿里云 CTO 在阿姆斯特丹云栖大会上称 Qwen4“下周”发布，现场幻灯片列出 Max / Plus / Flash / 27B 四款",
-      "summary": "【传闻】据现场参会者在 X 上转述及 Nvdium、LLMs Blog 等报道，阿里云 CTO 李飞飞 10 月 29 日在阿姆斯特丹举行的云栖大会上表示 Qwen4 将在“下周”推出，大屏幻灯片写着“Qwen4 Series Coming Soon”，并列出 Qwen4-Max、Qwen4-Plus、Qwen4-Flash、Qwen4-27B。阿里官方新闻稿只提到新开荷兰数据中心区域、Qwen3.8-Flash 在欧盟上线等，没有确认 Qwen4 的日期、规格、价格或是否开放权重；9 月官方只说 Qwen4 正在训练中。按报道推算发布窗口约为 11 月 2 日至 8 日，以官方发布为准。",
+      "summary": "【传闻】据现场参会者在 X 上转述及 Nvdium、LLMs Blog 等报道，阿里云 CTO 李飞飞 10 月 29 日在阿姆斯特丹举行的云栖大会上表示 Qwen4 将在“下周”推出，大屏幻灯片写着“Qwen4 Series Coming Soon”，并列出 Qwen4-Max、Qwen4-Plus、Qwen4-Flash、Qwen4-27B。阿里官方新闻稿只提到新开荷兰数据中心区域、Qwen3.8-Flash 在欧盟上线等，没有确认 Qwen4 的日期、规格、价格或是否开放权重；9 月官方只说 Qwen4 正在训练中。按报道推算发布窗口约为 11 月 2 日至 8 日，以官方发布为准。\n【11-03 更新】截至 11 月 3 日，Hugging Face 的 Qwen 组织和 models.dev 都还没有 Qwen4 条目；Qwen Code 代码库 10 月 31 日合入的 PR 给 qwen4 标识预设了推理强度档位，但不能当作发布证据。阿里仍未官宣日期。",
       "source": "news",
       "url": "https://nvdium.com/en/articles/981102567",
       "published_at": "2026-10-29T00:00:00+08:00",
@@ -1940,13 +2205,13 @@
       "heat": 78,
       "importance": 76,
       "category": "大模型",
-      "kept_reason": "heat 78 / importance 76 达到周榜阈值",
+      "kept_reason": "heat 78 / importance 76 达到月榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1976,10 +2241,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115125357439557633/vid/avc1/3840x2160/MGX33ddyGxppZZvZ.mp4",
         "post_url": "https://x.com/liquidai/status/2115128329003303107"
       },
-      "kept_reason": "heat 78 / importance 72 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 78 / importance 72 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2009,10 +2274,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115110795553964032/vid/avc1/1920x1080/UjdIAfbWqSTv6JaM.mp4",
         "post_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
       },
-      "kept_reason": "heat 96 / importance 92 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 96 / importance 92 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2043,7 +2308,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-sk-hynix-q3-2026-record",
@@ -2251,10 +2516,10 @@
         "media_url": "https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4",
         "post_url": "https://x.com/axiommathai/status/2115089794867040584"
       },
-      "kept_reason": "heat 82 / importance 84 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 82 / importance 84 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-29T08:23:14+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -2383,7 +2648,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "research-anthropic-claude-3sat-eth-refutation",
@@ -2411,12 +2676,12 @@
         "media_url": "https://pbs.twimg.com/media/HVnX6CubwAAmY9y.jpg",
         "post_url": "https://x.com/choblin29/status/2114958912135078256"
       },
-      "kept_reason": "heat 80 / importance 86 达到周榜阈值",
+      "kept_reason": "heat 80 / importance 86 达到月榜阈值",
       "model_name": null,
       "license_type": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-28T08:18:49+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -3599,7 +3864,7 @@
     {
       "id": "news-kimi-k3-1-kibitz-rumor",
       "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参 / 104B 激活、1M 上下文，AA 智能指数 55 排第 4，权重 11 月 4 日前开放",
-      "summary": "月之暗面北京时间 10 月 24 日凌晨正式发布 Kimi K3.1 Pro 和 2–3 倍速的 K3.1 Pro Highspeed。官方介绍：MoE 架构，总参 2.8T、激活 104B，1M 上下文，多模态；能在 Unreal、Unity、Godot 里做整项目游戏开发，擅长在 Blender 和 CAD 里做参数化 3D 建模，金融建模幻觉降低 65%。已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，完整权重 11 月 4 日前发布。Artificial Analysis 智能指数 55、排第 4，比 K3 高 11 分，仅次于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）Terminal-Bench 4.0 拿到 67%，为所有模型最高。API 定价每百万 token 输入 2 美元、输出 10 美元，比 K3 低 33%。Arena 上 Code Arena WebDev 第 8（1692 分）。官方发布帖约 3 万赞、369 万浏览，视频帖约 4.2 万赞；HN 讨论帖约 1080 分。发布后订阅用户遇到限流和额度消耗过快，月之暗面 10 月 26 日凌晨道歉，给所有订阅用户一次性恢复 25% 月额度；另据 X 新闻聚合，有创作者被指用统一话术把它宣传成“开源版 Opus 5.5”，引发争议。\n【10 月 22 日原传闻】【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。\n【10-29 更新】【报道】The Information 称 Kimi K3.1 Pro 和 DeepSeek-V4.1-Flash 1017 训练时大量蒸馏了 GPT-6 Astra 的输出，当事方未回应，详见新卡 news-information-gpt6-astra-distillation。",
+      "summary": "月之暗面北京时间 10 月 24 日凌晨正式发布 Kimi K3.1 Pro 和 2–3 倍速的 K3.1 Pro Highspeed。官方介绍：MoE 架构，总参 2.8T、激活 104B，1M 上下文，多模态；能在 Unreal、Unity、Godot 里做整项目游戏开发，擅长在 Blender 和 CAD 里做参数化 3D 建模，金融建模幻觉降低 65%。已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，完整权重 11 月 4 日前发布。Artificial Analysis 智能指数 55、排第 4，比 K3 高 11 分，仅次于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）Terminal-Bench 4.0 拿到 67%，为所有模型最高。API 定价每百万 token 输入 2 美元、输出 10 美元，比 K3 低 33%。Arena 上 Code Arena WebDev 第 8（1692 分）。官方发布帖约 3 万赞、369 万浏览，视频帖约 4.2 万赞；HN 讨论帖约 1080 分。发布后订阅用户遇到限流和额度消耗过快，月之暗面 10 月 26 日凌晨道歉，给所有订阅用户一次性恢复 25% 月额度；另据 X 新闻聚合，有创作者被指用统一话术把它宣传成“开源版 Opus 5.5”，引发争议。\n【10 月 22 日原传闻】【传闻】X 用户 @ChrisGPT 10 月 22 日称，Arena 上的匿名模型“Kibitz”就是月之暗面的 Kimi K3.1，预计下周二前发布。他晒出的 Minecraft 建造对比里，GPT-6 Astra 用了 5738 个方块、花费 5.31 美元，Kimi K3.1 用了 13707 个方块、只花 0.38 美元（个人测试）。另有用户猜测匿名模型“Kalmia”可能是 Qwen 4。月之暗面和阿里均未确认。该帖约 490 赞。\n【10-29 更新】【报道】The Information 称 Kimi K3.1 Pro 和 DeepSeek-V4.1-Flash 1017 训练时大量蒸馏了 GPT-6 Astra 的输出，当事方未回应，详见新卡 news-information-gpt6-astra-distillation。\n【11-04 更新】官方承诺的完整权重截止日为 11 月 4 日；据多家站点截至 11 月 4 日早些时候的核查，Hugging Face 上尚未见到 K3.1 Pro 权重仓库，许可证也未公布。以官方发布为准。",
       "source": "twitter",
       "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
       "published_at": "2026-10-22T16:07:00+08:00",
@@ -4379,8 +4644,8 @@
     },
     {
       "id": "news-anthropic-s1-h1-loss-80b",
-      "title": "Anthropic 正式公开递交 S-1，拟以“ANT”在纳斯达克上市：上半年营收 163 亿美元、净亏损 807 亿美元",
-      "summary": "【10 月 26 日更新：正式递交】Anthropic 10 月 26 日宣布已向美国 SEC 公开递交 S-1，拟在纳斯达克全球精选市场以代码“ANT”上市，发行股数和价格区间未定，高盛和摩根士丹利为承销方。据 TechCrunch 读取的招股书，2026 上半年营收 163 亿美元（去年同期 12 亿美元），经营亏损 6.93 亿美元（去年同期 21 亿美元），净亏损 807 亿美元，主要来自与可转债相关的非现金会计调整。招股书显示公司采用特殊治理结构：长期利益信托（LTBT）通过 T 类股选出董事会多数，创始人 LLC 持有的 F 类股拥有 50.1% 投票权。HN 上 S-1 讨论帖约 1440 分、1400 多条评论。\n【10 月 21 日原报道】据《华尔街日报》报道其看到的 Anthropic IPO 招股书（S-1）草案，Anthropic 2026 年上半年营收 163 亿美元，净亏损约 800 亿美元；据 X 新闻聚合转述，草案还列出约 4500 亿美元的长期云服务承诺。数字来自媒体对草案的转述，Anthropic 尚未公开递交招股书。消息在 X 上刷屏：Polymarket 的快讯帖约 3.1 万赞、566 万浏览，@InternetH0F 的帖子约 4.7 万赞、278 万浏览，不少评论拿“营收冲高、亏损更大”调侃。",
+      "title": "Anthropic 递交 S-1 拟以“ANT”上市，修订版补三季报：Q3 营收约 170 亿美元、净亏损 232.9 亿美元，算力等采购承诺约 8954 亿美元",
+      "summary": "【11 月 2 日更新：修订版 S-1】据 CNBC，Anthropic 11 月 2 日递交修订版 S-1，补充三季度数据：Q3 营收约 170 亿美元，同比增长约 1127%，但环比增速降到约 47%（Q2 为 144%、Q1 为 132%）；Q3 净亏损 232.9 亿美元。前三季度营收 332.4 亿美元，净亏损 1040 亿美元，主要来自可转债和衍生负债公允价值变动。公司披露采购承诺和租赁协议合计约 8954 亿美元，“基本都与算力和基础设施相关”；前三季度算力和基础设施费用同比增加 144 亿美元（+329%）。另据 X 新闻聚合转述，路演预计 11 月 9 日开始，属未经官方确认的消息。\n【10 月 26 日更新：正式递交】Anthropic 10 月 26 日宣布已向美国 SEC 公开递交 S-1，拟在纳斯达克全球精选市场以代码“ANT”上市，发行股数和价格区间未定，高盛和摩根士丹利为承销方。据 TechCrunch 读取的招股书，2026 上半年营收 163 亿美元（去年同期 12 亿美元），经营亏损 6.93 亿美元（去年同期 21 亿美元），净亏损 807 亿美元，主要来自与可转债相关的非现金会计调整。招股书显示公司采用特殊治理结构：长期利益信托（LTBT）通过 T 类股选出董事会多数，创始人 LLC 持有的 F 类股拥有 50.1% 投票权。HN 上 S-1 讨论帖约 1440 分、1400 多条评论。\n【10 月 21 日原报道】据《华尔街日报》报道其看到的 Anthropic IPO 招股书（S-1）草案，Anthropic 2026 年上半年营收 163 亿美元，净亏损约 800 亿美元；据 X 新闻聚合转述，草案还列出约 4500 亿美元的长期云服务承诺。数字来自媒体对草案的转述，Anthropic 尚未公开递交招股书。消息在 X 上刷屏：Polymarket 的快讯帖约 3.1 万赞、566 万浏览，@InternetH0F 的帖子约 4.7 万赞、278 万浏览，不少评论拿“营收冲高、亏损更大”调侃。",
       "source": "twitter",
       "url": "https://www.anthropic.com/news/s1-sec",
       "published_at": "2026-10-21T03:59:00+08:00",
