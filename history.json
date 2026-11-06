@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-05T08:29:00+08:00",
+  "updated_at": "2026-11-06T08:28:00+08:00",
   "schema_version": "1.1-history",
   "categories": [
     {
       "name": "大模型",
-      "count": 270
+      "count": 274
     },
     {
       "name": "世界模型",
-      "count": 30
+      "count": 32
     },
     {
       "name": "机器人",
-      "count": 68
+      "count": 69
     },
     {
       "name": "AI 2D 游戏美术",
-      "count": 56
+      "count": 57
     },
     {
       "name": "3D 生成",
@@ -28,14 +28,248 @@
     },
     {
       "name": "行业动态",
-      "count": 93
+      "count": 94
     },
     {
       "name": "小众开发热帖",
-      "count": 57
+      "count": 58
     }
   ],
   "items": [
+    {
+      "id": "tw-hf-moe-training-handbook",
+      "title": "Hugging Face 放出《Ultimate MoE Training Handbook》：自称花约 80 万 GPU 小时把 MoE 训练踩坑写进开源手册",
+      "summary": "Hugging Face 联合创始人 Thomas Wolf 北京时间 11 月 6 日 03:57 发帖：称当今最强开源模型里 20 个中有 18 个是 MoE，但训练诀窍仍集中在少数团队；他们用约 80 万 GPU 小时做实验，写成免费开源的 Ultimate MoE Training Handbook（约 7 万词、55 个交互图），覆盖专家数量与宽度、all-to-all 通信、路由（softmax/sigmoid 等）、aux loss 与 DeepSeek 式无损失 bias、从 dense 升采样还是从头训、服务时可否少激活专家等。入口：huggingface.co/spaces/huggingface/moe-blogpost。帖子约 1166 赞、4.3 万浏览、1248 书签。",
+      "source": "twitter",
+      "url": "https://x.com/Thom_Wolf/status/2118432475730882627",
+      "published_at": "2026-11-06T03:57:15+08:00",
+      "tags": [
+        "大模型",
+        "MoE",
+        "Hugging Face",
+        "开源",
+        "训练"
+      ],
+      "model_vendor": "Hugging Face",
+      "model_name": null,
+      "license_type": "open-weight",
+      "card_type": "research",
+      "heat": 78,
+      "importance": 74,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118429152424370176/img/NrWnEgumFzh9jy5X.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/Thom_Wolf/status/2118432475730882627"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "tw-worldlabs-frameboy",
+      "title": "World Labs 发布 Frameboy：用优化版 Atlas 世界模型在浏览器里实时漫游，云端最高约 15 fps",
+      "summary": "World Labs 北京时间 11 月 6 日 03:25 发布 Frameboy 研究预览：在浏览器里用优化后的 Atlas 自回归世界模型实时探索场景，画面由云端 GPU 流式推送，官方称最高约 15 fps，并已作为流式叠加层接入封闭测试的 Viewfinder。Atlas 约两月前发布，可从单图/多视角重建可导航世界；公司也坦言目前依赖强力云 GPU、成本高于本地光栅化渲染。李飞飞转发并喊「Try it now」。官方主帖约 669 赞、6.8 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/theworldlabs/status/2118424455873741028",
+      "published_at": "2026-11-06T03:25:23+08:00",
+      "tags": [
+        "世界模型",
+        "World Labs",
+        "Atlas",
+        "Frameboy",
+        "实时交互"
+      ],
+      "model_vendor": "World Labs",
+      "model_name": "Atlas",
+      "license_type": null,
+      "card_type": "showcase",
+      "heat": 72,
+      "importance": 84,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118400697251291136/img/_9Bg9vROC3CjqxOh.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/theworldlabs/status/2118424455873741028"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "tw-meta-muse-voice-avatars",
+      "title": "Meta 在美国 Muse App 上线实时语音与表情 Avatar：可打断、可边聊边办后台任务",
+      "summary": "Meta（AIatMeta）北京时间 11 月 6 日 02:36 宣布：Connect 2026 预告的 Muse Realtime Voice / Realtime Avatar 开始在美国 Muse App（手机、网页、Mac）滚动上线。点右上角电话图标即可语音对话，可随时打断；Avatar 会随听随说做表情和手势，可选纯语音、侧边 Avatar 或全屏。官方称有数百种音色可选，并预告后续将扩展到 AI 眼镜与 Muse Charm。帖子约 252 赞、2.7 万浏览。这是产品交互升级，不是新旗舰权重发布。",
+      "source": "twitter",
+      "url": "https://x.com/AIatMeta/status/2118412135340572850",
+      "published_at": "2026-11-06T02:36:25+08:00",
+      "tags": [
+        "大模型",
+        "Meta",
+        "Muse",
+        "语音",
+        "Avatar"
+      ],
+      "model_vendor": "Meta",
+      "model_name": "Muse",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 58,
+      "importance": 70,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118411815852056576/img/6UaZfCrU4eOkGNWu.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/AIatMeta/status/2118412135340572850"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "tw-distcog-vinco-catan",
+      "title": "独立团队 Distributed Cognition 放出 VINCO：约 50 万参专用模型登上 Colonist.io 卡坦岛 1v1 全球榜前二",
+      "summary": "小团队 distributed cognition（@distcog）北京时间 11 月 6 日 02:00 宣布 VINCO：专训 1v1 卡坦岛的专用模型，自称已秘密部署在 Colonist.io 全球榜并同时占据第 1、第 2，且持续击败人类世界冠军。第三方转述称约 0.5M 参数、两张 RTX PRO 6000 不到一天自对弈训练，对通用大模型 1v1 胜率约 90% vs Astra 约 20%——这些对比数字来自转发热帖，官方长帖未逐条复核。作者账号非大厂；主帖约 372 赞、47 万浏览、105 引用，属于互动明显高于常规的独立项目爆款。",
+      "source": "twitter",
+      "url": "https://x.com/distcog/status/2118402967808487546",
+      "published_at": "2026-11-06T02:00:00+08:00",
+      "tags": [
+        "小众开发热帖",
+        "VINCO",
+        "卡坦岛",
+        "专用模型"
+      ],
+      "model_vendor": "Distributed Cognition",
+      "model_name": "VINCO",
+      "license_type": null,
+      "card_type": "showcase",
+      "heat": 76,
+      "importance": 68,
+      "category": "小众开发热帖",
+      "storyline": "独立开发者 AI 爆款",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118402228767907840/img/U0Ig1Rsgtx5m3Gmd.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/distcog/status/2118402967808487546"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "tw-google-gemini-omni-1-2-flash",
+      "title": "Google 发布 Gemini Omni 1.2 Flash：原生最长 15 秒视频、多轮对话改片，720p 降价 30% 至 $0.07/秒",
+      "summary": "Google / DeepMind 北京时间 11 月 6 日 01:10 起滚动发布 Gemini Omni 1.2 Flash，正式在 Gemini API 与 Google Cloud 全面可用。相对 1.1：原生片长从约 10 秒提到 15 秒（可按 1 秒步进选 3–15 秒），支持多轮对话改同一段视频而不必整段重生成，参考图/短动作/音频的一致性更强，并称 720p 单价降 30% 至每秒 0.07 美元；可先用 360p/720p 打草稿再升到 1080p/4K。官方同时承认快速运动、剧变脚本和复杂物理仍偏弱。Google 主帖约 2296 赞、32 万浏览；AI Studio 帖约 1459 赞。",
+      "source": "twitter",
+      "url": "https://x.com/Google/status/2118390406316728555",
+      "published_at": "2026-11-06T01:10:05+08:00",
+      "tags": [
+        "大模型",
+        "Google",
+        "DeepMind",
+        "视频生成",
+        "Gemini Omni"
+      ],
+      "model_vendor": "Google",
+      "model_name": "Gemini Omni 1.2 Flash",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 84,
+      "importance": 82,
+      "category": "大模型",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118385122072211456/img/uNWRtAagTHmuA4JZ.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/Google/status/2118390406316728555"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "tw-openai-gpt-6-cyber",
+      "title": "OpenAI 发布 GPT-6 Cyber：网络安全能力升至 Critical，ExploitGym 48.5%，已用于 Linux/Firefox 大规模漏洞发现",
+      "summary": "OpenAI 北京时间 11 月 6 日 01:09 正式发布 GPT-6 Cyber（面向授权安全研究的专用模型），在准备度框架中把网络安全能力从 GPT-5.6 Cyber 的 High 升到 Critical。官方称 ExploitGym 从 32.1% 提到 48.5%（约 +51% 相对提升）；越界蜜罐评测中，不加部署提示越界率约 0.07%，加提示后为 0%。该模型即此前披露的 Linux 内核自主漏洞流水线所用模型，并称在 Firefox 上发现 81 个此前未知的高危漏洞（Mozilla 已开始合入修复）。目前仅向部分 Daybreak Red 客户开放，11 月 12 日将有 Cyber at the Frontier 直播。官方主帖约 1.32 万赞、147 万浏览。",
+      "source": "twitter",
+      "url": "https://x.com/OpenAI/status/2118390190246879554",
+      "published_at": "2026-11-06T01:09:13+08:00",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "网络安全",
+        "GPT-6 Cyber",
+        "闭源模型"
+      ],
+      "model_vendor": "OpenAI",
+      "model_name": "GPT-6 Cyber",
+      "license_type": "closed",
+      "card_type": "model_update",
+      "heat": 92,
+      "importance": 90,
+      "category": "大模型",
+      "storyline": "前沿模型代际竞赛",
+      "kept_reason": null,
+      "media": {
+        "type": "video",
+        "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118387217588465664/img/N2grMUmP0O_EMvS2.jpg",
+        "media_url": null,
+        "post_url": "https://x.com/OpenAI/status/2118390190246879554"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
+    {
+      "id": "news-agility-nasdaq-aglt",
+      "title": "Agility Robotics 以 AGLT 登陆纳斯达克：自称美国首家有真仓商用部署的纯人形机器人上市公司",
+      "summary": "俄勒冈人形机器人公司 Agility Robotics 于 2026-11-05（美股日）完成与 Churchill Capital Corp XI 的 SPAC 合并并开始以 AGLT（权证 AGLTW）交易，自称美国首家已有活跃商用部署的纯人形机器人上市公司。官方称交易及相关融资合计约 4.65 亿美元；Digit 已在 GXO、Schaeffler、丰田加拿大等场景累计运行逾 6.5 万小时；下一代 Digit 5 有逾 3 亿美元多年订单（附带合同里程碑与规格条件），预计 2027 上半年早鸟、年底前后通用供应。Robot Report 称开盘约 11.26 美元。2025 年营收与亏损等数字以 SEC/媒体披露为准，公开报道提到约 178 万美元营收对约 1.38 亿美元净亏损。",
+      "source": "news",
+      "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt",
+      "published_at": "2026-11-05T21:00:00+08:00",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Agility",
+        "Digit",
+        "上市"
+      ],
+      "model_vendor": "Agility",
+      "model_name": "Digit 5",
+      "license_type": null,
+      "card_type": "showcase",
+      "heat": 78,
+      "importance": 88,
+      "category": "机器人",
+      "storyline": "人形机器人落地",
+      "kept_reason": null,
+      "media": {
+        "type": "image",
+        "thumb_url": "https://pbs.twimg.com/media/HWZgXvnbIAEFjpW.jpg",
+        "media_url": "https://pbs.twimg.com/media/HWZgXvnbIAEFjpW.jpg",
+        "post_url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+      },
+      "period": "daily",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "daily",
+      "on_board": true
+    },
     {
       "source": "twitter",
       "tags": [
@@ -49,7 +283,7 @@
       "model_name": "GPT-Image-2.6",
       "license_type": "closed",
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 76 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg",
@@ -64,9 +298,9 @@
       "heat": 80,
       "importance": 76,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -79,10 +313,10 @@
         "智能体"
       ],
       "model_vendor": "OpenAI",
-      "model_name": null,
+      "model_name": "GPT-6 Cyber",
       "license_type": null,
       "card_type": "research",
-      "kept_reason": null,
+      "kept_reason": "heat 88 / importance 86 达到周榜阈值",
       "media": {
         "type": "image",
         "thumb_url": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png",
@@ -90,16 +324,16 @@
         "post_url": "https://x.com/OpenAI/status/2118119451401048497"
       },
       "id": "tw-openai-autonomous-vuln-pipeline",
-      "title": "OpenAI 用即将推出的网络安全模型自动验证并修补 948 个 Linux 内核提权漏洞，API 花费 120 万美元",
-      "summary": "OpenAI 北京时间 11 月 5 日 07:13 公布一套自主漏洞处理流程：用一个即将推出的网络安全模型，对 948 个 Linux 内核本地提权漏洞完成验证和补丁，API 成本共约 120 万美元。Greg Brockman 转发时算下来约每个漏洞 1000 美元。补丁是否全部被上游合并，帖子未说明。官方帖约 2190 赞、17.6 万浏览。",
+      "title": "OpenAI 自主漏洞流水线用即将发布的网络安全模型验证并修补 948 个 Linux 提权洞；次日正名为 GPT-6 Cyber",
+      "summary": "OpenAI 北京时间 11 月 5 日 07:13 公布自主漏洞发现/利用/补丁流水线：单次运行验证并生成 948 个 Linux 内核本地提权漏洞的利用与候选补丁，API 成本约 121 万美元（约每洞 1279 美元），并称发现至少 10 种据其咨询专家所知属新颖的利用手法。次日（11 月 6 日 01:09）官方正式将该模型命名为 GPT-6 Cyber 并开放部分 Daybreak Red 访问。补丁是否全部被上游合并，原文未全部说明。早期主帖互动后续继续攀升（约 1.2 万赞量级）。",
       "url": "https://x.com/OpenAI/status/2118119451401048497",
       "published_at": "2026-11-05T07:13:00+08:00",
-      "heat": 72,
-      "importance": 80,
+      "heat": 88,
+      "importance": 86,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -132,7 +366,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -147,7 +381,7 @@
       "model_name": "GPT-6 Astra",
       "license_type": "closed",
       "card_type": "research",
-      "kept_reason": null,
+      "kept_reason": "heat 62 / importance 76 达到周榜阈值",
       "media": {
         "type": "image",
         "thumb_url": "https://pbs.twimg.com/media/HWT6fgpbYAA0I3V.jpg",
@@ -162,9 +396,9 @@
       "heat": 62,
       "importance": 76,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -193,7 +427,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -226,7 +460,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -241,7 +475,7 @@
       "model_name": "Ripple-65B Preview",
       "license_type": "open-source",
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 76 / importance 72 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118013573670793217/img/RNjAFnyHuXndpo2P.jpg",
@@ -256,9 +490,79 @@
       "heat": 76,
       "importance": 72,
       "category": "大模型",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
+      "on_board": true
+    },
+    {
+      "id": "news-pxl-pixel-art-as-code",
+      "title": "pxl「像素画即代码」实测：AI agent 用 621 行代码生成统一风格的 125 帧游戏像素资产",
+      "summary": "aibrief 于 2026-11-05 发布实测：开源工具 pxl 把像素画写成 `.px.js`（字母网格或画线/圆/填色命令），导出 PNG、GIF 与精灵表，可给 Phaser/Godot 用，并带给 AI agent 的 skill。作者用 Claude Opus 5.5（Claude Code）在约 621 行代码里做出五屏小游戏全部美术共 125 帧，风格/描边/配色一致，约 3 秒可重建；也指出工具不会替你做关卡设计，且不少检查警告是误报。适合批量一致的瓦片、道具、循环动画和 UI，不适合单张精细立绘。",
+      "source": "news",
+      "url": "https://aibrief.vivsla.com/lab/pxl/",
+      "published_at": "2026-11-05T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "AI 2D 游戏美术",
+        "像素美术",
+        "精灵图",
+        "pxl",
+        "工具链"
+      ],
+      "model_vendor": null,
+      "model_name": null,
+      "license_type": "open-weight",
+      "card_type": "repo",
+      "heat": 58,
+      "importance": 70,
+      "category": "AI 2D 游戏美术",
+      "storyline": "AI 游戏 2D 资产管线",
+      "kept_reason": null,
+      "media": {
+        "type": null,
+        "thumb_url": null,
+        "media_url": null,
+        "post_url": "https://aibrief.vivsla.com/lab/pxl/"
+      },
+      "period": "weekly",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "weekly",
+      "on_board": false
+    },
+    {
+      "id": "news-nvidia-cosmos-3-sim",
+      "title": "NVIDIA 开源 Cosmos 3 Nano 四款交互式世界仿真权重：驾驶多视角/LiDAR、双臂机器人动作到视频",
+      "summary": "NVIDIA 于 2026-11-05 在 Hugging Face 博客放出 Cosmos 3 Nano 系列四个开源权重检查点（各约 16B 可训练参数，OpenMDW1.1）：Transfer-Auto（最多约 11 路驾驶相机、可选联合 LiDAR）、Sim-Auto（因果蒸馏后的流式驾驶观测）、Sim-Transfer（仿真空间控制→照片级 RGB）、Sim-Bimanual（双臂机器人/相机动作→下一帧视频，示例含 YAM 与 AgiBot）。配套 Cosmos Framework / vLLM-Omni / SGLang 菜谱与 arXiv:2611.06627。定位是 Physical AI 的可交互世界仿真，而非通用聊天模型。",
+      "source": "news",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "published_at": "2026-11-05T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "世界模型",
+        "NVIDIA",
+        "Cosmos",
+        "开源模型",
+        "具身智能"
+      ],
+      "model_vendor": "NVIDIA",
+      "model_name": "Cosmos 3 Nano",
+      "license_type": "open-weight",
+      "card_type": "model_update",
+      "heat": 74,
+      "importance": 86,
+      "category": "世界模型",
+      "storyline": "可交互世界模型",
+      "kept_reason": "heat 74 / importance 86 达到周榜阈值",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+        "media_url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+        "post_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      },
+      "period": "weekly",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -275,7 +579,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 80 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2118044320859406337/img/kFBZNK6j84A04Ogy.jpg",
@@ -291,9 +595,9 @@
       "importance": 80,
       "category": "行业动态",
       "storyline": "算力、资本与政策格局",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -327,7 +631,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -342,7 +646,7 @@
       "model_name": "Hy4",
       "license_type": "open-weight",
       "card_type": "model_update",
-      "kept_reason": null,
+      "kept_reason": "heat 80 / importance 84 达到周榜阈值",
       "media": {
         "type": "image",
         "thumb_url": "https://pbs.twimg.com/media/HWQvvEraQAAjwKn.jpg",
@@ -358,9 +662,9 @@
       "importance": 84,
       "category": "大模型",
       "storyline": "前沿模型代际竞赛",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -395,7 +699,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -428,7 +732,7 @@
       "period": "daily",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
       "last_period": "daily",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -443,7 +747,7 @@
       "model_name": null,
       "license_type": null,
       "card_type": "showcase",
-      "kept_reason": null,
+      "kept_reason": "heat 86 / importance 58 达到周榜阈值",
       "media": {
         "type": "video",
         "thumb_url": "https://pbs.twimg.com/amplify_video_thumb/2117773784031932416/img/nw0HGsqqaB-RV5Il.jpg",
@@ -459,9 +763,9 @@
       "importance": 58,
       "category": "小众开发热帖",
       "storyline": "独立开发者 AI 爆款",
-      "period": "daily",
+      "period": "weekly",
       "first_seen_at": "2026-11-05T08:29:00+08:00",
-      "last_period": "daily",
+      "last_period": "weekly",
       "on_board": true
     },
     {
@@ -552,7 +856,7 @@
       "kept_reason": "heat 62 / importance 62 达到周榜阈值",
       "first_seen_at": "2026-11-04T08:13:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -780,7 +1084,7 @@
       "period": "weekly",
       "first_seen_at": "2026-11-03T08:11:05+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "model_vendor": "小米",
@@ -840,6 +1144,41 @@
       "first_seen_at": "2026-11-04T08:13:58+08:00",
       "last_period": "weekly",
       "on_board": false
+    },
+    {
+      "id": "news-anthropic-895b-commitments",
+      "title": "Anthropic 修订 S-1：披露约 8954 亿美元算力与数据中心采购/租赁承诺，Q3 营收 170 亿美元",
+      "summary": "据 Data Center Dynamics 2026-11-03 报道，Anthropic 向 SEC 递交的修订版 S-1 将采购承诺与租赁合计上调至约 8954 亿美元，并称“几乎全部与算力及基础设施相关”。文中披露对 Google 约 1213 亿、SpaceX 约 1205 亿、Amazon 约 1100 亿、Microsoft 约 449 亿美元等承诺，另有 Nscale、Lambda、Fluidstack 等；另有一笔 2028–2031 额外 TPU 可能再增 1250–1500 亿、未计入上述总额。同期披露 Q3 营收约 170 亿美元、净亏损约 232.9 亿美元；环比增速放缓至约 47%。数字以 SEC 文件为准，估值与上市时间仍有市场分歧。",
+      "source": "news",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-s-1-update-reveals-8954bn-in-cloud-and-data-center-commitments/",
+      "published_at": "2026-11-03T00:00:00+08:00",
+      "published_precision": "date",
+      "tags": [
+        "行业动态",
+        "Anthropic",
+        "算力",
+        "IPO",
+        "S-1"
+      ],
+      "model_vendor": "Anthropic",
+      "model_name": null,
+      "license_type": null,
+      "card_type": "research",
+      "heat": 82,
+      "importance": 90,
+      "category": "行业动态",
+      "storyline": "算力、资本与政策格局",
+      "kept_reason": "heat 82 / importance 90 达到周榜阈值",
+      "media": {
+        "type": "image",
+        "thumb_url": "https://media.datacenterdynamics.com/media/images/Claude.2e16d0ba.fill-1200x630.jpg",
+        "media_url": null,
+        "post_url": "https://www.datacenterdynamics.com/en/news/anthropic-s-1-update-reveals-8954bn-in-cloud-and-data-center-commitments/"
+      },
+      "period": "weekly",
+      "first_seen_at": "2026-11-06T08:28:00+08:00",
+      "last_period": "weekly",
+      "on_board": true
     },
     {
       "source": "twitter",
@@ -1245,7 +1584,7 @@
       "kept_reason": "heat 65 / importance 68 达到周榜阈值",
       "first_seen_at": "2026-11-04T08:13:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "model_vendor": null,
@@ -1275,7 +1614,7 @@
       "kept_reason": "heat 60 / importance 72 达到周榜阈值",
       "first_seen_at": "2026-11-04T08:13:58+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -1431,7 +1770,7 @@
       "period": "weekly",
       "first_seen_at": "2026-11-02T08:14:51+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "source": "twitter",
@@ -1732,13 +2071,13 @@
       "heat": 78,
       "importance": 82,
       "category": "大模型",
-      "kept_reason": "heat 78 / importance 82 达到周榜阈值",
+      "kept_reason": "heat 78 / importance 82 达到月榜阈值",
       "model_name": null,
       "license_type": null,
       "media": null,
-      "period": "weekly",
+      "period": "monthly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
@@ -1799,7 +2138,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-pika-h3-flex-open-weights",
@@ -2081,7 +2420,7 @@
       "period": "weekly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
       "last_period": "weekly",
-      "on_board": true
+      "on_board": false
     },
     {
       "id": "news-tripo-agentic-canvas-beta",
@@ -2144,10 +2483,10 @@
         "media_url": "https://pbs.twimg.com/media/HVzNm_7W4AAQsZV.jpg",
         "post_url": "https://x.com/MistralAI/status/2115811242556137820"
       },
-      "kept_reason": "heat 86 / importance 86 达到周榜阈值",
-      "period": "weekly",
+      "kept_reason": "heat 86 / importance 86 达到月榜阈值",
+      "period": "monthly",
       "first_seen_at": "2026-10-30T09:26:42+08:00",
-      "last_period": "weekly",
+      "last_period": "monthly",
       "on_board": true
     },
     {
